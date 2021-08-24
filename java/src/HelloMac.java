@@ -3,7 +3,7 @@ public class HelloMac {
         System.out.println("hello mac 13");
 
         HelloMac helloMac = new HelloMac();
-        HelloMac clone = (HelloMac)helloMac.clone();
+        Object clone = helloMac.clone();
         System.out.println(clone == helloMac);
 
     }

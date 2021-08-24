@@ -4,7 +4,7 @@ public class HelloMac {
 
         HelloMac helloMac = new HelloMac();
         Object clone = helloMac.clone();
-        System.out.println(clone == helloMac);
+        //System.out.println(clone == helloMac);
 
     }
 }

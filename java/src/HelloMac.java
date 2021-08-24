@@ -1,7 +1,5 @@
-import com.sun.org.apache.xpath.internal.operations.String;
 
 public class HelloMac {
-    @Override
     protected Object clone() throws CloneNotSupportedException {
         System.out.println("111111");
         return new StringBuffer("12345");

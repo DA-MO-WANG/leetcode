@@ -1,2 +1,8 @@
-package array;public class leetcode2 {
+package array;
+
+public class leetcode2 {
+    
+
+
+
 }

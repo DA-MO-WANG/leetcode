@@ -22,6 +22,6 @@ public class leetcode3 {
     public static void main(String[] args) {
         String s = " ";
         HashSet set = new HashSet();
-        set.
+        set.re
     }
 }

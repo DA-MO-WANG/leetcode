@@ -1,5 +1,7 @@
 package array;
 
+import java.util.HashSet;
+
 public class leetcode3 {
     //寻找字符串中的最大不重复子串
     //审题：子串--必然是连续的；如何确定一个字串：只需要确定两个端点
@@ -19,5 +21,7 @@ public class leetcode3 {
 
     public static void main(String[] args) {
         String s = " ";
+        HashSet set = new HashSet();
+        set.
     }
 }

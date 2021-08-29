@@ -1,2 +1,10 @@
-package array;public class leetcode3 {
+package array;
+
+public class leetcode3 {
+    //寻找字符串中的最大不重复子串
+    //审题：子串--必然是连续的；如何确定一个字串：只需要确定两个端点
+    //子功能：如何判断是否具有重复的东西
+
+    //业务理解
+    //
 }

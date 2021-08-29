@@ -20,8 +20,6 @@ public class leetcode3 {
         //不必保存一堆数据，然后再比较出最大值--而是在一堆数据的产生过程中，就做比较，每次做比较，只留下最大值，那么整个流程下来就会出现最大值---math函数
 
     public static void main(String[] args) {
-        String s = " ";
-        HashSet set = new HashSet();
-        set.re
+      //易错点：在校验是否具有重复的时候：是具体的每一个字串中校验的，也就是记录表要保持上字串的变化--即使踢出左边的变化
     }
 }

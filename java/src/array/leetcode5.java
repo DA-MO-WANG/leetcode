@@ -1,2 +1,48 @@
-package array;public class leetcode5 {
+package array;
+
+public class leetcode5 {
+    //思路1：动态规划-灵活路线
+    //业务理解：
+        //把问题分解成如何拿到子串---》拿到两个区间端点
+        //如何判断回文---》分而治之：回文去掉两头还是回文
+        //如何获得最大长度的字串----》区间端点可以表示
+
+    public String longestPalindromez(String s) {
+        int n = s.length();
+        boolean[][] dp = new boolean[n][n];
+        valid(dp,s,0,n - 1);
+        return s.substring(two[0],two[1] + 1);
+
+
+
+    }
+    int res = 0;
+    int[] two = new int[2];
+    public void valid(boolean[][] dp, String s, int i, int j) {
+        if (i == j) {
+            dp[i][j] = true;
+            //return true;
+        }else if(i == j - 1) {
+            dp[i][j] = (s.charAt(i) == s.charAt(j));
+            //return dp[i][j];
+        }else if(i > j){
+            return;
+        }
+        dp[i][j] = dp[i+1][j-1] && (s.charAt(i) == s.charAt(j));
+        if (dp[i][j]) {
+            if (res != Math.max(res,j - i + 1)) {
+                two[0] = i;
+                two[1] = j;
+            }
+        }
+        //res = dp[i][j] ? Math.max(res,j - i + 1);str = i + j + "": res;
+        //return dp[i+1][j-1] && (s.charAt(i) == s.charAt(j));
+    }
+
+    public static void main(String[] args) {
+        String str = "cbbd";
+        leetcode5 lee5 = new leetcode5();
+
+        System.out.println(lee5.longestPalindromez(str));
+    }
 }

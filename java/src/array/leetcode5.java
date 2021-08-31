@@ -1,11 +1,15 @@
 package array;
 
 public class leetcode5 {
-    //思路1：动态规划-灵活路线
+    //思路1：动态规划-灵活路线——》失败！没看懂
     //业务理解：学会问题分解
         //把问题分解成如何拿到子串---》拿到两个区间端点
         //如何判断回文---》分而治之：回文去掉两头还是回文
         //如何获得最大长度的字串----》区间端点可以表示
+
+
+    //思路2：中心扩散
+    //状态转移方程
 
     public String longestPalindromez(String s) {
         int n = s.length();

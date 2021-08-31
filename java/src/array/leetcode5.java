@@ -26,7 +26,11 @@ public class leetcode5 {
 
 
     }
-    public int expand(String s, )
+    public int expand(String s, int left, int right) {
+        while (left > 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            
+        }
+    }
 //    int res = 0;
 //        int[] two = new int[2];
 //        public void valid(boolean[][] dp, String s, int i, int j) {

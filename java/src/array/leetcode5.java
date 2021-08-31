@@ -13,40 +13,42 @@ public class leetcode5 {
     //从回文中心，向外扩展，直到扩展到不能扩展——》每一个确定的回文中心对应一个最大回文长度'/
     //回文中心有两种类型：奇数的单个、偶数的双个--如何拿到回文中心：遍历下标
     //2：利用扩展的边界一对值
-    //3：最大长度
+    //3：最大长度，利用math函数夹在算法里面
 
 
     public String longestPalindromez(String s) {
         int n = s.length();
-        boolean[][] dp = new boolean[n][n];
-        valid(dp,s,0,n - 1);
-        return s.substring(two[0],two[1] + 1);
+        //先拿到回文中心
+        for(int i = 0; i < n; i++) {
+
+        }
 
 
 
     }
-    int res = 0;
-    int[] two = new int[2];
-    public void valid(boolean[][] dp, String s, int i, int j) {
-        if (i == j) {
-            dp[i][j] = true;
-            //return true;
-        }else if(i == j - 1) {
-            dp[i][j] = (s.charAt(i) == s.charAt(j));
-            //return dp[i][j];
-        }else if(i > j){
-            return;
-        }
-        dp[i][j] = dp[i+1][j-1] && (s.charAt(i) == s.charAt(j));
-        if (dp[i][j]) {
-            if (res != Math.max(res,j - i + 1)) {
-                two[0] = i;
-                two[1] = j;
-            }
-        }
-        //res = dp[i][j] ? Math.max(res,j - i + 1);str = i + j + "": res;
-        //return dp[i+1][j-1] && (s.charAt(i) == s.charAt(j));
-    }
+    public int expand(String s, )
+//    int res = 0;
+//        int[] two = new int[2];
+//        public void valid(boolean[][] dp, String s, int i, int j) {
+//            if (i == j) {
+//                dp[i][j] = true;
+//                //return true;
+//            }else if(i == j - 1) {
+//                dp[i][j] = (s.charAt(i) == s.charAt(j));
+//                //return dp[i][j];
+//            }else if(i > j){
+//                return;
+//            }
+//        dp[i][j] = dp[i+1][j-1] && (s.charAt(i) == s.charAt(j));
+//        if (dp[i][j]) {
+//            if (res != Math.max(res,j - i + 1)) {
+//                two[0] = i;
+//                two[1] = j;
+//            }
+//        }
+//        //res = dp[i][j] ? Math.max(res,j - i + 1);str = i + j + "": res;
+//        //return dp[i+1][j-1] && (s.charAt(i) == s.charAt(j));
+//    }
 
     public static void main(String[] args) {
         String str = "cbbd";

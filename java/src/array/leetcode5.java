@@ -27,7 +27,7 @@ public class leetcode5 {
             int len = Math.max(len1, len2);
             if (len > end - start) {
                 start = i - (len - 1) / 2;
-                end = i + len / 2;
+                end = i + len / 2;//？关键点：两种回文中心都包容了
             }
         }
         return s.substring(start, end + 1);

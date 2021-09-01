@@ -1,5 +1,6 @@
 package array;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -22,10 +23,30 @@ public class leetcode15 {
 
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
+        List<List<Integer>> list = new ArrayList<>();
         for(int i = 0; i < nums.length; i++) {
             int left = i + 1;
             int right = nums.length - 1;
-            while()
+            while(left <= right) {
+                if (nums[left] != nums[left - 1] && nums[left] + nums[right] + nums[i] == 0) {
+                    ArrayList<Integer> arrayList = new ArrayList<>();
+                    arrayList.add(nums[i]);
+                    arrayList.add(nums[left]);
+                    arrayList.add(nums[right]);
+                    list.add(arrayList);
+                }
+                left++;
+                right--;
+            }
         }
+        return list;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{-1,0,1,2,-1,-4};
+        leetcode15 leetcode15 = new leetcode15();
+        List<List<Integer>> lists = leetcode15.threeSum(nums);
+
+
     }
 }

@@ -7,8 +7,16 @@ public class leetcode13 {
         //先考虑没有特殊规则
         double sum = 0;
         char[] letters = s.toCharArray();
+        boolean flag = false;
         for (int i = 0; i < letters.length; i++) {
             if (((i+1) < letters.length) && (letters[i] == 'I' && (letters[i + 1] == 'V') || (letters[i + 1]) == 'X')) {
+                flag = true;
+            }else if (((i+1) < letters.length) && (letters[i] == 'X' && (letters[i + 1] == 'L') || (letters[i + 1]) == 'C')) {
+                flag = true;
+            }else if (((i+1) < letters.length) && (letters[i] == 'C' && (letters[i + 1] == 'D') || (letters[i + 1]) == 'M')){
+                flag = true;
+            }
+            if (flag) {
                 int pre = transfer(letters[i]);
                 int next = transfer(letters[i + 1]);
                 int cur = next - pre;

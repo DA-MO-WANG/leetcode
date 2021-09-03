@@ -1,6 +1,7 @@
 package array;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class s53 {
     public int maxSubArray(int[] nums) {
@@ -44,5 +45,8 @@ public class s53 {
         s53 s = new s53();
         int res = s.maxSubArray(arr);
         System.out.println(res);
+
+        HashMap hashMap = new HashMap();
+        //hashMap.put()
     }
 }

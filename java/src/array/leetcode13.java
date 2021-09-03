@@ -21,6 +21,7 @@ public class leetcode13 {
                 int next = transfer(letters[i + 1]);
                 int cur = next - pre;
                 sum += cur;
+                flag = false;
                 i++;
                 continue;
             }

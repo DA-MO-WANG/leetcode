@@ -10,11 +10,11 @@ public class leetcode13 {
         boolean flag = false;
         int n = letters.length;
         for (int i = n; i >= 0; i--) {
-            if (((i-1) >= 0) && (letters[i] == 'I' && (letters[i - 1] == 'V') || (letters[i - 1]) == 'X')) {
+            if (((i-1) >= 0) & (letters[i] == 'I' && (letters[i - 1] == 'V') || (letters[i - 1]) == 'X')) {
                 flag = true;
-            }else if (((i-1) >= 0) && (letters[i] == 'X' && (letters[i - 1] == 'L') || (letters[i - 1]) == 'C')) {
+            }else if (((i-1) >= 0) & (letters[i] == 'X' && (letters[i - 1] == 'L') || (letters[i - 1]) == 'C')) {
                 flag = true;
-            }else if (((i-1) >= 0) && (letters[i] == 'C' && (letters[i - 1] == 'D') || (letters[i - 1]) == 'M')){
+            }else if (((i-1) >= 0) & (letters[i] == 'C' && (letters[i - 1] == 'D') || (letters[i - 1]) == 'M')){
                 flag = true;
             }
             if (flag) {

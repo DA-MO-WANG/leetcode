@@ -2,7 +2,14 @@ package array;
 
 import edu.princeton.cs.algs4.StdOut;
 
+import java.util.Map;
+
 public class leetcode13 {
+    Map<Character,Integer> symbolValue = 
+
+
+
+
     public int romanToInt(String s) {
         //先考虑没有特殊规则
         double sum = 0;
@@ -55,7 +62,7 @@ public class leetcode13 {
 
     public static void main(String[] args) {
 
-        
+
         leetcode13 leetcode1 = new leetcode13();
         int iii = leetcode1.romanToInt("MCMXCIV");
         System.out.println(iii);

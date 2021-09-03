@@ -45,7 +45,7 @@ public class leetcode13 {
 
     public static void main(String[] args) {
         leetcode13 leetcode1 = new leetcode13();
-        int iii = leetcode1.romanToInt("III");
+        int iii = leetcode1.romanToInt("IV");
         System.out.println(iii);
 
     }

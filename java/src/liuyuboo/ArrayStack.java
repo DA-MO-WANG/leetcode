@@ -1,22 +1,22 @@
 package liuyuboo;
 
-public class ArrayStack<E> implements Stack{
+public class ArrayStack<E> implements Stack<E>{
     E[] table;
     int size;
     @Override
-    public void push(Object e) {
+    public void push(E e) {
         table[size++] = (E)e;
     }
 
     @Override
-    public Object pop() {
+    public E pop() {
         E del = table[size - 1];
         table[size--] = null;
         return del;
     }
 
     @Override
-    public Object peek() {
+    public E peek() {
 
         return table[size];
     }

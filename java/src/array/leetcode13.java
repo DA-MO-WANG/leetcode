@@ -12,12 +12,12 @@ public class leetcode13 {
                 int pre = transfer(letters[i]);
                 int next = transfer(letters[i + 1]);
                 int cur = next - pre;
-                sum += cur * (Math.pow(10,letters.length - i - 1));
+                sum += cur;
                 i++;
                 continue;
             }
             int transfer = transfer(letters[i]);
-            sum += transfer * (Math.pow(10,letters.length - i));
+            sum += transfer;
         }
         return Integer.parseInt(Double.toString(sum).substring(0,Double.toString(sum).lastIndexOf('.')));
 

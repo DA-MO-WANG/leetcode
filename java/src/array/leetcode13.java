@@ -24,10 +24,10 @@ public class leetcode13 {
                 sum += cur;
                 flag = false;
                 i--;
-                continue;
-            }
-            int transfer = transfer(letters[i]);
-            sum += transfer;
+            }else {
+                int transfer = transfer(letters[i]);
+                sum += transfer;
+            }        
         }
         return Integer.parseInt(Double.toString(sum).substring(0,Double.toString(sum).lastIndexOf('.')));
 

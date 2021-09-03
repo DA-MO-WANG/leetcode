@@ -1,15 +1,26 @@
 package array;
 
+import edu.princeton.cs.algs4.StdOut;
+
 public class leetcode13 {
     public int romanToInt(String s) {
         //先考虑没有特殊规则
         double sum = 0;
         char[] letters = s.toCharArray();
         for (int i = 0; i < letters.length; i++) {
+            if (letters[i] == 'I' && (letters[i + 1] == 'V') || (letters[i + 1]) == 'X') {
+                int pre = transfer(letters[i]);
+                int next = transfer(letters[i + 1]);
+                int cur = next - pre;
+                sum += cur * (Math.pow(10,letters.length - i - 1));
+                i++;
+                continue;
+            }
             int transfer = transfer(letters[i]);
             sum += transfer * (Math.pow(10,letters.length - i));
         }
-        
+        return Integer.parseInt(Double.toString(sum));
+
     }
 
     public int transfer(char a) {
@@ -30,5 +41,12 @@ public class leetcode13 {
                 return 1000;
         }
         throw new IllegalArgumentException("未知字符！");
+    }
+
+    public static void main(String[] args) {
+        leetcode13 leetcode1 = new leetcode13();
+        int iii = leetcode1.romanToInt("III");
+        System.out.println(iii);
+
     }
 }

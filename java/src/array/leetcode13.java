@@ -6,10 +6,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class leetcode13 {
-    Map<Character,Integer> symbolValue = new HashMap<Character,Integer>() {{
-        put('I',1);
-    }
-    }
 
 
 

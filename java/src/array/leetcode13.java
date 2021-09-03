@@ -9,7 +9,7 @@ public class leetcode13 {
         char[] letters = s.toCharArray();
         boolean flag = false;
         int n = letters.length;
-        for (int i = n; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--) {
             if (((i-1) >= 0) & (letters[i] == 'I' && (letters[i - 1] == 'V') || (letters[i - 1]) == 'X')) {
                 flag = true;
             }else if (((i-1) >= 0) & (letters[i] == 'X' && (letters[i - 1] == 'L') || (letters[i - 1]) == 'C')) {
@@ -23,7 +23,7 @@ public class leetcode13 {
                 int cur = pre - next;
                 sum += cur;
                 flag = false;
-                i++;
+                i--;
                 continue;
             }
             int transfer = transfer(letters[i]);

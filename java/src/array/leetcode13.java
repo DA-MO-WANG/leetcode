@@ -3,14 +3,13 @@ package array;
 public class leetcode13 {
     public int romanToInt(String s) {
         //先考虑没有特殊规则
-        int sum = 0;
+        double sum = 0;
         char[] letters = s.toCharArray();
         for (int i = 0; i < letters.length; i++) {
             int transfer = transfer(letters[i]);
-            sum = transfer * Double.Math.pow(10,letters.length - i);
-            
+            sum += transfer * (Math.pow(10,letters.length - i));
         }
-
+        
     }
 
     public int transfer(char a) {

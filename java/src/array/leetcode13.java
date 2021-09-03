@@ -19,7 +19,7 @@ public class leetcode13 {
             int transfer = transfer(letters[i]);
             sum += transfer * (Math.pow(10,letters.length - i));
         }
-        return Integer.parseInt(Double.toString(sum));
+        return Integer.parseInt(Double.toString(sum).substring(0,Double.toString(sum).lastIndexOf('.')));
 
     }
 

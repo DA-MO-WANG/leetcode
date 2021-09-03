@@ -8,7 +8,7 @@ public class leetcode13 {
         double sum = 0;
         char[] letters = s.toCharArray();
         for (int i = 0; i < letters.length; i++) {
-            if (((i+1) < letters.length) && letters[i] == 'I' && (letters[i + 1] == 'V') || (letters[i + 1]) == 'X') {
+            if (((i+1) < letters.length) && (letters[i] == 'I' && (letters[i + 1] == 'V') || (letters[i + 1]) == 'X')) {
                 int pre = transfer(letters[i]);
                 int next = transfer(letters[i + 1]);
                 int cur = next - pre;

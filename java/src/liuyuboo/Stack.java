@@ -1,2 +1,5 @@
-package liuyuboo;public interface Stack {
+package liuyuboo;
+
+public interface Stack {
+    
 }

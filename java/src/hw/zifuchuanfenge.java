@@ -43,12 +43,17 @@ public class zifuchuanfenge {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String[] s = new String[100];
+        //读取字符，遇到回车键截止
         s[0] = in.nextLine();
-        s[1] = in.nextLine();
+        s[1] = in.nextLine();//输入两次，所以读取两次
+
+        //同时处理两个输入
         for(int i=0;i<2;i++) {
+            //如果恰好一个字符串的长度是8，不用特殊处理
             if(s[i].length()==8) {
                 System.out.println(s[i]);
             }
+            //特殊：什么样的字符串好处理——》
             if(s[i].length()<8) {
                 System.out.print(s[i]);
                 for(int j=0;j<8-s[i].length();j++) {

@@ -4,7 +4,23 @@ import java.util.Scanner;
 
 public class zifuchuanfenge {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        //获取键盘上输入的数据
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNextLine()) {
+            String str = sc.nextLine();
+            char[] ch = str.toCharArray();
+            if (ch.length <= 8) {
+                for (char cr : ch) {
+                    System.out.print(cr);
+                }
+            }
+        }
+
+
+
+
+
+
         String[] s = new String[100];
         s[0] = in.nextLine();
         s[1] = in.nextLine();

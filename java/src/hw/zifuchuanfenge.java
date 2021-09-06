@@ -1,2 +1,5 @@
-package hw;public class zifuchuanfenge {
+package hw;
+
+public class zifuchuanfenge {
+    
 }

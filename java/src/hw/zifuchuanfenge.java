@@ -22,7 +22,13 @@ public class zifuchuanfenge {
                 int n = s[i].length() / 8;
                 int m = s[i].length() % 8;
                 if (m == 0) {
-                    for (int k = 0; )
+                    for (int k = 0; k) {
+                        System.out.println(s[i].substring(8*k, 8*k + 8));
+                    }
+                }else {
+                    for (int k = 0; k) {
+                        System.out.println(s[i].substring(8*k, 8*k + 8));
+                    }
                 }
             }
 

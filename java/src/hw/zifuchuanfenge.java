@@ -48,40 +48,44 @@ public class zifuchuanfenge {
         s[1] = in.nextLine();//输入两次，所以读取两次
 
         //同时处理两个输入
-        for(int i=0;i<2;i++) {
+        for(int i=0;i<2;i++) {//用s[i]来处理
             //如果恰好一个字符串的长度是8，不用特殊处理
             if(s[i].length()==8) {
                 System.out.println(s[i]);
             }
-            //特殊：什么样的字符串好处理——》
+            //特殊：什么样的字符串好处理——》恰好等于8，或者小于8
             if(s[i].length()<8) {
                 System.out.print(s[i]);
+                //8 - s.length 的方式处理了补0
                 for(int j=0;j<8-s[i].length();j++) {
                     System.out.print("0");
                 }
                 System.out.println();
             }
-            else {
-                int n = s[i].length()/8;
-                int m = s[i].length()%8;
-                if(m==0) {
+            else {//长度大于8----想这个问题，关键在把握字符串的长度
+                int n = s[i].length()/8;//有几个
+                int m = s[i].length()%8;//最后剩几个
+                if(m==0) {//恰好被8分割--按递推式来截取
                     for(int k=0;k<n;k++) {
                         System.out.println(s[i].substring(8*k, 8*k+8));
                     }
                 }
                 else {
+                    //如果有剩余，先把整齐划分的那部分整完
                     for(int k=0;k<n;k++) {
                         System.out.println(s[i].substring(8*k, 8*k+8));
                     }
+                    //从最后一轮开始，遍历多余的部分
                     for(int x=8*n;x<s[i].length();x++) {
                         System.out.print(String.valueOf(s[i].charAt(x)));
                     }
+                    //补0
                     for(int y=0;y<8+8*n-s[i].length();y++) {
                         System.out.print("0");
                     }
                 }
             }
-            if(i==0) {
+            if(i==0) {//一次输入中间的间隔
                 System.out.println();
             }
         }

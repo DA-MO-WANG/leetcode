@@ -8,7 +8,8 @@ public class RecursionPermutation {
         char[] data = input.toCharArray();
         permutate(data, 0);
     }
-
+    //递归方法
+    //递归逻辑就是总是要惊醒元素交换--重复操作，不同的递归变量是，交换发起方的位置会逐步轮换
     public static void permutate(char[] data, int begin){
         int length = data.length;
         if(begin == length)

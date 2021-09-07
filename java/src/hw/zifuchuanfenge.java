@@ -108,7 +108,7 @@ public class zifuchuanfenge {
             if (str[i].length() < 8) {
                 System.out.print(str[i]);
                 for (int j = 0; j < 8 - str[i].length(); j++) {
-                    
+
                 }
             }
         }

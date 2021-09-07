@@ -1,2 +1,6 @@
-package hw;public class quanpailie {
+package hw;
+
+public class quanpailie {
+    //
+
 }

@@ -22,14 +22,14 @@ public class RecursionPermutation {
             }
         }
     }
-
+    //判断交换的数与后面的数是否相同
     private static boolean isUnique(char[] data, int begin, int end){
         for(int i = begin; i < end; i++)
             if(data[i] == data[end])
                 return false;
         return true;
     }
-
+    //简单的交换逻辑
     private static void swap(char[] data, int left, int right) {
         char temp = data[left];
         data[left] = data[right];

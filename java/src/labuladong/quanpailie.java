@@ -34,7 +34,7 @@ public class quanpailie {
     public static void main(String[] args) {
         quanpailie q = new quanpailie();
         q.permute(new int[]{1,2,3,4});
-        res.stream().forEach(System.out::println);
+        q.res.stream().forEach(System.out::println);
 
 
     }

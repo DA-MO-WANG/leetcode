@@ -22,7 +22,7 @@ public class S203 {
 
     //虚拟头节点解法
     public ListNode removeElements2(ListNode head, int val) {
-        ListNode dummy = new ListNode()；
+        ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode pre = dummy;
         while (pre.next != null) {

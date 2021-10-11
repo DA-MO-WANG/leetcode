@@ -20,6 +20,25 @@ public class S203 {
         return head;
     }
 
+    //虚拟头节点解法
+    public ListNode removeElements2(ListNode head, int val) {
+        ListNode dummy = new ListNode()；
+        dummy.next = head;
+        ListNode pre = dummy;
+        while (pre.next != null) {
+            if (pre.next.val == val) {
+                ListNode delNode = pre.next;
+                pre.next = delNode.next;
+                delNode.next = null;
+            }else {
+                pre = pre.next;
+            }
+
+        }
+        return dummy.next;
+
+    }
+
     public void delNode(ListNode node) {
         ListNode temp = node;
         node = node.next;

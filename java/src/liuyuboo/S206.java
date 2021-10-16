@@ -19,6 +19,16 @@ public class S206 {
         return pre;
 
     }
+    ListNode cur = null;
+    public ListNode reverseList1(ListNode head) {
+        if (head.next == null) {
+            cur = head;
+            return head;
+        }
+        ListNode root = reverseList1(head.next);
+        root.next = head;
+        return root;
 
-    public ListNode reverseList(ListNode head)
+
+    }
 }

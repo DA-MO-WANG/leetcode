@@ -20,6 +20,7 @@ public class S206 {
 
     }
     ListNode cur = null;
+    //函数签名：反转后，返回反转链表的尾部节点
     public ListNode reverseList1(ListNode head) {
         if (head.next == null) {
             cur = head;
@@ -27,8 +28,10 @@ public class S206 {
         }
         ListNode root = reverseList1(head.next);
         root.next = head;
-        return root;
-
-
+        return head;
+    }
+    public ListNode reverseList2(ListNode head) {
+         reverseList1(head);
+         return cur;
     }
 }

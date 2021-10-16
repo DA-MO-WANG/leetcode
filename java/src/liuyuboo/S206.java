@@ -19,4 +19,6 @@ public class S206 {
         return pre;
 
     }
+
+    public ListNode reverseList(ListNode )
 }

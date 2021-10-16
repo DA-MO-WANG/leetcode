@@ -20,5 +20,5 @@ public class S206 {
 
     }
 
-    public ListNode reverseList(ListNode )
+    public ListNode reverseList(ListNode head)
 }

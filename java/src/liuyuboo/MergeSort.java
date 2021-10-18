@@ -17,8 +17,8 @@ public class MergeSort {
         merge(arr,l,mid,r);
     }
     public void merge(int[] arr, int l, int mid, int r) {
-        int[] newarr = Arrays.copyOfRange(arr, l,r + 1);
-
+        //int[] newarr = Arrays.copyOfRange(arr, l,r + 1);
+        int[] newarr = Arrays.copyOf(arr, arr.length);
         int i = l;
         int j = mid + 1;
 

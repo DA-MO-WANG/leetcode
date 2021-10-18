@@ -22,7 +22,7 @@ public class MergeSort {
         int i = l;
         int j = mid + 1;
 
-        for (int k = l; k <= r; k++) {
+        /*for (int k = l; k <= r; k++) {
             //左边数组走完了，只剩下右边数组
             if (i > mid) {
                 arr[k] = newarr[j - l];
@@ -37,6 +37,28 @@ public class MergeSort {
                 arr[k] = newarr[j - l];
                 j++;
             }
+        }*/
+
+
+
+        while (i <= mid && j <= r) {
+            if (newarr[i] < newarr[j]) {
+                arr[l] = newarr[i];
+                i++;
+                l++;
+            }else {
+                arr[l] = newarr[j];
+                l++;
+                j++;
+            }
+        }
+        while (i <= mid) {
+            arr[l] = newarr[i];
+            i++;
+        }
+        while (j <= r) {
+            arr[l] = newarr[j];
+            j++;
         }
     }
 

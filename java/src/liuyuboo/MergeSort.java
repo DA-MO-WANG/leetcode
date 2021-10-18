@@ -10,7 +10,7 @@ public class MergeSort {
     }
     public void mergeSort(int[] arr, int l, int r) {
         int mid = (l + r) / 2;
-        if (l > r) return;
+        if (l >= r) return;
         mergeSort(arr,l,mid);
         mergeSort(arr,mid + 1, r);
         merge(arr,l,mid,r);

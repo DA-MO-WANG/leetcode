@@ -9,8 +9,9 @@ public class MergeSort {
         mergeSort(arr,l,r);
     }
     public void mergeSort(int[] arr, int l, int r) {
-        int mid = (l + r) / 2;
+
         if (l >= r) return;
+        int mid = (l + r) / 2;
         mergeSort(arr,l,mid);
         mergeSort(arr,mid + 1, r);
         merge(arr,l,mid,r);
@@ -19,7 +20,7 @@ public class MergeSort {
         int[] newarr = Arrays.copyOf(arr, arr.length);
         int i = l;
         int j = mid + 1;
-        while (i > mid || j >r) {
+        while (i < mid || j < r) {
             if (newarr[i] < newarr[j]) {
                 arr[i] = newarr[i];
                 i++;

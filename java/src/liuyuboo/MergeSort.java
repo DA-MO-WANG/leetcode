@@ -22,19 +22,21 @@ public class MergeSort {
         int j = mid + 1;
         while (i < mid || j < r) {
             if (newarr[i] < newarr[j]) {
-                arr[i] = newarr[i];
+                arr[l] = newarr[i];
                 i++;
+                l++;
             }else {
-                arr[j] = newarr[j];
+                arr[l] = newarr[j];
+                l++;
                 j++;
             }
         }
         while (i <= mid) {
-            arr[i] = newarr[i];
+            arr[l] = newarr[i];
             i++;
         }
         while (j <= r) {
-            arr[j] = newarr[j];
+            arr[l] = newarr[j];
         }
     }
 

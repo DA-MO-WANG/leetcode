@@ -17,27 +17,26 @@ public class MergeSort {
         merge(arr,l,mid,r);
     }
     public void merge(int[] arr, int l, int mid, int r) {
-        int[] newarr = Arrays.copyOf(arr, arr.length);
+        int[] newarr = Arrays.copyOfRange(arr, l,r + 1);
+
         int i = l;
         int j = mid + 1;
-        while (i < mid && j < r) {
-            if (newarr[i] < newarr[j]) {
-                arr[l] = newarr[i];
+
+        for (int k = l; k <= r; k++) {
+            //左边数组走完了，只剩下右边数组
+            if (i > mid) {
+                arr[k] = newarr[j - l];
+                j++;
+            }else if (j > r) {
+                arr[k] = newarr[i - l];
                 i++;
-                l++;
+            }else if (newarr[i - l] < newarr[j - l]) {
+                arr[k] = newarr[i - l];
+                i++;
             }else {
-                arr[l] = newarr[j];
-                l++;
+                arr[k] = newarr[j - l];
                 j++;
             }
-        }
-        while (i <= mid) {
-            arr[l] = newarr[i];
-            i++;
-        }
-        while (j <= r) {
-            arr[l] = newarr[j];
-            j++;
         }
     }
 

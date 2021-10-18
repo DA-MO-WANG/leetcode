@@ -37,6 +37,7 @@ public class MergeSort {
         }
         while (j <= r) {
             arr[l] = newarr[j];
+            j++;
         }
     }
 

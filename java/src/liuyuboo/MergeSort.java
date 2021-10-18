@@ -20,7 +20,7 @@ public class MergeSort {
         int[] newarr = Arrays.copyOf(arr, arr.length);
         int i = l;
         int j = mid + 1;
-        while (i < mid || j < r) {
+        while (i < mid && j < r) {
             if (newarr[i] < newarr[j]) {
                 arr[l] = newarr[i];
                 i++;

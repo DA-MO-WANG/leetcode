@@ -45,6 +45,6 @@ public class MergeSort {
         int[] arr = {2,3,1,9,6,4,7};
         MergeSort mergeSort = new MergeSort();
         mergeSort.mergeSort(arr);
-        Arrays.asList(arr).forEach(System.out::println);
+        Arrays.asList(arr).forEach(item->System.out.println(item));
     }
 }

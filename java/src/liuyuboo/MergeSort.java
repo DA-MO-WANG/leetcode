@@ -63,6 +63,7 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
+        StringBuffer
         int[] arr = {2,3,1,9,6,4,7};
         MergeSort mergeSort = new MergeSort();
         mergeSort.mergeSort(arr);

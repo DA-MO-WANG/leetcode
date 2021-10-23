@@ -94,6 +94,7 @@ public class MergeSort {
     }
     //合并有序数组[l,mid] [mid+1,r]到一个新的数组,处理l-r区间内的数据
     public int merge(int[] arr, int l , int mid, int r, int[] temp) {
+        System.arraycopy(arr,l,temp,l,r - l + 1);
         int i = l;
         int j = mid + 1;
         int count = 0;

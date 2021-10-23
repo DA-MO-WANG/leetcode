@@ -71,9 +71,10 @@ public class MergeSort {
         MergeSort mergeSort = new MergeSort();
         mergeSort.mergeSort(arr);
         //Arrays.asList(arr).forEach(item->System.out.println(item));
-        /*for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
-        }*/
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println("---------------");
         System.out.println(mergeSort.count);
     }
 }

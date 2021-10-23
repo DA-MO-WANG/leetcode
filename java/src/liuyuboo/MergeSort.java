@@ -31,7 +31,7 @@ public class MergeSort {
             }else if (j > r) {
                 arr[k] = newarr[i - l];
                 i++;
-            }else if (newarr[i - l] < newarr[j - l]) {
+            }else if (newarr[i - l] <= newarr[j - l]) {
                 arr[k] = newarr[i - l];
                 i++;
             }else {

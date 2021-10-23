@@ -108,6 +108,7 @@ public class MergeSort {
                 arr[k] = temp[i];
                 i++;
             }else {
+                arr[k] = temp[j];
                 count += mid - i + 1;
                 j++;
             }

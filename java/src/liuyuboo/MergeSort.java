@@ -6,6 +6,7 @@ public class MergeSort {
     public void mergeSort(int[] arr) {
         int l = 0;
         int r = arr.length - 1;
+        this.count = 0;
         mergeSort(arr,l,r);
     }
     public void mergeSort(int[] arr, int l, int r) {

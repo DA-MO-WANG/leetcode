@@ -101,10 +101,12 @@ public class MergeSort {
             if(i > mid) {
                 arr[k] = temp[j];
                 j++;
+                continue;
             }
             if(j > r) {
                 arr[k] = temp[i];
                 i++;
+                continue;
             }
             if(temp[i] <= temp[j]) {
                 arr[k] = temp[i];

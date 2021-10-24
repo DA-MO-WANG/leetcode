@@ -99,7 +99,9 @@ public class Test {
         int[] arr = {3,10,9,5,5,7,8};
         //test.part();
         List<Integer> list = test.threeSumClosest(arr, 57 / 2 - 10);
-        Arrays.asList(arr).stream().forEach(System.out::print);
+        for (int i = 0; i < list.size();i++) {
+            System.out.print(list.get(i) + " ");
+        }
 
     }
 }

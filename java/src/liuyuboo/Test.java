@@ -5,6 +5,7 @@ import edu.princeton.cs.algs4.In;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Test {
     //输入位置-分数，按分数分成两队，保证两队分数相等，输出两个分队，保证误差在3之内，有多少种分队
@@ -19,7 +20,12 @@ public class Test {
 
     public static void main(String[] args) {
         Test test = new Test();
-        int[] arr = {3,10,9,5,5,7,8,9};
-        test.partQueue(arr);
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        System.out.println(s);
+
+
+        //int[] arr = {3,10,9,5,5,7,8,9};
+        //test.partQueue(arr);
     }
 }

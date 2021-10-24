@@ -13,7 +13,7 @@ public class Test {
     //最接近的四数之和
     public List<List<Integer>> threeSumClosest(int[] nums, int target) {
         List<Integer> list = new ArrayList<>();
-        List<List<Integer>> lists = null;
+        List<List<Integer>> lists = new ArrayList<>();
         int ret = nums[0] + nums[1] + nums[2];
         // 先将数组变为升序的
         Arrays.sort(nums);
@@ -58,6 +58,7 @@ public class Test {
         int[] newarr = new int[7];
         int sumz = getSum(arr);
         System.arraycopy(arr,1,newarr,0,newarr.length);
+        System.out.println(sumz);
         List<List<Integer>> lists = threeSumClosest(newarr, sumz / 2 - arr[0] );
             for(int i = 0; i < lists.size(); i++) {
                 List<Integer> list = lists.get(i);
@@ -85,7 +86,7 @@ public class Test {
     public int getSum(int[] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
-            sum = arr[i];
+            sum += arr[i];
         }
         return sum;
     }

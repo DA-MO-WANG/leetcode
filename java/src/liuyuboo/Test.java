@@ -3,6 +3,7 @@ package liuyuboo;
 import edu.princeton.cs.algs4.In;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Test {
     //输入位置-分数，按分数分成两队，保证两队分数相等，输出两个分队，保证误差在3之内，有多少种分队
@@ -58,6 +59,7 @@ public class Test {
         List<List<Integer>> lists = fourSum(arr, sumz << 1);
         for (int i = 0; i < lists.size(); i++) {
             lists.get(i).stream().forEach(System.out::println);
+            IntSummaryStatistics collect = lists.get(i).stream().collect(Collectors.summarizingInt(value -> value));
         }
         int diff = 0;
         //Map<Integer,Integer> map = new HashMap<>(8);

@@ -62,10 +62,10 @@ public class Test {
         List<List<Integer>> lists = threeSumClosest(newarr, sumz / 2 - arr[0] );
             for(int i = 0; i < lists.size(); i++) {
                 List<Integer> list = lists.get(i);
-                //IntSummaryStatistics collect = list.stream().collect(Collectors.summarizingInt(value -> value));
-                //long sum = collect.getSum();
+                IntSummaryStatistics collect = list.stream().collect(Collectors.summarizingInt(value -> value));
+                long sum = collect.getSum();
                 print(list);
-                //System.out.println("本次分队差值： "+ ((sum + arr[0]) * 2 - sumz));
+                System.out.println("本次分队差值： "+ ((sum + arr[0]) * 2 - sumz));
                 //print(list);
 
             }

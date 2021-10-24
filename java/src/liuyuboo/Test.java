@@ -9,10 +9,8 @@ public class Test {
     //输入位置-分数，按分数分成两队，保证两队分数相等，输出两个分队，保证误差在3之内，有多少种分队
     //保证两队分值相差不大
     //保证高手对高手
-
     //最接近的四数之和
     public List<List<Integer>> threeSumClosest(int[] nums, int target) {
-
         List<List<Integer>> lists = new ArrayList<>();
         int ret = nums[0] + nums[1] + nums[2];
         // 先将数组变为升序的
@@ -58,7 +56,7 @@ public class Test {
         int[] newarr = new int[7];
         int sumz = getSum(arr);
         System.arraycopy(arr,1,newarr,0,newarr.length);
-        System.out.println(sumz);
+
         List<List<Integer>> lists = threeSumClosest(newarr, sumz / 2 - arr[0] );
             for(int i = 0; i < lists.size(); i++) {
                 List<Integer> list = lists.get(i);
@@ -70,7 +68,6 @@ public class Test {
                 System.out.print("  分队差值："+ ((sum + arr[0]) * 2 - sumz));
                 System.out.println("  当前总分：" + sumz);
                 //print(list);
-
             }
 
         }

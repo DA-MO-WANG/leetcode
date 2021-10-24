@@ -21,8 +21,9 @@ public class Test {
     public static void main(String[] args) {
         Test test = new Test();
         Scanner scanner = new Scanner(System.in);
-        String s = scanner.nextLine();
+        String s = scanner.next();
         System.out.println(s);
+
 
 
         //int[] arr = {3,10,9,5,5,7,8,9};

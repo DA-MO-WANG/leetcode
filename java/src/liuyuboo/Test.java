@@ -67,7 +67,7 @@ public class Test {
 
         //diff = sum * 2 - sumz;
         //System.out.println("本队差值： "+(0 - diff));
-    }
+    
 
     /**
      * 求和

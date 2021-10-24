@@ -57,7 +57,7 @@ public class Test {
         int sumz = getSum(arr);
         List<List<Integer>> lists = fourSum(arr, sumz << 1);
         for (int i = 0; i < lists.size(); i++) {
-            
+            lists.get(i).stream().forEach(System.out::println);
         }
         int diff = 0;
         //Map<Integer,Integer> map = new HashMap<>(8);

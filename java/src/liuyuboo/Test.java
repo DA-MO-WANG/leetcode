@@ -12,7 +12,7 @@ public class Test {
 
     //最接近的四数之和
     public List<List<Integer>> threeSumClosest(int[] nums, int target) {
-        List<Integer> list = new ArrayList<>();
+
         List<List<Integer>> lists = new ArrayList<>();
         int ret = nums[0] + nums[1] + nums[2];
         // 先将数组变为升序的
@@ -39,11 +39,11 @@ public class Test {
                 // 取最接近的值
                 if (Math.abs(ret - target) >= Math.abs(nums[i]+nums[j]+nums[m] - target)) {
                     ret = nums[i]+nums[j]+nums[m];
+                    List<Integer> list = new ArrayList<>();
                     list.add(nums[i]);
                     list.add(nums[j]);
                     list.add(nums[m]);
                     lists.add(list);
-                    list.clear();
                 }
                 /*if (ret == target) {
                     return ret;

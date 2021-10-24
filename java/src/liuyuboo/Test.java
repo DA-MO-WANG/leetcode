@@ -60,12 +60,15 @@ public class Test {
         for (int i = 0; i < lists.size(); i++) {
             lists.get(i).stream().forEach(System.out::println);
             IntSummaryStatistics collect = lists.get(i).stream().collect(Collectors.summarizingInt(value -> value));
+            long sum = collect.getSum();
+            System.out.println("本次分队差值： "+ (sum * 2 - sumz));
+
         }
-        int diff = 0;
+        //int diff = 0;
         //Map<Integer,Integer> map = new HashMap<>(8);
 
         //diff = sum * 2 - sumz;
-        System.out.println("本队差值： "+(0 - diff));
+        //System.out.println("本队差值： "+(0 - diff));
     }
 
     /**

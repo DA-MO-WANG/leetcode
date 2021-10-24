@@ -57,6 +57,7 @@ public class Test {
         //Arrays.sort(arr);
         int sumz = getSum(arr);
         List<List<Integer>> lists = fourSum(arr, sumz << 1);
+
         for (int i = 0; i < lists.size(); i++) {
             lists.get(i).stream().forEach(System.out::println);
             IntSummaryStatistics collect = lists.get(i).stream().collect(Collectors.summarizingInt(value -> value));

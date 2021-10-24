@@ -21,12 +21,16 @@ public class Test {
     public static void main(String[] args) {
         Test test = new Test();
         Scanner scanner = new Scanner(System.in);
-        String s = scanner.next();
-        System.out.println(s);
+        String s = scanner.nextLine();
+        String[] s1 = s.split(" ");
+        int[] arr = new int[8];
+        for (int i = 0; i < s1.length; i++) {
+            arr[i] = Integer.parseInt(s1[i]);
+        }
 
 
 
         //int[] arr = {3,10,9,5,5,7,8,9};
-        //test.partQueue(arr);
+        test.partQueue(arr);
     }
 }

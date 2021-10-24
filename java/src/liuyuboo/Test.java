@@ -64,8 +64,10 @@ public class Test {
                 List<Integer> list = lists.get(i);
                 IntSummaryStatistics collect = list.stream().collect(Collectors.summarizingInt(value -> value));
                 long sum = collect.getSum();
+                System.out.print("本次分队选择： ");
+                System.out.print(arr[0] + " ");
                 print(list);
-                System.out.println("本次分队差值： "+ ((sum + arr[0]) * 2 - sumz));
+                System.out.println("分队差值： "+ ((sum + arr[0]) * 2 - sumz));
                 //print(list);
 
             }

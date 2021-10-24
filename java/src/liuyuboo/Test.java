@@ -11,8 +11,9 @@ public class Test {
     //保证高手对高手
 
     //最接近的四数之和
-    public List<Integer> threeSumClosest(int[] nums, int target) {
+    public List<List<Integer>> threeSumClosest(int[] nums, int target) {
         List<Integer> list = new ArrayList<>();
+        List<List<Integer>> lists = null;
         int ret = nums[0] + nums[1] + nums[2];
         // 先将数组变为升序的
         Arrays.sort(nums);
@@ -41,13 +42,15 @@ public class Test {
                     list.add(nums[i]);
                     list.add(nums[j]);
                     list.add(nums[m]);
+                    lists.add(list);
+                    list.clear();
                 }
                 /*if (ret == target) {
                     return ret;
                 }*/
             }
         }
-        return list;
+        return lists;
     }
     public void partQueue(int[] arr) {
         //按分值排队，输出分值也行

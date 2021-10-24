@@ -9,22 +9,37 @@ import java.util.Scanner;
 
 public class Test {
     //输入位置-分数，按分数分成两队，保证两队分数相等，输出两个分队，保证误差在3之内，有多少种分队
+    //保证两队分值相差不大
+    //保证高手对高手
+
+
     public static void partQueue(int[] arr) {
         //按分值排队，输出分值也行
-        Arrays.sort(arr);
+        //Arrays.sort(arr);
         int sum = 0;
         int sumz = 0;
         int diff = 0;
-
-        for (int i = 0; i < arr.length/2; i++) {
-            sumz = arr[i] + arr[arr.length - 1];
-            if (i == 0 || i == 3) {
-                sum = arr[i] + arr[arr.length - 1];
-            System.out.print(arr[i]+" "+ arr[arr.length - 1 - i] + " ");
-            }
+        Map<Integer,Integer> map = new HashMap<>(8);
+        for (int i = 0; i < arr.length; i++) {
+            map.put(arr)
+            sumz = arr[i];
         }
+        for ()
         diff = sum * 2 - sumz;
         System.out.println("本队差值： "+(0 - diff));
+    }
+
+    /**
+     * 求和
+     * @param arr
+     * @return
+     */
+    public int sum(int[] arr) {
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum = arr[i];
+        }
+        return sum;
     }
     public void part() {
         Scanner scanner = new Scanner(System.in);

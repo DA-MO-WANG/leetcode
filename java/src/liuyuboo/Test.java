@@ -67,7 +67,7 @@ public class Test {
 
         //diff = sum * 2 - sumz;
         //System.out.println("本队差值： "+(0 - diff));
-    
+
 
     /**
      * 求和
@@ -96,7 +96,10 @@ public class Test {
 
     public static void main(String[] args) {
         Test test = new Test();
-        //int[] arr = {3,10,9,5,5,7,8,9};
-        test.part();
+        int[] arr = {3,10,9,5,5,7,8};
+        //test.part();
+        List<Integer> list = test.threeSumClosest(arr, 57 / 2 - 10);
+        list.stream().forEach(System.out::println);
+
     }
 }

@@ -58,11 +58,16 @@ public class Test {
         int[] newarr = new int[7];
         int sumz = getSum(arr);
         System.arraycopy(arr,1,newarr,0,newarr.length);
-        List<Integer> list = threeSumClosest(newarr, sumz / 2 - arr[0] );
-            list.stream().forEach(System.out::println);
-            IntSummaryStatistics collect = list.stream().collect(Collectors.summarizingInt(value -> value));
-            long sum = collect.getSum();
-            System.out.println("本次分队差值： "+ (sum * 2 - sumz));
+        List<List<Integer>> lists = threeSumClosest(newarr, sumz / 2 - arr[0] );
+            for(int i = 0; i < lists.size(); i++) {
+                List<Integer> list = lists.get(i);
+                IntSummaryStatistics collect = list.stream().collect(Collectors.summarizingInt(value -> value));
+                long sum = collect.getSum();
+                print(list);
+                System.out.println("本次分队差值： "+ ((sum + arr[0]) * 2 - sumz));
+                //print(list);
+
+            }
 
         }
         //int diff = 0;
@@ -84,6 +89,11 @@ public class Test {
         }
         return sum;
     }
+    public void print(List<Integer> list) {
+        for (int i = 0; i < list.size(); i++) {
+            System.out.print(list.get(i) + " ");
+        }
+    }
     //处理输入问题，把字符串转化成数组
     public void part() {
         Scanner scanner = new Scanner(System.in);
@@ -101,10 +111,8 @@ public class Test {
         Test test = new Test();
         int[] arr = {3,10,9,5,5,7,8};
         //test.part();
-        List<Integer> list = test.threeSumClosest(arr, 57 / 2 - 10);
-        for (int i = 0; i < list.size();i++) {
-            System.out.print(list.get(i) + " ");
-        }
+        //List<List<Integer>> list = test.threeSumClosest(arr, 57 / 2 - 10);
+        test.partQueue(arr);
 
     }
 }

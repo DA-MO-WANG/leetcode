@@ -13,9 +13,11 @@ public class Test {
         //按分值排队，输出分值也行
         Arrays.sort(arr);
         for (int i = 0; i < arr.length/2; i++) {
+            if (i == 0 || i == 3) {
             System.out.println(arr[i]+" "+ arr[arr.length - 1 - i]);
         }
 
+    }
     }
 
     public static void main(String[] args) {

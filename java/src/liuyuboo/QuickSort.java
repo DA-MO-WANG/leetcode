@@ -12,7 +12,7 @@ public class QuickSort {
 
     }
     public void quichSort(int[] arr, int l , int r) {
-        if (l> r) return;
+        if (l >= r) return;
         int p = partition(arr, l, r);
         quichSort(arr,l,p - 1);
         quichSort(arr,p + 1, r);
@@ -27,7 +27,6 @@ public class QuickSort {
             //暂时不处理v有重复的情况
             if (arr[i] > v) {
                 //大区间：j+1,i
-                break;
             }else {
                 //j++为交换做准备，通过交换扩容小区间
                 j++;

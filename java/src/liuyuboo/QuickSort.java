@@ -47,6 +47,6 @@ public class QuickSort {
         int[] arr = new int[]{10,9,5,3,2,4};
         QuickSort q = new QuickSort();
         q.sort(arr);
-        Stream.of(arr).forEach(System.out::println);
+        for (int v  arr)
     }
 }

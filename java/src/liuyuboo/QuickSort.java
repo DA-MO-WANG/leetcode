@@ -1,6 +1,7 @@
 package liuyuboo;
 
 import java.util.Arrays;
+import java.util.stream.Stream;
 
 import static com.sun.tools.javac.jvm.ByteCodes.swap;
 
@@ -46,6 +47,6 @@ public class QuickSort {
         int[] arr = new int[]{10,9,5,3,2,4};
         QuickSort q = new QuickSort();
         q.sort(arr);
-        Arrays.asList(arr).stream().mapToInt().forEach(System.out::println);
+        Stream.of(arr).forEach(System.out::println);
     }
 }

@@ -46,6 +46,6 @@ public class QuickSort {
         int[] arr = new int[]{10,9,5,3,2,4};
         QuickSort q = new QuickSort();
         q.sort(arr);
-        Arrays.asList(arr).stream().forEach(System.out::println);
+        Arrays.asList(arr).stream().mapToInt().forEach(System.out::println);
     }
 }

@@ -48,7 +48,7 @@ public class QuickSort {
         QuickSort q = new QuickSort();
         q.sort(arr);
         for (int v  : arr) {
-            System.out.println(v);
+            System.out.print(v + " ");
         }
     }
 }

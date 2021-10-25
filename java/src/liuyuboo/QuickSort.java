@@ -27,6 +27,7 @@ public class QuickSort {
             //暂时不处理v有重复的情况
             if (arr[i] > v) {
                 //大区间：j+1,i
+                
             }else {
                 //j++为交换做准备，通过交换扩容小区间
                 j++;

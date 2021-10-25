@@ -12,7 +12,7 @@ public class QuickSort {
 
     }
     public void quichSort(int[] arr, int l , int r) {
-        if (l>= r) return;
+        if (l> r) return;
         int p = partition(arr, l, r);
         quichSort(arr,l,p - 1);
         quichSort(arr,p + 1, r);

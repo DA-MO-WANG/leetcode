@@ -49,8 +49,7 @@ public class QuickSort {
         Random random = new Random();
         quickSort22(arr,0,arr.length - 1,random);
     }
-
-    public void quickSort22(int[] arr, int l, int r, Random random) {
+    public int partition24(int[] arr, int l , int r, Random random) {
         int p = l + random.nextInt(r - l + 1);
         swap(arr,p,l);
         int v = arr[l];
@@ -64,14 +63,18 @@ public class QuickSort {
                 j--;
             }
             if (arr[i] > v && arr[j] < v)
-            swap23(arr,i,j);
+                swap23(arr,i,j);
             i++;
             j--;
         }
         swap23(arr,j,l);
+        return j;
 
-        quickSort22(arr,l,j-1,random);
-        quickSort22(arr,j + 1, r,random);
+    }
+    public void quickSort22(int[] arr, int l, int r, Random random) {
+        int p = partition24(arr, l, r, random);
+        quickSort22(arr,l,p-1,random);
+        quickSort22(arr,p + 1, r,random);
     }
 
     public void swap23(int[] arr, int i , int j) {

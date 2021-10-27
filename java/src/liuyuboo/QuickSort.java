@@ -55,7 +55,7 @@ public class QuickSort {
         int v = arr[l];
         int i = l + 1;
         int j = r;
-        while (i <= j && i <= r && j > l) {
+        while (i <= j) {
             if (arr[i] < v) {
                 i++;
             }

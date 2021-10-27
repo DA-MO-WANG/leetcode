@@ -1,6 +1,7 @@
 package liuyuboo;
 
 import java.util.Arrays;
+import java.util.Random;
 import java.util.stream.Stream;
 
 import static com.sun.tools.javac.jvm.ByteCodes.swap;
@@ -42,6 +43,38 @@ public class QuickSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
+    //双路排序
+    public void sort21(int[] arr) {
+        Random random = new Random();
+        quickSort22(arr,0,arr.length - 1,random);
+    }
+
+    public void quickSort22(int[] arr, int l, int r, Random random) {
+        int p = l + random.nextInt(r - l + 1);
+        swap(arr,p,l);
+        int v = arr[l];
+        int i = l + 1;
+        int j = r;
+        while (j <= i) {
+            if (arr[i] < v) {
+                i++;
+            }
+            if (arr[j] > v) {
+                j--;
+            }
+
+        }
+
+
+    }
+
+    public void swap23(int[] arr, int i , int j) {
+        swap(arr,i,j);
+    }
+
+
+
 
     public static void main(String[] args) {
         int[] arr = new int[]{10,9,5,3,2,4};

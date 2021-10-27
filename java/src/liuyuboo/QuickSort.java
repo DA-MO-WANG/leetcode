@@ -89,7 +89,7 @@ public class QuickSort {
 
 
     public static void main(String[] args) {
-        int[] arr = new int[]{10,9,5,3,2,4};
+        int[] arr = new int[]{0,0,0,0,0,0,0};
         QuickSort q = new QuickSort();
         q.sort21(arr);
         for (int v  : arr) {

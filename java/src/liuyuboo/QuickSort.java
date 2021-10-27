@@ -69,6 +69,9 @@ public class QuickSort {
             j--;
         }
         swap23(arr,j,l);
+
+        quickSort22(arr,l,j-1,random);
+        quickSort22(arr,j + 1, r,random);
     }
 
     public void swap23(int[] arr, int i , int j) {

@@ -56,19 +56,19 @@ public class QuickSort {
         int i = l + 1;
         int j = r;
         while (i <= j) {
-            if (arr[i] <= v) {
+            if (arr[i] < v) {
                 i++;
             }
-            if (arr[j] >= v) {
+            if (arr[j] > v) {
                 j--;
             }
-            if (arr[i] > v && arr[j] < v) {
+            if (arr[i] >= v && arr[j] <= v) {
                 swap23(arr,i,j);
                 i++;
                 j--;
             }
         }
-        swap23(arr,j,l);
+        swap23(arr,j + 1,l);
         return j;
 
     }

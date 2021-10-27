@@ -63,6 +63,7 @@ public class QuickSort {
             if (arr[j] > v) {
                 j--;
             }
+            swap23(arr,i,j);
 
         }
 

@@ -57,20 +57,18 @@ public class QuickSort {
         int i = l + 1;
         int j = r;
         while (i < j) {
-            if (arr[i] < v) {
+            if (arr[i] <= v) {
                 i++;
             }
-            if (arr[j] > v) {
+            if (arr[j] >= v) {
                 j--;
             }
-            if (arr[i] > v )
+            if (arr[i] > v && arr[j] < v)
             swap23(arr,i,j);
             i++;
             j--;
-
         }
-
-
+        swap23(arr,j,l);
     }
 
     public void swap23(int[] arr, int i , int j) {
@@ -83,7 +81,7 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] arr = new int[]{10,9,5,3,2,4};
         QuickSort q = new QuickSort();
-        q.sort(arr);
+        q.sort21(arr);
         for (int v  : arr) {
             System.out.print(v + " ");
         }

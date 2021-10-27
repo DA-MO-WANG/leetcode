@@ -72,6 +72,7 @@ public class QuickSort {
 
     }
     public void quickSort22(int[] arr, int l, int r, Random random) {
+        if ( l >= r) return;
         int p = partition24(arr, l, r, random);
         quickSort22(arr,l,p-1,random);
         quickSort22(arr,p + 1, r,random);

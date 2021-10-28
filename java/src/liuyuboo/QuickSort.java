@@ -103,7 +103,7 @@ public class QuickSort {
             //lt+1  i-1
             if (arr[i] == v) {
                 i++;
-            }else if (lt < gt && 11                                     arr[i] < v) {//扩展--占据挨着的别人来扩展
+            }else if (lt < gt && arr[i] < v) {//扩展--占据挨着的别人来扩展
                 //l+1,lt
                 swap34( arr,i,lt + 1);
                 lt++;//为了维护循环不变量，更新lt

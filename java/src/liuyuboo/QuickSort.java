@@ -90,7 +90,7 @@ public class QuickSort {
 
     //三路快排
     public void sort31(int[] arr) {
-
+        quickSort33(arr,0,arr.length-1,new Random());
     }
     public Pair<Integer,Integer> partition32(int[] arr, int l , int r, Random random) {
         int p = l + random.nextInt(r - l + 1);
@@ -137,7 +137,7 @@ public class QuickSort {
 
 
     public static void main(String[] args) {
-        int[] arr = new int[]{0,0,0,0,0,0,0};
+        int[] arr = new int[]{4,6,2,1,67,3,3,2,8};
         QuickSort q = new QuickSort();
         q.sort31(arr);
         for (int v  : arr) {

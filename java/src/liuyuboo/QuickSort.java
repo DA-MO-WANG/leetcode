@@ -107,7 +107,7 @@ public class QuickSort {
                 lt++;//为了维护循环不变量，更新lt
             }else {//扩展大的区间，占据挨着的待处理来扩展
                 swap34(arr,gt - 1, i);
-                
+                g
 
             }
 

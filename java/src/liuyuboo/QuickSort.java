@@ -127,7 +127,7 @@ public class QuickSort {
         if (l >= r) return;
         Pair<Integer,Integer> pair = partition32(arr,l,r,random);
         quickSort33(arr,l,pair.fst - 1,random);
-        quickSort33(arr,pair.snd + 1,r,);
+        quickSort33(arr,pair.snd + 1,r,random);
     }
 
     public void swap34(int[] arr, int i, int j) {
@@ -139,7 +139,7 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] arr = new int[]{0,0,0,0,0,0,0};
         QuickSort q = new QuickSort();
-        q.sort21(arr);
+        q.sort31(arr);
         for (int v  : arr) {
             System.out.print(v + " ");
         }

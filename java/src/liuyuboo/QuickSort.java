@@ -93,29 +93,24 @@ public class QuickSort {
     public int partition32(int[] arr, int l , int r, Random random) {
         int p = l + random.nextInt(r - l + 1);
         swap34(arr,p,l);
-
+        int v = arr[l];
         int lt = l;
         int gt = r;
         int i = l + 1;
-
-        while (true) {
-            while (i < gt && arr[i] <= arr[l]) {
+        while (i <= gt) {
+            //lt+1  i-1
+            if (arr[i] == v) {
                 i++;
-                while (arr[i] < arr[l]) {
-                    lt++;
-                }
+            }else if (arr[i] < v) {//扩展--占据挨着的别人来扩展
+                //l+1,lt
+                swap34(arr,i,lt + 1);
+                lt++;//为了维护循环不变量，更新lt
+            }else {//扩展大的区间，占据挨着的待处理来扩展
+                swap34(arr,gt - 1, i);
+                
+
             }
 
-            while (gt > i && arr[gt] >= arr[l]) {
-                while (arr[gt] == arr[l]) {
-                    swap34(arr,gt,i);
-                    i++;
-                }
-                while (arr[gt] > arr[l]) {
-                    gt--;
-                }
-            }
-            if()
 
         }
 

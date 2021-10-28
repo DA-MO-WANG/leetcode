@@ -1,5 +1,7 @@
 package liuyuboo;
 
+import com.sun.tools.javac.util.Pair;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.stream.Stream;
@@ -90,14 +92,14 @@ public class QuickSort {
     public void sort31(int[] arr) {
 
     }
-    public int partition32(int[] arr, int l , int r, Random random) {
+    public Pair<Integer,Integer> partition32(int[] arr, int l , int r, Random random) {
         int p = l + random.nextInt(r - l + 1);
         swap34(arr,p,l);
         int v = arr[l];
         int lt = l;
         int gt = r;
         int i = l + 1;
-        while (i <= gt) {
+        while (i < gt) {
             //lt+1  i-1
             if (arr[i] == v) {
                 i++;
@@ -107,17 +109,25 @@ public class QuickSort {
                 lt++;//为了维护循环不变量，更新lt
             }else {//扩展大的区间，占据挨着的待处理来扩展
                 swap34(arr,gt - 1, i);
-                g
-
+                gt--;//为了维护 gt-r
+                //gt--始终维护大v的第一个元素
+                //lt--始终维护=v的前一个元素
             }
 
-
         }
-
+        //i把所有元素都处理完了，必然会和gt碰头--此时进入终止态
+        //到了处理标定点的事了
+        swap34(arr,l,lt);
+        //最后lt成为=v的第一个元素
+        Pair pair = new Pair(lt,gt - 1);
+        return pair;
     }
 
     public void quickSort33(int[] arr, int l, int r, Random random) {
-
+        if (l >= r) return;
+        Pair<Integer,Integer> pair = partition32(arr,l,r,random);
+        quickSort33(arr,l,pair.fst - 1,random);
+        quickSort33(arr,pair.snd + 1,r,);
     }
 
     public void swap34(int[] arr, int i, int j) {

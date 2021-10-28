@@ -86,6 +86,49 @@ public class QuickSort {
     }
 
 
+    //三路快排
+    public void sort31(int[] arr) {
+
+    }
+    public int partition32(int[] arr, int l , int r, Random random) {
+        int p = l + random.nextInt(r - l + 1);
+        swap34(arr,p,l);
+
+        int lt = l;
+        int gt = r;
+        int i = l + 1;
+
+        while (true) {
+            while (i < gt && arr[i] <= arr[l]) {
+                i++;
+                while (arr[i] < arr[l]) {
+                    lt++;
+                }
+            }
+
+            while (gt > i && arr[gt] >= arr[l]) {
+                while (arr[gt] == arr[l]) {
+                    swap34(arr,gt,i);
+                    i++;
+                }
+                while (arr[gt] > arr[l]) {
+                    gt--;
+                }
+            }
+            if()
+
+        }
+
+    }
+
+    public void quickSort33(int[] arr, int l, int r, Random random) {
+
+    }
+
+    public void swap34(int[] arr, int i, int j) {
+        swap23(arr,i,j);
+    }
+
 
 
     public static void main(String[] args) {

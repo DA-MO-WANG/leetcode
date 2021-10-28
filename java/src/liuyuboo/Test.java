@@ -110,10 +110,8 @@ public class Test {
 
     public static void main(String[] args) {
         Test test = new Test();
-        int[] arr = {10,3,10,9,5,5,7,8};
-        //test.part();
-        //List<List<Integer>> list = test.threeSumClosest(arr, 57 / 2 - 10);
-        test.partQueue(arr);
+
+        System.out.println("aaaaaaa");
 
     }
 }

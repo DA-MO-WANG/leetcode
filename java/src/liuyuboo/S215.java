@@ -12,7 +12,7 @@ public class S215 {
     }
     int count =  -1;
     public void findk(int[] arr, int l, int r,int k,Random random) {
-        if (l >= r) return ;
+        if (l > r) return ;
         int p = partition(arr, l, r, random);
         if (p == k) count =  arr[p];
         if (p > k)  findk(arr,l,p - 1,k,random);
@@ -52,7 +52,7 @@ public class S215 {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{3,2};
+        int[] arr = new int[]{8,2};
         S215 s215 = new S215();
         int findk = s215.findKthLargest(arr,  2);
         System.out.println(findk);

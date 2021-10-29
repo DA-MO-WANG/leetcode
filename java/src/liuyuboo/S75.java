@@ -43,7 +43,7 @@ public class S75 {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{2,2};
+        int[] arr = new int[]{2,0};
         S75 s75 = new S75();
         s75.sortColors(arr);
         for (int i : arr) {

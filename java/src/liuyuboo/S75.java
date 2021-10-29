@@ -2,7 +2,8 @@ package liuyuboo;
 
 public class S75 {
     public void sortColors(int[] nums) {
-        if (nums)
+        if (nums == null) return;
+
         //分成三部分
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 1) {

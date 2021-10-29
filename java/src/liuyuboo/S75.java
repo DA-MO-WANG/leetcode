@@ -22,10 +22,12 @@ public class S75 {
         int gt = nums.length;
         int i = 1;
         System.out.println("第一个值："+nums[0]);
+        print(nums);
         while (i < gt) {
             //lt+1-i-1   =v
             while (i < nums.length && nums[i] == v) {
                 System.out.print("=v "+i+" " + nums[i]);
+                print(nums);
                 i++;
             }
             //l+1-lt  <v
@@ -33,6 +35,7 @@ public class S75 {
                 System.out.println();
                 System.out.println("<v " );
                 swap(nums,lt + 1,i);
+                print(nums);
                 lt++;
                 i++;
 
@@ -42,6 +45,7 @@ public class S75 {
                 System.out.println();
                 System.out.println(">v " );
                 swap(nums,gt - 1,i);
+                print(nums);
                 gt--;
             }
         }
@@ -53,13 +57,17 @@ public class S75 {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    public void print(int[] arr) {
+        for (int i : arr) {
+            System.out.print(i+ " ");
+        }
+        System.out.println();
+    }
 
     public static void main(String[] args) {
         int[] arr = new int[]{2,0,2,1,1,0};
         S75 s75 = new S75();
         s75.sortColors(arr);
-        for (int i : arr) {
-            System.out.print(i+ " ");
-        }
+        s75.print(arr);
     }
 }

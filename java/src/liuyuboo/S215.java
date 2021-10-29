@@ -14,9 +14,17 @@ public class S215 {
     public void findk(int[] arr, int l, int r,int k,Random random) {
         if (l > r) return ;
         int p = partition(arr, l, r, random);
+        System.out.println(p);
+        print(arr);
         if (p == k) count =  arr[p];
         if (p > k)  findk(arr,l,p - 1,k,random);
         if (p < k)  findk(arr,p + 1,r,k,random);
+    }
+    public void print(int[] arr) {
+        for (int v : arr) {
+            System.out.print("当前元素：" + v + " ");
+        }
+        System.out.println();
     }
     public int partition(int[] arr, int l ,int r, Random random) {
         int p = l + random.nextInt(r - l + 1);

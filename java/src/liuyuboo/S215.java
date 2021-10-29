@@ -45,7 +45,10 @@ public class S215 {
         return lt;
     }
     public void swap(int[] arr, int i, int j) {
-        swap(arr,i ,j);
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+        //swap(arr,i ,j);
     }
 
     public static void main(String[] args) {

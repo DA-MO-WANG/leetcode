@@ -21,6 +21,7 @@ public class S75 {
         int lt = 0;
         int gt = nums.length;
         int i = 1;
+        System.out.println("第一个值："+nums[0]);
         while (i < gt) {
             //lt+1-i-1   =v
             while (i < nums.length && nums[i] == v) {

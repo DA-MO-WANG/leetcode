@@ -3,6 +3,10 @@ package liuyuboo;
 public class S75 {
     public void sortColors(int[] nums) {
         if (nums == null) return;
+        if (nums.length == 1) {
+            return;
+        }
+        if (nums.length)
 
         //分成三部分
         for (int i = 0; i < nums.length; i++) {
@@ -13,7 +17,7 @@ public class S75 {
         int lt = 0;
         int gt = nums.length;
         int i = 1;
-        while (i < gt) {
+        while (i < nums.length && i < gt) {
             if (nums[i] == 1) {
                 i++;
             }

@@ -34,19 +34,19 @@ public class S215 {
         int lt = l;
         int gt = r;
         int i = l + 1;
-        while (i < gt) {
+        while (i <= gt) {
             //lt+1-i-1 ==v
-            if (i < gt && arr[i] == v) {
+            if (i <= gt && arr[i] == v) {
                 i++;
             }
             //l+1-lt >v
-            if (i < gt && arr[i] > v) {
+            if (i <= gt && arr[i] > v) {
                 swap(arr,i,lt + 1);
                 lt++;
                 i++;
             }
             //gt-r<v
-            if (i < gt && arr[i] < v) {
+            if (i <= gt && arr[i] < v) {
                 swap(arr,i,gt);
                 gt--;
             }

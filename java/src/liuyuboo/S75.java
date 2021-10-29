@@ -20,16 +20,16 @@ public class S75 {
         int lt = 0;
         int gt = nums.length;
         int i = 1;
-        while (i < nums.length && i < gt) {
-            if (nums[i] == v) {
+        while (i < gt) {
+            if (i < nums.length && nums[i] == v) {
                 i++;
             }
-            if (nums[i] < v) {
+            if (i < nums.length && nums[i] < v) {
                 swap(nums,lt + 1,i);
                 lt++;
                 i++;
             }
-            if (nums[i] > v) {
+            if (i < nums.length && nums[i] > v) {
                 swap(nums,gt - 1,i);
                 gt--;
             }
@@ -43,7 +43,7 @@ public class S75 {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{2,2,0,2,0};
+        int[] arr = new int[]{2,2};
         S75 s75 = new S75();
         s75.sortColors(arr);
         for (int i : arr) {

@@ -143,5 +143,7 @@ public class QuickSort {
         for (int v  : arr) {
             System.out.print(v + " ");
         }
+        int [] arr1 = Arrays.copyOfRange(arr,0,2+1);
+
     }
 }

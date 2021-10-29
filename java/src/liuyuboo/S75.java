@@ -25,14 +25,14 @@ public class S75 {
         print(nums);
         while (i < gt) {
             //lt+1-i-1   =v
-            while (i < nums.length && nums[i] == v) {
+            while (i < gt && nums[i] == v) {
                 System.out.print("=v ");
                 System.out.println();
                 print(nums);
                 i++;
             }
             //l+1-lt  <v
-            while (i < nums.length && nums[i] < v) {
+            while (i < gt && nums[i] < v) {
                 System.out.println();
                 System.out.println("<v " );
                 swap(nums,lt + 1,i);
@@ -42,7 +42,7 @@ public class S75 {
 
             }
             //gt-r  >v
-            if (i < nums.length && nums[i] > v) {
+            if (i < gt && nums[i] > v) {
                 System.out.println();
                 System.out.println(">v " + "i为"+i+" gt 为"+gt);
                 swap(nums,gt - 1,i);

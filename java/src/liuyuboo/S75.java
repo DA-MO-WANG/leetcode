@@ -24,16 +24,22 @@ public class S75 {
         while (i < gt) {
             //lt+1-i-1   =v
             while (i < nums.length && nums[i] == v) {
+                System.out.print("=v "+i+" " + nums[i]);
                 i++;
             }
             //l+1-lt  <v
             while (i < nums.length && nums[i] < v) {
+                System.out.println();
+                System.out.println("<v " );
                 swap(nums,lt + 1,i);
                 lt++;
                 i++;
+
             }
             //gt-r  >v
             if (i < nums.length && nums[i] > v) {
+                System.out.println();
+                System.out.println(">v " );
                 swap(nums,gt - 1,i);
                 gt--;
             }
@@ -41,6 +47,7 @@ public class S75 {
         swap(nums,0,lt);
     }
     public void swap(int[] arr, int i , int j) {
+        System.out.println("交换："+arr[i]+"<->"+arr[j]);
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;

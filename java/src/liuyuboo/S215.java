@@ -29,6 +29,7 @@ public class S215 {
     }
     public int partition(int[] arr, int l ,int r, Random random) {
         int p = l + random.nextInt(r - l + 1);
+        swap(arr,l,p);
         int v = arr[p];
         int lt = l;
         int gt = r;

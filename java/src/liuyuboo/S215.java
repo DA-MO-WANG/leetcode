@@ -50,7 +50,7 @@ public class S215 {
                 gt--;
             }
         }
-        swap(arr,0,lt);
+        swap(arr,l,lt);
         return lt;
     }
     public void swap(int[] arr, int i, int j) {
@@ -61,7 +61,7 @@ public class S215 {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{8,2};
+        int[] arr = new int[]{3,2,1,5,6,4};
         S215 s215 = new S215();
         int findk = s215.findKthLargest(arr,  2);
         System.out.println(findk);

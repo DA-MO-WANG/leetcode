@@ -26,7 +26,8 @@ public class S75 {
         while (i < gt) {
             //lt+1-i-1   =v
             while (i < nums.length && nums[i] == v) {
-                System.out.print("=v "+i+" " + nums[i]);
+                System.out.print("=v ");
+                System.out.println();
                 print(nums);
                 i++;
             }

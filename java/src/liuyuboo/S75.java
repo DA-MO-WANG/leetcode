@@ -44,7 +44,7 @@ public class S75 {
             //gt-r  >v
             if (i < nums.length && nums[i] > v) {
                 System.out.println();
-                System.out.println(">v " );
+                System.out.println(">v " + "i为"+i+" gt 为"+gt);
                 swap(nums,gt - 1,i);
                 print(nums);
                 gt--;

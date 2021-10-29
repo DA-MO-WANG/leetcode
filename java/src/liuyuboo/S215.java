@@ -6,7 +6,7 @@ import java.util.Random;
 public class S215 {
     public int findKthLargest(int[] nums, int k) {
         //和k最小，本质是一样的，就是颠倒过来
-        int findk = findk(nums, 0, nums.length - 1, k, new Random());
+        int findk = findk(nums, 0, nums.length - 1, k - 1, new Random());
         return findk;
 
     }
@@ -54,7 +54,7 @@ public class S215 {
     public static void main(String[] args) {
         int[] arr = new int[]{3,2,1,5,6,4};
         S215 s215 = new S215();
-        int findk = s215.findk(arr, 0, arr.length - 1, 5, new Random());
+        int findk = s215.findKthLargest(arr,  2);
         System.out.println(findk);
     }
 }

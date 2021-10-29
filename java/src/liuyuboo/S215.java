@@ -6,17 +6,17 @@ import java.util.Random;
 public class S215 {
     public int findKthLargest(int[] nums, int k) {
         //和k最小，本质是一样的，就是颠倒过来
-        int findk = findk(nums, 0, nums.length - 1, k - 1, new Random());
-        return findk;
+        findk(nums, 0, nums.length - 1, k - 1, new Random());
+        return this.count;
 
     }
-    public int findk(int[] arr, int l, int r,int k,Random random) {
-        if (l >= r) return -1;
+    int count =  -1;
+    public void findk(int[] arr, int l, int r,int k,Random random) {
+        if (l >= r) return ;
         int p = partition(arr, l, r, random);
-        if (p == k) return arr[p];
-        if (p > k) return findk(arr,l,p - 1,k,random);
-        if (p < k) return findk(arr,p + 1,r,k,random);
-        return -1;
+        if (p == k) count =  arr[p];
+        if (p > k)  findk(arr,l,p - 1,k,random);
+        if (p < k)  findk(arr,p + 1,r,k,random);
     }
     public int partition(int[] arr, int l ,int r, Random random) {
         int p = l + random.nextInt(r - l + 1);

@@ -21,8 +21,9 @@ public class S215 {
         if (p < k)  findk(arr,p + 1,r,k,random);
     }
     public void print(int[] arr) {
+        System.out.print("当前元素：");
         for (int v : arr) {
-            System.out.print("当前元素：" + v + " ");
+            System.out.print(v + " ");
         }
         System.out.println();
     }

@@ -20,7 +20,7 @@ public class S75 {
         int lt = 0;
         int gt = nums.length;
         int i = 1;
-        while (i <= gt) {
+        while (i < gt) {
             //lt+1-i-1   =v
             while (i < nums.length && nums[i] == v) {
                 i++;

@@ -20,15 +20,18 @@ public class S75 {
         int lt = 0;
         int gt = nums.length;
         int i = 1;
-        while (i < gt) {
-            if (i < nums.length && nums[i] == v) {
+        while (i <= gt) {
+            //lt+1-i-1   =v
+            while (i < nums.length && nums[i] == v) {
                 i++;
             }
-            if (i < nums.length && nums[i] < v) {
+            //l+1-lt  <v
+            while (i < nums.length && nums[i] < v) {
                 swap(nums,lt + 1,i);
                 lt++;
                 i++;
             }
+            //gt-r  >v
             if (i < nums.length && nums[i] > v) {
                 swap(nums,gt - 1,i);
                 gt--;

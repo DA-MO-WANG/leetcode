@@ -52,7 +52,7 @@ public class S215 {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{3,2,1,5,6,4};
+        int[] arr = new int[]{3,2};
         S215 s215 = new S215();
         int findk = s215.findKthLargest(arr,  2);
         System.out.println(findk);

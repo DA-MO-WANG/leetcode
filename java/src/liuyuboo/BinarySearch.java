@@ -27,12 +27,12 @@ public class BinarySearch {
         Character le = 'f';
         Character[] letter = new Character[str.length()];
         for (int i = 0; i < letters.length; i++) {
-            letter[0] = letters[i];
+            letter[i] = letters[i];
         }
         BinarySearch b = new BinarySearch();
         int search = b.<Character>search(letter, le);
         System.out.println(search == str.indexOf('f'));
 
     }
-    
+
 }

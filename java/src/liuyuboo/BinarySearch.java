@@ -7,7 +7,21 @@ public class BinarySearch {
 
         while (lo < hi) {
             int mid = lo + (hi - lo) >> 1;
-            if (target.compareTo(data[mid]))
+            if (target.compareTo(data[mid]) == 0) {
+                return mid;
+            }else if (target.compareTo(data[mid]) < 0) {
+                hi = mid - 1;
+            }else {
+                lo = mid + 1;
+            }
         }
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        String str = "abcdefghgk";
+        char[] letters = str.toCharArray();
+        
+
     }
 }

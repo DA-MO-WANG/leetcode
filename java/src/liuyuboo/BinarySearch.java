@@ -7,7 +7,10 @@ public class BinarySearch {
         int lo = 0;
         int hi = data.length - 1;
 
-        while (lo <= hi) {
+        while (lo <= hi) {//=在逻辑中对应，单个元素也会走流程，而不会被拒绝
+            //计算机也是对应的现实世界，他永远不可能脱离真实世界中的一切东西
+            //编程语言只是一种符号体系，符号体系发明用来解释真实世界的一些东西
+            //符号的背后还是各种关系-联系-目的-过程
             int mid = lo + ((hi - lo) >> 1);//不确定的时候加括号
             if (target.compareTo(data[mid]) == 0) {
                 return mid;

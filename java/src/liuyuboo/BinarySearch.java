@@ -1,5 +1,7 @@
 package liuyuboo;
 
+import java.nio.charset.CharacterCodingException;
+
 public class BinarySearch {
     public <E extends Comparable<E>> int search(E[] data, E target) {
         int lo = 0;
@@ -21,6 +23,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         String str = "abcdefgh";
         char[] letters =  str.toCharArray();
+
         Character le = 'f';
         Character[] letter = new Character[str.length()];
         for (int i = 0; i < letters.length; i++) {
@@ -31,4 +34,5 @@ public class BinarySearch {
         System.out.println(search == str.indexOf('f'));
 
     }
+    
 }

@@ -19,9 +19,15 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        String str = "abcdefghgk";
-        char[] letters = str.toCharArray();
-        
+        String str = "abcdefgh";
+        char[] letters =  str.toCharArray();
+        Character[] letter = new Character[str.length()];
+        for (int i = 0; i < letters.length; i++) {
+            letter[0] = letters[i];
+        }
+        BinarySearch b = new BinarySearch();
+        int search = b.<Character>search(letter, 'f');
+        System.out.println(search == str.indexOf('f'));
 
     }
 }

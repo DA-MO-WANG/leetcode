@@ -7,7 +7,7 @@ public class BinarySearch {
         int lo = 0;
         int hi = data.length - 1;
 
-        while (lo < hi) {
+        while (lo <= hi) {
             int mid = lo + ((hi - lo) >> 1);//不确定的时候加括号
             if (target.compareTo(data[mid]) == 0) {
                 return mid;
@@ -21,7 +21,7 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        String str = "abcdefgh";
+        String str = "f";
         char[] letters =  str.toCharArray();
 
         Character le = 'f';

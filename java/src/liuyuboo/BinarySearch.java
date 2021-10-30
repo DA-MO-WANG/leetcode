@@ -21,12 +21,13 @@ public class BinarySearch {
     public static void main(String[] args) {
         String str = "abcdefgh";
         char[] letters =  str.toCharArray();
+        Character le = 'f';
         Character[] letter = new Character[str.length()];
         for (int i = 0; i < letters.length; i++) {
             letter[0] = letters[i];
         }
         BinarySearch b = new BinarySearch();
-        int search = b.<Character>search(letter, 'f');
+        int search = b.<Character>search(letter, le);
         System.out.println(search == str.indexOf('f'));
 
     }

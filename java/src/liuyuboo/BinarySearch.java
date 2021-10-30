@@ -8,7 +8,7 @@ public class BinarySearch {
         int hi = data.length - 1;
 
         while (lo < hi) {
-            int mid = lo + (hi - lo) >> 1;
+            int mid = lo + (hi - lo) << 1;
             if (target.compareTo(data[mid]) == 0) {
                 return mid;
             }else if (target.compareTo(data[mid]) < 0) {

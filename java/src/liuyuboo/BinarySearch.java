@@ -25,8 +25,10 @@ public class BinarySearch {
 
     //>target的最小值
     public int upper(int[] arr, int target) {
+        //[0,arr,length] 这个遍历范围是确保涵盖满足target结果的所有可能位置
+        //尽管length处不存在
         int lo = 0;
-        int hi = arr.length;
+        int hi = arr.length - 1;
         while (lo < hi) {
             int mid = lo + (hi - lo) / 2;
             if (arr[mid] > target) {

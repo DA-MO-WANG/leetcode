@@ -35,7 +35,7 @@ public class BinarySearch {
                 lo = mid + 1;
             }
         }
-        if (hi == arr.length - 1) {
+        if (hi > arr.length - 1) {
             return -1;
         }
         return arr[hi];
@@ -54,7 +54,7 @@ public class BinarySearch {
         int search = b.<Character>search(letter, le);
         System.out.println(search == str.indexOf('f'));*/
         BinarySearch b = new BinarySearch();
-        int upper = b.upper(new int[]{2, 4, 7, 1, 6, 3, 10}, 11);
+        int upper = b.upper(new int[]{2, 4, 7, 1, 6, 3, 10}, 9);
         System.out.println(upper);
 
     }

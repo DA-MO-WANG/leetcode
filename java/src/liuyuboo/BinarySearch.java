@@ -26,7 +26,8 @@ public class BinarySearch {
     //>target的最小值
     public int upper(int[] arr, int target) {
         //[0,arr,length] 这个遍历范围是确保涵盖满足target结果的所有可能位置
-        //尽管length处不存在
+        //尽管length处不存在<----为了让指针在最后一种情况时，跑到length处指示
+        //[0,length - 1]无法判断target在最右面的情况，因为即使target比最大值都大，指针也是停留在length - 1
         int lo = 0;
         int hi = arr.length - 1;
         while (lo < hi) {

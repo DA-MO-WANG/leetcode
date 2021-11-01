@@ -23,8 +23,26 @@ public class BinarySearch {
         return -1;
     }
 
+    //>target的最小值
+    public int upper(int[] arr, int target) {
+        int lo = 0;
+        int hi = arr.length;
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (arr[mid] > target) {
+                hi = mid;
+            }else {
+                lo = mid + 1;
+            }
+        }
+        if (hi == arr.length - 1) {
+            return -1;
+        }
+        return arr[hi];
+    }
+
     public static void main(String[] args) {
-        String str = "f";
+       /* String str = "f";
         char[] letters =  str.toCharArray();
 
         Character le = 'f';
@@ -34,7 +52,10 @@ public class BinarySearch {
         }
         BinarySearch b = new BinarySearch();
         int search = b.<Character>search(letter, le);
-        System.out.println(search == str.indexOf('f'));
+        System.out.println(search == str.indexOf('f'));*/
+        BinarySearch b = new BinarySearch();
+        int upper = b.upper(new int[]{2, 4, 7, 1, 6, 3, 10}, 11);
+        System.out.println(upper);
 
     }
 

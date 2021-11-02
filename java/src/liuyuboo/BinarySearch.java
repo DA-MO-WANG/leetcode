@@ -51,9 +51,9 @@ public class BinarySearch {
         int hi = arr.length;
         while (lo < hi) {
             int mid = lo + (hi - lo) / 2;
-            if (arr[mid] < target) {
+            if (mid >= 0 && arr[mid] < target) {
                 lo = mid + 1;
-            }else {
+            }else if (mid >= 0 && arr[mid] >= target){
                 hi = mid;
             }
 

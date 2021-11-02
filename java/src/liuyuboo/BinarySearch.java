@@ -46,7 +46,7 @@ public class BinarySearch {
 
     public int lower_ceil(int[] arr, int target) {
         //>= target 的最小索引
-        
+    return 0;
     }
 
     public static void main(String[] args) {
@@ -61,9 +61,10 @@ public class BinarySearch {
         BinarySearch b = new BinarySearch();
         int search = b.<Character>search(letter, le);
         System.out.println(search == str.indexOf('f'));*/
-        BinarySearch b = new BinarySearch();
+        /*BinarySearch b = new BinarySearch();
         int upper = b.upper(new int[]{2, 4, 7, 1, 6, 3, 11}, 12);
-        System.out.println(upper);
+        System.out.println(upper);*/
+        System.out.println(-1/2);
 
     }
 

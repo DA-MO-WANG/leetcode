@@ -49,14 +49,19 @@ public class BinarySearch {
         // (-1,length)的所有元素
         int lo = -1;
         int hi = arr.length;
-        while ((lo + hi) >= 0 && ((lo + hi) / 2) <= arr.length && lo < hi) {
+        while (lo < hi) {
             int mid = lo + (hi - lo) / 2;
             if (arr[mid] < target) {
-                
+                lo = mid + 1;
+            }else {
+                hi = mid;
             }
-        }
 
-        return 0;
+        }
+        if ((lo + hi) >= 0 && ((lo + hi) / 2) <= arr.length) {
+            return -1;
+        }
+        return hi;
     }
 
     public static void main(String[] args) {
@@ -71,10 +76,10 @@ public class BinarySearch {
         BinarySearch b = new BinarySearch();
         int search = b.<Character>search(letter, le);
         System.out.println(search == str.indexOf('f'));*/
-        /*BinarySearch b = new BinarySearch();
-        int upper = b.upper(new int[]{2, 4, 7, 1, 6, 3, 11}, 12);
-        System.out.println(upper);*/
-        System.out.println(-1/2);
+        BinarySearch b = new BinarySearch();
+        int lower_ceil = b.lower_ceil(new int[]{2, 4, 7, 1, 6, 3, 11}, 1);
+        System.out.println(lower_ceil);
+        //System.out.println(-1/2);
 
     }
 

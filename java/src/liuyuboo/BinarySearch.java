@@ -60,7 +60,7 @@ public class BinarySearch {
             }
 
         }
-        if ((lo + hi) >= 0 && ((lo + hi) / 2) <= arr.length) {
+        if ((lo + hi) < 0 || ((lo + hi) / 2) >= arr.length) {
             return -1;
         }
         return hi;
@@ -79,7 +79,7 @@ public class BinarySearch {
         int search = b.<Character>search(letter, le);
         System.out.println(search == str.indexOf('f'));*/
         BinarySearch b = new BinarySearch();
-        int lower_ceil = b.lower_ceil(new int[]{1,2, 4, 7, 11}, 0);
+        int lower_ceil = b.lower_ceil(new int[]{1,2, 4, 7, 11}, 12);
         System.out.println(lower_ceil);
         //System.out.println(-1/2);
 

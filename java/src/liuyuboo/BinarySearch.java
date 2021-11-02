@@ -46,7 +46,8 @@ public class BinarySearch {
 
     public int lower_ceil(int[] arr, int target) {
         //>= target 的最小索引
-        // (-1,length)的所有元素
+        // error模版：(-1,length)的所有元素。错在没整理好数学表达式
+        //>= target最小值的三种答案情况：最小是0 ，不可能是比0 小的值；
         int lo = 0;
         int hi = arr.length;
         while (lo < hi) {

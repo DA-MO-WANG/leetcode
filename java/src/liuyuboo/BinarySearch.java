@@ -46,7 +46,17 @@ public class BinarySearch {
 
     public int lower_ceil(int[] arr, int target) {
         //>= target 的最小索引
-    return 0;
+        // (-1,length)的所有元素
+        int lo = -1;
+        int hi = arr.length;
+        while ((lo + hi) >= 0 && ((lo + hi) / 2) <= arr.length && lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (arr[mid] < target) {
+                
+            }
+        }
+
+        return 0;
     }
 
     public static void main(String[] args) {

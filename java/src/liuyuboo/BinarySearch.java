@@ -47,21 +47,16 @@ public class BinarySearch {
     public int lower_ceil(int[] arr, int target) {
         //>= target 的最小索引
         // (-1,length)的所有元素
-        int lo = -1;
+        int lo = 0;
         int hi = arr.length;
         while (lo < hi) {
             int mid = lo + (hi - lo) / 2;
-            if (mid >= 0 && arr[mid] < target) {
+            if ( arr[mid] < target) {
                 lo = mid + 1;
-            }else if (mid >= 0 && arr[mid] >= target){
+            }else if (arr[mid] >= target){
                 hi = mid;
-            }else {
-                break;
             }
 
-        }
-        if ((lo + hi) < 0 || ((lo + hi) / 2) >= arr.length) {
-            return -1;
         }
         return hi;
     }

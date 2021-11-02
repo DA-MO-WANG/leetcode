@@ -44,6 +44,11 @@ public class BinarySearch {
         return arr[hi];
     }
 
+    public int lower_ceil(int[] arr, int target) {
+        //>= target 的最小索引
+        
+    }
+
     public static void main(String[] args) {
        /* String str = "f";
         char[] letters =  str.toCharArray();

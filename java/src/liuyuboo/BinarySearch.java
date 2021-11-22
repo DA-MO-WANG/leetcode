@@ -62,6 +62,21 @@ public class BinarySearch {
         return hi;
     }
 
+    public int lower(int[] arr, int target) {
+        //解决空间： -1，length-1
+        int lo = -1;
+        int hi = arr.length - 1;
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (arr[mid] < target) {
+                lo = mid;
+            }else if (arr[mid] >= target) {
+                hi = mid - 1;
+            }
+        }
+        return lo;
+    }
+
     public static void main(String[] args) {
        /* String str = "f";
         char[] letters =  str.toCharArray();
@@ -75,7 +90,7 @@ public class BinarySearch {
         int search = b.<Character>search(letter, le);
         System.out.println(search == str.indexOf('f'));*/
         BinarySearch b = new BinarySearch();
-        int lower_ceil = b.lower_ceil(new int[]{1,2, 4, 7, 11}, 12);
+        int lower_ceil = b.lower(new int[]{1,1,3,3,5,5}, 6);
         System.out.println(lower_ceil);
         //System.out.println(-1/2);
 

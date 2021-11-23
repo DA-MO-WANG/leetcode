@@ -22,11 +22,11 @@ public class QuickSort {
     public int partition1_1(int[] arr, int lo, int hi) {
         int v = arr[lo];
         //三路排序
-        //[l,j]< v  [j,i]=v [i,h]>v
+        //[l,j - 1]< v  [j,i - 1]=v (g,h]>v
         int j = lo;
         int i = lo + 1;
         int g = hi;
-        for (;i < g;) {
+        for (;i <= g;) {
             if (arr[i] < v) {
 
                 swap(arr,i,j + 1);

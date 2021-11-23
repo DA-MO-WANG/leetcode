@@ -26,7 +26,7 @@ public class QuickSort {
         int j = lo;
         int i = lo + 1;
         int g = hi;
-        for (;i < g;)
+        for (;i < g;) {
             if (arr[i] < v) {
 
                 swap(arr,i,j + 1);
@@ -37,8 +37,11 @@ public class QuickSort {
             }else {
                 swap(arr,i,g);
                 g--;
+            }
+
         }
-        return j + 1;
+        swap(arr,lo,j);
+        return j;
     }
 
     //递归

@@ -50,8 +50,8 @@ public class QuickSort {
             return;
         }
         int p = partition1_1(arr,lo,hi);
-        quickSort1_2(arr,lo,p);
-        quickSort1_2(arr,p+1,hi);
+        quickSort1_2(arr,lo,p - 1);
+        quickSort1_2(arr,p + 1,hi);
     }
 
 

@@ -28,7 +28,10 @@ public class QuickSort {
         int g = hi;
         for (;i < g;)
             if (arr[i] < v) {
+
+                swap(arr,i,j + 1);
                 j++;
+                i++;
             }else if (arr[i] == v) {
                 i++;
             }else {

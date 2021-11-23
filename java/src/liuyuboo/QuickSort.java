@@ -20,13 +20,13 @@ public class QuickSort {
     }
     //返回分界点的有序索引
     public int partition1_1(int[] arr, int lo, int hi) {
-        int v = arr[0];
+        int v = arr[lo];
         //三路排序
         //[l,j]< v  [j,i]=v [i,h]>v
         int j = lo;
         int i = lo + 1;
         int g = hi;
-        for (;i < arr.length && i < g;)
+        for (;i < g;)
             if (arr[i] < v) {
                 j++;
             }else if (arr[i] == v) {

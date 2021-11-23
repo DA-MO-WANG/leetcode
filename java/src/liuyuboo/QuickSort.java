@@ -11,7 +11,9 @@ import static com.sun.tools.javac.jvm.ByteCodes.swap;
 public class QuickSort {
     //温故知新：快排
     public void quickSort1_1(int[] arr) {
-        
+        //有一个分界点
+
+        //把数组元素围绕这个分界点分成两边  [0,p]<p  [ p+1,len) >p
     }
 
 

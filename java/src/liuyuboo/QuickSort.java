@@ -16,6 +16,7 @@ public class QuickSort {
         //把数组元素围绕这个分界点分成两边  [0,p]<p  [ p+1,len) >p
 
         //把两边区间再次重复这个操作
+        quickSort1_2(arr,0,arr.length - 1);
     }
     //返回分界点的有序索引
     public int partition1_1(int[] arr, int lo, int hi) {
@@ -35,6 +36,16 @@ public class QuickSort {
                 g--;
         }
         return j + 1;
+    }
+
+    //递归
+    public void quickSort1_2(int[] arr, int lo, int hi) {
+        if (lo < hi) {
+            return;
+        }
+        int p = partition1_1(arr,lo,hi);
+        quickSort1_2(arr,lo,p);
+        quickSort1_2(arr,p+1,hi);
     }
 
 
@@ -170,7 +181,8 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] arr = new int[]{4,6,2,1,67,3,3,2,8};
         QuickSort q = new QuickSort();
-        q.sort31(arr);
+        //q.sort31(arr);
+        q.quickSort1_1(arr);
         for (int v  : arr) {
             System.out.print(v + " ");
         }

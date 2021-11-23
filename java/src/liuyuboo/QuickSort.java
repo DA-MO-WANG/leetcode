@@ -9,11 +9,19 @@ import java.util.stream.Stream;
 import static com.sun.tools.javac.jvm.ByteCodes.swap;
 
 public class QuickSort {
+    //温故知新：快排
+    public void quickSort1_1(int[] arr) {
+        
+    }
+
+
+
     private QuickSort() {}
     private void sort(int[] arr) {
         quichSort(arr,0,arr.length - 1);
 
     }
+
     public void quichSort(int[] arr, int l , int r) {
         if (l >= r) return;
         int p = partition(arr, l, r);

@@ -14,6 +14,27 @@ public class QuickSort {
         //有一个分界点
 
         //把数组元素围绕这个分界点分成两边  [0,p]<p  [ p+1,len) >p
+
+        //把两边区间再次重复这个操作
+    }
+    //返回分界点的有序索引
+    public int partition1_1(int[] arr, int lo, int hi) {
+        int v = arr[0];
+        //三路排序
+        //[l,j]< v  [j,i]=v [i,h]>v
+        int j = lo;
+        int i = lo + 1;
+        int g = hi;
+        for (;i < arr.length && i < g;)
+            if (arr[i] < v) {
+                j++;
+            }else if (arr[i] == v) {
+                i++;
+            }else {
+                swap(arr,i,g);
+                g--;
+        }
+        return j + 1;
     }
 
 

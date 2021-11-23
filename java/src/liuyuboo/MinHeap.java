@@ -79,6 +79,11 @@ public class MinHeap<E extends Comparable<E>> {
 
     //堆排序
     public void heapSort(E[] arr) {
+        heapify(arr);
+        for (int i = arr.length - 1; i >= 0; i--) {
+            swap(arr,0,i);
+            siftDown(arr,0,i);
+        }
     }
 }
 
@@ -105,6 +110,20 @@ public class MinHeap<E extends Comparable<E>> {
     }
 
     //下沉
+    public void siftDown(E[] arr, int k, int n) {
+        while (leftChild(k) < n) {
+            int i = leftChild(k);
+            if (i + 1 < n && arr[i + 1].compareTo(arr[i]) < 0) {
+                i = i + 1;
+            }
+            if (arr[k].compareTo(arr[i]) > 0) {
+                swap(arr, k, i);
+            } else {
+                break;
+            }
+            k = i;
+        }
+    }
     public void siftDown(E[] arr, int k) {
         while (leftChild(k) < arr.length) {
             int i = leftChild(k);

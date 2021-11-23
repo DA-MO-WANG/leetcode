@@ -40,7 +40,7 @@ public class QuickSort {
 
     //递归
     public void quickSort1_2(int[] arr, int lo, int hi) {
-        if (lo < hi) {
+        if (lo >= hi) {
             return;
         }
         int p = partition1_1(arr,lo,hi);

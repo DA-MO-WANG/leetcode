@@ -85,7 +85,6 @@ public class MinHeap<E extends Comparable<E>> {
             siftDown(arr,0,i);
         }
     }
-}
 
     //上浮
     public void siftUp(E[] arr, int k) {
@@ -137,6 +136,7 @@ public class MinHeap<E extends Comparable<E>> {
             }
             k = i;
     }
+}
     public void siftDown(int k) {
         while (leftChild(k) < data.getSize()) {
             int i = leftChild(k);

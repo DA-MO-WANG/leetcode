@@ -18,5 +18,7 @@ public class huisu {
         if (str[pathLength] == ' ') {
             return true;
         }
+        boolean hasPath = false;
+        if (row >= 0 && row < rows && col >= 0 && )
     }
 }

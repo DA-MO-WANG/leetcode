@@ -19,7 +19,7 @@ public class huisu {
     }
 
     boolean hasPathCore(char[][] matrix, int rows,int cols,int row,int col,char[] str,int pathLength, boolean[][] visited) {
-        if (str[pathLength] == ' ') {
+        if (pathLength == str.length) {
             return true;
         }
         boolean hasPath = false;
@@ -41,7 +41,7 @@ public class huisu {
     public static void main(String[] args) {
         huisu h = new huisu();
         char[][] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
-        String words = "ABCCED";
+        String words = "ABCCEDF";
         char[] word = words.toCharArray();
         boolean ret = h.hasPath(board, 3, 4, word);
         System.out.println(ret);

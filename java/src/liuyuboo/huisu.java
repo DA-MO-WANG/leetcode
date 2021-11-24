@@ -14,5 +14,5 @@ public class huisu {
         }
     }
 
-    boolean hasPathCore(char[][] matrix, int rows,int cols,)
+    boolean hasPathCore(char[][] matrix, int rows,int cols,in)
 }

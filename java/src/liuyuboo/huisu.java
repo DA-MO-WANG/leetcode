@@ -14,12 +14,13 @@ public class huisu {
         }
     }
 
-    boolean hasPathCore(char[][] matrix, int rows,int cols,int row,int col,char[] str,int pathLength, boolean[] visited) {
+    boolean hasPathCore(char[][] matrix, int rows,int cols,int row,int col,char[] str,int pathLength, boolean[][] visited) {
         if (str[pathLength] == ' ') {
             return true;
         }
         boolean hasPath = false;
-        if (row >= 0 && row < rows && col >= 0 && col < cols && matrix[row*cols])
+        if (row >= 0 && row < rows && col >= 0 && col < cols && matrix[row][col]== str[pathLength] && !visited[row][col]) {
+            
         }
     }
 }

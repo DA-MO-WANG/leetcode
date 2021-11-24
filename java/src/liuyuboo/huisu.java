@@ -40,7 +40,12 @@ public class huisu {
 
     public static void main(String[] args) {
         huisu h = new huisu();
-        char[][] board = {{'A','B',"C","E"},{"S","F","C","S"},{"A","D","E","E"}], word = "ABCCED";
+        char[][] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
+        String words = "ABCCED";
+        char[] word = words.toCharArray();
+        boolean ret = h.hasPath(board, 3, 4, word);
+        System.out.println(ret);
+
 
     }
 }

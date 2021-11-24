@@ -37,4 +37,9 @@ public class huisu {
         }
         return hasPath;
     }
+
+    public static void main(String[] args) {
+        huisu h = new huisu();
+        
+    }
 }

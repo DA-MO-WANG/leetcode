@@ -186,7 +186,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         //int[] arr = new int[]{4,6,2,1,67,3,3,2,8};
-        int[] arr = new int[]{1,2,3,4,5,6,7,8};
+        int[] arr = new int[]{1,1,1,1,1,1,1};
         QuickSort q = new QuickSort();
         q.sort21(arr);
         //q.quickSort1_1(arr);

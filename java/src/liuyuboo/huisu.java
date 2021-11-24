@@ -19,6 +19,7 @@ public class huisu {
             return true;
         }
         boolean hasPath = false;
-        if (row >= 0 && row < rows && col >= 0 && col)
+        if (row >= 0 && row < rows && col >= 0 && col < cols && matrix[row*cols])
+        }
     }
 }

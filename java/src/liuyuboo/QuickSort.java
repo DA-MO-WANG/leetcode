@@ -100,8 +100,8 @@ public class QuickSort {
         quickSort22(arr,0,arr.length - 1,random);
     }
     public int partition24(int[] arr, int l , int r, Random random) {
-        int p = l + random.nextInt(r - l + 1);
-        swap(arr,p,l);
+        //int p = l + random.nextInt(r - l + 1);
+        //swap(arr,p,l);
         int v = arr[l];
         int i = l + 1;
         int j = r;
@@ -185,10 +185,11 @@ public class QuickSort {
 
 
     public static void main(String[] args) {
-        int[] arr = new int[]{4,6,2,1,67,3,3,2,8};
+        //int[] arr = new int[]{4,6,2,1,67,3,3,2,8};
+        int[] arr = new int[]{1,2,3,4,5,6,7,8};
         QuickSort q = new QuickSort();
-        //q.sort31(arr);
-        q.quickSort1_1(arr);
+        q.sort21(arr);
+        //q.quickSort1_1(arr);
         for (int v  : arr) {
             System.out.print(v + " ");
         }

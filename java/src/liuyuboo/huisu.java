@@ -14,5 +14,9 @@ public class huisu {
         }
     }
 
-    boolean hasPathCore(char[][] matrix, int rows,int cols,in)
+    boolean hasPathCore(char[][] matrix, int rows,int cols,int row,int col,char[] str,int pathLength, boolean[] visited) {
+        if (str[pathLength] == ' ') {
+            return true;
+        }
+    }
 }

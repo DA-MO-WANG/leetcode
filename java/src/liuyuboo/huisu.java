@@ -2,9 +2,11 @@ package liuyuboo;
 
 public class huisu {
     boolean hasPath(char[][] matrix, int rows, int cols, char[] str) {
+        //边界情况1：二维数组为空，字符串为空
         if (matrix == null || rows < 1 || cols < 1 || str == null) {
             return false;
         }
+        //标识矩阵==》路径不能重复进入相同格子
         boolean[][] visited = new boolean[rows][cols];
         int pathLength = 0;
         for (int row = 0; row < rows; ++row) {

@@ -19,6 +19,6 @@ public class huisu {
             return true;
         }
         boolean hasPath = false;
-        if (row >= 0 && row < rows && col >= 0 && )
+        if (row >= 0 && row < rows && col >= 0 && col)
     }
 }

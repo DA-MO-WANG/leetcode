@@ -20,6 +20,13 @@ public class PriorityQueue<E extends Comparable<E>> {
             this(10);
         }
 
+        public Array(E[] arr){
+            data = (E[])new Object[arr.length];
+            for(int i = 0 ; i < arr.length ; i ++)
+                data[i] = arr[i];
+            size = arr.length;
+        }
+
         // 获取数组的容量
         public int getCapacity(){
             return data.length;
@@ -174,7 +181,7 @@ public class PriorityQueue<E extends Comparable<E>> {
         }
 
         public MaxHeap(E[] arr){
-            data = new Array(arr);
+            data = new Array<>(arr);
             if(arr.length != 1){
                 for(int i = parent(arr.length - 1) ; i >= 0 ; i --)
                     siftDown(i);
@@ -267,4 +274,29 @@ public class PriorityQueue<E extends Comparable<E>> {
             return ret;
         }
     }
+
+    MaxHeap maxHeap;
+
+    public PriorityQueue() {
+        this.maxHeap = new MaxHeap();
+    }
+
+    public void enqueue(E e) {
+        maxHeap.add(e);
+    }
+    public void dequeue() {
+        maxHeap.extractMax();
+    }
+
+    public boolean isEmpty() {
+        return maxHeap.isEmpty();
+    }
+
+    public int getSize() {
+        return maxHeap.size();
+    }
+
+
+
+
 }

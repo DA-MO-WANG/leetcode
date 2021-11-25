@@ -2,7 +2,7 @@ package liuyuboo;
 
 import java.util.Comparator;
 
-public class Student implements Comparable<Student>{
+public class Student {
     String name;
     double score;
 
@@ -15,10 +15,7 @@ public class Student implements Comparable<Student>{
     }
 
 
-    @Override
-    public int compareTo(Student o) {
-        return (this.score > o.score) ? 1 : -1;
-    }
+
 
     public static void print(Student s1, Student s2, Comparator<Student> c) {
         int compare = c.compare(s1, s2);
@@ -27,7 +24,12 @@ public class Student implements Comparable<Student>{
     }
 
     public static void main(String[] args) {
-        Comparator c =
-        Student.print(new Student("124",25),new Student("345",55),c);
+        //Comparator c =
+        Student.print(new Student("124", 25), new Student("345", 55), new Comparator<Student>() {
+            @Override
+            public int compare(Student o1, Student o2) {
+                return (o1.score > o2.score) ? 1 : -1;
+            }
+        });
     }
 }

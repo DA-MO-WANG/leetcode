@@ -24,12 +24,14 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        //Comparator c =
-        Student.print(new Student("124", 25), new Student("345", 55), new Comparator<Student>() {
+        Comparator<Student> c = new Comparator<Student>() {
             @Override
             public int compare(Student o1, Student o2) {
                 return (o1.score > o2.score) ? 1 : -1;
             }
-        });
+        };
+        Student.print(new Student("124", 25), new Student("345", 55), c);
+
+
     }
 }

@@ -104,6 +104,7 @@ public class MaxHeap<E extends Comparable<E>> {
         for (int i = j; i >=1; i--) {
             siftDown(i);
         }
+        //Integer
     }
 
 

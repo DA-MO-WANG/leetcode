@@ -27,7 +27,7 @@ public class Student implements Comparable<Student>{
     }
 
     public static void main(String[] args) {
-        Comparator c = null;
+        Comparator c =
         Student.print(new Student("124",25),new Student("345",55),c);
     }
 }

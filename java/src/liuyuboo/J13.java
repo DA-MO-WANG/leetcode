@@ -2,7 +2,7 @@ package liuyuboo;
 
 public class J13 {
     public int movingCount(int m, int n, int k) {
-        if (k == 0) return 0;
+        if (k == 0) return 1;
         boolean[][] visited = new boolean[m][n];
         int count = 0;
         for (int i = 0; i < m; i++) {

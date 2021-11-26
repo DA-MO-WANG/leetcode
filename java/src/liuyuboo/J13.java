@@ -48,7 +48,7 @@ public class J13 {
 
     public static void main(String[] args) {
         J13 j13 = new J13();
-        int sum = j13.getSum(19, 45);
+        int sum = j13.movingCount(3,2,17);
         System.out.println(sum);
 
     }

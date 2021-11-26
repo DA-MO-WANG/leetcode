@@ -7,9 +7,10 @@ public class J13 {
         int count = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                int sum = 0;
-                if (hasPathCore(m,n,i,j,k,sum,visited)) {
-                    count = Math.max(count,sum);
+                int[] arr = new int[1];
+                arr[0] = 0;
+                if (hasPathCore(m,n,i,j,k,arr,visited)) {
+                    count = Math.max(count,arr[0]);
                 }
             }
         }
@@ -17,15 +18,15 @@ public class J13 {
 
     }
 
-    public boolean hasPathCore(int rows, int cols, int m, int n, int k, int count, boolean[][] visited) {
+    public boolean hasPathCore(int rows, int cols, int m, int n, int k, int[] arr, boolean[][] visited) {
         boolean flag = false;
         if (m >= 0 && m < rows && n >= 0 && n <cols && !visited[m][n] && getSum(m,n) <= k) {
-            count++;
+            arr[0] = arr[0] + 1;
             visited[m][n] = true;
-            flag = hasPathCore(rows,cols,m+1,n,k,count,visited) || hasPathCore(rows,cols,m - 1,n,k,count,visited)
-                    ||hasPathCore(rows,cols,m,n - 1,k,count,visited) ||hasPathCore(rows,cols,m,n+1,k,count,visited);
+            flag = hasPathCore(rows,cols,m+1,n,k,arr,visited) || hasPathCore(rows,cols,m - 1,n,k,arr,visited)
+                    ||hasPathCore(rows,cols,m,n - 1,k,arr,visited) ||hasPathCore(rows,cols,m,n+1,k,arr,visited);
             if (!flag) {
-                --count;
+                arr[0] = arr[0] - 1;
                 visited[m][n] = false;
             }
         }
@@ -43,5 +44,12 @@ public class J13 {
             n /= 10;
         }
         return sum;
+    }
+
+    public static void main(String[] args) {
+        J13 j13 = new J13();
+        int sum = j13.getSum(19, 45);
+        System.out.println(sum);
+
     }
 }

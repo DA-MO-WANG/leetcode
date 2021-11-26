@@ -14,6 +14,8 @@ public class BubbleSort<E extends Comparable<E>> {
             }
             if (flag) {
                 break;
+            }else {
+                flag = false;
             }
         }
 
@@ -26,7 +28,7 @@ public class BubbleSort<E extends Comparable<E>> {
 
     public static void main(String[] args) {
         BubbleSort bubbleSort = new BubbleSort();
-        Integer[] arr = new Integer[]{1,2,3,4};
+        Integer[] arr = new Integer[]{1,2,4,3};
         bubbleSort.bubbleSort(arr);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");

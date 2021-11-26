@@ -7,30 +7,31 @@ public class J13 {
         int count = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                int[] arr = new int[1];
-                arr[0] = 0;
-                if (hasPathCore(m,n,i,j,k,arr,visited)) {
-                    count = Math.max(count,arr[0]);
-                }
+                int ret = hasPathCore(m,n,i,j,k,visited) ;
+                    count = Math.max(count,ret);
+
             }
         }
         return count;
 
     }
 
-    public boolean hasPathCore(int rows, int cols, int m, int n, int k, int[] arr, boolean[][] visited) {
+    public int hasPathCore(int rows, int cols, int m, int n, int k, boolean[][] visited) {
         boolean flag = false;
-        if (m >= 0 && m < rows && n >= 0 && n <cols && !visited[m][n] && getSum(m,n) <= k) {
-            arr[0] = arr[0] + 1;
+        int count = 0;
+        if (check(rows,cols,m,n,k,visited)) {
             visited[m][n] = true;
-            flag = hasPathCore(rows,cols,m+1,n,k,arr,visited) || hasPathCore(rows,cols,m - 1,n,k,arr,visited)
-                    ||hasPathCore(rows,cols,m,n - 1,k,arr,visited) ||hasPathCore(rows,cols,m,n+1,k,arr,visited);
-            if (!flag) {
-                arr[0] = arr[0] - 1;
-                visited[m][n] = false;
-            }
+            count = 1 +  hasPathCore(rows,cols,m+1,n,k,visited) +  hasPathCore(rows,cols,m - 1,n,k,visited)
+                    + hasPathCore(rows,cols,m,n - 1,k,visited) + hasPathCore(rows,cols,m,n+1,k,visited);
         }
-        return flag;
+        return count;
+    }
+    //用来校验机器人能不能走i,j这个格子
+    public boolean check(int rows, int cols, int m, int n, int k, boolean[][] visited) {
+        if (m >= 0 && m < rows && n >= 0 && n <cols && !visited[m][n] && getSum(m,n) <= k) {
+            return true;
+        }
+        return false;
     }
 
     public int getSum(int m, int n) {

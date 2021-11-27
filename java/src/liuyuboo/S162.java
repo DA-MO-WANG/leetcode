@@ -12,7 +12,7 @@ public class S162 {
         }
         int ret = 0;
         int mid = i + (j - i) / 2;
-        if (nums[mid] > nums[mid - 1] && nums[mid] < nums[mid + 1]) {
+        if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
             return mid;
         }else {
             find(nums,i,mid - 1);

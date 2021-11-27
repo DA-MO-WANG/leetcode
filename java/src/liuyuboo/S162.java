@@ -58,7 +58,7 @@ public class S162 {
     public static void main(String[] args) {
         S162 s162 = new S162();
         int[] arr = {1,2,1,1,2,1};
-        int peakElement = s162.findPeakElement(arr);
+        int peakElement = s162.find(arr,0,arr.length - 1);
         System.out.println(peakElement);
 
     }

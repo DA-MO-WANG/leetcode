@@ -16,9 +16,7 @@ public class S162 {
             return mid;
         }
         find(nums,i,mid);
-        find(nums,mid, j);
-
-        return 2;
+        find(nums,mid,j);
     }
 
     public static void main(String[] args) {

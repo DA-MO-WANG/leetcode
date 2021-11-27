@@ -2,11 +2,24 @@ package liuyuboo;
 
 public class S162 {
     public int findPeakElement(int[] nums) {
-        int ret = find(nums, 0, nums.length - 1);
-        return ret;
+        int i = 0;
+        int j = nums.length - 1;
+        while (j - i >= 2) {
+            int mid = i + (j - i) / 2;
+            if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
+                return mid;
+            }
+            if (nums[mid] < nums[mid - 1]) {
+                j = mid;
+            }
+            if (nums[mid] < nums[mid + 1]) {
+                i = mid;
+            }
+        }
+        return -1;
 
     }
-    public int find(int[] nums, int i, int j) {
+    /*public int find(int[] nums, int i, int j) {
         if (j- i < 2) {
             return -1;
         }
@@ -17,7 +30,7 @@ public class S162 {
         }
         find(nums,i,mid);
         find(nums,mid,j);
-    }
+    }*/
 
     public static void main(String[] args) {
         S162 s162 = new S162();

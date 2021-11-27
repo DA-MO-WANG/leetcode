@@ -15,8 +15,8 @@ public class S162 {
         if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
             return mid;
         }
-        find(nums,i,mid - 1);
-        find(nums,mid + 1, j);
+        find(nums,i,mid);
+        find(nums,mid, j);
 
         return 2;
     }

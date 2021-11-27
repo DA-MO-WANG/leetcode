@@ -10,9 +10,9 @@ public class S162 {
                 return mid;
             }
             if (mid > 0 && nums[mid] < nums[mid - 1]) {
-                j = mid - 1;
+                j = mid;
             }else if (mid < nums.length - 1 && nums[mid] < nums[mid + 1]) {
-                i = mid + 1;
+                i = mid;
             }
         }
         return -1;

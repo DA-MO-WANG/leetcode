@@ -6,7 +6,7 @@ public class S162 {
         int j = nums.length;
         while (j > i) {
             int mid = i + (j - i) / 2;
-            if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1] || mid == 0 && nums[mid] > nums[mid + 1] || mid == nums.length - 1 && nums[mid] > nums[mid - 1]) {
+            if ( mid == 0 && nums[mid] > nums[mid + 1] || mid == nums.length - 1 && nums[mid] > nums[mid - 1] || nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
                 return mid;
             }
             if (nums[mid] < nums[mid - 1]) {

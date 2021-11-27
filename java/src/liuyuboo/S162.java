@@ -18,7 +18,7 @@ public class S162 {
         find(nums,i,mid - 1);
         find(nums,mid + 1, j);
 
-        return -1;
+        return 2;
     }
 
     public static void main(String[] args) {

@@ -9,9 +9,9 @@ public class S162 {
             if ( (mid == 0 && nums[mid] > nums[mid + 1]) || (mid == nums.length - 1 && nums[mid] > nums[mid - 1]) || (mid > 0 && nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1])) {
                 return mid;
             }
-            if (nums[mid] < nums[mid - 1]) {
+            if (mid > 0 && nums[mid] < nums[mid - 1]) {
                 j = mid - 1;
-            }else if (nums[mid] < nums[mid + 1]) {
+            }else if (mid < nums.length - 1 && nums[mid] < nums[mid + 1]) {
                 i = mid + 1;
             }
         }

@@ -2,6 +2,16 @@ package liuyuboo;
 
 public class S162 {
     public int findPeakElement(int[] nums) {
+        if(nums.length == 1) return 0;
+        if(nums.length <= 2) {
+            return (nums[0] > nums[1]) ? 0: 1;
+        }
+        if(nums[0] > nums[1]) {
+            return 0;
+        }
+        if(nums[nums.length - 1] > nums[nums.length - 2]) {
+            return nums.length - 1;
+        }
         int i = 0;
         int j = nums.length - 1;
         while (j - i >= 2) {
@@ -16,25 +26,38 @@ public class S162 {
                 i = mid;
             }
         }
-        return -1;
+        return 0;
 
     }
-    /*public int find(int[] nums, int i, int j) {
+    public int find(int[] nums, int i, int j) {
+        if(j == 0) return 0;
+        if(j == 1) {
+            return (nums[0] > nums[1]) ? 0: 1;
+        }
+        if (j == nums.length - 1) {
+            if(nums[nums.length - 1] > nums[nums.length - 2]) {
+                return nums.length - 1;
+            }
+        }
+
         if (j- i < 2) {
             return -1;
         }
-        int ret = 0;
+
         int mid = i + (j - i) / 2;
         if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
             return mid;
         }
-        find(nums,i,mid);
-        find(nums,mid,j);
-    }*/
+        int ret = find(nums,i,mid);
+        if(ret == -1) {
+           ret =  find(nums,mid,j);
+        }
+        return ret;
+    }
 
     public static void main(String[] args) {
         S162 s162 = new S162();
-        int[] arr = {1,2,1,3,5,6,4};
+        int[] arr = {1,2,1,1,2,1};
         int peakElement = s162.findPeakElement(arr);
         System.out.println(peakElement);
 

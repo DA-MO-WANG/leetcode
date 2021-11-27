@@ -14,10 +14,10 @@ public class S162 {
         int mid = i + (j - i) / 2;
         if (nums[mid] > nums[mid - 1] && nums[mid] > nums[mid + 1]) {
             return mid;
-        }else {
-            find(nums,i,mid - 1);
-            find(nums,mid + 1, j);
         }
+        find(nums,i,mid - 1);
+        find(nums,mid + 1, j);
+
         return -1;
     }
 

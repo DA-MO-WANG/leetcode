@@ -4,7 +4,7 @@ public class ShellSort {
     public void shellSort(int[] arr) {
         int n = arr.length / 2;
         for (int sz = n; sz > 0; sz = sz / 2) {
-            for (int i = 0; i < index(arr.length,sz,0); i++) {
+            for (int i = 0; i < 0 + sz; i++) {
                 InsertSort(arr,sz,i,index(arr.length,sz,i));
             }
         }

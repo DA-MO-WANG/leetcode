@@ -1,16 +1,18 @@
 package liuyuboo;
 
 public class ShellSort {
-    /*public void shellSort(int[] arr) {
+    public void shellSort(int[] arr) {
         int n = arr.length / 2;
-        for (int sz = n; sz >= 0; sz = sz / 2) {
-            for (int i = 0; i < )
+        for (int sz = n; sz > 0; sz = sz / 2) {
+            for (int i = 0; i < index(arr.length,sz,0); i++) {
+                InsertSort(arr,sz,i,index(arr.length,sz,i));
+            }
         }
-    }*/
+    }
 
     public void InsertSort(int[] arr, int sz , int m , int n) {
-        for (int i = m + 1; i <= n; i = i + sz + 1) {
-            for (int j = i - 1; j >= m; j = j - sz - 1) {
+        for (int i = m + 1; i <= n; i = i + sz) {
+            for (int j = i - 1; j >= m; j = j - sz) {
                 if (arr[i] < arr[j]) {
                     swap(arr,i,j);
                 }
@@ -24,12 +26,21 @@ public class ShellSort {
         arr[j] = temp;
     }
 
+    public int index(int len, int sz, int i) {
+        int right = 0;
+        right = i + sz;
+        while (right + sz < len) {
+            right += sz;
+        }
+        return right;
+    }
+
     public static void main(String[] args) {
-        int[] arr = new int[]{2,1,5,3,4};
+        int[] arr = new int[]{2,1,5,3,4,11,9,7};
         ShellSort s = new ShellSort();
-        s.InsertSort(arr,0,0,arr.length -1);
+        s.shellSort(arr);
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
     }
 

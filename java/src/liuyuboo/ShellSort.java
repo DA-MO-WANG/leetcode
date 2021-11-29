@@ -11,7 +11,7 @@ public class ShellSort {
     }
 
     public void InsertSort(int[] arr, int sz , int m , int n) {
-        for (int i = m + 1; i <= n; i = i + sz) {
+        for (int i = m + 1; i <= n; i = i + sz) {//这一层可以被优化
             for (int j = i - 1; j >= m; j = j - sz) {
                 if (arr[i] < arr[j]) {
                     swap(arr,i,j);

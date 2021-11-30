@@ -40,8 +40,8 @@ public class J6 {
         //中序序列：左序[0,inroot)  右（inroot,len-1]
         //找前序序列的左右部分：节点数量一致=》前root后同样数量的区间就是前的左子区间
         //（preroot,preroot+inroot+1]  (preroot + inroot + 1,len - 1]
-        TreeNode left = build(preroot + 1, preroot + inroot + 1,preorder,inleft,inroot - 1,inorder);
-        TreeNode right = build(preroot + inroot + 2, preright,preorder,inroot + 1,inright,inorder);
+        TreeNode left = build(preroot + 1, preroot + inroot - inleft,preorder,inleft,inroot - 1,inorder);
+        TreeNode right = build(preroot + inroot - inleft + 1, preorder.length - 1,preorder,inroot + 1,inorder.length - 1,inorder);
         root.left = left;
         root.right = right;
         return root;

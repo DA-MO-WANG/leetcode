@@ -25,7 +25,7 @@ public class S11 {
     }
     public int findMin11(int[] arr, int p, int q) {
         int ret = arr[p];
-        for(int i = p + 1; i <= q; p++) {
+        for(int i = p + 1; i <= q; i++) {
             if(arr[i] < ret) {
                 ret =  arr[i];
             }

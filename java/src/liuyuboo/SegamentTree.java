@@ -68,4 +68,8 @@ public class SegamentTree<E> {
         E e1 = query(rightChildIndex,mid + 1, r, mid + 1,queryr);
         return merge.merge(e,e1);
     }
+
+    public static void main(String[] args) {
+        int[] arr = new int[0];
+    }
 }

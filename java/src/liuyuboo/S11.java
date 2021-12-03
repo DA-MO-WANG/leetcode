@@ -34,6 +34,10 @@ public class S11 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {}
+        int[] arr = {2,2,2,0,1};
+        S11 s11 = new S11();
+        int min11 = s11.minArray(arr);
+        System.out.println(min11);
+
     }
 }

@@ -44,4 +44,28 @@ public class SegamentTree<E> {
         buildSegamentTree(rightChildIndex,mid + 1, r);
         tree[treeIndex] = merge.merge(tree[leftChidIndex],tree[rightChildIndex]);
     }
+    public E query(int l, int r) {
+        return query(0,0,data.length - 1, l, r);
+    }
+
+    public E query(int treeIndex, int l , int r, int queryl, int queryr) {
+        //边界检查
+        if (queryl < 0 || queryr >= data.length ) {
+            throw new IllegalArgumentException("argument is illegal!");
+        }
+        if (queryl == l && queryr == r) {
+            return tree[treeIndex];
+        }
+        int mid = l + (r - l) / 2;
+        int leftChildIndex = leftChild(treeIndex);
+        int rightChildIndex = rightChild(treeIndex);
+        if (queryl >= mid + 1) {
+            return query(rightChildIndex,mid + 1,r,queryl,queryr);
+        }else if (queryr < mid + 1) {
+            return query(leftChildIndex,l,mid,queryl,queryr);
+        }
+        E e = query(leftChildIndex,l,mid,queryl,mid);
+        E e1 = query(rightChildIndex,mid + 1, r, mid + 1,queryr);
+        return merge.merge(e,e1);
+    }
 }

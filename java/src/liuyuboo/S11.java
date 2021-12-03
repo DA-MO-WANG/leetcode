@@ -6,7 +6,7 @@ public class S11 {
         int r = numbers.length - 1;
         int mid = l;
         while(numbers[l] >= numbers[r]) {
-            if(l - r == 1) {
+            if(r - l == 1) {
                 mid = r;
                 break;
             }

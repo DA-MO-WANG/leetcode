@@ -14,9 +14,9 @@ public class S11 {
             if(numbers[mid] == numbers[l] && numbers[l] == numbers[r]) {
                 return findMin11(numbers,l,r);
             }
-            if(numbers[mid] >= numbers[r]) {
+            if(numbers[mid] >= numbers[l]) {
                 l = mid;
-            }else if(numbers[mid] <= numbers[l]) {
+            }else if(numbers[mid] <= numbers[r]) {
                 r = mid;
             }
         }

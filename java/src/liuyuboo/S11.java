@@ -14,10 +14,10 @@ public class S11 {
             if(numbers[mid] == numbers[l] && numbers[l] == numbers[r]) {
                 return findMin11(numbers,l,r);
             }
-            if(numbers[mid] <= numbers[r]) {
-                r = mid;
-            }else if(numbers[mid] >= numbers[l]) {
+            if(numbers[mid] >= numbers[r]) {
                 l = mid;
+            }else if(numbers[mid] <= numbers[l]) {
+                r = mid;
             }
         }
         return numbers[mid];

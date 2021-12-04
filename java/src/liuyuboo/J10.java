@@ -4,6 +4,10 @@ public class J10 {
     public int hammingWeight(int n) {
         int m = 1;
         int count = 0;
+        if (n < 0) {
+            n = 0 - n;
+            count = count + 1;
+        }
         while (n >= m) {
             if ((n & m) == m) {
                 count++;

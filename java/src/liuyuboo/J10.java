@@ -16,7 +16,7 @@ public class J10 {
 
     public static void main(String[] args) {
         J10 j10 = new J10();
-        int i = j10.hammingWeight(9);
+        int i = j10.hammingWeight(-9);
         System.out.println(i);
     }
 }

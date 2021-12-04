@@ -69,6 +69,32 @@ public class SegamentTree<E> {
         return merge.merge(e,e1);
     }
 
+    public void replace(int index, E e) {
+        if (index < 0 || index > data.length - 1) {
+            throw new IllegalArgumentException("index is illegal!");
+        }
+        data[index] = e;
+        //更新线段树上的区间值
+    }
+    //在以treeIndex为根的线段树上更新值e
+    public void set(int treeIndex, int l, int r, int index , E e) {
+        if (l == r) {
+            tree[treeIndex] = e;
+            return;
+        }
+        int mid = l + (r - l) / 2;
+        int leftChildIndex = leftChild(treeIndex);
+        int rightChildIndex = rightChild(treeIndex);
+        //递归分支
+        if (index >= mid + 1) {
+            set(rightChildIndex,mid + 1, index,index,e);
+        }else {
+            set(leftChildIndex,l,mid,index,e);
+        }
+        //重新构建一次
+        merge.merge(tree[leftChildIndex],tree[rightChildIndex]);
+    }
+
     public static void main(String[] args) {
         int[] arr = new int[0];
     }

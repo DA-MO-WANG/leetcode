@@ -6,7 +6,6 @@ public class S11 {
         int r = numbers.length - 1;
         int mid = l;
         while(numbers[l] >= numbers[r]) {
-           z
             mid = (r + l) / 2;
             if(numbers[mid] == numbers[l] && numbers[l] == numbers[r]) {
                 return findMin11(numbers,l,r);

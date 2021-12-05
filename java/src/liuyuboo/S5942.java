@@ -114,11 +114,11 @@ public class S5942 {
                 //lists.add(new ArrayList<>(list));
                 return;
             }
-            for(int i=count;i< arr.length;i++){
+            for(int i=0;i< arr.length;i++){
                 //if(i>count && arr[i]==arr[i-1]) continue;
-                if (list.size() < k) {
+                if (list.size() < k && i != count) {
                     list.add(arr[i]);
-                    backtrack(arr,k,i+1);
+                    backtrack(arr,k,i);
                     list.remove(list.size()-1);
                 }
 

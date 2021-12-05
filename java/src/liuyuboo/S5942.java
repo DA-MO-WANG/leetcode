@@ -113,7 +113,7 @@ public class S5942 {
            // }
             //Arrays.sort(ret);
             Integer[] ret = set.toArray(new Integer[0]);
-            return Arrays.stream(ret).mapToInt(Integer::intValue).toArray();
+            return Arrays.stream(ret).mapToInt(Integer::intValue).sorted().toArray();
         }
         public void backtrack(int[] arr, int k){
             int ret = 0;

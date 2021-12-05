@@ -49,6 +49,10 @@ public class S5942 {
         return ret;
     }
 
+    public int[] getOrder(int[] nums) {
+        
+    }
+
     public static void main(String[] args) {
         int[] arr = {0,2,0,0};
         S5942 s5942 = new S5942();

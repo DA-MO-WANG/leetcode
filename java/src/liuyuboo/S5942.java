@@ -59,7 +59,7 @@ public class S5942 {
         for (Integer v : set) {
             int three = v / 100;
             int two = v / 10 % 10;
-            int one = v % 100;
+            int one = v % 100 % 10;
             if (contains(digits,three) && contains(digits,two) && contains(digits,one) && one % 2 == 0) {
                 list.add(v);
             }

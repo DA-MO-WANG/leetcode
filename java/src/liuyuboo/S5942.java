@@ -2,6 +2,8 @@ package liuyuboo;
 
 
 
+import edu.princeton.cs.algs4.In;
+
 import java.util.*;
 import java.util.Map;
 import java.util.Set;
@@ -74,6 +76,7 @@ public class S5942 {
         Arrays.sort(ret);
         return ret;
 
+
     }
     public int contains(int[] arr, int v) {
         Arrays.sort(arr);
@@ -100,6 +103,8 @@ public class S5942 {
     //k 组合的数量
         public int[] findEvenNumbers1(int[] digits, int num) {
             Arrays.sort(digits);
+            ArrayList list = new ArrayList()；
+            
             backtrack(digits,num);
             int[] ret = new int[set.size()];
             int count = 0;

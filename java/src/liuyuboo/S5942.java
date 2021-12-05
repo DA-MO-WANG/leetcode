@@ -48,7 +48,7 @@ public class S5942 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3};
+        int[] arr = {0,2,0,0};
         S5942 s5942 = new S5942();
         int[] order = s5942.getOrder(arr);
         for (int i = 0; i < order.length; i++) {

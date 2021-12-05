@@ -93,21 +93,27 @@ public class S5942 {
         HashSet<Integer> set = new HashSet<>();
         int sum = 0;
         List<List<Integer>> lists=new ArrayList<>();
-        List<Integer> list =new ArrayList<>();
+        List<Integer> list =new ArrayList<>(3);
         //n 不需要-和目标
     //k 组合的数量
-        public int[] findEvenNumbers(int num) {
-            backtrack(num,1);
+        public int[] findEvenNumbers(int[] digits, int num) {
+            Arrays.sort(digits);
+            backtrack(digits,num,1);
+            for (Integer v : set) {
+                
+            }
             return set;
         }
-        public void backtrack(int k,int count){
-            if(list.size()==k&& ){
-                lists.add(new ArrayList<>(list));
+        public void backtrack(int[] arr, int k,int count){
+            if(list.size()==k && check(list)){
+                int sum = list.get(0) * 100 + list.get(1) * 10 + list.get(2) * 1;
+                set.add(sum);
+                //lists.add(new ArrayList<>(list));
                 return;
             }
-            for(int i=x;i<10;i++){
-                list.add(i);
-                backtrack(n-i,k,x+1);
+            for(int i=count;i<10;i++){
+                list.add(arr[i]);
+                backtrack(arr,k,count+1);
                 list.remove(list.size()-1);
             }
         }
@@ -116,8 +122,9 @@ public class S5942 {
         digits
     }
     public boolean check(List<Integer> list) {
-            if (list.get(0) == 0) return false;
-            if (list.get(2) % 2 != 0) return false;
+            return list.get(0) == 0 || list.get(2) % 2 != 0 ? false : true;
+            //if (list.get(0) == 0) return false;
+            //if (list.get(2) % 2 != 0) return false;
     }
 
     public static void main(String[] args) {

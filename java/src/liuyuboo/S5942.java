@@ -121,7 +121,7 @@ public class S5942 {
                 if (map.size() < k && !map.containsKey(i)) {
                     map.put(i,arr[i]);
                     backtrack(arr,k,i);
-                    map.remove(i);
+                    map.remove();
                 }
 
             }

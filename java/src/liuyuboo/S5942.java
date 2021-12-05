@@ -3,6 +3,7 @@ package liuyuboo;
 
 
 import java.util.*;
+import java.util.Map;
 
 public class S5942 {
     public int[] getOrder(int[] nums) {
@@ -46,6 +47,7 @@ public class S5942 {
         return ret;
     }
 
+    //废弃
     public int[] findEvenNumbers(int[] digits) {
         HashSet<Integer> set = new HashSet<>();
         for (int i = 1; i < 10; i++) {
@@ -63,9 +65,9 @@ public class S5942 {
             int index3 = contains(digits,three);
             int index2 = contains(digits,two) ;
             int index1 = contains(digits,one);
-            if (contains(digits,three) && contains(digits,two) && contains(digits,one) && one % 2 == 0) {
-                list.add(v);
-            }
+            //if (contains(digits,three) && contains(digits,two) && contains(digits,one) && one % 2 == 0) {
+              //  list.add(v);
+            //}
         }
         int[] ret = new int[list.size()];
         Arrays.sort(ret);
@@ -87,6 +89,62 @@ public class S5942 {
             }
         }
         return -1;
+    }
+    //用字典树
+    class tire {
+        class Node{
+            int v;
+            Map<Integer, Node> next;
+
+            public Node(int v) {
+                this.v = v;
+                this.next = null;
+            }
+        }
+        Node root;
+        int size;
+
+        public void Trie() {
+            this.root = new Node(-1);
+            this.size = 0;
+        }
+
+        public int getSize() {
+            return this.size;
+        }
+        //非递归版
+        public void add(int[] word) {
+            Node cur = this.root;
+            for (int i = 0; i < word.length; i++) {
+                Integer c = word[i];
+                if (cur.next.get(i) == null) {
+                    cur.next.put(i,new Node(c));
+                }
+                cur = cur.next.get(i);
+            }
+            //if (!cur.isWord) {
+                cur.isWord = true;//字符串最后一个元素不是叶子节点，这个时候，要标志它是一个单词的结尾
+                size++;
+            }//如果trie中已经有这个字符串了，此时size是没有变化的，所以size++前要判断一下这个节点是不是被标志过
+        }
+
+
+        public boolean contains(String word) {
+            Node cur = this.root;
+            for (int i = 0; i < word.length(); i++) {
+                Character c = word.charAt(i);
+                if (cur.next.get(c) == null) {
+                    return false;
+                }
+                cur = cur.next.get(c);
+            }
+            return cur.isWord;
+
+        }
+    }
+
+    public int[] findEvenNumbers(int[] digits) {
+        digits
     }
 
     public static void main(String[] args) {

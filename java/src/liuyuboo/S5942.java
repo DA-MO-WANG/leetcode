@@ -90,7 +90,9 @@ public class S5942 {
         }
         return -1;
     }
-    result={}存放结果
+    //Set<List<Integer>> lists=new ArrayList<>();
+    //List<Integer> list =new ArrayList<>();
+
     void backtrack(此时已经走完的路径，此次可选择的选择列表){
         if 满足结束条件：
         result.add(路径)；

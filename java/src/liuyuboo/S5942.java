@@ -27,12 +27,12 @@ public class S5942 {
                 if (j == i) {
                     continue;
                 }
-                int two = arr[i] * 10;
+                int two = arr[j] * 10;
                 for (int q = 0; q < arr.length; q++) {
                     if (q == i || q == j || arr[q] % 2 != 0) {
                         continue;
                     }
-                    int one = arr[i] * 1;
+                    int one = arr[q] * 1;
                     set.add(three + two + one);
                 }
 

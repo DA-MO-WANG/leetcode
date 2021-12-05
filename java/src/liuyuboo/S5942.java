@@ -2,10 +2,7 @@ package liuyuboo;
 
 
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.*;
 
 public class S5942 {
     public int[] getOrder(int[] nums) {
@@ -49,14 +46,50 @@ public class S5942 {
         return ret;
     }
 
-    public int[] getOrder(int[] nums) {
-        
+    public int[] findEvenNumbers(int[] digits) {
+        HashSet<Integer> set = new HashSet<>();
+        for (int i = 1; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                for (int m = 0; m < 10; m++) {
+                    set.add(i * 100 + j * 10 + m * 1);
+                }
+            }
+        }
+        ArrayList<Integer> list = new ArrayList<>();
+        for (Integer v : set) {
+            int three = v / 100;
+            int two = v / 10 % 10;
+            int one = v % 100;
+            if (contains(digits,three) && contains(digits,two) && contains(digits,one) && one % 2 == 0) {
+                list.add(v);
+            }
+        }
+        int[] ret = new int[list.size()];
+        Arrays.sort(ret);
+        return ret;
+
+    }
+    public boolean contains(int[] arr, int v) {
+        Arrays.sort(arr);
+        int left = 0;
+        int right = arr.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (arr[mid] == v) {
+                return true;
+            }else if (arr[mid] > v) {
+                right = mid - 1;
+            }else {
+                left = mid + 1;
+            }
+        }
+        return false;
     }
 
     public static void main(String[] args) {
         int[] arr = {0,2,0,0};
         S5942 s5942 = new S5942();
-        int[] order = s5942.getOrder(arr);
+        int[] order = s5942.findEvenNumbers(arr);
         for (int i = 0; i < order.length; i++) {
             System.out.print(order[i] + " ");
         }

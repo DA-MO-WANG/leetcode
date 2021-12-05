@@ -60,6 +60,9 @@ public class S5942 {
             int three = v / 100;
             int two = v / 10 % 10;
             int one = v % 100 % 10;
+            int index3 = contains(digits,three);
+            int index2 = contains(digits,two) ;
+            int index1 = contains(digits,one);
             if (contains(digits,three) && contains(digits,two) && contains(digits,one) && one % 2 == 0) {
                 list.add(v);
             }
@@ -69,21 +72,21 @@ public class S5942 {
         return ret;
 
     }
-    public boolean contains(int[] arr, int v) {
+    public int contains(int[] arr, int v) {
         Arrays.sort(arr);
         int left = 0;
         int right = arr.length - 1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
             if (arr[mid] == v) {
-                return true;
+                return mid;
             }else if (arr[mid] > v) {
                 right = mid - 1;
             }else {
                 left = mid + 1;
             }
         }
-        return false;
+        return -1;
     }
 
     public static void main(String[] args) {

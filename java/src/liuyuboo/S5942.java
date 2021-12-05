@@ -153,5 +153,6 @@ public class S5942 {
             System.out.print(order[i] + " ");
         }
 
+
     }
 }

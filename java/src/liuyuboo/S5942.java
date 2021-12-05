@@ -118,24 +118,25 @@ public class S5942 {
             }
 
         }
-        backtrack(digits,num);
+        backtrack(digits,num, 0);
         Integer[] ret = set.toArray(new Integer[0]);
         return Arrays.stream(ret).mapToInt(Integer::intValue).sorted().toArray();
     }
-    public void backtrack(int[] arr, int k){
+    public void backtrack(int[] arr, int k, int i){
         int ret = 0;
+        if (i )
         if(list.size()==k && (ret = check(arr,list)) > 0){
             set.add(ret);
             //lists.add(new ArrayList<>(list));
             return;
         }
-        for(int i=0;i< arr.length;i++){
+
             //if(i>count && arr[i]==arr[i-1]) continue;
             if (list.size() < k && !list.contains(i)) {
                 list.add(i);
-                backtrack(arr,k);
+                backtrack(arr,k, ++i);
                 list.removeLast();
-            }
+
 
         }
     }

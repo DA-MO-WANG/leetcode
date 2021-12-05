@@ -90,7 +90,25 @@ public class S5942 {
         }
         return -1;
     }
-    
+
+        List<List<Integer>> lists=new ArrayList<>();
+        List<Integer> list =new ArrayList<>();
+        public List<List<Integer>> combinationSum3(int k, int n) {
+            backtrack(n,k,1);
+            return lists;
+        }
+        public void backtrack(int n,int k,int x){
+            if(list.size()==k&&n==0 ){
+                lists.add(new ArrayList<>(list));
+                return;
+            }
+            for(int i=x;i<10;i++){
+                list.add(i);
+                backtrack(n-i,k,x+1);
+                list.remove(list.size()-1);
+            }
+        }
+
     public int[] findEvenNumbers(int[] digits) {
         digits
     }

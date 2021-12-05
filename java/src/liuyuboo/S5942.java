@@ -104,14 +104,20 @@ public class S5942 {
         Node root;
         int size;
 
-        public void Trie() {
+        public void Trie(int[] arr) {
+            //字典化树
+
             this.root = new Node(-1);
             this.size = 0;
         }
+        //
+        public
 
         public int getSize() {
             return this.size;
         }
+
+
         //非递归版
         public void add(int[] word) {
             Node cur = this.root;

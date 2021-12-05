@@ -109,9 +109,10 @@ public class S5942 {
             return ret;
         }
         public void backtrack(int[] arr, int k,int count){
-            if(map.size()==k && check(map)){
-                int sum = map.get(0) * 100 + list.get(1) * 10 + list.get(2) * 1;
-                set.add(sum);
+            int ret = 0;
+            if(map.size()==k && (ret = check(map)) > 0){
+
+                set.add(ret);
                 //lists.add(new ArrayList<>(list));
                 return;
             }
@@ -129,12 +130,28 @@ public class S5942 {
     public int[] findEvenNumbers(int[] digits) {
         return findEvenNumbers1(digits,3);
     }
-    public boolean check(Map<Integer,Integer> map) {
+    public int check(Map<Integer,Integer> map) {
         Set<Map.Entry<Integer, Integer>> entries = map.entrySet();
-        for (Map.Entry entry : entries)
-            Integer v(Integer)entry.getValue();
-        for ()
-            return map.get(0) == 0 || map.get(2) % 2 != 0 ? false : true;
+        int count = 0;
+        int ret = 0;
+        for (Map.Entry entry : entries) {
+            Integer v = (Integer)entry.getValue();
+            if ((count == 0 && v == 0) || (count == 2 && v % 2 != 0)) {
+                ret = -1;
+                break;
+            }
+            int n = 0;
+            while ( 2 - n > count) {
+                v = v * 10;
+                n++;
+            }
+            //ret = (Integer)(v * (Math.pow(10.0,2 - count)));
+            ret = ret + v;
+
+        }
+        return ret;
+        //for ()
+          //  return map.get(0) == 0 || map.get(2) % 2 != 0 ? false : true;
             //if (list.get(0) == 0) return false;
             //if (list.get(2) % 2 != 0) return false;
     }

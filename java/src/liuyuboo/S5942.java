@@ -118,13 +118,12 @@ public class S5942 {
             }
 
         }
-        backtrack(digits,num, 0);
+        backtrack(digits,num, new boolean[digits.length]);
         Integer[] ret = set.toArray(new Integer[0]);
         return Arrays.stream(ret).mapToInt(Integer::intValue).sorted().toArray();
     }
-    public void backtrack(int[] arr, int k, int i){
+    public void backtrack(int[] arr, int k, boolean[] visited){
         int ret = 0;
-        if (i )
         if(list.size()==k && (ret = check(arr,list)) > 0){
             set.add(ret);
             //lists.add(new ArrayList<>(list));
@@ -132,10 +131,15 @@ public class S5942 {
         }
 
             //if(i>count && arr[i]==arr[i-1]) continue;
-            if (list.size() < k && !list.contains(i)) {
+        for (int i = 0; i < arr.length; i++) {
+            if (list.size() < k && !visited[i]) {
                 list.add(i);
-                backtrack(arr,k, ++i);
+                visited[i] = true;
+                backtrack(arr,k, visited);
                 list.removeLast();
+                visited[i] = false;
+
+            }
 
 
         }

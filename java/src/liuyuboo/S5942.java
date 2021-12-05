@@ -106,14 +106,14 @@ public class S5942 {
             ArrayList list = new ArrayList()；
 
             backtrack(digits,num);
-            int[] ret = new int[set.size()];
-            int count = 0;
-            for (Integer v : set) {
-                ret[count++] = v;
-            }
-            Arrays.sort(ret);
-            set.toArray(new Integer[0]);
-            return ret;
+            //int[] ret = new int[set.size()];
+            //int count = 0;
+            //for (Integer v : set) {
+           //     ret[count++] = v;
+           // }
+            //Arrays.sort(ret);
+            Integer[] ret = set.toArray(new Integer[0]);
+            return ret.toArray();
         }
         public void backtrack(int[] arr, int k){
             int ret = 0;

@@ -2,7 +2,6 @@ package liuyuboo;
 
 
 
-import java.lang.reflect.Field;
 import java.util.*;
 import java.util.Map;
 import java.util.Set;
@@ -95,12 +94,13 @@ public class S5942 {
         HashSet<Integer> set = new HashSet<>();
         int sum = 0;
         List<List<Integer>> lists=new ArrayList<>();
-        Map<Integer,Integer> map =new LinkedHashMap<>(3);
+        LinkedList<Integer> list = new LinkedList<>();
+        //Map<Integer,Integer> map =new LinkedHashMap<>(3);
         //n 不需要-和目标
     //k 组合的数量
-        public int[] findEvenNumbers1(int[] digits, int num) throws NoSuchFieldException {
+        public int[] findEvenNumbers1(int[] digits, int num) {
             Arrays.sort(digits);
-            backtrack(digits,num,0);
+            backtrack(digits,num);
             int[] ret = new int[set.size()];
             int count = 0;
             for (Integer v : set) {
@@ -109,64 +109,43 @@ public class S5942 {
             Arrays.sort(ret);
             return ret;
         }
-        public void backtrack(int[] arr, int k,int count) throws NoSuchFieldException {
+        public void backtrack(int[] arr, int k){
             int ret = 0;
-            if(map.size()==k && (ret = check(map)) > 0){
-
+            if(list.size()==k && (ret = check(arr,list)) > 0){
                 set.add(ret);
                 //lists.add(new ArrayList<>(list));
                 return;
             }
             for(int i=0;i< arr.length;i++){
                 //if(i>count && arr[i]==arr[i-1]) continue;
-                if (map.size() < k && !map.containsKey(i)) {
-                    map.put(i,arr[i]);
-                    backtrack(arr,k,i);
-
-                    Field tail = map.getClass().getDeclaredField("tail");
-                    tail.setAccessible(true);
-                    try {
-                        Map.Entry<Integer, Integer> e = (Map.Entry<Integer, Integer>) tail.get(map);
-                        map.remove(e.getValue());
-                    } catch (IllegalAccessException e) {
-                        e.printStackTrace();
-                    }
-                   // map.remove();
+                if (list.size() < k && !list.contains(i)) {
+                    list.add(i);
+                    backtrack(arr,k);
+                    list.removeLast();
                 }
 
             }
         }
 
-    public int[] findEvenNumbers(int[] digits) throws NoSuchFieldException {
+    public int[] findEvenNumbers(int[] digits) {
         return findEvenNumbers1(digits,3);
     }
-    public int check(Map<Integer,Integer> map) {
-        Set<Map.Entry<Integer, Integer>> entries = map.entrySet();
-        int count = 0;
-        int ret = 0;
-        for (Map.Entry entry : entries) {
-            Integer v = (Integer)entry.getValue();
-            if ((count == 0 && v == 0) || (count == 2 && v % 2 != 0)) {
-                ret = -1;
-                break;
-            }
-            int n = 0;
-            while ( 2 - n > count) {
-                v = v * 10;
-                n++;
-            }
-            //ret = (Integer)(v * (Math.pow(10.0,2 - count)));
-            ret = ret + v;
+    public int check(int[] arr, LinkedList<Integer> list) {
+          int ret = 0;
+        int three = arr[list.get(0)];
+        int two = arr[list.get(1)];
+        int one = arr[list.get(2)];
 
+        if (list.get(0) == 0 || list.get(2) % 2 != 0 ? false : true) {
+            ret = -1;
+
+        } else {
+            ret = three * 100 + two * 10 + one * 1;
         }
         return ret;
-        //for ()
-          //  return map.get(0) == 0 || map.get(2) % 2 != 0 ? false : true;
-            //if (list.get(0) == 0) return false;
-            //if (list.get(2) % 2 != 0) return false;
     }
 
-    public static void main(String[] args) throws NoSuchFieldException {
+    public static void main(String[] args) {
         int[] arr = {0,2,0,0};
         S5942 s5942 = new S5942();
         int[] order = s5942.findEvenNumbers(arr);

@@ -98,7 +98,7 @@ public class S5942 {
     //k 组合的数量
         public int[] findEvenNumbers1(int[] digits, int num) {
             Arrays.sort(digits);
-            backtrack(digits,num,1);
+            backtrack(digits,num,0);
             int[] ret = new int[set.size()];
             int count = 0;
             for (Integer v : set) {
@@ -114,7 +114,7 @@ public class S5942 {
                 //lists.add(new ArrayList<>(list));
                 return;
             }
-            for(int i=count;i<10;i++){
+            for(int i=count;i< arr.length;i++){
                 list.add(arr[i]);
                 backtrack(arr,k,count+1);
                 list.remove(list.size()-1);

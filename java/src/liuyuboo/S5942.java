@@ -115,7 +115,7 @@ public class S5942 {
                 return;
             }
             for(int i=count;i< arr.length;i++){
-                if(i>count && arr[i]==arr[i-1]) continue;
+                //if(i>count && arr[i]==arr[i-1]) continue;
                 list.add(arr[i]);
                 backtrack(arr,k,i+1);
                 list.remove(list.size()-1);

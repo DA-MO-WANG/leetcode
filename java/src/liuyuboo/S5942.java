@@ -2,6 +2,7 @@ package liuyuboo;
 
 
 
+import java.lang.reflect.Field;
 import java.util.*;
 import java.util.Map;
 import java.util.Set;
@@ -97,7 +98,7 @@ public class S5942 {
         Map<Integer,Integer> map =new LinkedHashMap<>(3);
         //n 不需要-和目标
     //k 组合的数量
-        public int[] findEvenNumbers1(int[] digits, int num) {
+        public int[] findEvenNumbers1(int[] digits, int num) throws NoSuchFieldException {
             Arrays.sort(digits);
             backtrack(digits,num,0);
             int[] ret = new int[set.size()];
@@ -108,7 +109,7 @@ public class S5942 {
             Arrays.sort(ret);
             return ret;
         }
-        public void backtrack(int[] arr, int k,int count){
+        public void backtrack(int[] arr, int k,int count) throws NoSuchFieldException {
             int ret = 0;
             if(map.size()==k && (ret = check(map)) > 0){
 
@@ -121,13 +122,22 @@ public class S5942 {
                 if (map.size() < k && !map.containsKey(i)) {
                     map.put(i,arr[i]);
                     backtrack(arr,k,i);
-                    map.remove();
+
+                    Field tail = map.getClass().getDeclaredField("tail");
+                    tail.setAccessible(true);
+                    try {
+                        Map.Entry<Integer, Integer> e = (Map.Entry<Integer, Integer>) tail.get(map);
+                        map.remove(e.getValue());
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
+                    }
+                   // map.remove();
                 }
 
             }
         }
 
-    public int[] findEvenNumbers(int[] digits) {
+    public int[] findEvenNumbers(int[] digits) throws NoSuchFieldException {
         return findEvenNumbers1(digits,3);
     }
     public int check(Map<Integer,Integer> map) {
@@ -156,7 +166,7 @@ public class S5942 {
             //if (list.get(2) % 2 != 0) return false;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoSuchFieldException {
         int[] arr = {0,2,0,0};
         S5942 s5942 = new S5942();
         int[] order = s5942.findEvenNumbers(arr);

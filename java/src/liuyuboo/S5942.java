@@ -132,7 +132,7 @@ public class S5942 {
     public boolean check(Map<Integer,Integer> map) {
         Set<Map.Entry<Integer, Integer>> entries = map.entrySet();
         for (Map.Entry entry : entries)
-            Integer (Integer)entry.getValue();
+            Integer v(Integer)entry.getValue();
         for ()
             return map.get(0) == 0 || map.get(2) % 2 != 0 ? false : true;
             //if (list.get(0) == 0) return false;

@@ -104,7 +104,7 @@ public class S5942 {
         public int[] findEvenNumbers1(int[] digits, int num) {
             Arrays.sort(digits);
             ArrayList list = new ArrayList()；
-            
+
             backtrack(digits,num);
             int[] ret = new int[set.size()];
             int count = 0;
@@ -112,6 +112,7 @@ public class S5942 {
                 ret[count++] = v;
             }
             Arrays.sort(ret);
+            set.toArray(new Integer[0]);
             return ret;
         }
         public void backtrack(int[] arr, int k){

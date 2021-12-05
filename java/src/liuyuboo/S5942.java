@@ -4,6 +4,7 @@ package liuyuboo;
 
 import java.util.*;
 import java.util.Map;
+import java.util.Set;
 
 public class S5942 {
     public int[] getOrder(int[] nums) {
@@ -93,7 +94,7 @@ public class S5942 {
         HashSet<Integer> set = new HashSet<>();
         int sum = 0;
         List<List<Integer>> lists=new ArrayList<>();
-        List<Integer> list =new ArrayList<>(3);
+        Map<Integer,Integer> map =new LinkedHashMap<>(3);
         //n 不需要-和目标
     //k 组合的数量
         public int[] findEvenNumbers1(int[] digits, int num) {
@@ -108,18 +109,18 @@ public class S5942 {
             return ret;
         }
         public void backtrack(int[] arr, int k,int count){
-            if(list.size()==k && check(list)){
-                int sum = list.get(0) * 100 + list.get(1) * 10 + list.get(2) * 1;
+            if(map.size()==k && check(map)){
+                int sum = map.get(0) * 100 + list.get(1) * 10 + list.get(2) * 1;
                 set.add(sum);
                 //lists.add(new ArrayList<>(list));
                 return;
             }
             for(int i=0;i< arr.length;i++){
                 //if(i>count && arr[i]==arr[i-1]) continue;
-                if (list.size() < k && i != count) {
-                    list.add(arr[i]);
+                if (map.size() < k && !map.containsKey(i)) {
+                    map.put(i,arr[i]);
                     backtrack(arr,k,i);
-                    list.remove(list.size()-1);
+                    map.remove(i);
                 }
 
             }
@@ -128,8 +129,12 @@ public class S5942 {
     public int[] findEvenNumbers(int[] digits) {
         return findEvenNumbers1(digits,3);
     }
-    public boolean check(List<Integer> list) {
-            return list.get(0) == 0 || list.get(2) % 2 != 0 ? false : true;
+    public boolean check(Map<Integer,Integer> map) {
+        Set<Map.Entry<Integer, Integer>> entries = map.entrySet();
+        for (Map.Entry entry : entries)
+            Integer (Integer)entry.getValue();
+        for ()
+            return map.get(0) == 0 || map.get(2) % 2 != 0 ? false : true;
             //if (list.get(0) == 0) return false;
             //if (list.get(2) % 2 != 0) return false;
     }

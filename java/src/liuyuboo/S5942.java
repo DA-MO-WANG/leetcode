@@ -90,15 +90,18 @@ public class S5942 {
         }
         return -1;
     }
-
+        HashSet<Integer> set = new HashSet<>();
+        int sum = 0;
         List<List<Integer>> lists=new ArrayList<>();
         List<Integer> list =new ArrayList<>();
-        public List<List<Integer>> combinationSum3(int k, int n) {
-            backtrack(n,k,1);
-            return lists;
+        //n 不需要-和目标
+    //k 组合的数量
+        public int[] findEvenNumbers(int num) {
+            backtrack(num,1);
+            return set;
         }
-        public void backtrack(int n,int k,int x){
-            if(list.size()==k&&n==0 ){
+        public void backtrack(int k,int count){
+            if(list.size()==k&& ){
                 lists.add(new ArrayList<>(list));
                 return;
             }
@@ -111,6 +114,10 @@ public class S5942 {
 
     public int[] findEvenNumbers(int[] digits) {
         digits
+    }
+    public boolean check(List<Integer> list) {
+            if (list.get(0) == 0) return false;
+            if (list.get(2) % 2 != 0) return false;
     }
 
     public static void main(String[] args) {

@@ -1,38 +1,59 @@
 package liuyuboo;
 
+
+
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class S5942 {
     public int[] getOrder(int[] nums) {
-        Arrays.sort(nums);
-        Set<Integer> set = new BSTSet<>();
+        Integer[] arr = new Integer[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            arr[i] = nums[i];
+        }
+        Arrays.sort(arr, Collections.reverseOrder());
+        HashSet<Integer> set = new HashSet<Integer>();
 
 
-                for (int i = 0; i < nums.length; i++) {
-                    if (nums[i] == 0) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0) {
+                continue;
+            }
+
+            int three = arr[i] * 100;
+            for (int j = 0; j < arr.length; j++) {
+                if (j == i) {
+                    continue;
+                }
+                int two = arr[i] * 10;
+                for (int q = 0; q < arr.length; q++) {
+                    if (q == i || q == j || arr[q] % 2 != 0) {
                         continue;
                     }
-
-                        int three = nums[i] * 100;
-                        for (int j = 0; j < nums.length; j++) {
-                            if (j == i) {
-                                continue;
-                            }
-                            int two = nums[i] * 10;
-                            for (int q = 0; q < nums.length; q++) {
-                                if (q == i || q == j || nums[q] % 2 != 0) {
-                                    continue;
-                                }
-                                int one = nums[i] * 1;
-                                set.add(three + two + one);
-                            }
-
+                    int one = arr[i] * 1;
+                    set.add(three + two + one);
                 }
+
             }
-            for ()
+        }
+        int[] ret = new int[set.size()];
+        int count = 0;
+        for (Integer v : set) {
+
+            ret[count++] = v;
+
+        }return ret;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1,2,3};
+        S5942 s5942 = new S5942();
+        int[] order = s5942.getOrder(arr);
+        for (int i = 0; i < order.length; i++) {
+            System.out.print(order[i] + " ");
         }
 
     }
-
-
 }

@@ -94,49 +94,57 @@ public class S5942 {
         }
         return -1;
     }
-        HashSet<Integer> set = new HashSet<>();
-        int sum = 0;
-        List<List<Integer>> lists=new ArrayList<>();
-        LinkedList<Integer> list = new LinkedList<>();
-        //Map<Integer,Integer> map =new LinkedHashMap<>(3);
-        //n 不需要-和目标
+
+
+    //ArrayList<Integer> lists = new ArrayList();
+    HashSet<Integer> set = new HashSet<>();
+    LinkedList<Integer> list = new LinkedList<>();
+    //n 不需要-和目标
     //k 组合的数量
-        public int[] findEvenNumbers1(int[] digits, int num) {
-            Arrays.sort(digits);
-
-            backtrack(digits,num);
-            //int[] ret = new int[set.size()];
-            //int count = 0;
-            //for (Integer v : set) {
-           //     ret[count++] = v;
-           // }
-            //Arrays.sort(ret);
-            Integer[] ret = set.toArray(new Integer[0]);
-            return Arrays.stream(ret).mapToInt(Integer::intValue).sorted().toArray();
-        }
-        public void backtrack(int[] arr, int k){
-            int ret = 0;
-            if(list.size()==k && (ret = check(arr,list)) > 0){
-                set.add(ret);
-                //lists.add(new ArrayList<>(list));
-                return;
-            }
-            for(int i=0;i< arr.length;i++){
-                //if(i>count && arr[i]==arr[i-1]) continue;
-                if (list.size() < k && !list.contains(i)) {
-                    list.add(i);
-                    backtrack(arr,k);
-                    list.removeLast();
+    public int[] findEvenNumbers1(int[] digits, int num) {
+        Arrays.sort(digits);
+        if(digits[0] == digits[digits.length - 1] ) {
+            if(digits[0] == 0) {
+                return new int[]{};
+            }else {
+                int sum = digits[0] * 100 + digits[0] * 10 + digits[0];
+                if(sum % 2 == 0) {
+                    int[] ret1 = new int[1];
+                    ret1[0] = sum;
+                    return ret1;
+                }else {
+                    return new int[]{};
                 }
-
             }
+
         }
+        backtrack(digits,num);
+        Integer[] ret = set.toArray(new Integer[0]);
+        return Arrays.stream(ret).mapToInt(Integer::intValue).sorted().toArray();
+    }
+    public void backtrack(int[] arr, int k){
+        int ret = 0;
+        if(list.size()==k && (ret = check(arr,list)) > 0){
+            set.add(ret);
+            //lists.add(new ArrayList<>(list));
+            return;
+        }
+        for(int i=0;i< arr.length;i++){
+            //if(i>count && arr[i]==arr[i-1]) continue;
+            if (list.size() < k && !list.contains(i)) {
+                list.add(i);
+                backtrack(arr,k);
+                list.removeLast();
+            }
+
+        }
+    }
 
     public int[] findEvenNumbers(int[] digits) {
         return findEvenNumbers1(digits,3);
     }
     public int check(int[] arr, LinkedList<Integer> list) {
-          int ret = 0;
+        int ret = 0;
         int three = arr[list.get(0)];
         int two = arr[list.get(1)];
         int one = arr[list.get(2)];
@@ -149,6 +157,7 @@ public class S5942 {
         }
         return ret;
     }
+
 
     public static void main(String[] args) {
         int[] arr = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};

@@ -44,7 +44,9 @@ public class S5942 {
 
             ret[count++] = v;
 
-        }return ret;
+        }
+        Arrays.sort(ret);
+        return ret;
     }
 
     public static void main(String[] args) {

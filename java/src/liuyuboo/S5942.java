@@ -136,7 +136,7 @@ public class S5942 {
         int two = arr[list.get(1)];
         int one = arr[list.get(2)];
 
-        if (list.get(0) == 0 || list.get(2) % 2 != 0 ? false : true) {
+        if (three == 0 || one % 2 != 0) {
             ret = -1;
 
         } else {

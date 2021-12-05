@@ -48,7 +48,7 @@ public class S5942 {
     }
 
     //废弃
-    public int[] findEvenNumbers(int[] digits) {
+    public int[] findEvenNumbers2(int[] digits) {
         HashSet<Integer> set = new HashSet<>();
         for (int i = 1; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
@@ -96,13 +96,16 @@ public class S5942 {
         List<Integer> list =new ArrayList<>(3);
         //n 不需要-和目标
     //k 组合的数量
-        public int[] findEvenNumbers(int[] digits, int num) {
+        public int[] findEvenNumbers1(int[] digits, int num) {
             Arrays.sort(digits);
             backtrack(digits,num,1);
+            int[] ret = new int[set.size()];
+            int count = 0;
             for (Integer v : set) {
-                
+                ret[count++] = v;
             }
-            return set;
+            Arrays.sort(ret);
+            return ret;
         }
         public void backtrack(int[] arr, int k,int count){
             if(list.size()==k && check(list)){
@@ -119,7 +122,7 @@ public class S5942 {
         }
 
     public int[] findEvenNumbers(int[] digits) {
-        digits
+        return findEvenNumbers1(digits,3);
     }
     public boolean check(List<Integer> list) {
             return list.get(0) == 0 || list.get(2) % 2 != 0 ? false : true;

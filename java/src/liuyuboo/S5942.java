@@ -90,22 +90,7 @@ public class S5942 {
         }
         return -1;
     }
-    //Set<List<Integer>> lists=new ArrayList<>();
-    //List<Integer> list =new ArrayList<>();
-
-    void backtrack(此时已经走完的路径，此次可选择的选择列表){
-        if 满足结束条件：
-        result.add(路径)；
-        return；//一定要加，这个表示这个方向的结束；
-        for（int i=0;i<选择列表长度；i++）{//这里要遍历所有的选择，将所有的选择考虑进去
-            if 是否满足需求：
-            //放入已经走完的路径里；
-        else
-            continue;
-            //backtrack（此时已经走完的路径，此时的选择列表）；//注意这里的选择列表已经发生了变化，是刚放进路径的节点下一步的所有选择
-            //撤销上一步的路径；
-        }
-    }
+    
     public int[] findEvenNumbers(int[] digits) {
         digits
     }

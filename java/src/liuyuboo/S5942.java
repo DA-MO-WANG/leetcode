@@ -90,65 +90,20 @@ public class S5942 {
         }
         return -1;
     }
-    //用字典树
-    class tire {
-        class Node{
-            int v;
-            Map<Integer, Node> next;
-
-            public Node(int v) {
-                this.v = v;
-                this.next = null;
-            }
-        }
-        Node root;
-        int size;
-
-        public void Trie(int[] arr) {
-            //字典化树
-
-            this.root = new Node(-1);
-            this.size = 0;
-        }
-        //
-        public
-
-        public int getSize() {
-            return this.size;
-        }
-
-
-        //非递归版
-        public void add(int[] word) {
-            Node cur = this.root;
-            for (int i = 0; i < word.length; i++) {
-                Integer c = word[i];
-                if (cur.next.get(i) == null) {
-                    cur.next.put(i,new Node(c));
-                }
-                cur = cur.next.get(i);
-            }
-            //if (!cur.isWord) {
-                cur.isWord = true;//字符串最后一个元素不是叶子节点，这个时候，要标志它是一个单词的结尾
-                size++;
-            }//如果trie中已经有这个字符串了，此时size是没有变化的，所以size++前要判断一下这个节点是不是被标志过
-        }
-
-
-        public boolean contains(String word) {
-            Node cur = this.root;
-            for (int i = 0; i < word.length(); i++) {
-                Character c = word.charAt(i);
-                if (cur.next.get(c) == null) {
-                    return false;
-                }
-                cur = cur.next.get(c);
-            }
-            return cur.isWord;
-
+    result={}存放结果
+    void backtrack(此时已经走完的路径，此次可选择的选择列表){
+        if 满足结束条件：
+        result.add(路径)；
+        return；//一定要加，这个表示这个方向的结束；
+        for（int i=0;i<选择列表长度；i++）{//这里要遍历所有的选择，将所有的选择考虑进去
+            if 是否满足需求：
+            //放入已经走完的路径里；
+        else
+            continue;
+            //backtrack（此时已经走完的路径，此时的选择列表）；//注意这里的选择列表已经发生了变化，是刚放进路径的节点下一步的所有选择
+            //撤销上一步的路径；
         }
     }
-
     public int[] findEvenNumbers(int[] digits) {
         digits
     }

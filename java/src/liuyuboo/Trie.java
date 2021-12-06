@@ -93,7 +93,6 @@ public class Trie {
     }
 
     public boolean search(String word) {
-
         return search(this.root,word,0);
 
     }

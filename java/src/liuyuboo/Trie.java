@@ -120,7 +120,7 @@ public class Trie {
         trie.add("bad");
         trie.add("dad");
         trie.add("pad");
-        System.out.println(trie.search("b.a"));
+        System.out.println(trie.search("."));
 
     }
 }

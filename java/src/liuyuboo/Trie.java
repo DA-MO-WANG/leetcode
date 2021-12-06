@@ -1,6 +1,7 @@
 
 package liuyuboo;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class Trie {
     //字典树
@@ -12,7 +13,7 @@ public class Trie {
 
         public Node() {
             this.isWord = false;
-            this.next = null;
+            this.next = new TreeMap<>();
         }
     }
     Node root;

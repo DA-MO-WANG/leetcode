@@ -1,6 +1,7 @@
 
 package liuyuboo;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 
 public class Trie {
@@ -93,6 +94,12 @@ public class Trie {
 
     public static void main(String[] args) {
         Character c = new Character('c');
+        Set<Map.Entry<Character, Node>> entries = root.next.entrySet();
+        for (Map.Entry<Character, Node> entry : entries) {
+            Node value = entry.getValue();
+
+        }
+
         System.out.println(".".equals(c.toString()));
     }
 }

@@ -108,6 +108,7 @@ public class Trie {
                 boolean flag =  search(cur,word,i+1);
                 if(flag) {
                     return flag;
+                }
             }
         }
         return (node.next.get(c) == null) ? false : search(node.next.get(c),word,i+1);
@@ -119,7 +120,7 @@ public class Trie {
         trie.add("bad");
         trie.add("dad");
         trie.add("pad");
-        System.out.println(trie.search(".ad"));
+        System.out.println(trie.search("b.a"));
 
     }
 }

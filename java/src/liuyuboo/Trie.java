@@ -92,14 +92,37 @@ public class Trie {
         }
     }
 
-    public static void main(String[] args) {
-        Character c = new Character('c');
-        Set<Map.Entry<Character, Node>> entries = root.next.entrySet();
-        for (Map.Entry<Character, Node> entry : entries) {
-            Node value = entry.getValue();
+    public boolean search(String word) {
+        return search(this.root,word,0);
 
+    }
+    public boolean search(Node node, String word, int i) {
+        if(i == word.length()) {
+            return true;
         }
+        Character c = word.charAt(i);
+        if(".".equals(c.toString())) {
+            Set<Map.Entry<Character, Node>> entries = node.next.entrySet();
+            for (Map.Entry<Character, Node> entry : entries) {
+                Node cur = entry.getValue();
+                boolean flag =  search(cur,word,i+1);
+                if(!flag) {
+                    return flag;
+                }else {
+                    continue;
+                }
+            }
+        }
+        return (node.next.get(c) == null) ? false : search(node.next.get(c),word,i+1);
 
-        System.out.println(".".equals(c.toString()));
+    }
+
+    public static void main(String[] args) {
+        Trie trie  = new Trie()；
+        trie.add("bad");
+        trie.add("dad");
+        trie.add("pad");
+        System.out.println(trie.search(".ad"));
+
     }
 }

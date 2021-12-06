@@ -60,7 +60,7 @@ class MapSum {
             Node cur = entry.getValue();
             sum1+= sum(cur);
         }
-        return sum1;
+        return sum1 + node.v;
 
     }
 

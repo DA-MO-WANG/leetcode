@@ -106,11 +106,8 @@ public class Trie {
             for (Map.Entry<Character, Node> entry : entries) {
                 Node cur = entry.getValue();
                 boolean flag =  search(cur,word,i+1);
-                if(!flag) {
+                if(flag) {
                     return flag;
-                }else {
-                    continue;
-                }
             }
         }
         return (node.next.get(c) == null) ? false : search(node.next.get(c),word,i+1);

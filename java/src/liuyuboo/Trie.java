@@ -90,4 +90,9 @@ public class Trie {
             return contains01(node.next.get(c),word,++i);
         }
     }
+
+    public static void main(String[] args) {
+        Character c = new Character('c');
+        System.out.println(".".equals(c.toString()));
+    }
 }

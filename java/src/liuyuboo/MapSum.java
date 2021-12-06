@@ -63,7 +63,6 @@ class MapSum {
         return sum1;
 
     }
-}
 
 /**
  * Your MapSum object will be instantiated and called as such:
@@ -72,10 +71,11 @@ class MapSum {
  * int param_2 = obj.sum(prefix);
  */
 
-public static void main(String[] args) {
-    MapSum mapSum = new MapSum();
-    mapSum.insert("apple",3);
-    int ap = mapSum.sum("ap");
-    System.out.println(ap);
+    public static void main(String[] args) {
+        MapSum mapSum = new MapSum();
+        mapSum.insert("apple",3);
+        int ap = mapSum.sum("ap");
+        System.out.println(ap);
 
+    }
 }

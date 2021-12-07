@@ -87,8 +87,8 @@ public class J16 {
 
     public static void main(String[] args) {
         J16 j16 = new J16();
-        double v = j16.myPow(-1.0, -2147483648);
-        System.out.println(v);
+        //double v = j16.myPow(-1.0, -2147483648);
+        System.out.println(Integer.MIN_VALUE - 2);
 
     }
 }

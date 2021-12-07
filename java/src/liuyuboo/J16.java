@@ -33,7 +33,7 @@ public class J16 {
 
     public static void main(String[] args) {
         J16 j16 = new J16();
-        double v = j16.myPow(-2.0, -2);
+        double v = j16.myPow(-2.0, -3);
         System.out.println(v);
 
     }

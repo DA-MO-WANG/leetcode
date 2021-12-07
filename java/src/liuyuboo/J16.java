@@ -2,28 +2,27 @@ package liuyuboo;
 
 public class J16 {
     public double myPow(double x, int n) {
-
+        double ret = 0;
         if (n < 0) {
             if (equals(x,0.0)) {
                 throw new IllegalArgumentException("argument is illegal!");
             }else {
-                return 1 / (myPow(x,-n));
+                ret = 1 / (myPow(x,-n));
             }
-        }
-        if (n == 0) {
+        }else if (n == 0) {
             if (equals(x,0.0)) {
                 throw new IllegalArgumentException("argument is illegal!");
             }
-            return 1;
+            ret = 1;
+        }else if (n > 0) {
+                //int ret = 0;
+                while (n > 0) {
+                    ret *= ret;
+                    n--;
+                }
         }
-        if (n > 0) {
-            int ret = 0;
-            while (n > 0) {
-                ret *= ret;
-                n--;
-            }
-            return ret;
-        }
+        return ret;
+
     }
 
     //double的相等问题--编码考虑

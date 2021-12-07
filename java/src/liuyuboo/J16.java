@@ -2,7 +2,8 @@ package liuyuboo;
 
 public class J16 {
     public double myPow(double x, int n) {
-        double ret = 0;
+        double x1 = x;
+        double ret = 1;
         if (n < 0) {
             if (equals(x,0.0)) {
                 throw new IllegalArgumentException("argument is illegal!");
@@ -17,7 +18,7 @@ public class J16 {
         }else if (n > 0) {
                 //int ret = 0;
                 while (n > 0) {
-                    ret *= ret;
+                    ret *= x1;
                     n--;
                 }
         }
@@ -32,7 +33,7 @@ public class J16 {
 
     public static void main(String[] args) {
         J16 j16 = new J16();
-        double v = j16.myPow(2.0, -2);
+        double v = j16.myPow(-2.0, -2);
         System.out.println(v);
 
     }

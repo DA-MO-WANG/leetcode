@@ -46,7 +46,7 @@ public class J16 {
             if (equals(x,0.0)) {
                 throw new IllegalArgumentException("argument is illegal!");
             }else {
-                int j = (n <= Integer.MIN_VALUE) ? n - 1: 0 - n;
+                int j = (n == Integer.MIN_VALUE) ? n + 2: 0 - n;
                 ret = 1 / cj(x,j);
             }
         }else if (n == 0) {

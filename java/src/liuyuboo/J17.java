@@ -91,4 +91,9 @@ public class J17 {
             }
         }
     }
+
+    public static void main(String[] args) {
+        int m= (int)Math.pow(2,33);
+        System.out.println(m);
+    }
 }

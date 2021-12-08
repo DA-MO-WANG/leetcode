@@ -5,31 +5,36 @@ import java.util.ArrayList;
 public class J17 {
     //第一次尝试独立做2h，失败！
     public int[] printNumbers(int n) {
-        ArrayList<Integer> list = printNumber(n);
+        ArrayList<String> list = printNumber(n);
         int[] ret = new int[list.size()];
         int i = 0;
-        for (int num : list) {
-            ret[i++] = num;
+        for (String num : list) {
+            ret[i++] = Integer.valueOf(num);
         }
         return ret;
 
     }
+
     //第二次照抄
-    public ArrayList  printNumber(int n) {
+    public ArrayList<String> printNumber(int n) {
         //ArrayList<ArrayList> lists = new ArrayList<>();
         //难点1:大数的问题越界
-        ArrayList<Integer> list = null;
+        String str = "";
+        //ArrayList<String> list = null;
+        ArrayList<String> list2 = null;
         if (n <= 0) {
-            throw new IllegalArgumentException("不合法的参数！") ;
+            throw new IllegalArgumentException("不合法的参数！");
         }
         char[] number = new char[n];
         while (!increment(number)) {
-            list = printNumbers(number);
+            str = printNumbers(number);
+            list2.add(str);
             //lists.add(list);
         }
-        return list;
+        return list2;
 
     }
+
     public boolean increment(char[] number) {
         boolean isOverFlow = false;
         int nTakeOver = 0;
@@ -42,13 +47,13 @@ public class J17 {
             if (nSum >= 10) {
                 if (i == 0) {
                     isOverFlow = true;
-                }else {
-                    nSum-= 10;
+                } else {
+                    nSum -= 10;
                     nTakeOver = 1;
-                    number[i] = nSum + '0';
+                    number[i] = (char) (nSum + '0');
                 }
-            }else {
-                number[i] = '0' + nSum;
+            } else {
+                number[i] = (char) (nSum + '0');
                 break;
             }
         }
@@ -56,8 +61,9 @@ public class J17 {
     }
 
 
-    public ArrayList<Integer> printNumbers(char[] number) {
-        ArrayList<Integer> list = new ArrayList();
+    public String printNumbers(char[] number) {
+        //ArrayList<String> list = new ArrayList();
+        String ret = "";
         boolean isBeginning0 = true;
         int nLength = number.length;
         for (int i = 0; i < nLength; ++i) {
@@ -65,16 +71,15 @@ public class J17 {
                 isBeginning0 = false;
             }
             if (!isBeginning0) {
-                list.add(number[i]);
+                ret += number[i] + "";
             }
         }
-        return list;
+        return ret;
     }
-}
 
-        //难点2:打印问题
+    //难点2:打印问题
 
-    public void add(int[] wei,int n,int m) {
+    public void add(int[] wei, int n, int m) {
         if (m > n) {
             return;
         }
@@ -85,4 +90,5 @@ public class J17 {
                 wei[n - i] = 0;
             }
         }
+    }
 }

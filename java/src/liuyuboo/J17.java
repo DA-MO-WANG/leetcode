@@ -102,6 +102,7 @@ public class J17 {
 
     public static void main(String[] args) {
         J17 j = new J17();
-        j.printToMaxOfNDigits(1);
+        //j.printToMaxOfNDigits(1);
+        System.out.println((char)('1' + 4));
     }
 }

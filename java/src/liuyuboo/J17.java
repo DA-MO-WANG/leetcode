@@ -20,7 +20,6 @@ public class J17 {
         //因为要腾出一个最高位置，作为预警---数组是n+1==>第一位置从0变成1时，此时触发了
         while (!increment(number)) {
             printNumbers(number);
-
         }
     }
 
@@ -78,6 +77,7 @@ public class J17 {
                 System.out.print(number[i] + " ");
             }
         }
+        //走完所有循环代表一个数
         System.out.print("\t");
     }
 

@@ -1,6 +1,6 @@
 package liuyuboo;
-
-public class SegamentTree_fx<E> {
+//复习完毕2021.12.9
+public class SegamentTree_fx<E> implements Segament<E>{
     //快速查找一个区间上的统计信息
     //快速==》每个节点存储这个统计信息
     //把查找的过程固态化
@@ -61,7 +61,64 @@ public class SegamentTree_fx<E> {
         return 2 * treeIndex + 2;
     }
 
-    //
-    public
+    @Override
+    public E query(int l, int r) {
+        //lr指得是待处理元素，用户提供的部分
+
+        return null;
+    }
+    //要查找，拿要查找的区间和线段树的结构区间去对比
+    //queryl 和 l 比较--->现在思路上搞明白
+    public E query(int treeIndex,int l , int r, int queryL, int queryR) {
+
+        if (queryL == l && queryR == r) {
+            return tree[treeIndex];
+        }
+        int mid = l + (r - l) / 2;
+        int leftChildIndex = leftChildIndex(treeIndex);
+        int rightChildIndex = rightChildIndex(treeIndex);
+        if (mid > queryR) {
+            return query(leftChildIndex,l,mid,queryL,queryR);
+        }else if(mid < queryL) {
+            return query(rightChildIndex,mid + 1, r,queryL,queryR);
+        }else {
+            E e1 = query(leftChildIndex,l,mid,queryL,mid);
+            E e2 = query(rightChildIndex,mid + 1, r, mid + 1,queryR);
+            return merge.merge(e1,e2);
+        }
+    }
+
+
+    @Override
+    public void replace(int index, E e) {
+        //int seindex = query1(0, 0, data.length - 1, index, index);
+        data[index] = e;
+
+
+    }
+    //l，r是结构区间，不是要找的区间
+    //结构区间要跟着变化
+    //treeIndex--在这个根节点的树上，执行想要的操作--不断变换树
+    public void set(int treeIndex, int l, int r, int index, E e) {
+        //先走到底部
+        if (l == r) {
+            //既然走到这里了，那就说明按着预设路线走，终点一定是目标单节点
+            tree[treeIndex] = e;
+            //return e;
+        }
+        int leftChildIndex = leftChildIndex(treeIndex);
+        int rightChildIndex = rightChildIndex(treeIndex);
+        //走到半截时--刚开始走--走到底部的前一步
+        int mid = l + (r - l) / 2;
+        if (mid >= index) {
+            set(leftChildIndex,l,mid,index,e);
+        }else {
+            set(rightChildIndex,mid + 1, r,index,e);
+        }
+        //改变是位置的值，只要有固定的位置，就能拿到，不必返回
+        merge.merge(tree[leftChildIndex],tree[rightChildIndex]);
+    }
+
+
 
 }

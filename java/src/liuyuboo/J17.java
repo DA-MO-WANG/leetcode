@@ -15,7 +15,7 @@ public class J17 {
             throw new IllegalArgumentException("不合法的参数！");
         }
         //所以说我需要一个数组来表示这n个位置
-        char[] number = new char[n + 1];
+        char[] number = new char[n];
         //char数组不会自动初始化
         for (int i = 0; i < number.length; i++) {
             number[i] = '0';
@@ -91,7 +91,7 @@ public class J17 {
 
     public static void main(String[] args) {
         J17 j = new J17();
-        j.printToMaxOfNDigits(1);
+        j.printToMaxOfNDigits(2);
         //System.out.println((char)('1' + 4));
     }
 }

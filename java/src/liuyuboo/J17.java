@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class J17 {
     //第一次尝试独立做2h，失败！
-    
+
 
     //第二次照抄
     //n位数字可能会突破任何正数类型的范围--只能用字符串来表示
@@ -75,7 +75,7 @@ public class J17 {
                 isBeginning0 = false;//第一次不为0时，会被记录这个状态，自此之后，就不会改变
             }
             if (!isBeginning0) {
-                System.out.println(number[i] + " ");
+                System.out.print(number[i] + " ");
             }
         }
     }

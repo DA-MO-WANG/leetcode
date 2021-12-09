@@ -16,7 +16,7 @@ public class J17 {
     }
 
     //第二次照抄
-    //
+    //n位数字可能会突破任何正数类型的范围--只能用字符串来表示
     public void printToMaxOfNDigits(int n) {
 
 

@@ -17,7 +17,7 @@ public class J17 {
         //所以说我需要一个数组来表示这n个位置
         char[] number = new char[n + 1];
         for (int i = 0; i < number.length; i++) {
-            number[i] = 0;
+            number[i] = '0';
         }
         //关卡1：什么时候超过n位最大数---此时要停止模拟
         //因为要腾出一个最高位置，作为预警---数组是n+1==>第一位置从0变成1时，此时触发了

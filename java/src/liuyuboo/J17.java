@@ -36,24 +36,33 @@ public class J17 {
     public boolean increment(char[] number) {
         //设计一个标识位来标志溢出标志--因为只有两种状态--布尔型
         boolean isOverFlow = false;
-        
+        //设计一个进位值
         int nTakeOver = 0;
         int nLength = number.length;
+        //从个位开始，模拟
         for (int i = nLength - 1; i >= 0; i--) {
-            int nSum = number[i] - '0' + nTakeOver;
+            //把字符串翻译成数字--这个值每轮循环都在变化
+            int nSum = (number[i] - '0') + nTakeOver;
+            //个位位置时
             if (i == nLength - 1) {
                 nSum++;
             }
+            //单-位进1位置
             if (nSum >= 10) {
+                //模拟到了第n + 1位，只有n位都满了，才会操作到这个位置
                 if (i == 0) {
                     isOverFlow = true;
                 } else {
+                    //溢出了之后，开始往下走（前面加，后面调）：11-》1；12-》2
                     nSum -= 10;
-                    nTakeOver = 1;
+                    nTakeOver = 1;//进位值
+                    //更新i位置上的变化
                     number[i] = (char) (nSum + '0');
                 }
             } else {
+                //单-位没有大于10---正常更新位置
                 number[i] = (char) (nSum + '0');
+                //只要小于10的情况，就会
                 break;
             }
         }

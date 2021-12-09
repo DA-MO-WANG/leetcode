@@ -78,6 +78,7 @@ public class J17 {
                 System.out.print(number[i] + " ");
             }
         }
+        System.out.print("\t");
     }
 
     //难点2:打印问题

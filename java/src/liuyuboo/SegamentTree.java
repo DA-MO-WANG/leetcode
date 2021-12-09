@@ -85,7 +85,7 @@ public class SegamentTree<E> {
         int mid = l + (r - l) / 2;
         int leftChildIndex = leftChild(treeIndex);
         int rightChildIndex = rightChild(treeIndex);
-        //递归分支
+        //递归分支89
         if (index >= mid + 1) {
             set(rightChildIndex,mid + 1, index,index,e);
         }else {

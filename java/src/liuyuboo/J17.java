@@ -16,6 +16,7 @@ public class J17 {
         }
         //所以说我需要一个数组来表示这n个位置
         char[] number = new char[n + 1];
+        //char数组不会自动初始化
         for (int i = 0; i < number.length; i++) {
             number[i] = '0';
         }

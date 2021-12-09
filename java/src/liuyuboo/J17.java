@@ -22,6 +22,7 @@ public class J17 {
         }
         //关卡1：什么时候超过n位最大数---此时要停止模拟
         //因为要腾出一个最高位置，作为预警---数组是n+1==>第一位置从0变成1时，此时触发了
+        System.out.print(0 + " ");
         while (!increment(number)) {
             printNumbers(number);
         }
@@ -87,22 +88,10 @@ public class J17 {
 
     //难点2:打印问题
 
-    public void add(int[] wei, int n, int m) {
-        if (m > n) {
-            return;
-        }
-        for (int i = 1; i <= m; ) {
-            wei[n - i]++;
-            if (wei[n - i] == 10) {
-                wei[n - i + 1]++;
-                wei[n - i] = 0;
-            }
-        }
-    }
 
     public static void main(String[] args) {
         J17 j = new J17();
-        //j.printToMaxOfNDigits(1);
-        System.out.println((char)('1' + 4));
+        j.printToMaxOfNDigits(1);
+        //System.out.println((char)('1' + 4));
     }
 }

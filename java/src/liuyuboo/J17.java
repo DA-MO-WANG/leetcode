@@ -16,7 +16,10 @@ public class J17 {
     }
 
     //第二次照抄
-    public ArrayList<String> printNumber(int n) {
+    //
+    public void printToMaxOfNDigits(int n) {
+
+
         //ArrayList<ArrayList> lists = new ArrayList<>();
         //难点1:大数的问题越界
         String str = "";
@@ -31,7 +34,7 @@ public class J17 {
             list2.add(str);
             //lists.add(list);
         }
-        return list2;
+
 
     }
 

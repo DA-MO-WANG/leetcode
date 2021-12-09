@@ -86,12 +86,38 @@ public class J17 {
         System.out.print("\t");
     }
 
-    //难点2:打印问题
+
+
+    //第二种方法
+    void printToMaxOfNDigits01(int n) {
+        if (n <= 0) {
+            return;
+        }
+        char[] number = new char[n];
+        for (int i = 0; i < 10; i++) {
+            number[0] = (char)(i + '0');
+            printRecursive(number,n,0);
+        }
+
+
+    }
+    void printRecursive(char[] number, int length, int index) {
+        if (index == length - 1) {
+            printNumbers(number);
+            return;
+        }
+        for (int i = 0; i < 10; i++) {
+            number[index + 1] = (char)(i + '0');
+            printNumbers(number);
+        }
+    }
+
+
 
 
     public static void main(String[] args) {
         J17 j = new J17();
-        j.printToMaxOfNDigits(2);
+        j.printToMaxOfNDigits01(2);
         //System.out.println((char)('1' + 4));
     }
 }

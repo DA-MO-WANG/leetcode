@@ -4,16 +4,7 @@ import java.util.ArrayList;
 
 public class J17 {
     //第一次尝试独立做2h，失败！
-    public int[] printNumbers(int n) {
-        ArrayList<String> list = printNumber(n);
-        int[] ret = new int[list.size()];
-        int i = 0;
-        for (String num : list) {
-            ret[i++] = Integer.valueOf(num);
-        }
-        return ret;
-
-    }
+    
 
     //第二次照抄
     //n位数字可能会突破任何正数类型的范围--只能用字符串来表示
@@ -33,6 +24,8 @@ public class J17 {
         }
     }
 
+    //难点1：常态情况下的模拟
+    //难点2：进1状态下的模拟--走多轮循环，
     public boolean increment(char[] number) {
         //设计一个标识位来标志溢出标志--因为只有两种状态--布尔型
         boolean isOverFlow = false;
@@ -44,6 +37,7 @@ public class J17 {
             //把字符串翻译成数字--这个值每轮循环都在变化
             int nSum = (number[i] - '0') + nTakeOver;
             //个位位置时
+            //当进位后，会进行第二轮循环，此时不会对第二个位置上的数字进行更新，后位数字只会依赖前一个数字来变化
             if (i == nLength - 1) {
                 nSum++;
             }
@@ -61,8 +55,9 @@ public class J17 {
                 }
             } else {
                 //单-位没有大于10---正常更新位置
+                //第二轮循环--直接更新进1后的效果
                 number[i] = (char) (nSum + '0');
-                //只要小于10的情况，就会
+                //只要小于10的情况，这个方法只执行一轮循环--进而方便把当时的状态打印出来
                 break;
             }
         }
@@ -70,20 +65,19 @@ public class J17 {
     }
 
 
-    public String printNumbers(char[] number) {
-        //ArrayList<String> list = new ArrayList();
-        String ret = "";
+    public void printNumbers(char[] number) {
+        //当前位置是不是第一个不为0的地方
         boolean isBeginning0 = true;
         int nLength = number.length;
         for (int i = 0; i < nLength; ++i) {
+            //第一个不是0的地方的前面的0都不用打印，只有后面的打印
             if (isBeginning0 && number[i] != '0') {
-                isBeginning0 = false;
+                isBeginning0 = false;//第一次不为0时，会被记录这个状态，自此之后，就不会改变
             }
             if (!isBeginning0) {
-                ret += number[i] + "";
+                System.out.println(number[i] + " ");
             }
         }
-        return ret;
     }
 
     //难点2:打印问题
@@ -102,7 +96,7 @@ public class J17 {
     }
 
     public static void main(String[] args) {
-        int m= (int)Math.pow(2,77);
-        System.out.println(m);
+        J17 j = new J17();
+        j.printToMaxOfNDigits(4);
     }
 }

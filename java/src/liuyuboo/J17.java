@@ -14,7 +14,7 @@ public class J17 {
         if (n <= 0) {
             throw new IllegalArgumentException("不合法的参数！");
         }
-        //所以说我需要一个数组来表示这n个位置
+        //所以说我需要一个数组来表示这n个位置--判断模拟终止时，是最高位变成10时，就标志布尔
         char[] number = new char[n];
         //char数组不会自动初始化
         for (int i = 0; i < number.length; i++) {

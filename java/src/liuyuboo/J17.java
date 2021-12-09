@@ -89,6 +89,8 @@ public class J17 {
 
 
     //第二种方法
+    //一个循环代表固定一个位置的数字变化
+    //递归代表被固定位置的游走
     void printToMaxOfNDigits01(int n) {
         if (n <= 0) {
             return;
@@ -102,13 +104,14 @@ public class J17 {
 
     }
     void printRecursive(char[] number, int length, int index) {
-        if (index == length - 1) {
-            printNumbers(number);
+        if (index == length - 1) {//数组中的位置，一直到最后一个位置，都确定了
+            printNumbers(number);//此时才开始打印
             return;
         }
+
         for (int i = 0; i < 10; i++) {
-            number[index + 1] = (char)(i + '0');
-            printNumbers(number);
+            number[index + 1] = (char)(i + '0');//从第二位开始从0-9变化
+            printRecursive(number,length,index + 1);//递归操作下一个位置的变化，通过调节index
         }
     }
 

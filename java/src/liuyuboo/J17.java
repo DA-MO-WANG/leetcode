@@ -95,7 +95,7 @@ public class J17 {
         }
         char[] number = new char[n];
         for (int i = 0; i < 10; i++) {
-            number[0] = (char)(i + '0');
+            number[0] = (char)(i + '0');//把第一个位置上的数字从0到9变化
             printRecursive(number,n,0);
         }
 

@@ -1,2 +1,5 @@
-package liuyuboo;public class J21 {
+package liuyuboo;
+
+public class J21 {
+    
 }

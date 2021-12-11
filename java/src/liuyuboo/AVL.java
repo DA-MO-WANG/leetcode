@@ -31,7 +31,8 @@ public class AVL<E extends Comparable<E>> {
         }
 
         public int getBalanceFactor() {
-            return Math.abs(this.left.height - this.right.height);
+            //后续还要判断是那边倾斜--正负
+            return this.left.height - this.right.height;
         }
     }
 
@@ -98,10 +99,16 @@ public class AVL<E extends Comparable<E>> {
         //情况1：左侧太偏
         if (root.getBalanceFactor() > 1 && root.left.getBalanceFactor() > 0) {
             return rotate_right(root);
-        }else if(root.getBalanceFactor() > 1 && root.right.getBalanceFactor() > 0) {
+        }else if(root.getBalanceFactor() < -1 && root.right.getBalanceFactor() > 0) {
+            return rotate_left(root);
+        }else if (root.getBalanceFactor() > 1 && root.left.getBalanceFactor() < 0) {
+            //LR
+            root.left =  rotate_left(root.left);
+            return rotate_right(root);
+        }else if (root.getBalanceFactor() < -1 && root.right.getBalanceFactor() > 0) {
+            root.right = rotate_right(root.right);
             return rotate_left(root);
         }
-
         return root;
     }
 

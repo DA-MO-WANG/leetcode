@@ -3,7 +3,7 @@ package liuyuboo;
 import java.util.PriorityQueue;
 import java.util.Queue;
 //平衡二叉树--由BST
-public class AVL<E extends Comparable<E>> {
+public class AVL<E extends Comparable<E>,V> {
     //成员变量
     Node root;
     int size;
@@ -17,14 +17,16 @@ public class AVL<E extends Comparable<E>> {
 
     //内部类
     class Node {
-        E data;
+        E key;
+        V value;
         int height;//添加高度概念
         //int balanceFactor;//添加平衡因子概念
         Node left;
         Node right;
 
-        public Node(E data) {
-            this.data = data;
+        public Node(E key, V value) {
+            this.key = key;
+            this.value = value;
             this.left = null;
             this.right = null;
             this.height = 1;
@@ -46,19 +48,19 @@ public class AVL<E extends Comparable<E>> {
     //CRUD
 
     //非递归
-    public void add(E data) {
+    public void add(E key, V value) {
         Node cur = this.root;
         if (cur == null) {
-            Node node = new Node(data);
+            Node node = new Node(key,value);
             root = node;
             return;
         }
         while (cur != null) {
             //找到待插入的位置
             //不考虑相等 的情况
-            if (data.compareTo(cur.data) < 0) {
+            if (key.compareTo(cur.key) < 0) {
                 if (cur.left == null) {
-                    Node node = new Node(data);
+                    Node node = new Node(key,value);
                     cur.left = node;
                     this.size++;
                     return;
@@ -66,7 +68,7 @@ public class AVL<E extends Comparable<E>> {
                 cur = cur.left;
             }else {
                 if (cur.right == null) {
-                    Node node = new Node(data);
+                    Node node = new Node(key,value);
                     cur.right = node;
                     return;
                 }
@@ -77,20 +79,20 @@ public class AVL<E extends Comparable<E>> {
     }
 
     //递归版
-    public void add_(E data) {
-        this.root = add2(this.root,data);
+    public void add_(E key, V value) {
+        this.root = add2(this.root,key,value);
     }
-    public Node add2(Node root, E data) {
+    public Node add2(Node root, E key, V value) {
         if (root == null) {
-            Node node = new Node(data);
+            Node node = new Node(key,value);
             return node;
         }
 
-        if (data.compareTo(root.data) < 0) {
-            root.left = add2(root.left, data);
+        if (key.compareTo(root.key) < 0) {
+            root.left = add2(root.left, key,value);
         }else {
             //问题：没考虑待添加的元素已经有了
-            root.right = add2(root.right,data);
+            root.right = add2(root.right,key,value);
         }
         //平衡机制-高度维护
         root.height = 1 + Math.max(root.left.height,root.right.height);
@@ -159,9 +161,9 @@ public class AVL<E extends Comparable<E>> {
         if (root == null) {
             return false;
         }
-        if (e.compareTo(root.data) == 0) {
+        if (e.compareTo(root.key) == 0) {
             return true;
-        }else if (e.compareTo(root.data) < 0) {
+        }else if (e.compareTo(root.key) < 0) {
             return contains(root.left,e);
         }else {
             return contains(root.right,e);
@@ -195,7 +197,7 @@ public class AVL<E extends Comparable<E>> {
         while (!stack.isEmpty()) {
             Node node = stack.pop();
             //拿出来
-            System.out.println(node.data);
+            System.out.println(node.key);
 
             stack.push(node.right);
             stack.push(node.left);
@@ -209,7 +211,7 @@ public class AVL<E extends Comparable<E>> {
         while (!queue.isEmpty()) {
             Node node = queue.poll();
 
-            System.out.println(node.data);
+            System.out.println(node.key);
 
             queue.add(node.left);
             queue.add(node.right);
@@ -221,7 +223,7 @@ public class AVL<E extends Comparable<E>> {
         if (size == 0) {
             throw new NullPointerException("没有元素");
         }
-        return minimum(this.root).data;
+        return minimum(this.root).key;
 
     }
     public Node minimum(Node node) {
@@ -236,7 +238,7 @@ public class AVL<E extends Comparable<E>> {
         if (size == 0) {
             throw new NullPointerException("没有元素");
         }
-        return maxmum(this.root).data;
+        return maxmum(this.root).key;
 
     }
     public Node maxmum(Node node) {
@@ -254,7 +256,7 @@ public class AVL<E extends Comparable<E>> {
     }
     //返回删除最小值节点后的树的根
     public Node removeMin(Node node) {
-        //只要不存在比他更小的，就能证明他是最小的
+        //核心逻辑：只要不存在比他更小的，就能证明他是最小的
         //底基部分，就是最小操作树，这里的新树根就是右子节点
         if (node.left == null) {
             //有没有有子树，代码是一样的，因为null也是一棵树
@@ -275,14 +277,14 @@ public class AVL<E extends Comparable<E>> {
         node.right = removeMax(node.right);
         return node;
     }
-    //递归签名：把以node为根节点的树，中e所在节点删除掉，之后改变后的树的根
-    public Node removeElement(Node node, E e) {
+    //删除元素:删除键以node为根节点的bst中，以key为键的节点后的二分搜索树的根节点
+    public Node removeElement(Node node, E key) {
         //单侧节点情况
         if (node == null) {
             return null;
         }
         //先找到e所在节点====>思路就有问题，还是不习惯用递归脑洞来解决问题
-        if (e.compareTo(node.data) == 0) {
+        if (key.compareTo(node.key) == 0) {
             if (node.left == null) {
                 Node delNode = node;
                 Node rightNode = delNode.right;
@@ -303,11 +305,11 @@ public class AVL<E extends Comparable<E>> {
                 return right_min;
             }
 
-        }else if (e.compareTo(node.data) > 0) {
-            node.right = removeElement(node.right,e);//更新右侧
+        }else if (key.compareTo(node.key) > 0) {
+            node.right = removeElement(node.right,key);//更新右侧
             return node;
         }else {
-            node.left = removeElement(node.left,e);
+            node.left = removeElement(node.left,key);
             return node;
         }
     }
@@ -315,9 +317,9 @@ public class AVL<E extends Comparable<E>> {
         if (node == null) {
             return null;
         }
-        if (e.compareTo(node.data) == 0) {
+        if (e.compareTo(node.key) == 0) {
             return node;
-        }else if (e.compareTo(node.data) > 0) {
+        }else if (e.compareTo(node.key) > 0) {
             return get(node.right,e);
         }else {
             return get(node.left,e);

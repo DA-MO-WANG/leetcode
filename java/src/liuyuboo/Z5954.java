@@ -7,7 +7,7 @@ public class Z5954 {
         int bob = capacityB;
         int left = 0;
         int right = plants.length - 1;
-        while (left < right) {
+        while (left <= right) {
             if (left == right) {
                 if (alice >= bob) {
                     water(plants,dp,capacityA,left,alice);

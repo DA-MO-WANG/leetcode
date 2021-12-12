@@ -11,6 +11,7 @@ public class Z5953 {
 
         int min = Math.min(nums[index],nums[index+1]);
         int max = Math.max(nums[index],nums[index+1]);
+        long sum = 0;
         long ret = max - min;
         long pre = 0;
         long cur = 0;
@@ -18,17 +19,19 @@ public class Z5953 {
             if (nums[i] >= min && nums[i] <= max) {
                 pre = ret;
                 cur = pre + 0;
-                ret = cur + pre;
+                ret = cur;
+                sum += cur + pre;
 
             }else {
                 if(nums[i] < min) min = nums[i];
                 if(nums[i] > max) max = nums[i];
                 pre = ret;
                 cur = sum(max,min);
-                ret = pre + cur;
+                ret = cur;
+                sum += cur;
             }
         }
-        return ret + subArrayRanges(nums,++index);
+        return sum + subArrayRanges(nums,++index);
     }
 
     public long sum(int max, int min) {

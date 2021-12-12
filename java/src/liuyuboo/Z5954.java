@@ -11,8 +11,10 @@ public class Z5954 {
             if (left == right) {
                 if (alice >= bob) {
                     water(plants,dp,capacityA,left,alice);
+                    left++;
                 }else {
                     water(plants,dp,capacityB,right,bob);
+                    right--;
                 }
                 break;
             }

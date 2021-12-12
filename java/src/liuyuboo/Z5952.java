@@ -34,4 +34,12 @@ public class Z5952 {
 
 
     }
+
+    public static void main(String[] args) {
+        String str = "B0B6G0R6R0R6G9";
+        Z5952 z5952 = new Z5952();
+        int i = z5952.countPoints(str);
+        System.out.println(i);
+
+    }
 }

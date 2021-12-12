@@ -18,6 +18,7 @@ public class Z5952 {
             String huan = rings.charAt(i - 1) + "";
             if (map.containsKey(gan)) {
                 map.get(gan).add(huan);
+                continue;
             }
             HashSet<String> set = new HashSet<>();
             set.add(huan);

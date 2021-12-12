@@ -15,9 +15,9 @@ public class Z5954 {
             ret = cleft + cright;
             if (alice >= bob) {
 
-                ret = (plants[size / 2] <= capacityA) ? ret : ret + 1;
+                ret = (plants[size / 2] <= alice) ? ret : ret + 1;
             }else {
-                ret = (plants[size / 2] <= capacityB) ? ret : ret + 1;
+                ret = (plants[size / 2] <= bob) ? ret : ret + 1;
             }
         }else {
             int sumleft = sum(plants, 0,size / 2 - 1);

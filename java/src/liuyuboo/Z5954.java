@@ -1,7 +1,38 @@
 package liuyuboo;
 
 public class Z5954 {
+
     public int minimumRefill(int[] plants, int capacityA, int capacityB) {
+        int size = plants.length;
+
+        if ((size & 1) == 1) {
+
+        }else {
+            int sumleft = sum(plants, 0,size / 2 - 1);
+            int sumright = sum(plants,size / 2, size - 1);
+
+
+        }
+    }
+
+    public int count(int sum, int capacity) {
+        if (sum == 0) {
+            return 0;
+        }
+        sum = sum - capacity;
+        return count(sum,capacity) + 1;
+    }
+    public int sum(int[] plants, int begin, int over) {
+        int sum = 0;
+        for (int i = begin; i <= over; i++) {
+            sum += plants[i];
+        }
+        return sum;
+    }
+
+
+    //暴力思路
+    public int minimumRefill1(int[] plants, int capacityA, int capacityB) {
         int[] dp = new int[plants.length];
         int alice = capacityA;
         int bob = capacityB;
@@ -52,7 +83,7 @@ public class Z5954 {
         int alice = 1439;
         int bob = 1207;
         int i = z.minimumRefill(arr, alice, bob);
-        System.out.println(i);
+        System.out.println(z.count(3,1));
 
     }
 }

@@ -35,7 +35,11 @@ public class Z5954 {
 
     public static void main(String[] args) {
         Z5954 z = new Z5954();
-        int[] arr = {};
-        z.minimumRefill()
+        int[] arr = {1,2,4,4,5};
+        int alice = 6;
+        int bob = 5;
+        int i = z.minimumRefill(arr, alice, bob);
+        System.out.println(i);
+
     }
 }

@@ -8,8 +8,8 @@ public class Z5954 {
         if ((size & 1) == 1) {
             int sumleft = sum(plants, 0,size / 2 - 1);
             int sumright = sum(plants,size / 2 + 1, size - 1);
-            int cleft = count(sumleft,capacityA) - 1;
-            int cright = count(sumright,capacityB) - 1;
+            int cleft = count(sumleft,capacityA);
+            int cright = count(sumright,capacityB);
             int alice = (cleft + 1) * capacityA - cleft;
             int bob = (cright + 1) * capacityB - cright;
             ret = cleft + cright;

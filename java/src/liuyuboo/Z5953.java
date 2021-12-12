@@ -5,7 +5,7 @@ public class Z5953 {
         return subArrayRanges(nums,0);
     }
     public long subArrayRanges(int[] nums, int index) {
-        if(index == nums.length) {
+        if(index == nums.length - 1) {
             return 0;
         }
 

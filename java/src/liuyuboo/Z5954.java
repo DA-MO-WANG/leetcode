@@ -14,6 +14,7 @@ public class Z5954 {
                 }else {
                     water(plants,dp,capacityB,right,bob);
                 }
+                break;
             }
             alice = water(plants,dp,capacityA,left,alice);
             bob = water(plants,dp,capacityB,right,bob);

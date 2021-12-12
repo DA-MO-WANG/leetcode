@@ -4,24 +4,33 @@ public class Z5954 {
 
     public int minimumRefill(int[] plants, int capacityA, int capacityB) {
         int size = plants.length;
-
+        int ret = 0;
         if ((size & 1) == 1) {
+            int sumleft = sum(plants, 0,size / 2 - 1);
+            int sumright = sum(plants,size / 2 + 1, size - 1);
+            int cleft = count(sumleft,capacityA) - 1;
+            int cright = count(sumright,capacityB) - 1;
+            int alice = (cleft + 1) * capacityA - cleft;
+            int bob = (cright + 1) * capacityB - cright;
+            ret = cleft + cright;
+            if (alice >= bob) {
 
+                ret = (plants[size / 2] <= capacityA) ? ret : ret + 1;
+            }else {
+                ret = (plants[size / 2] <= capacityB) ? ret : ret + 1;
+            }
         }else {
             int sumleft = sum(plants, 0,size / 2 - 1);
             int sumright = sum(plants,size / 2, size - 1);
-
-
+            int cleft = count(sumleft,capacityA) - 1;
+            int cright = count(sumright,capacityB) - 1;
+            ret = ret + cleft + cright;
         }
-        return 0;
+        return ret;
     }
 
     public int count(int sum, int capacity) {
-        if (sum == 0) {
-            return 0;
-        }
-        sum = sum - capacity;
-        return count(sum,capacity) + 1;
+        return sum % capacity == 0 ? sum / capacity - 1: sum / capacity;
     }
     public int sum(int[] plants, int begin, int over) {
         int sum = 0;
@@ -84,7 +93,7 @@ public class Z5954 {
         int alice = 1439;
         int bob = 1207;
         int i = z.minimumRefill(arr, alice, bob);
-        System.out.println(z.count(3,1));
+        System.out.println(i);
 
     }
 }

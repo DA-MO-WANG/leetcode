@@ -22,8 +22,8 @@ public class Z5954 {
         }else {
             int sumleft = sum(plants, 0,size / 2 - 1);
             int sumright = sum(plants,size / 2, size - 1);
-            int cleft = count(sumleft,capacityA) - 1;
-            int cright = count(sumright,capacityB) - 1;
+            int cleft = count(sumleft,capacityA);
+            int cright = count(sumright,capacityB);
             ret = ret + cleft + cright;
         }
         return ret;

@@ -30,7 +30,7 @@ public class Z5954 {
     public int water(int[] plants, int[] dp,int capacity, int index, int role) {
         int diff = role - plants[index];
         if(diff < 0) {
-            int c = Math.abs(diff) % capacity == 0 ? diff / capacity : 1 + diff / capacity;
+            int c = Math.abs(diff) % capacity == 0 ? Math.abs(diff) / capacity : 1 + Math.abs(diff) / capacity;
             dp[index] = c;
             role = c * capacity + diff;
         }else {
@@ -42,8 +42,8 @@ public class Z5954 {
 
     public static void main(String[] args) {
         Z5954 z = new Z5954();
-        int[] arr = {1,2,4,4,5};
-        int alice = 6;
+        int[] arr = {2,3,3};
+        int alice = 5;
         int bob = 5;
         int i = z.minimumRefill(arr, alice, bob);
         System.out.println(i);

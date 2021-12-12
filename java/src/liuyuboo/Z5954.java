@@ -18,6 +18,9 @@ public class Z5954 {
                 }
                 break;
             }
+            if(left == right - 1) {
+                System.out.println(1111);
+            }
             alice = water(plants,dp,capacityA,left,alice);
             bob = water(plants,dp,capacityB,right,bob);
             left++;

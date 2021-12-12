@@ -10,8 +10,8 @@ public class Z5954 {
             int sumright = sum(plants,size / 2 + 1, size - 1);
             int cleft = count(sumleft,capacityA);
             int cright = count(sumright,capacityB);
-            int alice = (cleft + 1) * capacityA - cleft;
-            int bob = (cright + 1) * capacityB - cright;
+            int alice = (cleft + 1) * capacityA - sumleft;
+            int bob = (cright + 1) * capacityB - sumright;
             ret = cleft + cright;
             if (alice >= bob) {
 

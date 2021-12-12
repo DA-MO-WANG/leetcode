@@ -13,6 +13,7 @@ public class Z5954 {
 
 
         }
+        return 0;
     }
 
     public int count(int sum, int capacity) {

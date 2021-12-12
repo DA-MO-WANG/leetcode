@@ -8,6 +8,13 @@ public class Z5954 {
         int left = 0;
         int right = plants.length - 1;
         while (left < right) {
+            if (left == right) {
+                if (alice >= bob) {
+                    water(plants,dp,capacityA,left,alice);
+                }else {
+                    water(plants,dp,capacityB,right,bob);
+                }
+            }
             alice = water(plants,dp,capacityA,left,alice);
             bob = water(plants,dp,capacityB,right,bob);
             left++;

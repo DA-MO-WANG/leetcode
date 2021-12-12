@@ -11,23 +11,23 @@ public class Z5953 {
 
         int min = Math.min(nums[index],nums[index+1]);
         int max = Math.max(nums[index],nums[index+1]);
-        long sum = 0;
+
         long ret = max - min;
         long pre = 0;
-        long cur = 0;
+        long cur = ret;
+        long sum = ret;
         for (int i = index + 2; i < nums.length; i++) {
             if (nums[i] >= min && nums[i] <= max) {
-                pre = ret;
+                pre = cur;
                 cur = pre + 0;
-                ret = cur;
-                sum += cur + pre;
+                sum += cur;
 
             }else {
                 if(nums[i] < min) min = nums[i];
                 if(nums[i] > max) max = nums[i];
-                pre = ret;
+                pre = cur;
                 cur = sum(max,min);
-                ret = cur;
+                //ret = cur;
                 sum += cur;
             }
         }

@@ -6,19 +6,19 @@ public class J29 {
     public int[] spiralOrder(int[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
-        String ret = "";
+        //String ret = "";
         if((rows & 1) == 1) {
             //row 偶数---》每次走一个完整的四方形，走rows/2
             //row 奇数---》rows /2 个四方形， 加一个单边
-            ret = print(matrix,0,rows,0,cols,rows);
+            print(matrix,0,rows,0,cols,rows);
         }else {
-            ret = print(matrix,0,rows,0,cols,rows);
+            print(matrix,0,rows,0,cols,rows);
 
         }
-        char[] chars = ret.toCharArray();
-        int[] rets = new int[chars.length];
-        for (int i = 0; i < chars.length; i++) {
-            rets[i] = Integer.valueOf(chars[i]+ "");
+        //char[] chars = ret.toCharArray();
+        int[] rets = new int[list.size()];
+        for (int i = 0; i < list.size(); i++) {
+            rets[i] = Integer.valueOf(list.get(i));
         }
         return rets;
 
@@ -50,18 +50,18 @@ public class J29 {
         //col = col -1; row- 0,row -1
         if(flag) {
             for (int row = rowbegin; row < rows - 1; row++) {
-                ret += matrix[row][cols - 1];
+                list.add(matrix[row][cols - 1]);
             }
             //row = row -1 , col :col - 1, 0
             for (int col = cols - 1; col > colbegin; col--) {
-                ret += matrix[rows - 1][col];
+                list.add(matrix[rows - 1][col]);
             }
             //col = 0.; row = row -1 , 0
             for (int row = rows - 1; row > rowbegin; row--) {
-                ret += matrix[row][colbegin];
+                list.add(matrix[row][colbegin]);
             }
         }
-            return ret + print(matrix,++rowbegin,--rows,++colbegin,--cols,rowlen);
+            print(matrix,++rowbegin,--rows,++colbegin,--cols,rowlen);
 
     }
 

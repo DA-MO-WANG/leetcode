@@ -65,7 +65,7 @@ public class J29 {
             bprint(matrix, ++rowbegin, --rows, ++colbegin, --cols, flag2);
         }else {
             if ((rowbegin == (matrix.length / 2))) {
-                for (int col = colbegin; col < cols - 1; col++) {
+                for (int col = colbegin; col < cols; col++) {
                     list.add(matrix[rowbegin][col]);
                 }
                 return;
@@ -118,7 +118,7 @@ public class J29 {
             bprint(matrix, ++rowbegin, --rows, ++colbegin, --cols, flag2);
         }else {
             if ((colbegin == (matrix[0].length / 2))) {
-                for (int row = rowbegin; row < rows - 1; row++) {
+                for (int row = rowbegin; row < rows; row++) {
                     list.add(matrix[row][cols - 1]);
                 }
                 return;

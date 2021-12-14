@@ -24,13 +24,17 @@ public class J29 {
 
     }
     public String print(int[][] matrix, int rowbegin, int rows, int colbegin, int cols, int rowlen) {
-        if((rowbegin + 1) > (rowlen / 2)) {
-            return "";
-        }
         boolean flag = true;
         if(rowlen % 2 != 0) {
             flag = (rowbegin == rowlen / 2 ? false : true);
         }
+        if(flag && ((rowbegin + 1) > (rowlen / 2))) {
+            return "";
+        }
+        if (!flag && ((rowbegin) > (rowlen / 2))) {
+            return "";
+        }
+
 
         //row = 0 , col = 0, col - 1
         String ret = "";
@@ -59,7 +63,7 @@ public class J29 {
     }
 
     public static void main(String[] args) {
-        int[][] ma = {{5}};
+        int[][] ma = {{1,2,3},{4,5,6},{7,8,9}};
         J29 j = new J29();
         int[] ints = j.spiralOrder(ma);
         for (int i = 0; i < ints.length; i++) {

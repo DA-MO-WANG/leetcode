@@ -1,5 +1,7 @@
 package liuyuboo;
 
+import java.util.ArrayList;
+
 public class J29 {
     public int[] spiralOrder(int[][] matrix) {
         int rows = matrix.length;
@@ -23,24 +25,25 @@ public class J29 {
 
 
     }
-    public String print(int[][] matrix, int rowbegin, int rows, int colbegin, int cols, int rowlen) {
+    ArrayList<Integer> list = new ArrayList<>();
+    public void print(int[][] matrix, int rowbegin, int rows, int colbegin, int cols, int rowlen) {
         boolean flag = true;
         if(rowlen % 2 != 0) {
             flag = (rowbegin == rowlen / 2 ? false : true);
         }
         if(flag && ((rowbegin + 1) > (rowlen / 2))) {
-            return "";
+            return;
         }
         if (!flag && ((rowbegin) > (rowlen / 2))) {
-            return "";
+            return;
         }
 
 
         //row = 0 , col = 0, col - 1
-        String ret = "";
+        //String ret = "";
             if (!flag) cols = cols + 1;
             for (int col = colbegin; col < cols - 1; col++) {
-                ret += matrix[rowbegin][col];
+                list.add(matrix[rowbegin][col]);
             }
 
 

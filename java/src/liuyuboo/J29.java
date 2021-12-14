@@ -63,9 +63,9 @@ public class J29 {
         J29 j = new J29();
         int[] ints = j.spiralOrder(ma);
         for (int i = 0; i < ints.length; i++) {
-            System.out.print(ma[i] + " ");
+            System.out.print(ints[i] + " ");
         }
-        
+
     }
 }
 

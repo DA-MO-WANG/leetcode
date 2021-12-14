@@ -16,7 +16,7 @@ public class J29 {
         char[] chars = ret.toCharArray();
         int[] rets = new int[chars.length];
         for (int i = 0; i < chars.length; i++) {
-            rets[i] = Integer.valueOf(chars[i]);
+            rets[i] = Integer.valueOf(chars[i]+ "");
         }
         return rets;
 

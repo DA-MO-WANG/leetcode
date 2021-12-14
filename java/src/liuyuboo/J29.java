@@ -34,7 +34,7 @@ public class J29 {
 
         //row = 0 , col = 0, col - 1
         String ret = "";
-
+            if (!flag) cols = cols + 1;
             for (int col = colbegin; col < cols - 1; col++) {
                 ret += matrix[rowbegin][col];
             }

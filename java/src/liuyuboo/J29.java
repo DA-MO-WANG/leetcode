@@ -59,7 +59,13 @@ public class J29 {
     }
 
     public static void main(String[] args) {
-        int[][] ma = {};
+        int[][] ma = {{1,2,3},{4,5,6},{7,8,9}};
+        J29 j = new J29();
+        int[] ints = j.spiralOrder(ma);
+        for (int i = 0; i < ints.length; i++) {
+            System.out.print(ma[i] + " ");
+        }
+        
     }
 }
 

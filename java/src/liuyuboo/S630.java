@@ -833,7 +833,7 @@ public class S630 {
         PriorityQueue<Course> minqueue = new PriorityQueue<>(lastc);
 
         for (int i = 0; i < courses.length; i++) {
-            if(courses[i][0] >courses[i][1]) {
+            if(courses[i][0] < courses[i][1]) {
                 minqueue.enqueue(new Course(courses[i][0],courses[i][1]));
             }
         }

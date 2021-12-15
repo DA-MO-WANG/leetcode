@@ -276,7 +276,8 @@ public class S630 {
             while (k > 0 && parent(k) >= 0) {
                 if (comparator.compareTo(data.get(parent(k)),data.get(k)) < 0) {
                     break;
-                }else {
+                }else if(comparator.compareTo(data.get(parent(k)),data.get(k)) == 0){
+
                     swap(parent(k),k);
                 }
                 k = parent(k);
@@ -830,6 +831,9 @@ public class S630 {
         Comparator<Course> lastc = new Comparator<Course>() {
             @Override
             public int compareTo(Course e1, Course e2) {
+                if(e1.lastday == e2.lastday) {
+                    return e1.duration - e2.duration;
+                }
                 return e1.lastday - e2.lastday;
             }
         };

@@ -873,9 +873,9 @@ public class S630 {
                     maxqueue.dequeue();
                     cret[index--] = lmin;
                     maxqueue.enqueue(lmin);
-                    sumdua -= dmax.duration;
+                    sumdua -= cret[index + 1].duration;
                 }else {
-                    sumdua -= dmax.duration;
+                    sumdua -= cret[index].duration;
                     continue;
                 }
             }else {

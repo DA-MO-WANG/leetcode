@@ -875,7 +875,7 @@ public class S630 {
                     int dmaxindex = getIndex(cret,dmax);
                     cret[dmaxindex] = lmin;
                     maxqueue.enqueue(lmin);
-                    sumdua -= dmax.duration;
+                    sumdua += lmin.duration;
                 }else {
                     //sumdua -= cret[index].duration;
                     continue;

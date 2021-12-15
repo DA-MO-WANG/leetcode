@@ -522,7 +522,7 @@ public class S630 {
                 queue.enqueue(new Course(courses[i][0],courses[i][1]));
             }
         }
-        
+
 
 
     }

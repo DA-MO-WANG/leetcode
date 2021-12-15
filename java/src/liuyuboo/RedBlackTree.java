@@ -63,6 +63,13 @@ public class RedBlackTree<E extends Comparable<E>> {
         node.color = Red;//内部属于解放区，可以换颜色了
         return x;
     }
+
+    public void flipColors(Node node) {
+        node.color = Red;
+        node.left.color = Black;
+        node.right.color = Black;
+    }
+
     public Node add2(Node root, E data) {
         if (root == null) {
             Node node = new Node(data);

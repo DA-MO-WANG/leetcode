@@ -886,4 +886,12 @@ public class S630 {
             this.lastday = last;
         }
     }
+
+    public static void main(String[] args) {
+        int[][] course = {{100, 200}, {200, 1300}, {1000, 1250}, {2000, 3200}};
+        S630 s630 = new S630();
+        int i = s630.scheduleCourse(course);
+        System.out.println(i);
+
+    }
 }

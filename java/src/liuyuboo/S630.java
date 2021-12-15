@@ -212,7 +212,7 @@ public class S630 {
             if (data.getSize() - 1 != 0) {
                 siftUp(data.getSize() - 1,comparator);
             }
-            
+
         }
 
         //交换

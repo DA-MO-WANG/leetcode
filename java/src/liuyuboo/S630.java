@@ -865,7 +865,7 @@ public class S630 {
             if(sumdua + lmin.duration > lmin.lastday) {
                 if (dmax.duration > lmin.duration) {
                     maxqueue.dequeue();
-                    cret[index] = lmin;
+                    cret[--index] = lmin;
                     maxqueue.enqueue(lmin);
                     sumdua -= dmax.duration;
                 }else {

@@ -273,7 +273,7 @@ public class S630 {
             }
         }
         public void siftUp(int k,Comparator<E> comparator) {
-            while (parent(k) >= 0) {
+            while (k > 0 && parent(k) >= 0) {
                 if (comparator.compareTo(data.get(parent(k)),data.get(k)) < 0) {
                     break;
                 }else {

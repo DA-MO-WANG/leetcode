@@ -855,7 +855,7 @@ public class S630 {
         Course cbegin = minqueue.dequeue();
         cret[0] = cbegin;
         maxqueue.enqueue(cbegin);
-        int sumdua = 0;
+        int sumdua = cbegin.duration;
         int index = 0;
         while (!minqueue.isEmpty()) {
 
@@ -867,21 +867,23 @@ public class S630 {
 
             //已选择当中，持续时间最长的
             Course dmax = (Course) maxqueue.peer1();
-            sumdua += cret[index].duration;
+
             if(sumdua + lmin.duration > lmin.lastday) {
                 if (dmax.duration >= lmin.duration) {
                     maxqueue.dequeue();
                     //替换最长时间对应的索引
-                    cret[getIndex(cret,dmax)] = lmin;
+                    int dmaxindex = getIndex(cret,dmax);
+                    cret[dmaxindex] = lmin;
                     maxqueue.enqueue(lmin);
-                    sumdua -= cret[index + 1].duration;
+                    sumdua -= dmax.duration;
                 }else {
-                    sumdua -= cret[index].duration;
+                    //sumdua -= cret[index].duration;
                     continue;
                 }
             }else {
                 maxqueue.enqueue(lmin);
                 cret[index + 1] = lmin;
+                sumdua += lmin.duration;
             }
             index++;
         }

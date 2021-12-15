@@ -171,15 +171,16 @@ public class S630 {
             data = newData;
         }
     }
-    class MinHeap<E extends Comparable<E>> {
+    class MinHeap<E> {
         Array<E> data;
-
+        Comparator<E> comparator;
         public MinHeap(int capacity) {
             this.data = new Array<>(capacity);
         }
 
-        public MinHeap() {
+        public MinHeap(Comparator<E> comparator) {
             this.data = new Array<>();
+            this.comparator = comparator;
         }
 
         public int size() {
@@ -208,7 +209,7 @@ public class S630 {
         //添加元素
         public void add(E e) {
             this.data.addLast(e);
-            siftUp(data.getSize() - 1);
+            siftUp(data.getSize() - 1,comparator);
         }
 
         //交换
@@ -226,7 +227,7 @@ public class S630 {
         public E extract() {
             swap(0,data.getSize() - 1);
             E e = this.data.removeLast();
-            siftDown(0);
+            siftDown(0,comparator);
             return e;
         }
 
@@ -237,14 +238,14 @@ public class S630 {
         //替换
         public void replace(E e) {
             data.set(0,e);
-            siftDown(0);
+            siftDown(0,comparator);
         }
 
         //堆化
         public void heapify(E[] arr) {
             for (int i = parent(arr.length - 1); i >= 0; i--) {
                 //[0,非叶子节点]每一个都下沉到该在的位置，每一个元素与越来越多的元素去比对
-                siftDown(arr,i);
+                siftDown(arr,i,comparator);
             }
         }
 
@@ -253,14 +254,14 @@ public class S630 {
             heapify(arr);
             for (int i = arr.length - 1; i >= 0; i--) {
                 swap(arr,0,i);
-                siftDown(arr,0,i);
+                siftDown(arr,0,i,comparator);
             }
         }
 
         //上浮
-        public void siftUp(E[] arr, int k) {
+        public void siftUp(E[] arr, int k,Comparator<E> comparator) {
             while (parent(k) >= 0) {
-                if (arr[parent(k)].compareTo(arr[k]) < 0) {
+                if (comparator.compareTo(arr[parent(k)],arr[k]) < 0) {
                     break;
                 }else {
                     swap(parent(k),k);
@@ -268,9 +269,9 @@ public class S630 {
                 k = parent(k);
             }
         }
-        public void siftUp(int k) {
+        public void siftUp(int k,Comparator<E> comparator) {
             while (parent(k) >= 0) {
-                if (data.get(parent(k)).compareTo(data.get(k)) < 0) {
+                if (comparator.compareTo(data.get(parent(k)),data.get(k)) < 0) {
                     break;
                 }else {
                     swap(parent(k),k);
@@ -280,13 +281,13 @@ public class S630 {
         }
 
         //下沉
-        public void siftDown(E[] arr, int k, int n) {
+        public void siftDown(E[] arr, int k, int n,Comparator<E> comparator) {
             while (leftChild(k) < n) {
                 int i = leftChild(k);
-                if (i + 1 < n && arr[i + 1].compareTo(arr[i]) < 0) {
+                if (i + 1 < n && comparator.compareTo(arr[i + 1],arr[i]) < 0) {
                     i = i + 1;
                 }
-                if (arr[k].compareTo(arr[i]) > 0) {
+                if (comparator.compareTo(arr[k],arr[i]) > 0) {
                     swap(arr, k, i);
                 } else {
                     break;
@@ -294,13 +295,13 @@ public class S630 {
                 k = i;
             }
         }
-        public void siftDown(E[] arr, int k) {
+        public void siftDown(E[] arr, int k,Comparator<E> comparator) {
             while (leftChild(k) < arr.length) {
                 int i = leftChild(k);
-                if (i + 1 < arr.length && arr[i + 1].compareTo(arr[i]) < 0) {
+                if (i + 1 < arr.length && comparator.compareTo(arr[i + 1],arr[i]) < 0) {
                     i = i + 1;
                 }
-                if (arr[k].compareTo(arr[i]) > 0) {
+                if (comparator.compareTo(arr[k],arr[i]) > 0) {
                     swap(arr,k,i);
                 }else {
                     break;
@@ -308,13 +309,13 @@ public class S630 {
                 k = i;
             }
         }
-        public void siftDown(int k) {
+        public void siftDown(int k,Comparator<E> comparator) {
             while (leftChild(k) < data.getSize()) {
                 int i = leftChild(k);
-                if (i + 1 < data.getSize() && data.get(i + 1).compareTo(data.get(i)) < 0) {
+                if (i + 1 < data.getSize() && comparator.compareTo(data.get(i + 1),data.get(i)) < 0) {
                     i = i + 1;
                 }
-                if (data.get(k).compareTo(data.get(i)) > 0) {
+                if (comparator.compareTo(data.get(k),data.get(i)) > 0) {
                     swap(k,i);
                 }else {
                     break;
@@ -324,7 +325,7 @@ public class S630 {
             }
         }
     }
-    class PriorityQueue<E extends Comparable<E>> {
+    class PriorityQueue<E> {
         class Array<E> {
 
             private E[] data;
@@ -491,8 +492,8 @@ public class S630 {
         }
         MinHeap<E> minHeap;
 
-        public PriorityQueue() {
-            this.minHeap = new MinHeap();
+        public PriorityQueue(Comparator<E> comparator) {
+            this.minHeap = new MinHeap(comparator);
         }
 
         public void enqueue(E e) {
@@ -515,7 +516,10 @@ public class S630 {
 
 
     }
-    public class PriorityQueue1<E extends Comparable<E>> {
+    interface Comparator<E>{
+        int compareTo(E e1, E e2);
+    }
+    public class PriorityQueue1<E> {
         //
         class Array<E> {
 
@@ -681,23 +685,25 @@ public class S630 {
                 data = newData;
             }
         }
-        class MaxHeap<E extends Comparable<E>> {
+        class MaxHeap<E> {
 
             private Array<E> data;
-
-            public MaxHeap(int capacity){
+            Comparator<E> comparator;
+            public MaxHeap(int capacity,Comparator<E> comparator){
                 data = new Array(capacity);
+                this.comparator = comparator;
             }
 
-            public MaxHeap(){
+            public MaxHeap(Comparator<E> comparator){
                 data = new Array<>();
+                this.comparator = comparator;
             }
 
             public MaxHeap(E[] arr){
                 data = new Array<>(arr);
                 if(arr.length != 1){
                     for(int i = parent(arr.length - 1) ; i >= 0 ; i --)
-                        siftDown(i);
+                        siftDown(i,comparator);
                 }
             }
 
@@ -731,12 +737,12 @@ public class S630 {
             // 向堆中添加元素
             public void add(E e){
                 data.addLast(e);
-                siftUp(data.getSize() - 1);
+                siftUp(data.getSize() - 1,comparator);
             }
 
-            private void siftUp(int k){
+            private void siftUp(int k, Comparator<E> comparator){
 
-                while(k > 0 && data.get(parent(k)).compareTo(data.get(k)) < 0 ){
+                while(k > 0 && comparator.compareTo(data.get(parent(k)),data.get(k)) < 0 ){
                     data.swap(k, parent(k));
                     k = parent(k);
                 }
@@ -756,21 +762,21 @@ public class S630 {
 
                 data.swap(0, data.getSize() - 1);
                 data.removeLast();
-                siftDown(0);
+                siftDown(0,this.comparator);
 
                 return ret;
             }
 
-            private void siftDown(int k){
+            private void siftDown(int k, Comparator<E> comparator){
 
                 while(leftChild(k) < data.getSize()){
                     int j = leftChild(k); // 在此轮循环中,data[k]和data[j]交换位置
                     if( j + 1 < data.getSize() &&
-                            data.get(j + 1).compareTo(data.get(j)) > 0 )
+                            comparator.compareTo(data.get(j + 1),data.get(j)) > 0 )
                         j ++;
                     // data[j] 是 leftChild 和 rightChild 中的最大值
 
-                    if(data.get(k).compareTo(data.get(j)) >= 0 )
+                    if(comparator.compareTo(data.get(k),data.get(j)) >= 0 )
                         break;
 
                     data.swap(k, j);
@@ -783,15 +789,15 @@ public class S630 {
 
                 E ret = findMax();
                 data.set(0, e);
-                siftDown(0);
+                siftDown(0,comparator);
                 return ret;
             }
         }
 
         MaxHeap<E> maxHeap;
 
-        public PriorityQueue1() {
-            this.maxHeap = new MaxHeap();
+        public PriorityQueue1(Comparator<E> comparator) {
+            this.maxHeap = new MaxHeap(comparator);
         }
 
         public void enqueue(E e) {
@@ -815,14 +821,28 @@ public class S630 {
 
     }
     public int scheduleCourse(int[][] courses) {
-        PriorityQueue<Course> minqueue = new PriorityQueue<>();
+        Comparator<Course> lastc = new Comparator<Course>() {
+            @Override
+            public int compareTo(Course e1, Course e2) {
+                return e1.lastday - e2.lastday;
+            }
+        };
+        PriorityQueue<Course> minqueue = new PriorityQueue<>(lastc);
+
         for (int i = 0; i < courses.length; i++) {
             if(courses[i][0] >courses[i][1]) {
                 minqueue.enqueue(new Course(courses[i][0],courses[i][1]));
             }
         }
-        PriorityQueue1 maxqueue = new PriorityQueue1();
+        Comparator<Course> dc = new Comparator<Course>() {
+            @Override
+            public int compareTo(Course e1, Course e2) {
+                return e1.duration - e2.duration;
+            }
+        };
+        PriorityQueue1 maxqueue = new PriorityQueue1(dc);
         while (minqueue.isEmpty()) {
+            //当前最小截止期限
             maxqueue.enqueue(minqueue.dequeue());
 
         }
@@ -831,18 +851,13 @@ public class S630 {
 
 
     }
-    class Course implements Comparable<Course>{
+    class Course{
         int duration;
         int lastday;
 
         public Course(int d, int last) {
             this.duration = d;
             this.lastday = last;
-        }
-
-        @Override
-        public int compareTo(Course o) {
-            return this.lastday - o.lastday;
         }
     }
 }

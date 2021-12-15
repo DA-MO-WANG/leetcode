@@ -864,7 +864,7 @@ public class S630 {
             Course dmax = (Course) maxqueue.peer1();
             sumdua += cret[index].duration;
             if(sumdua + lmin.duration > lmin.lastday) {
-                if (dmax.duration > lmin.duration) {
+                if (dmax.duration >= lmin.duration) {
                     maxqueue.dequeue();
                     cret[index--] = lmin;
                     maxqueue.enqueue(lmin);

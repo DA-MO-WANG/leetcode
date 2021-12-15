@@ -866,7 +866,7 @@ public class S630 {
             if(sumdua + lmin.duration > lmin.lastday) {
                 if (dmax.duration > lmin.duration) {
                     maxqueue.dequeue();
-                    cret[--index] = lmin;
+                    cret[index--] = lmin;
                     maxqueue.enqueue(lmin);
                     sumdua -= dmax.duration;
                 }else {
@@ -892,7 +892,8 @@ public class S630 {
     }
 
     public static void main(String[] args) {
-        int[][] course = {{7,16},{2,3},{3,12},{3,14},{10,19},{10,16},{6,8},{6,11},{3,13},{6,16}};
+        //int[][] course = {{7,16},{2,3},{3,12},{3,14},{10,19},{10,16},{6,8},{6,11},{3,13},{6,16}};
+        int[][] course = {{5,5},{4,6},{2,6}};
         S630 s630 = new S630();
         int i = s630.scheduleCourse(course);
         System.out.println(i);

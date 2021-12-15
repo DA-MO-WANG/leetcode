@@ -806,6 +806,9 @@ public class S630 {
         public E dequeue() {
            return maxHeap.extractMax();
         }
+        public E peer1() {
+            return maxHeap.findMax();
+        }
 
         public boolean isEmpty() {
             return maxHeap.isEmpty();
@@ -841,14 +844,37 @@ public class S630 {
             }
         };
         PriorityQueue1 maxqueue = new PriorityQueue1(dc);
+        Course[] cret = new Course[minqueue.getSize()];
+        Course cbegin = minqueue.dequeue();
+        cret[0] = cbegin;
+        maxqueue.enqueue(cbegin);
+        int sumdua = 0;
+        int index = 0;
         while (minqueue.isEmpty()) {
-            //当前最小截止期限
-            maxqueue.enqueue(minqueue.dequeue());
 
+            //待选择列表中最小截止期限
+            Course lmin = minqueue.dequeue();
+            //当前选择的课程的持续时间
+
+            //已选择当中，持续时间最长的
+            Course dmax = (Course) maxqueue.peer1();
+            sumdua += cret[index].duration;
+            if(sumdua + lmin.duration > lmin.lastday) {
+                if (dmax.duration > lmin.duration) {
+                    maxqueue.dequeue();
+                    cret[index] = lmin;
+                    maxqueue.enqueue(lmin);
+                    sumdua -= dmax.duration;
+                }else {
+                    break;
+                }
+            }else {
+                maxqueue.enqueue(lmin);
+                cret[index + 1] = lmin;
+            }
+            index++;
         }
-
-
-
+        return maxqueue.getSize();
 
     }
     class Course{

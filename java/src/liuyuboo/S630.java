@@ -861,6 +861,8 @@ public class S630 {
 
             //待选择列表中最小截止期限
             Course lmin = minqueue.dequeue();
+            if(lmin.lastday == 16) System.out.println("111111111");
+
             //当前选择的课程的持续时间
 
             //已选择当中，持续时间最长的

@@ -840,6 +840,7 @@ public class S630 {
                 minqueue.enqueue(new Course(courses[i][0],courses[i][1]));
             }
         }
+        if(minqueue.getSize() == 0) return 0;
         Comparator<Course> dc = new Comparator<Course>() {
             @Override
             public int compareTo(Course e1, Course e2) {

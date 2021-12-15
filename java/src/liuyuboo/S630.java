@@ -870,6 +870,7 @@ public class S630 {
                     maxqueue.enqueue(lmin);
                     sumdua -= dmax.duration;
                 }else {
+                    sumdua -= dmax.duration;
                     continue;
                 }
             }else {

@@ -492,22 +492,22 @@ public class S630 {
         MinHeap<E> minHeap;
 
         public PriorityQueue() {
-            this.maxHeap = new liuyuboo.PriorityQueue.MaxHeap();
+            this.minHeap = new MinHeap();
         }
 
         public void enqueue(E e) {
-            maxHeap.add(e);
+            minHeap.add(e);
         }
         public void dequeue() {
-            maxHeap.extractMax();
+            minHeap.extract();
         }
 
         public boolean isEmpty() {
-            return maxHeap.isEmpty();
+            return minHeap.isEmpty();
         }
 
         public int getSize() {
-            return maxHeap.size();
+            return minHeap.size();
         }
 
 
@@ -522,6 +522,8 @@ public class S630 {
                 queue.enqueue(new Course(courses[i][0],courses[i][1]));
             }
         }
+        
+
 
     }
     class Course implements Comparable<Course>{
@@ -535,7 +537,7 @@ public class S630 {
 
         @Override
         public int compareTo(Course o) {
-            return o.lastday - this.lastday;
+            return this.lastday - o.lastday;
         }
     }
 }

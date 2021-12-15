@@ -276,8 +276,7 @@ public class S630 {
             while (k > 0 && parent(k) >= 0) {
                 if (comparator.compareTo(data.get(parent(k)),data.get(k)) < 0) {
                     break;
-                }else if(comparator.compareTo(data.get(parent(k)),data.get(k)) == 0){
-
+                }else {
                     swap(parent(k),k);
                 }
                 k = parent(k);

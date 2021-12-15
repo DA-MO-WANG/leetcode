@@ -209,6 +209,7 @@ public class S630 {
         //添加元素
         public void add(E e) {
             this.data.addLast(e);
+            if (data.getSize() - 1 == 0) return;
             siftUp(data.getSize() - 1,comparator);
         }
 

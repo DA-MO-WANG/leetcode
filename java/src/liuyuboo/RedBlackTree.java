@@ -73,7 +73,9 @@ public class RedBlackTree<E extends Comparable<E>> {
         Node root = node.left;
         node.left = root.right;
         root.right = node;
-        flipColors(root);
+        root.color = node.color;
+        node.color = Black;
+        //flipColors(root);
         return root;
     }
 

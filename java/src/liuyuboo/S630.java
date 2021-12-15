@@ -851,7 +851,7 @@ public class S630 {
         maxqueue.enqueue(cbegin);
         int sumdua = 0;
         int index = 0;
-        while (minqueue.isEmpty()) {
+        while (!minqueue.isEmpty()) {
 
             //待选择列表中最小截止期限
             Course lmin = minqueue.dequeue();

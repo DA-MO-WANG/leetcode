@@ -871,7 +871,8 @@ public class S630 {
             if(sumdua + lmin.duration > lmin.lastday) {
                 if (dmax.duration >= lmin.duration) {
                     maxqueue.dequeue();
-                    cret[index--] = lmin;
+                    //替换最长时间对应的索引
+                    cret[getIndex(cret,dmax)] = lmin;
                     maxqueue.enqueue(lmin);
                     sumdua -= cret[index + 1].duration;
                 }else {
@@ -886,6 +887,15 @@ public class S630 {
         }
         return maxqueue.getSize();
 
+    }
+
+    public int getIndex(Course[] cret, Course course) {
+        for (int i = 0; i < cret.length; i++) {
+            if (cret[i] == course) {
+                return i;
+            }
+        }
+        return -1;
     }
     class Course{
         int duration;

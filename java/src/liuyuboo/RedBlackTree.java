@@ -93,6 +93,20 @@ public class RedBlackTree<E extends Comparable<E>> {
             //问题：没考虑待添加的元素已经有了
             root.right = add2(root.right,data);
         }
+
+        //红黑树的平衡机制--颜色平衡
+        //在逻辑链条上去选择
+        if(root.right.color == Red && root.left.color != Red) {
+            root =  rotateLeft(root);
+        }
+        if (root.left.color == Red && root.left.left.color == Red) {
+            root = rotateRight(root);
+        }
+        if (root.left.color == Red && root.right.color == Red) {
+            flipColors(root);
+        }
+
+
         return root;
     }
 

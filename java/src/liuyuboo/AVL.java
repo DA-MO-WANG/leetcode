@@ -2,6 +2,8 @@ package liuyuboo;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
+
 //平衡二叉树--由BST
 public class AVL<E extends Comparable<E>,V> {
     //成员变量
@@ -335,7 +337,8 @@ public class AVL<E extends Comparable<E>,V> {
     }
 
     public static void main(String[] args) {
-        Queue<E> queue = new
+        Queue queue = new PriorityQueue();
+
     }
 
     //rank问题-select问题

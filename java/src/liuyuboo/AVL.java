@@ -334,6 +334,10 @@ public class AVL<E extends Comparable<E>,V> {
         return e;
     }
 
+    public static void main(String[] args) {
+        Queue<E> queue = new
+    }
+
     //rank问题-select问题
     //方案：node维护一个size变量，代表以此节点为根，的树的节点数量
     //比root小，就肯定在一侧，然后就rank就排出了一个范围

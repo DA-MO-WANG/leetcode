@@ -35,7 +35,7 @@ public class J33 {
     public static void main(String[] args) {
         String sb = new StringBuffer("121").reverse().toString();
 
-        System.out.println(sb == "121");
+        System.out.println(sb.equals("121"));
     }
 
 

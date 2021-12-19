@@ -19,11 +19,12 @@ public class Z272 {
         for(int i = 0; i < prices.length - 1; i++) {
             int j = i + 1;
             while(j < prices.length) {
-                if(prices[j] - prices[j - 1] != 1) {
+                if(prices[j] - prices[j - 1] != -1) {
                     break;
                 }else {
                     count++;
                 }
+                j++;
             }
         }
         return count;

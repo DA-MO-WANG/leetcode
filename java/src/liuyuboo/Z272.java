@@ -13,4 +13,26 @@ public class Z272 {
         }
         return sbz.toString();
     }
+
+    public long getDescentPeriods(int[] prices) {
+        long count = prices.length;
+        for(int i = 0; i < prices.length - 1; i++) {
+            int j = i + 1;
+            while(j < prices.length) {
+                if(prices[j] - prices[j - 1] != 1) {
+                    break;
+                }else {
+                    count++;
+                }
+            }
+        }
+        return count;
+
+    }
+
+    public static void main(String[] args) {
+        Z272 z272 = new Z272();
+        long q = z272.getDescentPeriods(new int[]{3,2,1,4});
+        System.out.println(q);
+    }
 }

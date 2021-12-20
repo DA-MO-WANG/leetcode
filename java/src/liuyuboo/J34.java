@@ -8,18 +8,12 @@ import java.util.List;
 public class J34 {
 
     public List<List<Integer>> pathSum(TreeNode root, int target) {
-        if (root == null) {
-            if ()
-        }
-
-
-
-
-
+        pathSum(root,target,0);
+        return lists;
     }
     ArrayList<Integer> list = new ArrayList<>();
     List<List<Integer>> lists = new ArrayList<>();
-    public List<List<Integer>> pathSum(TreeNode root, int target, int sum ) {
+    public void pathSum(TreeNode root, int target, int sum ) {
         if (root == null) {
             if (sum == target) {
                 lists.add(list);
@@ -28,11 +22,6 @@ public class J34 {
         }
         pathSum(root.left,target - root.val,sum + root.val);
         pathSum(root.right,target - root.val,sum + root.val);
-
-
-
-
-
     }
 
 

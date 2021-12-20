@@ -41,10 +41,11 @@ public class J34 {
     public void findPath(TreeNode root, int target, Stack<Integer> path, int currentSum ) {
         currentSum += root.val;
         path.push(root.val);
+
         boolean isLeaf = root.left == null && root.right == null;
         if (currentSum == target && isLeaf) {
-            while (!path.isEmpty()) {
-                pathlist.add(path.pop());
+            for (int i = 0; i < path.list.size(); i++) {
+                pathlist.add(path.list.get(i));
             }
             lists.add(pathlist);
             pathlist.clear();

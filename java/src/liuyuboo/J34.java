@@ -9,6 +9,8 @@ public class J34 {
 
     public List<List<Integer>> pathSum(TreeNode root, int target) {
         pathSum(root,target,0);
+        Stack<Integer> stack = new ArrayStack<>();
+        //stack.
         return lists;
     }
     ArrayList<Integer> list = new ArrayList<>();

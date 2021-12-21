@@ -27,6 +27,7 @@ public class J34 {
         public int size(){
             return list.size();
         }
+    }
 
     public List<List<Integer>> pathSum(TreeNode root, int target) {
         if(root == null) return lists;
@@ -58,6 +59,4 @@ public class J34 {
         }
         path.pop();
     }
-
-
 }

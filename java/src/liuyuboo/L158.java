@@ -41,8 +41,5 @@ public class L158 {
             }
         }
         return copyHead;
-
-
-
     }
 }

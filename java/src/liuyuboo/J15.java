@@ -27,6 +27,8 @@ public class J15 {
         int right = nums.length - 1;
         //while (left < right) {//因为要枚举b，定一议二==》left是不能动的，用while不对
         for(left = i + 1; left < n - 1; left++) {
+
+            //难点：各个比较的细节--有点容易混乱
             //重复的只走一次
             //如果相等的话，left left-1 结果一样
             if(left < right && nums[left] == nums[left - 1]) {

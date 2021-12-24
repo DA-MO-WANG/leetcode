@@ -25,15 +25,24 @@ public class J15 {
         }
         int left = i + 1;
         int right = nums.length - 1;
-        if (left < right && nums[left] + nums[right] > -nums[i]) {
-            right--;
+        while (left < right) {
+            if (left < right && nums[left] + nums[right] > -nums[i]) {
+                right--;
+            }
+            if (left < right && nums[left] + nums[right] < -nums[i]) {
+                left++;
+            }
+            if (left < right && nums[left] + nums[right] == -nums[i]) {
+                List<Integer> list = new ArrayList<>();
+                list.add(i);
+                list.add(left);
+                list.add(right);
+                ret.add(list);
+            }
         }
-        if (left < right && nums[left] + nums[right] < -nums[i]) {
-            left++;
-        }
-        if (left < right && nums[left] + nums[right] == -nums[i]) {
 
-        }
+        return ret;
+
 
 
 

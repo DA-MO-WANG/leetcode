@@ -27,12 +27,20 @@ public class J15 {
         int right = nums.length - 1;
         //while (left < right) {//因为要枚举b，定一议二==》left是不能动的，用while不对
         for(left = i + 1; left < n - 1; left++) {
-            if (left < right && nums[left] + nums[right] > -nums[i]) {
+            //重复的只走一次
+            if(left < right && nums[left] == nums[left - 1]) {
+                continue;
+            }
+            if(left < right && nums[right] == nums[right - 1]) {
+                continue;
+            }
+            while (left < right && nums[left] + nums[right] > -nums[i]) {
                 right--;
             }
             if (left < right && nums[left] + nums[right] < -nums[i]) {
                 right++;
             }
+            if(left == right) break;
             if (left < right && nums[left] + nums[right] == -nums[i]) {
                 List<Integer> list = new ArrayList<>();
                 list.add(i);

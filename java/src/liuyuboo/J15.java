@@ -28,19 +28,22 @@ public class J15 {
         //while (left < right) {//因为要枚举b，定一议二==》left是不能动的，用while不对
         for(left = i + 1; left < n - 1; left++) {
             //重复的只走一次
+            //如果相等的话，left left-1 结果一样
             if(left < right && nums[left] == nums[left - 1]) {
                 continue;
             }
-            if(left < right && nums[right] == nums[right - 1]) {
-                continue;
-            }
+            //定住了left， 开始找right的位置
+            //因为是排序的，所以right一直往左走
             while (left < right && nums[left] + nums[right] > -nums[i]) {
                 right--;
             }
-            if (left < right && nums[left] + nums[right] < -nums[i]) {
-                right++;
-            }
+            //以前走过的，不需要重复再走了
             if(left == right) break;
+            //发现两个重合的，同解，跳过一个
+            if(right < n - 1 && nums[right] == nums[right + 1]) {
+                continue;
+            }
+            //把最后的解放在最后
             if (left < right && nums[left] + nums[right] == -nums[i]) {
                 List<Integer> list = new ArrayList<>();
                 list.add(i);

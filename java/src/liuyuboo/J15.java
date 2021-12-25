@@ -53,6 +53,7 @@ public class J15 {
                 list.add(right);
                 ret.add(list);
             }
+            
         }
 
         return ret;

@@ -20,6 +20,53 @@ public class JZ27 {
         }
 
     }
+    //目的：转化成排序的循环双向链表
+    public Node treeToDoublyList(Node root) {
+        //分化瓦解--三个部分，每个部分都具有和上级同样的问题实质
+        if (root.left == null)
 
-    
+        //小问题：左子树
+        leftTo(root.left).right = root;
+
+        //小问题：右子树
+        rightTo(root.right).left = root;
+
+        return root;
+
+    }
+    //返回左子树最大节点
+    public Node leftTo(Node root) {
+        if(root.left == null && root.right == null) {
+            return root;
+        }
+        leftTo(root.left).right = root;
+        rightTo(root.right).left = root;
+        return findMax(root.right);
+
+    }
+
+    public Node findMax(Node root) {
+        if(root.right == null) {
+            return root;
+        }
+        return findMax(root.right);
+    }
+
+    public Node findMin(Node root) {
+        if (root.left == null) {
+            return root;
+        }
+        return findMin(root.left);
+    }
+    //返回右子树最小节点
+    public Node rightTo(Node root) {
+        if(root.left == null && root.right == null) {
+            return root;
+        }
+        leftTo(root.left).right = root;
+        rightTo(root.right).left = root;
+        return findMin(root.left);
+    }
+
+
 }

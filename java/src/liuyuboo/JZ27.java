@@ -22,8 +22,21 @@ public class JZ27 {
     }
     //目的：转化成排序的循环双向链表
     public Node treeToDoublyList(Node root) {
+        //结果形式--和中序遍历类似
+        //操作中序遍历的每个节点
+    }
+
+    public void inOrder(Node root) {
+
+        inOrder(root.left);
+        //
+        
+        inOrder(root.right);
+    }
+
+
         //分化瓦解--三个部分，每个部分都具有和上级同样的问题实质
-        Node lastNode = null;
+       /* Node lastNode = null;
         convertNode(root,lastNode);
         Node headNode = lastNode;
         while (headNode != null && headNode.left != null) {
@@ -50,7 +63,7 @@ public class JZ27 {
         if (current.right != null) {
             convertNode(current.right,lastNode);
         }
-    }
+    }*/
 
 
        /* if (root.left == null)

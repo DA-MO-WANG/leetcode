@@ -21,19 +21,36 @@ public class JZ27 {
 
     }
     //目的：转化成排序的循环双向链表
+    Node head = new Node();
+
     public Node treeToDoublyList(Node root) {
         //结果形式--和中序遍历类似
-        //操作中序遍历的每个节点
+        //结果链表是一个由中序顺序组织的链表
+        //所谓链表和bst都是节点靠指针维护的，这个结构是一致的，所以存在就地转换的可能
+        //这个处理工程，只涉及两个点角色之间的指针调整，其他部分不需要===》需要head  cur两个小弟
+        //cur 代表当前节点，而这个当前节点是中序顺序组织的节点；也就是中序遍历框架中间位置，会自然拿到当前节点
+        //head 这里就要记录前一个节点
+        //前一个节点与当前节点的互动，只有三部分：两部分指针调整-前一个后指针指向下一个；后一个前指针指向前一个；记得更新head，来保证始终维持root的前一个节点
+        Node begin = head;
+        inOrder(root);
+        Node cur = ret;
+        while (cur.left != begin) {
+            cur = cur.left;
+        }
+        return cur;
+
+
     }
-    Node cur = null;
+    Node ret = null;
     public void inOrder(Node root) {
         if (root == null) {
             return;
         }
         inOrder(root.left);
-        cur = root;
-        
-
+        head.right = root;
+        root.left = head;
+        head = head.right;
+        ret = root;
         inOrder(root.right);
     }
 

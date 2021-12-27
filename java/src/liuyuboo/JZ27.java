@@ -23,7 +23,37 @@ public class JZ27 {
     //目的：转化成排序的循环双向链表
     public Node treeToDoublyList(Node root) {
         //分化瓦解--三个部分，每个部分都具有和上级同样的问题实质
-        if (root.left == null)
+        Node lastNode = null;
+        convertNode(root,lastNode);
+        Node headNode = lastNode;
+        while (headNode != null && headNode.left != null) {
+            headNode = headNode.left;
+        }
+        return headNode;
+
+
+    }
+
+    public void convertNode(Node root,Node lastNode) {
+        if (root == null) {
+            return;
+        }
+        Node current = root;
+        if (current.left != null) {
+            convertNode(current.left,lastNode);
+        }
+        current.left = lastNode;
+        if (lastNode != null) {
+            lastNode.right = current;
+        }
+        lastNode = current;
+        if (current.right != null) {
+            convertNode(current.right,lastNode);
+        }
+    }
+
+
+       /* if (root.left == null)
 
         //小问题：左子树
         leftTo(root.left).right = root;
@@ -67,6 +97,6 @@ public class JZ27 {
         rightTo(root.right).left = root;
         return findMin(root.left);
     }
-
+*/
 
 }

@@ -25,12 +25,15 @@ public class JZ27 {
         //结果形式--和中序遍历类似
         //操作中序遍历的每个节点
     }
-
+    Node cur = null;
     public void inOrder(Node root) {
-
+        if (root == null) {
+            return;
+        }
         inOrder(root.left);
-        //
+        cur = root;
         
+
         inOrder(root.right);
     }
 

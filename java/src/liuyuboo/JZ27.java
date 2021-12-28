@@ -1,5 +1,7 @@
 package liuyuboo;
 
+import java.util.LinkedList;
+
 public class JZ27 {
     class Node {
         public int val;
@@ -52,6 +54,7 @@ public class JZ27 {
         head = head.right;
         ret = root;
         inOrder(root.right);
+        LinkedList
     }
 
 

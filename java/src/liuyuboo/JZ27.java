@@ -54,7 +54,6 @@ public class JZ27 {
         head = head.right;
         ret = root;
         inOrder(root.right);
-        LinkedList
     }
 
 

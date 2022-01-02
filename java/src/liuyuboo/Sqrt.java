@@ -1,2 +1,5 @@
-package liuyuboo;public class Sqrt {
+package liuyuboo;
+
+public class Sqrt {
+    
 }

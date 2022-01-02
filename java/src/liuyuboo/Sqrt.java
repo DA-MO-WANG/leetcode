@@ -47,7 +47,7 @@ public class Sqrt {
             for (int i = left; i <= (bstart + 1) * B; i++) {
                 res += data[i];
             }
-            //中间的块，不用遍历，直接拿统计值· 
+            //中间的块，不用遍历，直接拿统计值·
             for (int i = bstart + 1; i < bend; i++) {
                 res += blocks[i];
             }

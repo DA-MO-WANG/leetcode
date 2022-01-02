@@ -59,4 +59,10 @@ public class Sqrt {
 
         return res;
     }
+    //单元素更新
+    public void update(int index, int val) {
+        int updateIndex = index / B;
+        blocks[updateIndex] = blocks[updateIndex] - data[index] + val;
+        data[updateIndex] = val;
+    }
 }

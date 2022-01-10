@@ -34,6 +34,7 @@ public class LSDSort {
             }
 
             for(String s : arr) {
+                //这里是计数排序的核心
                 temp[index[s.charAt(r)]] = s;
                 index[s.charAt(r)]++;
             }

@@ -21,7 +21,15 @@ public class SubstringMatch {
         }
         return -1;
     }
+//算法简述
+    /**
+     * 暴力解法：
+          i指向字符串s的起始位置，j指向t的起始位置，开始本轮i的字符对齐操作；
+          如果发现无法对齐，提前结束break
+          如果j走到t字符串的末尾，说明对齐成功，也就是在对齐循环的外面判断下，然后返回本轮i
+          以此类推
 
+     */
     public static void main(String[] args) {
         //SubstringMatch sub = new SubstringMatch();
         String s = "hi i am john";

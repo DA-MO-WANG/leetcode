@@ -27,7 +27,7 @@ public class S1147 {
     }
 
     //[l1,r1]  == [l2,r2]
-    private boolean equal(String s, int l1, int r1, int l2, int r2) {
+    private boolean equal1(String s, int l1, int r1, int l2, int r2) {
         //用逐步遍历的方式来判断是否相等
         for (int i = l1, j = l2; i <= r1 && j <= r2; i++,j++) {
             if (s.charAt(i) != s.charAt(j)) return false;
@@ -54,10 +54,25 @@ public class S1147 {
 
     private int solve(String s, int left, int right) {
         if (left < right) return 0;
+        //在第一版的基础上，替换了字符串比较的思路
+        //改"逐个遍历字符，为比较字符串的哈希值"
+        //===》工作转为如何计算哈希值
         long prehash = 0, posthash = 0;
         for (int i = left, j = right; i < j; i++,j--) {
-            prehash = (prehash * 26 + (s.charAt(i) - 'a')) % MOD;
-            posthash = ((s.charAt(j) - 'a') * pow26[right - j] + posthash) % MOD;
+            //不断的变化的字符串，没必要重新遍历，而是借助上一次的操作，得到相同性质的新的结果--这就是利用哈希的优势
+            prehash = (prehash * 26 + (s.charAt(i) - 'a')) % MOD;//从左到右不断增加最低位
+            posthash = ((s.charAt(j) - 'a') * pow26[right - j] + posthash) % MOD;//从右到左不断增加最高位
+            //这里模仿了哈希表添加元素的逻辑，如果哈希冲突了，再去比较确切元素，加了一层保险，而不同的立刻就能通过哈希来判断出来
+            if (prehash == posthash && equal(s,left,i,right,j)) return 2 + solve(s,i + 1, j - 1);
         }
+        return 1;
     }
+
+    private boolean equal(String s, int l1, int r1, int l2, int r2) {
+        for (int i = l1, j = l2; i <= r1 && j <= r2; i++,j++) {
+            if (s.charAt(i) != s.charAt(j)) return false;
+        }
+        return true;
+    }
+
 }

@@ -2,7 +2,7 @@ package liuyuboo;
 
 public class S1147 {
     //段式回文
-    public int longestDecomposition(String text) {
+    public int longestDecomposition1(String text) {
 
         //先把逻辑框架搭好，再填充细节
         //递归：处理left-right区间范围内的字符串--字串概念
@@ -10,7 +10,7 @@ public class S1147 {
     }
     //[left,right]
     //返回left-right区间内的最大段数
-    private int solve(String s, int left, int right) {
+    private int solve1(String s, int left, int right) {
         //递归到底的情况：没有元素了--区间越界
         if (left > right) {
             return 0;
@@ -33,5 +33,31 @@ public class S1147 {
             if (s.charAt(i) != s.charAt(j)) return false;
         }
         return true;
+    }
+
+
+
+
+    private long MOD = (long)(1e9 + 7);
+    //预处理准备一个幂值运算
+    private long[] pow26;
+
+    public int longestDecomposition(String text) {
+        //字符串哈希函数的公式,所有的幂因子，用一个数组来存储
+        pow26 = new long[text.length()];
+        pow26[0] = 1;
+        for (int i = 1; i < pow26.length; i++) {
+            pow26[i] = pow26[i - 1] * 26 % MOD;
+        }
+        return solve(text, 0, text.length() - 1);
+    }
+
+    private int solve(String s, int left, int right) {
+        if (left < right) return 0;
+        long prehash = 0, posthash = 0;
+        for (int i = left, j = right; i < j; i++,j--) {
+            prehash = (prehash * 26 + (s.charAt(i) - 'a')) % MOD;
+            posthash = ((s.charAt(j) - 'a') * pow26[right - j] + posthash) % MOD;
+        }
     }
 }

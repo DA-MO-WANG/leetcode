@@ -34,17 +34,15 @@ public class S1392 {
         for (int i = 1; i < s.length(); i++) {
             pow26[i] = pow26[i - 1] * 26;
         }
-
         int prehash = 0, posthash = 0;
 
         for (int len = s.length(); len >= 1; len--) {
             //前缀哈希，是逐步缩短最后一位
-            prehash = prehash - 
+            prehash = prehash ;
+            //后缀哈希，最高位逐步缩短
+            posthash = posthash;
 
-            if (equal(s,0,len - 1,s.length() - len, s.length() - 1)) {
-
-
-
+            if (prehash == posthash && equal(s,0,len - 1,s.length() - len, s.length() - 1)) {
                 return s.substring(0,len);
             }
         }

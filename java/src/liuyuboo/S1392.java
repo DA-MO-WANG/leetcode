@@ -40,7 +40,7 @@ public class S1392 {
             //前缀哈希，是逐步缩短最后一位
             prehash = (prehash - s.charAt(len)) / 26;
             //后缀哈希，最高位逐步缩短
-            posthash = posthash ;
+            posthash = posthash -;
 
             if (prehash == posthash && equal(s,0,len - 1,s.length() - len, s.length() - 1)) {
                 return s.substring(0,len);

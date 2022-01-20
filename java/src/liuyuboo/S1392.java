@@ -25,7 +25,7 @@ public class S1392 {
         return true;
     }
 
-    long MOD = (long)(1e9 + 7);
+    int MOD = (int)(1e9 + 7);
     //哈希优化版本
     public String longestPrefix(String s) {
         //准备一个预处理的数组
@@ -38,9 +38,10 @@ public class S1392 {
 
         for (int len = s.length(); len >= 1; len--) {
             //前缀哈希，是逐步缩短最后一位
+            prehash = (prehash * 26 + (s.charAt(len - 1) - 'a')) % MOD;
+            posthash = (posthash + (s.charAt(len - len) - 'a') * 1) % MOD;
             prehash = (prehash - s.charAt(len)) / 26;
             //后缀哈希，最高位逐步缩短
-            posthash = posthash -;
 
             if (prehash == posthash && equal(s,0,len - 1,s.length() - len, s.length() - 1)) {
                 return s.substring(0,len);

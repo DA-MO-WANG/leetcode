@@ -1,6 +1,7 @@
 package liuyuboo;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
@@ -49,6 +50,7 @@ public class S187 {
             //hash剔除一位
             hash = hash - map[s.charAt(i - 9)] * ten9;
         }
+        Arrays.sort();
         return new ArrayList<>(res);
     }
 }

@@ -50,7 +50,7 @@ public class S187 {
             //hash剔除一位
             hash = hash - map[s.charAt(i - 9)] * ten9;
         }
-        Arrays.sort();
+
         return new ArrayList<>(res);
     }
 }

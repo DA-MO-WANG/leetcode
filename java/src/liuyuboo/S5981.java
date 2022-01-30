@@ -17,11 +17,12 @@ public class S5981 {
             rightsum += x;
         }
 
-        //int[] dp = new int[nums.lenght];
+        int[] dp = new int[nums.length];
         Integer res = leftnum - leftsum + rightsum;
-        HashMap<Integer,Integer> map = new HashMap();
-        Integer hit = 0;
-        map.put(hit,res);
+        dp[0] = res;
+        //HashMap<Integer,Integer> map = new HashMap();
+        //Integer hit = 0;
+        //map.put(hit,res);
         for(int i = 1; i <= nums.length; i++) {
 
 
@@ -32,25 +33,11 @@ public class S5981 {
 
 
             res = leftnum - leftsum + rightsum;
-
-            if(map.get(hit) < res) {
-                map.remove(hit);
-                map.put(i,res);
-                hit = i;
-
-            }else if(map.get(hit) == res) {
-                map.put(i,res);
-                hit = i;
-            }
+            dp[i] = res;
         }
-
-
-
+        Arrays.sort(dp)
         List<Integer> list = new ArrayList();
-        Set<Integer> set = map.keySet();
-        for(Integer x : set) {
-            list.add(x);
-        }
+        //Set<Integer> set = map.keySet();
         return list;
 
         //top k 问题

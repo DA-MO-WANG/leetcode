@@ -58,7 +58,7 @@ public class S5981 {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{0,0,1,0};
+        int[] arr = new int[]{1,0,0,0};
         S5981 s5981 = new S5981();
         List<Integer> integers = s5981.maxScoreIndices(arr);
         for (Integer num : integers) {

@@ -33,7 +33,12 @@ public class S5981 {
 
             res = leftnum - leftsum + rightsum;
 
-            if(map.get(hit) <= res) {
+            if(map.get(hit) < res) {
+                map.remove(hit);
+                map.put(i,res);
+                hit = i;
+
+            }else if(map.get(hit) == res) {
                 map.put(i,res);
                 hit = i;
             }

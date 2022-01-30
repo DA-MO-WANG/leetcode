@@ -1,8 +1,6 @@
 package liuyuboo;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 import java.util.Set;
 
 public class S5981 {
@@ -17,7 +15,7 @@ public class S5981 {
             rightsum += x;
         }
 
-        int[] dp = new int[nums.length];
+        int[] dp = new int[nums.length + 1];
         Integer res = leftnum - leftsum + rightsum;
         dp[0] = res;
         //HashMap<Integer,Integer> map = new HashMap();
@@ -35,8 +33,15 @@ public class S5981 {
             res = leftnum - leftsum + rightsum;
             dp[i] = res;
         }
-        Arrays.sort(dp)
+        int[] res1 = Arrays.copyOfRange(dp, 0, dp.length);
+        Arrays.sort(res1);
+
         List<Integer> list = new ArrayList();
+        for(int i = 0; i < dp.length; i++) {
+            if(res1[dp.length - 1] == dp[i]) {
+                list.add(i);
+            }
+        }
         //Set<Integer> set = map.keySet();
         return list;
 

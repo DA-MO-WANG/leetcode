@@ -26,7 +26,7 @@ public class S5981 {
 
 
 
-            leftsum += nums[i];
+            leftsum += nums[i - 1];
             leftnum = i;
             rightsum -= nums[i - 1];
 

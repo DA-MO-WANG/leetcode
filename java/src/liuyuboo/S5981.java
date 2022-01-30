@@ -22,7 +22,7 @@ public class S5981 {
         HashMap<Integer,Integer> map = new HashMap();
         Integer hit = 0;
         map.put(hit,res);
-        for(int i = 1; i < nums.length; i++) {
+        for(int i = 1; i <= nums.length; i++) {
 
 
 
@@ -43,6 +43,8 @@ public class S5981 {
                 hit = i;
             }
         }
+
+
 
         List<Integer> list = new ArrayList();
         Set<Integer> set = map.keySet();

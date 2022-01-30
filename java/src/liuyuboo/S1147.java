@@ -73,7 +73,7 @@ public class S1147 {
         for (int i = l1, j = l2; i <= r1 && j <= r2; i++,j++) {
             if (s.charAt(i) != s.charAt(j)) return false;
         }
-        
+
         return true;
     }
 

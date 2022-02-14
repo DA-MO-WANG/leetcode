@@ -8,5 +8,5 @@ func main() {
 	s += sep + os.Args[i]
 	sep = " "
     }
-    fmt.println(s)
+    fmt.Println(s)
 }

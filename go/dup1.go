@@ -9,8 +9,9 @@ func main() {
      counts := make(map[string]int)
      input := bufio.NewScanner(os.Stdin)
      for input.Scan() {
-         counts[input.Text()]++
          if input.Text() == "end" {break}
+         counts[input.Text()]++
+
 
      }
      for line, n := range counts {

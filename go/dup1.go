@@ -10,6 +10,7 @@ func main() {
      input := bufio.NewScanner(os.Stdin)
      for input.Scan() {
          counts[input.Text()]++
+         if input.Text() == "end" {break}
 
      }
      for line, n := range counts {

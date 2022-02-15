@@ -4,8 +4,8 @@ import "os"
 
 func main() {
    s, sep := "", ""
-   for _,arg := range os.Args[1:] {
-      s += sep + arg
+   for index,arg := range os.Args[1:] {
+      s += sep + arg + "-" + index
       sep = " "
    }
    fmt.Println(s)

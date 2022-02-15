@@ -5,8 +5,8 @@ import "os"
 func main() {
    s, sep := "", ""
    for index,arg := range os.Args[1:] {
-      y := fmt.Sprintf("%d",index)
-      s += sep + arg + "-" + y
+      
+      s += sep + arg + "-" + strconv.Itoa(x)
       sep = " "
    }
    fmt.Println(s)

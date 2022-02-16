@@ -15,11 +15,11 @@ func main() {
 	files := os.Args[1:]
 	if len(files) == 0 {
 		//如果忘了执行时标明参数，就利用标准输入
-		countLines(os.Open(arg))
+		countLines(os.Stdin,counts)
 	} else {
 		//遍历这些文件名
 		for _, arg := range files {
-			f, err := open(arg)
+			f, err := os.Open(arg)
 			//给错误留的位置，有信息，说明有错了
 			if err != nil {
 				//标准化输出--类似往错误输出的出口打印一条信息
@@ -28,7 +28,7 @@ func main() {
 			}
 			//读取文件
 			countLines(f,counts)
-			f.close()
+			f.Close()
 		}
 	}
 	for line , n := range counts {
@@ -44,7 +44,7 @@ func countLines(f *os.File, counts map[string]int) {
 	//一直监听读入
 	for input.Scan() {
 		//手动触发结束条件
-		if input.Text() == 'end' {break}
+		if input.Text() == "end" {break}
 		counts[input.Text()]++
 
 	}

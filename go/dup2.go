@@ -1,7 +1,3 @@
-dup2.go
-//使用os.open打开具体文件
-//两种方式：方式一：一行一行读
-//方式二：一口气读完，然后拆分成多行
 package main
 
 import (
@@ -10,6 +6,9 @@ import (
 	"os"
 )
 
+//使用os.open打开具体文件
+//两种方式：方式一：一行一行读
+//方式二：一口气读完，然后拆分成多行
 func main() {
 	counts := make(map[string]int)
 	//获取并返回命令行参数--具体的文件名

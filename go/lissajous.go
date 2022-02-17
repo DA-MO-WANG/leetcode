@@ -8,6 +8,7 @@ import (
 	"math"
 	"math/rand"
 	"os"
+	"time"
 )
 
 var palette =[]color.Color{color.White, color.Black}

@@ -21,6 +21,7 @@ func main() {
 		}
 		//strings.Split函数分割，通过换行符来区分一行/再分割
 		for _,line := range strings.Split(data),"\n") {
+			//类似分桶算法--映射到index上，把每一行
 			counts[line]++
 		}
 	}

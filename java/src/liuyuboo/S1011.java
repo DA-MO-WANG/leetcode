@@ -46,10 +46,15 @@ public class S1011 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,1,1};
+        /*int[] arr = {1,2,3,1,1};
         S1011 s1011 = new S1011();
         int i = s1011.shipWithinDays(arr, 4);
-        System.out.println(i);
+        System.out.println(i);*/
+
+        
+
+
+
 
     }
 }

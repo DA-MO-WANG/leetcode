@@ -51,7 +51,7 @@ public class S1011 {
         int i = s1011.shipWithinDays(arr, 4);
         System.out.println(i);*/
 
-        
+
 
 
 

@@ -83,9 +83,6 @@
 		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/Sum_of_submatrix.cpp">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/main.cpp">
-			<Option target="cpp"/>
-		</Unit>
 		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

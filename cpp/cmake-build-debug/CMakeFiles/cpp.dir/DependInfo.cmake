@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/Sum_of_submatrix.cpp" "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/acwing/junior/Sum_of_submatrix.cpp.o"
-  "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/main.cpp" "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

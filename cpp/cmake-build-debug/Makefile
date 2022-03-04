@@ -150,33 +150,6 @@ acwing/junior/Sum_of_submatrix.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/Sum_of_submatrix.cpp.s
 .PHONY : acwing/junior/Sum_of_submatrix.cpp.s
 
-acwing/junior/second.o: acwing/junior/second.cpp.o
-
-.PHONY : acwing/junior/second.o
-
-# target to build an object file
-acwing/junior/second.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/second.cpp.o
-.PHONY : acwing/junior/second.cpp.o
-
-acwing/junior/second.i: acwing/junior/second.cpp.i
-
-.PHONY : acwing/junior/second.i
-
-# target to preprocess a source file
-acwing/junior/second.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/second.cpp.i
-.PHONY : acwing/junior/second.cpp.i
-
-acwing/junior/second.s: acwing/junior/second.cpp.s
-
-.PHONY : acwing/junior/second.s
-
-# target to generate assembly for a file
-acwing/junior/second.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/second.cpp.s
-.PHONY : acwing/junior/second.cpp.s
-
 acwing/junior/third.o: acwing/junior/third.cpp.o
 
 .PHONY : acwing/junior/third.o
@@ -216,9 +189,6 @@ help:
 	@echo "... acwing/junior/Sum_of_submatrix.o"
 	@echo "... acwing/junior/Sum_of_submatrix.i"
 	@echo "... acwing/junior/Sum_of_submatrix.s"
-	@echo "... acwing/junior/second.o"
-	@echo "... acwing/junior/second.i"
-	@echo "... acwing/junior/second.s"
 	@echo "... acwing/junior/third.o"
 	@echo "... acwing/junior/third.i"
 	@echo "... acwing/junior/third.s"

@@ -3,3 +3,5 @@
 
 CMakeFiles/cpp.dir/acwing/junior/Sum_of_submatrix.cpp.o: ../acwing/junior/Sum_of_submatrix.cpp
 
+CMakeFiles/cpp.dir/acwing/junior/third.cpp.o: ../acwing/junior/third.cpp
+

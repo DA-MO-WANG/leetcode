@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp main.cpp acwing/junior/Sum_of_submatrix.cpp acwing/junior/Sum_of_submatrix.h)
+add_executable(cpp main.cpp acwing/junior/Sum_of_submatrix.cpp)

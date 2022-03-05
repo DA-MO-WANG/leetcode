@@ -2,8 +2,8 @@ package leet;
 
 import java.util.HashMap;
 
-public class s6024 {
-    public int mostFrequent(int[] nums, int key) {
+public class S6024 {
+    public  int mostFrequent(int[] nums, int key) {
         //HashMap<Integer,HashMap<Integer,Integer>> map = new HashMap<>()；
         HashMap<Integer,Integer> map = new HashMap<>();
 
@@ -26,5 +26,14 @@ public class s6024 {
         }
         return max;
     }
+
+    public static void main(String[] args) {
+        int x[] = {1,100,200,1,100};
+        S6024 s = new S6024();
+        int i = s.mostFrequent(x,1);
+        System.out.println(i);
+
+    }
+
 
 }

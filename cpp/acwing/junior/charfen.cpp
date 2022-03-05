@@ -27,7 +27,8 @@ int main() {
         insert(l,r,c);
     }
     for(int i = 1; i <= n;i++) {
-        cout <<
+        b[i] += b[i + 1];
+        
     }
 
 

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/acwing/junior/Sum_of_submatrix.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/third.cpp.o"
+  "CMakeFiles/cpp.dir/acwing/junior/charfen.cpp.o"
   "cpp.pdb"
   "cpp"
 )

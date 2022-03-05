@@ -13,7 +13,7 @@ public class S6024 {
                     map.put(nums[i+1],0);
                 }else {
                     Integer integer = map.get(nums[i + 1]);
-                    map.put(nums[i+1],integer++);
+                    map.put(nums[i+1],++integer);
                 }
                 //map.put(nums[i + 1],1);
             }

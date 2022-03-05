@@ -21,6 +21,15 @@ int main() {
         scanf("%d",&a[i]);
         insert(i,i,a[i]);
     }
+    while(m--) {
+        int l, r, c;
+        scanf("%d%d%d",&l,&r,&c);
+        insert(l,r,c);
+    }
+    for(int i = 1; i <= n;i++) {
+        cout << 
+    }
+
 
 
     return 0;

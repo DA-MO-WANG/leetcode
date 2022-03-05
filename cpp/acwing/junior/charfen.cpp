@@ -11,7 +11,7 @@ const int N = 1e5 + 10;
 int a[N], b[N];
 void insert(int l, int r, int c) {
     b[l] += c;
-    b[r + 1] += c;
+    b[r + 1] -= c;
 }
 int main() {
     int n, m;
@@ -27,7 +27,7 @@ int main() {
         insert(l,r,c);
     }
     for(int i = 1; i <= n;i++) {
-        cout << 
+        cout <<
     }
 
 

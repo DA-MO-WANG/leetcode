@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/chafenjuzhen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/chafenjuzhen.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/chafenjuzhen.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="46" column="64" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="64" />
+            <state relative-caret-position="133">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
               </folding>
@@ -90,11 +88,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="702" />
-    <option name="y" value="80" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="40" />
+    <option name="y" value="25" />
     <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -168,15 +166,15 @@
       <workItem from="1646407684043" duration="845000" />
       <workItem from="1646408593557" duration="87000" />
       <workItem from="1646408700886" duration="164000" />
-      <workItem from="1646485952512" duration="5407000" />
+      <workItem from="1646485952512" duration="5563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6742000" />
+    <option name="totallyTimeSpent" value="6898000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="702" y="80" width="1400" height="1000" extended-state="0" />
+    <frame x="40" y="25" width="1400" height="875" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27172312" />
@@ -204,6 +202,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/acwing/junior/chafenjuzhen.cpp</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.cpp" />
@@ -242,8 +251,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/chafenjuzhen.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="46" column="64" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="64" />
+        <state relative-caret-position="133">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
           </folding>

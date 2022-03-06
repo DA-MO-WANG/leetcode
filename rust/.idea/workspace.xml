@@ -19,7 +19,33 @@
       <change beforePath="$PROJECT_DIR$/.idea/rust.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/.rustc_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/.cargo-lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/.fingerprint/untitled-aa7a11134b850bd4/bin-untitled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/.fingerprint/untitled-aa7a11134b850bd4/bin-untitled.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/.fingerprint/untitled-aa7a11134b850bd4/dep-bin-untitled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/.fingerprint/untitled-aa7a11134b850bd4/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/deps/untitled-aa7a11134b850bd4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/deps/untitled-aa7a11134b850bd4.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/deps/untitled-aa7a11134b850bd4.untitled.6218d459-cgu.0.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/deps/untitled-aa7a11134b850bd4.untitled.6218d459-cgu.1.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/deps/untitled-aa7a11134b850bd4.untitled.6218d459-cgu.2.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/deps/untitled-aa7a11134b850bd4.untitled.6218d459-cgu.3.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/deps/untitled-aa7a11134b850bd4.untitled.6218d459-cgu.4.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/deps/untitled-aa7a11134b850bd4.untitled.6218d459-cgu.5.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/deps/untitled-aa7a11134b850bd4.untitled.6218d459-cgu.6.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/deps/untitled-aa7a11134b850bd4.untitled.6218d459-cgu.7.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/untitled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/target/debug/untitled.d" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +68,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -64,8 +90,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,16 +130,17 @@
       <updated>1646570582847</updated>
       <workItem from="1646570584069" duration="664000" />
       <workItem from="1646571490472" duration="113000" />
+      <workItem from="1646572004517" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="777000" />
+    <option name="totallyTimeSpent" value="830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="166" y="25" width="1400" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -124,7 +151,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3295711" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295711" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -138,8 +165,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello.rs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.rs" />
   </component>
 </project>

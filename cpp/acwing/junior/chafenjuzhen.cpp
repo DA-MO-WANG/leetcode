@@ -44,7 +44,7 @@ int main() {
     }
     for(int i = 1; i <= n; i++) {
         for (int j = 1; j <= m; ++j) {
-            b[i][j] = add(i,j);
+            b[i][j] = b[i - 1][j -1];
         }
     }
     for(int i = 1; i <= n; i++) {

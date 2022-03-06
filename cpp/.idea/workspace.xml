@@ -88,11 +88,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="40" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="475" />
+    <option name="y" value="80" />
     <option name="width" value="1400" />
-    <option name="height" value="875" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -166,16 +166,15 @@
       <workItem from="1646407684043" duration="845000" />
       <workItem from="1646408593557" duration="87000" />
       <workItem from="1646408700886" duration="164000" />
-      <workItem from="1646485952512" duration="5563000" />
+      <workItem from="1646485952512" duration="5810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6898000" />
+    <option name="totallyTimeSpent" value="7145000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="25" width="1400" height="875" extended-state="1" />
-    <editor active="true" />
+    <frame x="475" y="80" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27172312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

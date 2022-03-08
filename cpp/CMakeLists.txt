@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp acwing/junior/Sum_of_submatrix.cpp acwing/junior/third.cpp acwing/junior/charfen.cpp acwing/junior/chafenjuzhen.cpp)
+add_executable(cpp acwing/junior/Sum_of_submatrix.cpp acwing/junior/third.cpp acwing/junior/charfen.cpp acwing/junior/chafenjuzhen.cpp acwing/junior/erjinzhizhong1degeshu.cpp)

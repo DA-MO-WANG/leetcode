@@ -16,7 +16,9 @@ int main() {
         int x;
         cin >> x;
         int res = 0;
-        while (x) x -= lowbit(x), res++;
+        while (x) x -= (x & -x), res++;
+        cout << res << " ";
+
     }
 
 

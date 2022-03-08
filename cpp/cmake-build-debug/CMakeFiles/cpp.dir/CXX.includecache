@@ -6,7 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/third.cpp
+/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/chafenjuzhen.cpp
 iostream
+-
+cstdio
+-
+algorithm
+-
+
+/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/charfen.cpp
+iostream
+-
+cstdio
+-
+algorithm
+-
+
+/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/erjinzhizhong1degeshu.cpp
+iostream
+-
+cstdio
+-
+algorithm
 -
 

@@ -6,7 +6,8 @@
 #include <algorithm>
 
 using namespace std;
-
+//知识点：位运算
+//
 
 int main() {
     int n;

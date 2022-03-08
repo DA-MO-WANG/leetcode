@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/acwing/junior/erjinzhizhong1degeshu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/erjinzhizhong1degeshu.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +77,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/erjinzhizhong1degeshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="113">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
@@ -105,8 +107,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="784" />
-    <option name="y" value="117" />
+    <option name="x" value="522" />
+    <option name="y" value="205" />
     <option name="width" value="1398" />
     <option name="height" value="875" />
   </component>
@@ -184,15 +186,15 @@
       <workItem from="1646408700886" duration="164000" />
       <workItem from="1646485952512" duration="5810000" />
       <workItem from="1646570513184" duration="69000" />
-      <workItem from="1646700613037" duration="1622000" />
+      <workItem from="1646700613037" duration="1772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8836000" />
+    <option name="totallyTimeSpent" value="8986000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="784" y="117" width="1398" height="875" extended-state="0" />
+    <frame x="522" y="205" width="1398" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2758112" />
@@ -280,7 +282,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/erjinzhizhong1degeshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="113">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />

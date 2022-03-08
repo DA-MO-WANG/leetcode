@@ -15,8 +15,8 @@ int main() {
     while(n--) {
         int x;
         cin >> x;
-
-        while (x) x -= lowbit();
+        int res = 0;
+        while (x) x -= lowbit(x), res++;
     }
 
 

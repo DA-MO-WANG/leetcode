@@ -63,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/chafenjuzhen.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
+            <state relative-caret-position="957">
               <caret line="33" selection-start-line="33" selection-end-line="34" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
@@ -75,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/erjinzhizhong1degeshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="638">
               <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
@@ -114,7 +114,7 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="25" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
@@ -194,14 +194,15 @@
       <workItem from="1646485952512" duration="5810000" />
       <workItem from="1646570513184" duration="69000" />
       <workItem from="1646700613037" duration="5500000" />
+      <workItem from="1646805458299" duration="125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12714000" />
+    <option name="totallyTimeSpent" value="12839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="608" y="27" width="1398" height="875" extended-state="0" />
+    <frame x="0" y="25" width="1393" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27507374" />
@@ -279,7 +280,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/chafenjuzhen.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
+        <state relative-caret-position="957">
           <caret line="33" selection-start-line="33" selection-end-line="34" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
@@ -289,7 +290,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/erjinzhizhong1degeshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="638">
           <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />

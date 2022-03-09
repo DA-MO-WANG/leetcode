@@ -114,10 +114,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="608" />
-    <option name="y" value="27" />
-    <option name="width" value="1398" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="25" />
+    <option name="width" value="1393" />
     <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">

@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/lisanhua.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/lisanhua.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/acwing/junior/lisanhua.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -196,12 +194,12 @@
       <workItem from="1646408700886" duration="164000" />
       <workItem from="1646485952512" duration="5810000" />
       <workItem from="1646570513184" duration="69000" />
-      <workItem from="1646700613037" duration="4970000" />
+      <workItem from="1646700613037" duration="5500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12184000" />
+    <option name="totallyTimeSpent" value="12714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="608" y="27" width="1398" height="875" extended-state="0" />
@@ -303,7 +301,7 @@
     <entry file="file://$PROJECT_DIR$/acwing/junior/lisanhua.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>

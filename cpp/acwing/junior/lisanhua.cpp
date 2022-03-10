@@ -19,13 +19,28 @@
 #include <iostream>
 #include <algorithm>
 #include <cstdio>
+#include <vector>
 
 using namespace std;
 typedef pair<int,int> pII;
 const int N = 300010;
 int n, m;
 int a[N], s[N];
-int main() {
 
+vector<int> alls;
+vector<pII> add, query;
+
+int find(int x) {
+    int l = 0, r = alls.size() - 1;
+    while(l < r) {
+        int mid = l + r >> 1;
+        if(alls[mid] >= x) r = mid;
+        else l = mid + 1;
+    }
+    return r + 1;
+}
+
+int main() {
+    
     return 0;
 }

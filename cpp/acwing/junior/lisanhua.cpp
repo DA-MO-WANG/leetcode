@@ -61,6 +61,10 @@ int main() {
     }
     sort(alls.begin(),alls.end());
     alls.erase(unique(alls.begin(),alls.end()),alls.end());
-    
+
+    for(auto item : add) {
+        int x = find(item.first);
+        
+    }
     return 0;
 }

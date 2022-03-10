@@ -41,6 +41,25 @@ int find(int x) {
 }
 
 int main() {
+    cin >> n >> m;
+    for(int i = 0; i < n; i++) {
+        int x, c;
+        cin >> x >> c;
+        add.push_back({x, c});
+        alls.push_back(x);
+
+    }
+
+    for(int i = 0; i < m; i++) {
+        int l, r;
+        cin >> l >> r;
+        query.push_back({l,r})
+
+        alls.push_back(l);
+        alls.push_back(r);
+
+    }
+    sort(alls.begin(),alls.end())
     
     return 0;
 }

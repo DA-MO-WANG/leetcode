@@ -27,10 +27,10 @@ const int N = 300010;
 //n次操作、m次询问
 int n, m;
 int a[N], s[N];
-
+//alls存储的是原序列
 vector<int> alls;
 vector<pII> add, query;
-
+//找到x对应的序列的相对次序-下标
 int find(int x) {
     int l = 0, r = alls.size() - 1;
     while(l < r) {
@@ -41,7 +41,7 @@ int find(int x) {
     return r + 1;
 }
 
-vector<int> :: iterator unique(vector<int> &s) {
+vector<int> :: iterator unique(vector<int> &a) {
     int j = 0;
     for(int i = 0; i < a.size(); i++) {
         if(!i || a[i] != a[i - 1]) {

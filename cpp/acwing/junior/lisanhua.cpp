@@ -60,6 +60,6 @@ int main() {
 
     }
     sort(alls.begin(),alls.end())
-    
+    alls.erase()
     return 0;
 }

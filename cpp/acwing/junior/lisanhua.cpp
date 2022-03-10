@@ -47,7 +47,7 @@ vector<int> :: iterator unique(vector<int> &s) {
             a[j++] = a[i];
         }
     }
-    return a.
+    return a.begin() + j;
 }
 
 int main() {

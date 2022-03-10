@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/junior/lisanhua.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/lisanhua.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +90,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/lisanhua.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="642">
+              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding>
+                <element signature="e#387#406#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +121,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="368" />
-    <option name="y" value="72" />
+    <option name="x" value="884" />
+    <option name="y" value="25" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
   </component>
@@ -196,15 +202,15 @@
       <workItem from="1646570513184" duration="69000" />
       <workItem from="1646700613037" duration="5500000" />
       <workItem from="1646805458299" duration="125000" />
-      <workItem from="1646829116315" duration="1438000" />
+      <workItem from="1646829116315" duration="1690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14277000" />
+    <option name="totallyTimeSpent" value="14529000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="368" y="72" width="1393" height="875" extended-state="0" />
+    <frame x="884" y="25" width="1393" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27507374" />
@@ -302,8 +308,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/lisanhua.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="642">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="e#387#406#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

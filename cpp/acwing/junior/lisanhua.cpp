@@ -16,4 +16,13 @@
 //前提：这个原数列是有序的，但其中的值跨越的范围很大---把他们映射成连续的小区间
 //求一个数x在连续数组中的对应下标---》实际就是二分，最终他这个值映射成相对位序
 
+#include <iostream>
+#include <algorithm>
+#include <cstdio>
 
+using namespace std;
+
+int main() {
+    
+    return 0;
+}

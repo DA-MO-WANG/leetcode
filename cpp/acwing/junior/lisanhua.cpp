@@ -40,6 +40,8 @@ int find(int x) {
     return r + 1;
 }
 
+vector<
+
 int main() {
     cin >> n >> m;
     for(int i = 0; i < n; i++) {
@@ -63,8 +65,9 @@ int main() {
     alls.erase(unique(alls.begin(),alls.end()),alls.end());
 
     for(auto item : add) {
-        int x = find(item.first);
-        
+        int l = find(item.first), r = find(item.second);
+        cout << s[r] - s[l - 1] << endl;
+
     }
     return 0;
 }

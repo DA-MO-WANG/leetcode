@@ -40,7 +40,15 @@ int find(int x) {
     return r + 1;
 }
 
-vector<
+vector<int> :: iterator unique(vector<int> &s) {
+    int j = 0;
+    for(int i = 0; i < a.size(); i++) {
+        if(!i || a[i] != a[i - 1]) {
+            a[j++] = a[i];
+        }
+    }
+    return a.
+}
 
 int main() {
     cin >> n >> m;

@@ -24,6 +24,7 @@
 using namespace std;
 typedef pair<int,int> pII;
 const int N = 300010;
+//
 int n, m;
 int a[N], s[N];
 

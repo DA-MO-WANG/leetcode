@@ -59,7 +59,8 @@ int main() {
         alls.push_back(r);
 
     }
-    sort(alls.begin(),alls.end())
-    alls.erase()
+    sort(alls.begin(),alls.end());
+    alls.erase(unique(alls.begin(),alls.end()),alls.end());
+    
     return 0;
 }

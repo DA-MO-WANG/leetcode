@@ -24,7 +24,7 @@
 using namespace std;
 typedef pair<int,int> pII;
 const int N = 300010;
-//
+//n次操作、m次询问
 int n, m;
 int a[N], s[N];
 

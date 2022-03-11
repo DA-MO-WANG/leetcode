@@ -117,8 +117,8 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="555" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="47" />
     <option name="y" value="25" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
@@ -175,15 +175,15 @@
       <workItem from="1646570513184" duration="69000" />
       <workItem from="1646700613037" duration="5500000" />
       <workItem from="1646805458299" duration="125000" />
-      <workItem from="1646829116315" duration="5903000" />
+      <workItem from="1646829116315" duration="5994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18742000" />
+    <option name="totallyTimeSpent" value="18833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="47" y="25" width="1393" height="875" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27507374" />

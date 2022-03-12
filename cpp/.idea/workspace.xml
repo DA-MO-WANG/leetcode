@@ -117,8 +117,8 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="47" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="5" />
     <option name="y" value="25" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
@@ -130,7 +130,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -175,18 +178,17 @@
       <workItem from="1646570513184" duration="69000" />
       <workItem from="1646700613037" duration="5500000" />
       <workItem from="1646805458299" duration="125000" />
-      <workItem from="1646829116315" duration="5994000" />
+      <workItem from="1646829116315" duration="6017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18833000" />
+    <option name="totallyTimeSpent" value="18856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="25" width="1393" height="875" extended-state="1" />
-    <editor active="true" />
+    <frame x="5" y="25" width="1393" height="875" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27507374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

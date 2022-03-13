@@ -20,7 +20,7 @@ int find(int x) {
         if(alls[mid] >= x) r = mid;
         else l = mid + 1;
     }
-    return l + 1;//因为后续要使用前缀和，所以返回的坐标要加上1；--s[i] = s[i - 1] + a[i];
+    return r + 1;//因为后续要使用前缀和，所以返回的坐标要加上1；--s[i] = s[i - 1] + a[i];
 }
 int main() {
     int n, m;

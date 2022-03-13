@@ -68,7 +68,7 @@ int main() {
     for(int i = 0; i < m; i++) {
         int l, r;
         cin >> l >> r;
-        query.push_back({l,r})
+        query.push_back({l,r});
 
         alls.push_back(l);
         alls.push_back(r);

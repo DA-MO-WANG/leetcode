@@ -119,7 +119,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="5" />
-    <option name="y" value="25" />
+    <option name="y" value="205" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
   </component>
@@ -137,6 +137,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">

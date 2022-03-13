@@ -14,7 +14,13 @@ typedef pair<int,int> pii;
 vector<pii> add, query;
 int n, m;
 int find(int x) {
-    int l = 0,
+    int l = 0, r = alls.size() - 1;
+    while(l < r) {
+        int mid = l + r >> 1;
+        if(alls[mid] > x) r = mid;
+        else l = mid;
+    }
+    return
 }
 int main() {
     cin >> n >> m;
@@ -34,5 +40,7 @@ int main() {
     }
 
     sort(alls.begin(),alls.end());
-    e
+    alls.erase(unique(alls.begin(),alls.end()),alls.end());
+
+
 }

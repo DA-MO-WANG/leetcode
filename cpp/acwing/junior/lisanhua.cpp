@@ -93,7 +93,8 @@ int main() {
 
 
 
-    for(auto item : add) {
+
+    for(auto item : query) {
         //处理的是初始化位置和值的信息
         int l = find(item.first), r = find(item.second);
         cout << s[r] - s[l - 1] << endl;

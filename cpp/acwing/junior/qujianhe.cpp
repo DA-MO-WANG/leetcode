@@ -20,7 +20,7 @@ int find(int x) {
         if(alls[mid] >= x) r = mid;
         else l = mid + 1;
     }
-    return l;
+    return l + 1;//因为后续要使用前缀和，所以返回的坐标要加上1；--s[i] = s[i - 1] + a[i];
 }
 int main() {
     cin >> n >> m;
@@ -52,7 +52,7 @@ int main() {
     for(int i = 0; i < alls.size(); i++) {
         s[i] = s[i - 1] + a[i];
     }
-    
+
     for(auto item : query) {
         int l = item.first;
         int r = item.second;

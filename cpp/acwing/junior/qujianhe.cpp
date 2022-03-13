@@ -49,7 +49,7 @@ int main() {
         a[x] += item.second;
     }
 
-    for(int i = 0; i < alls.size(); i++) {
+    for(int i = 1; i < alls.size(); i++) {
         s[i] = s[i - 1] + a[i];
     }
 

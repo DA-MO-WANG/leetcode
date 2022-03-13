@@ -17,10 +17,10 @@ int find(int x) {
     int l = 0, r = alls.size() - 1;
     while(l < r) {
         int mid = l + r >> 1;
-        if(alls[mid] > x) r = mid;
-        else l = mid;
+        if(alls[mid] >= x) r = mid;
+        else l = mid + 1;
     }
-    return
+    return l;
 }
 int main() {
     cin >> n >> m;
@@ -41,6 +41,24 @@ int main() {
 
     sort(alls.begin(),alls.end());
     alls.erase(unique(alls.begin(),alls.end()),alls.end());
+
+
+    for(auto item : add) {
+        int x = find(item.first);
+
+        a[x] += item.second;
+    }
+
+    for(int i = 0; i < alls.size(); i++) {
+        s[i] = s[i - 1] + a[i];
+    }
+    
+    for(auto item : query) {
+        int l = item.first;
+        int r = item.second;
+
+        cout << s[r] - s[l - 1] << endl;
+    }
 
 
 }

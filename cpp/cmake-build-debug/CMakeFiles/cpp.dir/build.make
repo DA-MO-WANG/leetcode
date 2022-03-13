@@ -135,18 +135,18 @@ CMakeFiles/cpp.dir/acwing/junior/lisanhua.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/acwing/junior/lisanhua.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/lisanhua.cpp -o CMakeFiles/cpp.dir/acwing/junior/lisanhua.cpp.s
 
-CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.o: ../acwing/junior/lisanhuaa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.o   -c /Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/lisanhuaa.c
+CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.o: ../acwing/junior/qujianhe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.o -c /Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/qujianhe.cpp
 
-CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/lisanhuaa.c > CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.i
+CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/qujianhe.cpp > CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.i
 
-CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/lisanhuaa.c -o CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.s
+CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/qujianhe.cpp -o CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
@@ -156,7 +156,7 @@ cpp_OBJECTS = \
 "CMakeFiles/cpp.dir/acwing/junior/chafenjuzhen.cpp.o" \
 "CMakeFiles/cpp.dir/acwing/junior/erjinzhizhong1degeshu.cpp.o" \
 "CMakeFiles/cpp.dir/acwing/junior/lisanhua.cpp.o" \
-"CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.o"
+"CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
@@ -167,7 +167,7 @@ cpp: CMakeFiles/cpp.dir/acwing/junior/charfen.cpp.o
 cpp: CMakeFiles/cpp.dir/acwing/junior/chafenjuzhen.cpp.o
 cpp: CMakeFiles/cpp.dir/acwing/junior/erjinzhizhong1degeshu.cpp.o
 cpp: CMakeFiles/cpp.dir/acwing/junior/lisanhua.cpp.o
-cpp: CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.o
+cpp: CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cpp"

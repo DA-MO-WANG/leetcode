@@ -258,6 +258,33 @@ acwing/junior/lisanhua.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/lisanhua.cpp.s
 .PHONY : acwing/junior/lisanhua.cpp.s
 
+acwing/junior/lisanhuaa.o: acwing/junior/lisanhuaa.c.o
+
+.PHONY : acwing/junior/lisanhuaa.o
+
+# target to build an object file
+acwing/junior/lisanhuaa.c.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.o
+.PHONY : acwing/junior/lisanhuaa.c.o
+
+acwing/junior/lisanhuaa.i: acwing/junior/lisanhuaa.c.i
+
+.PHONY : acwing/junior/lisanhuaa.i
+
+# target to preprocess a source file
+acwing/junior/lisanhuaa.c.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.i
+.PHONY : acwing/junior/lisanhuaa.c.i
+
+acwing/junior/lisanhuaa.s: acwing/junior/lisanhuaa.c.s
+
+.PHONY : acwing/junior/lisanhuaa.s
+
+# target to generate assembly for a file
+acwing/junior/lisanhuaa.c.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/lisanhuaa.c.s
+.PHONY : acwing/junior/lisanhuaa.c.s
+
 acwing/junior/third.o: acwing/junior/third.cpp.o
 
 .PHONY : acwing/junior/third.o
@@ -309,6 +336,9 @@ help:
 	@echo "... acwing/junior/lisanhua.o"
 	@echo "... acwing/junior/lisanhua.i"
 	@echo "... acwing/junior/lisanhua.s"
+	@echo "... acwing/junior/lisanhuaa.o"
+	@echo "... acwing/junior/lisanhuaa.i"
+	@echo "... acwing/junior/lisanhuaa.s"
 	@echo "... acwing/junior/third.o"
 	@echo "... acwing/junior/third.i"
 	@echo "... acwing/junior/third.s"

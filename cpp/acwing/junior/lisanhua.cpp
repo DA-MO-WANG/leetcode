@@ -26,6 +26,7 @@
 #include <vector>
 
 using namespace std;
+//定义了一个pair对
 typedef pair<int,int> pII;
 const int N = 300010;
 //n次操作、m次询问
@@ -61,6 +62,7 @@ int main() {
         int x, c;
         cin >> x >> c;
         add.push_back({x, c});
+        //离散化的是涉及的数组下标
         alls.push_back(x);
 
     }
@@ -68,6 +70,7 @@ int main() {
     for(int i = 0; i < m; i++) {
         int l, r;
         cin >> l >> r;
+        //存储的是要查询的区间
         query.push_back({l,r});
 
         alls.push_back(l);
@@ -78,6 +81,7 @@ int main() {
     alls.erase(unique(alls.begin(),alls.end()),alls.end());
 
     for(auto item : add) {
+        //处理的是初始化位置和值的信息
         int l = find(item.first), r = find(item.second);
         cout << s[r] - s[l - 1] << endl;
 

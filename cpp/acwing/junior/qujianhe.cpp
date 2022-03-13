@@ -7,7 +7,7 @@
 #include <algorithm>
 
 using namespace std;
-const int N = 30010;
+const int N = 300010;
 int a[N],s[N];
 vector<int> alls;
 typedef pair<int,int> pii;

@@ -50,7 +50,7 @@ int main() {
         a[x] += item.second;
     }
 
-    for(int i = 1; i < alls.size(); i++) {
+    for(int i = 1; i <= alls.size(); i++) {//配套前缀和，从1开始计数，自然size也会取，最后一位也进1
         s[i] = s[i - 1] + a[i];
     }
 

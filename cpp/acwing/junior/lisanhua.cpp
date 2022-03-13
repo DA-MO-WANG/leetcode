@@ -80,6 +80,11 @@ int main() {
     sort(alls.begin(),alls.end());
     alls.erase(unique(alls.begin(),alls.end()),alls.end());
 
+    
+
+
+
+
     for(auto item : add) {
         //处理的是初始化位置和值的信息
         int l = find(item.first), r = find(item.second);

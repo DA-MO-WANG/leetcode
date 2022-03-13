@@ -89,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/lisanhua.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
-              <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+            <state relative-caret-position="323">
+              <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -117,8 +117,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="205" />
+    <option name="x" value="1125" />
+    <option name="y" value="112" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
   </component>
@@ -200,18 +200,18 @@
       <workItem from="1646700613037" duration="5500000" />
       <workItem from="1646805458299" duration="125000" />
       <workItem from="1646829116315" duration="6044000" />
-      <workItem from="1647130463628" duration="794000" />
+      <workItem from="1647130463628" duration="904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19677000" />
+    <option name="totallyTimeSpent" value="19787000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="205" width="1393" height="875" extended-state="0" />
+    <frame x="1125" y="112" width="1393" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27831236" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27831236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/lisanhua.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
         </state>
       </provider>
     </entry>

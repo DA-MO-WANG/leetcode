@@ -80,8 +80,16 @@ int main() {
     sort(alls.begin(),alls.end());
     alls.erase(unique(alls.begin(),alls.end()),alls.end());
 
-    
 
+    for(auto item : add) {
+        int x = find(item.first);
+        //在离散化的数组中放值
+        a[x] += item.second;
+    }
+
+    for(int i = 1; i < alls.size(); i++) {
+        s[i] = s[i - 1] + a[i];
+    }
 
 
 

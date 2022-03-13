@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/acwing/junior/qujianhe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/qujianhe.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/qujianhe.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1407">
-              <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+            <state relative-caret-position="178">
+              <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding>
                 <element signature="e#44#63#0" expanded="true" />
               </folding>
@@ -213,12 +215,12 @@
       <workItem from="1646700613037" duration="5500000" />
       <workItem from="1646805458299" duration="125000" />
       <workItem from="1646829116315" duration="6044000" />
-      <workItem from="1647130463628" duration="3940000" />
+      <workItem from="1647130463628" duration="4257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22823000" />
+    <option name="totallyTimeSpent" value="23140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="810" y="174" width="1393" height="875" extended-state="0" />
@@ -333,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/qujianhe.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="178">
+          <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
             <element signature="e#44#63#0" expanded="true" />
           </folding>

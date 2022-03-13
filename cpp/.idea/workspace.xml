@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/qujianhe.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            <state relative-caret-position="352">
+              <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
               <folding>
                 <element signature="e#44#63#0" expanded="true" />
               </folding>
@@ -132,8 +132,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="810" />
-    <option name="y" value="174" />
+    <option name="x" value="5" />
+    <option name="y" value="25" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
   </component>
@@ -215,15 +215,15 @@
       <workItem from="1646700613037" duration="5500000" />
       <workItem from="1646805458299" duration="125000" />
       <workItem from="1646829116315" duration="6044000" />
-      <workItem from="1647130463628" duration="4257000" />
+      <workItem from="1647130463628" duration="4469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23140000" />
+    <option name="totallyTimeSpent" value="23352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="810" y="174" width="1393" height="875" extended-state="0" />
+    <frame x="5" y="25" width="1393" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.27831236" />
@@ -335,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/qujianhe.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        <state relative-caret-position="352">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
           <folding>
             <element signature="e#44#63#0" expanded="true" />
           </folding>

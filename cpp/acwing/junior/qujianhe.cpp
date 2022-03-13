@@ -56,7 +56,7 @@ int main() {
 
     for(auto item : query) {
         int l = item.first;//会不会我是背代码，而不是按着逻辑翻译代码，所以才会出现大等下黑？
-        int r = item.second;
+        int r = item.second;a
 
         cout << s[r] - s[l - 1] << endl;
     }

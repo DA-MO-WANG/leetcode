@@ -12,7 +12,7 @@ int a[N],s[N];
 vector<int> alls;
 typedef pair<int,int> pii;
 vector<pii> add, query;
-int n, m;
+
 int find(int x) {
     int l = 0, r = alls.size() - 1;
     while(l < r) {
@@ -23,6 +23,7 @@ int find(int x) {
     return l + 1;//因为后续要使用前缀和，所以返回的坐标要加上1；--s[i] = s[i - 1] + a[i];
 }
 int main() {
+    int n, m;
     cin >> n >> m;
 
     while(n--) {

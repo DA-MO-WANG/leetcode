@@ -4,7 +4,10 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-
+//维护一个当前区间：从最初的边界点开始
+//逐步遍历所给的区间，
+//有交集的话，求并集
+//没交集的话，就得到一个答案--放到呈放答案的篮子里
 using namespace std;
 typedef pair<int, int> pii;
 vector<pii> query;

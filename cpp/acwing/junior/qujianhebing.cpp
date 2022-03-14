@@ -11,7 +11,6 @@
 using namespace std;
 typedef pair<int, int> pii;
 vector<pii> query;
-vector<int> segs;
 vector<pii> merge(vector<int> &segs) {
     int st = -2e9, ed = -2e9;
     vector<pii> res;
@@ -21,7 +20,7 @@ vector<pii> merge(vector<int> &segs) {
     for(auto item : query) {
         if(ed < item.first) {//怎么判断是否右交集，看当前维护的右端点和当前遍历的左端点
             //没有交集，替换掉
-            res.push_back({st,ed});
+            if(st != -2e9) res.push_back({st,ed});//第一轮是不加的，必然<
             st = item.first, ed = item.second;
 
         }else {
@@ -29,7 +28,8 @@ vector<pii> merge(vector<int> &segs) {
         }
     }
     //
-    if(ed == -2e9) {
+    if(st != -2e9) {
+        //把最后剩下的区间也加上
         res.push_back({st,ed});
     }
     return res;

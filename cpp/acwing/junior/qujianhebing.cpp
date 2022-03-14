@@ -15,9 +15,11 @@ vector<int> segs;
 vector<pii> merge(vector<int> &segs) {
     int st = -2e9, ed = -2e9;
     vector<pii> res;
-    sort(query.begin(),query.end());
+
+    //先排序，保证没次遍历按着左端点的顺序
+    sort(query.begin(),query.end());//pair排序，会优先左端点，再看右端点
     for(auto item : query) {
-        if(ed < item.first) {
+        if(ed < item.first) {//怎么判断是否右交集，看当前维护的右端点和当前遍历的左端点
             //没有交集，替换掉
             res.push_back({st,ed});
             st = item.first, ed = item.second;
@@ -26,7 +28,7 @@ vector<pii> merge(vector<int> &segs) {
             ed = max(ed,item.second);
         }
     }
-
+    //
     if(ed == -2e9) {
         res.push_back({st,ed});
     }

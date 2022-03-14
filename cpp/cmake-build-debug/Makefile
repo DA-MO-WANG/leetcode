@@ -285,6 +285,33 @@ acwing/junior/qujianhe.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.s
 .PHONY : acwing/junior/qujianhe.cpp.s
 
+acwing/junior/qujianhebing.o: acwing/junior/qujianhebing.cpp.o
+
+.PHONY : acwing/junior/qujianhebing.o
+
+# target to build an object file
+acwing/junior/qujianhebing.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/qujianhebing.cpp.o
+.PHONY : acwing/junior/qujianhebing.cpp.o
+
+acwing/junior/qujianhebing.i: acwing/junior/qujianhebing.cpp.i
+
+.PHONY : acwing/junior/qujianhebing.i
+
+# target to preprocess a source file
+acwing/junior/qujianhebing.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/qujianhebing.cpp.i
+.PHONY : acwing/junior/qujianhebing.cpp.i
+
+acwing/junior/qujianhebing.s: acwing/junior/qujianhebing.cpp.s
+
+.PHONY : acwing/junior/qujianhebing.s
+
+# target to generate assembly for a file
+acwing/junior/qujianhebing.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/qujianhebing.cpp.s
+.PHONY : acwing/junior/qujianhebing.cpp.s
+
 acwing/junior/third.o: acwing/junior/third.cpp.o
 
 .PHONY : acwing/junior/third.o
@@ -339,6 +366,9 @@ help:
 	@echo "... acwing/junior/qujianhe.o"
 	@echo "... acwing/junior/qujianhe.i"
 	@echo "... acwing/junior/qujianhe.s"
+	@echo "... acwing/junior/qujianhebing.o"
+	@echo "... acwing/junior/qujianhebing.i"
+	@echo "... acwing/junior/qujianhebing.s"
 	@echo "... acwing/junior/third.o"
 	@echo "... acwing/junior/third.i"
 	@echo "... acwing/junior/third.s"

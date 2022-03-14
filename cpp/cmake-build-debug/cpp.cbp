@@ -98,6 +98,9 @@
 		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/qujianhe.cpp">
 			<Option target="cpp"/>
 		</Unit>
+		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/qujianhebing.cpp">
+			<Option target="cpp"/>
+		</Unit>
 		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/third.cpp">
 			<Option target="cpp"/>
 		</Unit>

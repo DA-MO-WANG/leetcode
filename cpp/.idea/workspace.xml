@@ -109,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/acwing/junior/qujianhebing.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
-              <caret line="18" column="29" selection-end-line="53" />
+              <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
               <folding>
                 <element signature="e#43#62#0" expanded="true" />
               </folding>
@@ -226,12 +226,12 @@
       <workItem from="1646700613037" duration="5500000" />
       <workItem from="1646805458299" duration="125000" />
       <workItem from="1646829116315" duration="6044000" />
-      <workItem from="1647130463628" duration="7693000" />
+      <workItem from="1647130463628" duration="7853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26576000" />
+    <option name="totallyTimeSpent" value="26736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="25" width="1393" height="875" extended-state="0" />
@@ -357,7 +357,7 @@
     <entry file="file://$PROJECT_DIR$/acwing/junior/qujianhebing.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
-          <caret line="18" column="29" selection-end-line="53" />
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
           <folding>
             <element signature="e#43#62#0" expanded="true" />
           </folding>

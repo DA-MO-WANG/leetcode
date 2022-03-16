@@ -226,12 +226,12 @@
       <workItem from="1646700613037" duration="5500000" />
       <workItem from="1646805458299" duration="125000" />
       <workItem from="1646829116315" duration="6044000" />
-      <workItem from="1647130463628" duration="7853000" />
+      <workItem from="1647130463628" duration="8135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26736000" />
+    <option name="totallyTimeSpent" value="27018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="5" y="25" width="1393" height="875" extended-state="0" />
@@ -271,6 +271,11 @@
           <url>file://$PROJECT_DIR$/acwing/junior/chafenjuzhen.cpp</url>
           <line>38</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/acwing/junior/qujianhebing.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

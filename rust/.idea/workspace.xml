@@ -12,14 +12,7 @@
     <cargoProject FILE="$PROJECT_DIR$/hello.rs" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90f8a78-6f86-4ca8-ae60-5d08267c3b33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ex2.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/rust-4886b25cc1c9eaca" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/rust-4886b25cc1c9eaca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/rust-4886b25cc1c9eaca.rust.2654786a-cgu.3.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/rust-4886b25cc1c9eaca.rust.2654786a-cgu.3.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/deps/rust-4886b25cc1c9eaca.rust.2654786a-cgu.6.rcgu.o" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/rust-4886b25cc1c9eaca.rust.2654786a-cgu.6.rcgu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/rust" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/rust" afterDir="false" />
-    </list>
+    <list default="true" id="f90f8a78-6f86-4ca8-ae60-5d08267c3b33" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +34,16 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="58">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding>
+                <element signature="e#10#11#0" expanded="true" />
+                <element signature="e#20#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +64,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ex2.rs" />
+        <option value="$PROJECT_DIR$/src/main.rs" />
       </list>
     </option>
   </component>
@@ -162,22 +160,23 @@
       <workItem from="1646571490472" duration="113000" />
       <workItem from="1646572004517" duration="53000" />
       <workItem from="1646572058309" duration="256000" />
+      <workItem from="1647870449074" duration="303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1086000" />
+    <option name="totallyTimeSpent" value="1389000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="572" y="134" width="1400" height="1000" extended-state="0" />
+    <frame x="846" y="80" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26435935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295711" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295711" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -200,19 +199,12 @@
     <entry file="file://$PROJECT_DIR$/hello.rs" />
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="58">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding>
             <element signature="e#10#11#0" expanded="true" />
-            <element signature="e#43#44#0" expanded="true" />
+            <element signature="e#20#21#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>

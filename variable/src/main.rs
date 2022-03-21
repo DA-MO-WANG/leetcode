@@ -1,6 +1,6 @@
 fn main() {
-	 let mut  x = "234";
+	 let   x = "234";
  	println!("x的值是{}",x);
-	x = x.len();
+	let x = x.len();
     println!("x的值是{}",x);
 }

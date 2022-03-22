@@ -72,10 +72,10 @@
     <option name="directoryName" value="AQLtPDjQ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="846" />
-    <option name="y" value="80" />
+    <option name="x" value="40" />
+    <option name="y" value="25" />
     <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -160,15 +160,15 @@
       <workItem from="1646571490472" duration="113000" />
       <workItem from="1646572004517" duration="53000" />
       <workItem from="1646572058309" duration="256000" />
-      <workItem from="1647870449074" duration="800000" />
+      <workItem from="1647870449074" duration="1285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1886000" />
+    <option name="totallyTimeSpent" value="2371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="846" y="80" width="1400" height="1000" extended-state="0" />
+    <frame x="40" y="25" width="1400" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26435935" />
@@ -176,7 +176,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295711" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295711" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

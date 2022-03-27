@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/acwing/junior/qujianhe.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/qujianhebing.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/twonum_sum.cpp.o"
+  "CMakeFiles/cpp.dir/acwing/junior/containChild.cpp.o"
   "cpp.pdb"
   "cpp"
 )

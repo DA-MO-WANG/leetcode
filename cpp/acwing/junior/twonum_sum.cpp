@@ -13,7 +13,7 @@ int main() {
     cin >> n >> m >> x;
 
     while(n--) {
-         scanf('%')
+         scanf('%s',a);
     }
 }
 

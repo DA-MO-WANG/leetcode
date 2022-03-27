@@ -6,23 +6,25 @@
 #include <algorithm>
 #include <cmath>
 #include <cstring>
-const int N = 1e9 + 10;
 using namespace std;
-char a[N],b[N];
+vector<int> a, b, c;
 int res[2];
-
 int main() {
     int n, m, x;
     cin >> n >> m >> x;
 
     while(n--) {
-        scanf("%c",a);
+        int v = 0;
+        cin >> v;
+        a.push_back(v);
     }
     while(m--) {
-        scanf("%c",b);
+        int v = 0;
+        cin >> v;
+        b.push_back(v);
     }
-    int i = 0, j = strlen(b) - 1;
-    while(j >= 0 && i < strlen(a)) {
+    int i = 0, j = b.size() - 1;
+    while(j >= 0 && i < a.size()) {
         if(a[i] + b[j] > x) {
             j--;
         }else if(a[i] + b[j] == x) {

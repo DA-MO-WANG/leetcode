@@ -102,11 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/containChild.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="24" column="12" lean-forward="true" selection-end-line="31" />
-              <folding>
-                <element signature="e#43#62#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="392">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -248,12 +245,12 @@
       <workItem from="1647130463628" duration="8135000" />
       <workItem from="1647476427177" duration="215000" />
       <workItem from="1647870406586" duration="43000" />
-      <workItem from="1648366289046" duration="3299000" />
+      <workItem from="1648366289046" duration="3407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30575000" />
+    <option name="totallyTimeSpent" value="30683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="536" y="25" width="1869" height="875" extended-state="0" />
@@ -411,11 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/containChild.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="12" lean-forward="true" selection-end-line="31" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="392">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>

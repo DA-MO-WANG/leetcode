@@ -15,14 +15,15 @@ int main() {
         scanf("%d",a+i);
     }
     for(int j = 0; j < m; j++) {
-        scanf("%d",b+j)
+        scanf("%d",b+j);
     }
-    for(int i = 0, j = 0; i < n;i++) {
+    int j = 0;
+    for(int i = 0; i < m && j < n;i++) {
         if(b[i] == a[j]) {
             j++;
         }
     }
-    if(j == m) {
+    if(j == n) {
         cout << "Yes" << endl;
     }else {
         cout << "No" << endl;

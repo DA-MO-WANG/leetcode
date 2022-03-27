@@ -12,20 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acwing/junior/twonum_sum.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/junior/twonum_sum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/twonum_sum.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/charfen.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="261">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#43#62#0" expanded="true" />
               </folding>
@@ -124,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/twonum_sum.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" selection-start-line="3" selection-end-line="5" />
+            <state relative-caret-position="246">
+              <caret line="28" column="16" lean-forward="true" selection-end-line="38" />
               <folding>
                 <element signature="e#43#62#0" expanded="true" />
               </folding>
@@ -136,7 +124,21 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Darwin-Initialize.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>scanf</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -154,8 +156,8 @@
         <option value="$PROJECT_DIR$/acwing/junior/lisanhuaa.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/qujianhe.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/qujianhebing.cpp" />
-        <option value="$PROJECT_DIR$/acwing/junior/twonum_sum.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/charfen.cpp" />
+        <option value="$PROJECT_DIR$/acwing/junior/twonum_sum.cpp" />
       </list>
     </option>
   </component>
@@ -163,7 +165,7 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-76" />
+    <option name="x" value="536" />
     <option name="y" value="25" />
     <option name="width" value="1869" />
     <option name="height" value="875" />
@@ -249,15 +251,16 @@
       <workItem from="1647130463628" duration="8135000" />
       <workItem from="1647476427177" duration="215000" />
       <workItem from="1647870406586" duration="43000" />
-      <workItem from="1648366289046" duration="521000" />
+      <workItem from="1648366289046" duration="1047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27797000" />
+    <option name="totallyTimeSpent" value="28323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="624" y="41" width="1869" height="875" extended-state="0" />
+    <frame x="536" y="25" width="1869" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.28078818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -344,16 +347,6 @@
     <entry file="file://$PROJECT_DIR$/acwing/junior/twonumsum.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/acwing/junior/twonum_sum.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" selection-start-line="3" selection-end-line="5" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/erjinzhizhong1degeshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -390,8 +383,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/charfen.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="261">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#43#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Darwin-Initialize.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acwing/junior/twonum_sum.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="28" column="16" lean-forward="true" selection-end-line="38" />
           <folding>
             <element signature="e#43#62#0" expanded="true" />
           </folding>

@@ -39,10 +39,10 @@
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding>
                 <element signature="e#10#11#0" expanded="true" />
-                <element signature="e#20#21#0" expanded="true" />
+                <element signature="e#42#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,9 +72,9 @@
     <option name="directoryName" value="AQLtPDjQ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="25" />
-    <option name="width" value="1400" />
+    <option name="x" value="431" />
+    <option name="y" value="53" />
+    <option name="width" value="1394" />
     <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -85,6 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,7 +102,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,17 +161,17 @@
       <workItem from="1646572004517" duration="53000" />
       <workItem from="1646572058309" duration="256000" />
       <workItem from="1647870449074" duration="1285000" />
+      <workItem from="1648366250378" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2371000" />
+    <option name="totallyTimeSpent" value="2407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="25" width="1400" height="875" extended-state="0" />
-    <editor active="true" />
+    <frame x="431" y="53" width="1394" height="875" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26435935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2677515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -200,10 +200,10 @@
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding>
             <element signature="e#10#11#0" expanded="true" />
-            <element signature="e#20#21#0" expanded="true" />
+            <element signature="e#42#43#0" expanded="true" />
           </folding>
         </state>
       </provider>

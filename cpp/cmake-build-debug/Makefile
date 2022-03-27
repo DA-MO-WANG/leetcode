@@ -339,6 +339,33 @@ acwing/junior/third.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/third.cpp.s
 .PHONY : acwing/junior/third.cpp.s
 
+acwing/junior/twonum_sum.o: acwing/junior/twonum_sum.cpp.o
+
+.PHONY : acwing/junior/twonum_sum.o
+
+# target to build an object file
+acwing/junior/twonum_sum.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/twonum_sum.cpp.o
+.PHONY : acwing/junior/twonum_sum.cpp.o
+
+acwing/junior/twonum_sum.i: acwing/junior/twonum_sum.cpp.i
+
+.PHONY : acwing/junior/twonum_sum.i
+
+# target to preprocess a source file
+acwing/junior/twonum_sum.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/twonum_sum.cpp.i
+.PHONY : acwing/junior/twonum_sum.cpp.i
+
+acwing/junior/twonum_sum.s: acwing/junior/twonum_sum.cpp.s
+
+.PHONY : acwing/junior/twonum_sum.s
+
+# target to generate assembly for a file
+acwing/junior/twonum_sum.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/twonum_sum.cpp.s
+.PHONY : acwing/junior/twonum_sum.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -372,6 +399,9 @@ help:
 	@echo "... acwing/junior/third.o"
 	@echo "... acwing/junior/third.i"
 	@echo "... acwing/junior/third.s"
+	@echo "... acwing/junior/twonum_sum.o"
+	@echo "... acwing/junior/twonum_sum.i"
+	@echo "... acwing/junior/twonum_sum.s"
 .PHONY : help
 
 

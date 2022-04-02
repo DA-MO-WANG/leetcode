@@ -16,7 +16,7 @@ struct ListNode{
 };
 int m;
 int main() {
-    ListNode *head = null;
+    ListNode *head = NULL;
     cin >> m;
     while(m--) {
         string s = "";

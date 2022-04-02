@@ -9,7 +9,7 @@
 struct ListNode{
     int val;
     ListNode *node;
-    ListNode
+    ListNode(int x) : val(x),next(null){}
 };
 int main() {
 

@@ -14,16 +14,20 @@ struct ListNode{
     ListNode *next;
     ListNode(int x) : val(x),next(NULL){}
 };
+ListNode *head;
 int m;
 int main() {
-    ListNode *head = NULL;
+
     cin >> m;
     while(m--) {
         string s = "";
         cin >> s;
         //读取操作指令
         if(s[0] == 'H') {
-            ListNode cur = new ListNode(s[2]);
+            ListNode* cur = new ListNode(s[2]);
+            cur  -> next = head;
+        }else if(s[0] = 'D') {
+            
         }
         //
     }

@@ -5,14 +5,14 @@
 #include <cstdio>
 #include <cmath>
 #include <algorithm>
-
+//创建了一个结构体
 struct ListNode{
     int val;
-    ListNode *node;
-    ListNode(int x) : val(x),next(null){}
+    ListNode *next;
+    ListNode(int x) : val(x),next(NULL){}
 };
 int main() {
-
+    
 
 
 }

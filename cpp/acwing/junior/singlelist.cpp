@@ -27,7 +27,7 @@ int main() {
             ListNode* cur = new ListNode(s[2]);
             cur  -> next = head;
         }else if(s[0] = 'D') {
-            
+
         }
         //
     }

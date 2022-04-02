@@ -22,7 +22,9 @@ int main() {
         string s = "";
         cin >> s;
         //读取操作指令
-
+        if(s[0] == 'H') {
+            ListNode cur = new ListNode(s[2]);
+        }
         //
     }
 

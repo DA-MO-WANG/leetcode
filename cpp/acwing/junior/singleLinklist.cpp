@@ -33,12 +33,16 @@ void add_front(int x) {
     idx++;
 
 }
-//在k位置上，插入x元素
+//在k位置之后，插入节点x
 void add(int k, int x) {
     ele[idx] = x;
     ne[idx] = ne[k];
-    
+    ne[k] = idx;
+    idx++;
+}
 
+void remove_front() {
+    head = ne[head];
 }
 int main() {
 

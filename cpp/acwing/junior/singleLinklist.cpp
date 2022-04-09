@@ -18,14 +18,24 @@
 
 using namespace std;
 const int N = 1e5 + 10;
-int head, ele[N], next[N], idx;
+int head, ele[N], ne[N], idx;
 
 void init() {
     head = -1;
     idx = 0;
 }
 void add_front(int x) {
-    nex
+    ele[0] = x;
+    ne[0] = head;
+    head = 0;
+    idx ++;
+}
+//在k位置上，插入x元素
+void add(int k, int x) {
+    int k_next = ne[k];
+    
+    ele[k] = x;
+
 }
 int main() {
 

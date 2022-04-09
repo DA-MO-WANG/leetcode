@@ -33,7 +33,7 @@ void add_front(int x) {
     idx++;
 
 }
-//在k位置之后，插入节点x
+//在k位置之后，插入节点x==>因为这种实现无法向前看
 void add(int k, int x) {
     ele[idx] = x;
     ne[idx] = ne[k];
@@ -47,7 +47,7 @@ void remove_front() {
 //讲下标为k后面的一个元素删掉
 void remove(int k) {
     int last = ne[ne[k]];
-    ne[ne[k]] = -1;
+    //ne[ne[k]] = -1;
     ne[k] = last;
 }
 int main() {

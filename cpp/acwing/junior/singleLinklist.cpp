@@ -25,7 +25,7 @@ void init() {
     idx = 0;
 }
 void add_front(int x) {
-    
+    nex
 }
 int main() {
 

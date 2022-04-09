@@ -35,9 +35,9 @@ void add_front(int x) {
 }
 //在k位置上，插入x元素
 void add(int k, int x) {
-    int k_next = ne[k];
-
-    ele[k] = x;
+    ele[idx] = x;
+    ne[idx] = ne[k];
+    
 
 }
 int main() {

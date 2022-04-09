@@ -12,8 +12,8 @@
 //四个要素：e[], ne[], head, idx
 //head 指的是逻辑上的头节点的位置
 //idx值得是操作顺序，节点数量的插入顺序
-//链表的结构关系，和单个链表的下标没关系；是
-
+//链表的结构关系，和单个链表的下标没关系；是ele[] 和 ne[] 的关系共同构建的;ne_index——ne_val，这个两者构成了一个链
+//单独看ne-index 肯定是idx同步的
 #include <algorithm>
 #include <cstring>
 #include <cstdio>
@@ -27,10 +27,11 @@ void init() {
     idx = 0;
 }
 void add_front(int x) {
-    ele[0] = x;
-    ne[0] = head;
-    head = 0;
-    idx ++;
+    ele[idx] = x;
+    ne[idx] = ne[head];
+    head = idx;
+    idx++;
+
 }
 //在k位置上，插入x元素
 void add(int k, int x) {

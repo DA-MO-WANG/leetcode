@@ -17,7 +17,16 @@
 #include <cstdio>
 
 using namespace std;
-in
+const int N = 1e5 + 10;
+int head, ele[N], next[N], idx;
+
+void init() {
+    head = -1;
+    idx = 0;
+}
+void add_front(int x) {
+    
+}
 int main() {
 
 }

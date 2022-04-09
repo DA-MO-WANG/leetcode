@@ -17,7 +17,7 @@
 #include <cstdio>
 
 using namespace std;
-
+in
 int main() {
-    
+
 }

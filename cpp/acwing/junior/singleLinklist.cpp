@@ -44,6 +44,12 @@ void add(int k, int x) {
 void remove_front() {
     head = ne[head];
 }
+//讲下标为k后面的一个元素删掉
+void remove(int k) {
+    int last = ne[ne[k]];
+    ne[ne[k]] = -1;
+    ne[k] = last;
+}
 int main() {
 
 }

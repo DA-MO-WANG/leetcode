@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/acwing/junior/twonum_sum.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/containChild.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/singlelist.cpp.o"
+  "CMakeFiles/cpp.dir/acwing/junior/singleLinklist.cpp.o"
   "cpp.pdb"
   "cpp"
 )

@@ -104,6 +104,9 @@
 		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/qujianhebing.cpp">
 			<Option target="cpp"/>
 		</Unit>
+		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/singleLinklist.cpp">
+			<Option target="cpp"/>
+		</Unit>
 		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/singlelist.cpp">
 			<Option target="cpp"/>
 		</Unit>

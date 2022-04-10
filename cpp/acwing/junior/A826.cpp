@@ -8,7 +8,8 @@
 #include <iostream>
 
 using namespace std;
-
+const int N = 1e5 + 10;
+void 
 int main() {
     int m;
     cin >> m;
@@ -17,7 +18,8 @@ int main() {
         cin >> o;
         char c = o[0];
         switch (c) {
-            case 
+            case 'H':
+
         }
     }
 }

@@ -48,13 +48,16 @@ int main() {
             case 'D':
                 k = 0;
                 cin >> k;
-                remove(k);
+                //特殊情况删除头节点
+                if (k == 0) head = ne[head];
+                //k指的是第k个数，从1算起，idx从0算起
+                remove(k - 1);
                 break;
             default:
                 k = 0;
                 x = 0;
                 cin >> k >> x;
-                add(k,x);
+                add(k - 1,x);
 
 
 

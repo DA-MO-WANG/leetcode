@@ -123,6 +123,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
+acwing/junior/A826.o: acwing/junior/A826.cpp.o
+
+.PHONY : acwing/junior/A826.o
+
+# target to build an object file
+acwing/junior/A826.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/A826.cpp.o
+.PHONY : acwing/junior/A826.cpp.o
+
+acwing/junior/A826.i: acwing/junior/A826.cpp.i
+
+.PHONY : acwing/junior/A826.i
+
+# target to preprocess a source file
+acwing/junior/A826.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/A826.cpp.i
+.PHONY : acwing/junior/A826.cpp.i
+
+acwing/junior/A826.s: acwing/junior/A826.cpp.s
+
+.PHONY : acwing/junior/A826.s
+
+# target to generate assembly for a file
+acwing/junior/A826.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/A826.cpp.s
+.PHONY : acwing/junior/A826.cpp.s
+
 acwing/junior/Sum_of_submatrix.o: acwing/junior/Sum_of_submatrix.cpp.o
 
 .PHONY : acwing/junior/Sum_of_submatrix.o
@@ -456,6 +483,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
+	@echo "... acwing/junior/A826.o"
+	@echo "... acwing/junior/A826.i"
+	@echo "... acwing/junior/A826.s"
 	@echo "... acwing/junior/Sum_of_submatrix.o"
 	@echo "... acwing/junior/Sum_of_submatrix.i"
 	@echo "... acwing/junior/Sum_of_submatrix.s"

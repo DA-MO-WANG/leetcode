@@ -49,8 +49,9 @@ int main() {
                 cin >> k;
                 remove(k);
                 break;
-            case 'I':
-                
+            default:
+
+
 
         }
     }

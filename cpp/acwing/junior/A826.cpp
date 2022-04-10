@@ -9,16 +9,28 @@
 
 using namespace std;
 const int N = 1e5 + 10;
-void 
+int head, e[N], ne[N], idx;
+void init() {
+    head = -1;
+    idx = 0;
+}
+void add_head(int x) {
+    e[idx] = x;
+    ne[idx] = head;
+    head = idx;
+    idx ++;
+}
 int main() {
     int m;
     cin >> m;
+    init();
     while(m--) {
         string o;
         cin >> o;
         char c = o[0];
         switch (c) {
             case 'H':
+                add_head(o[1])
 
         }
     }

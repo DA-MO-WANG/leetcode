@@ -50,9 +50,18 @@ int main() {
                 remove(k);
                 break;
             default:
+                int k = 0;
+                int x = 0;
+                cin >> k >> x;
+                add(k,x);
+
 
 
 
         }
+
+    }
+    for(int i = head; i < m; i = ne[i]) {
+        cout << e[i] << " " << endl;
     }
 }

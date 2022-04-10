@@ -20,17 +20,37 @@ void add_head(int x) {
     head = idx;
     idx ++;
 }
+
+void add(int k , int x) {
+    e[idx] = x;
+    ne[idx] = ne[k];
+    ne[k] = idx;
+    idx ++;
+}
+void remove(int k) {
+    ne[k] = ne[ne[k]];
+}
 int main() {
     int m;
     cin >> m;
     init();
     while(m--) {
-        string o;
+        //怎么接收带空格的一行数据？
+        char o;
         cin >> o;
-        char c = o[0];
-        switch (c) {
+        switch (o) {
             case 'H':
-                add_head(o[1])
+                int x = 0;
+                cin >> x;
+                add_head(x);
+                break;
+            case 'D':
+                int k = 0;
+                cin >> k;
+                remove(k);
+                break;
+            case 'I':
+                
 
         }
     }

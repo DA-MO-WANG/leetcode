@@ -14,6 +14,8 @@ void init() {
     head = -1;
     idx = 0;
 }
+//最开始的时候，头插就保证了尾节点指向null
+//自此以后，所有的插入都不破坏这个特性；无论是中间插入，后半段也是尾部null，还是尾插，比头插多了一步，维护前面的数据
 void add_head(int x) {
     e[idx] = x;
     ne[idx] = head;
@@ -65,6 +67,7 @@ int main() {
         }
 
     }
+    //这里为什么是-1标志结束？==》尾部是null的特性
     for(int i = head; i != -1; i = ne[i]) {
         cout << e[i] << " ";
     }

@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/A826.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/A826.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="133">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -248,16 +246,15 @@
       <workItem from="1648366289046" duration="3746000" />
       <workItem from="1648892029727" duration="1755000" />
       <workItem from="1649066343111" duration="103000" />
-      <workItem from="1649474155995" duration="7923000" />
+      <workItem from="1649474155995" duration="8092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40803000" />
+    <option name="totallyTimeSpent" value="40972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="949" y="125" width="1403" height="875" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20793535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -441,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="133">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="16" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

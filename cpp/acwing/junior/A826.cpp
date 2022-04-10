@@ -16,6 +16,8 @@ int main() {
         string o;
         cin >> o;
         char c = o[0];
-        switch c
+        switch (c) {
+            case 
+        }
     }
 }

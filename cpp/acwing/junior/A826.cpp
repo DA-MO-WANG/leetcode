@@ -65,7 +65,7 @@ int main() {
         }
 
     }
-    for(int i = head; i < m; i = ne[i]) {
-        cout << e[i] << " " << endl;
+    for(int i = head; i != -1; i = ne[i]) {
+        cout << e[i] << " ";
     }
 }

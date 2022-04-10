@@ -96,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="69" column="32" selection-end-line="74" />
+            <state relative-caret-position="237">
+              <caret line="74" column="16" lean-forward="true" selection-end-line="78" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -159,8 +159,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="607" />
-    <option name="y" value="128" />
+    <option name="x" value="313" />
+    <option name="y" value="130" />
     <option name="width" value="1403" />
     <option name="height" value="875" />
   </component>
@@ -248,15 +248,15 @@
       <workItem from="1648366289046" duration="3746000" />
       <workItem from="1648892029727" duration="1755000" />
       <workItem from="1649066343111" duration="103000" />
-      <workItem from="1649474155995" duration="9635000" />
+      <workItem from="1649474155995" duration="10174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42515000" />
+    <option name="totallyTimeSpent" value="43054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="607" y="128" width="1403" height="875" extended-state="0" />
+    <frame x="313" y="130" width="1403" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20793535" />
@@ -441,8 +441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="69" column="32" selection-end-line="74" />
+        <state relative-caret-position="237">
+          <caret line="74" column="16" lean-forward="true" selection-end-line="78" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

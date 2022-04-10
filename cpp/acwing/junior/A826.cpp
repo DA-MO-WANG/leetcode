@@ -39,19 +39,20 @@ int main() {
         char o;
         cin >> o;
         switch (o) {
+            int x, k;
             case 'H':
-                int x = 0;
+                x = 0;
                 cin >> x;
                 add_head(x);
                 break;
             case 'D':
-                int k = 0;
+                k = 0;
                 cin >> k;
                 remove(k);
                 break;
             default:
-                int k = 0;
-                int x = 0;
+                k = 0;
+                x = 0;
                 cin >> k >> x;
                 add(k,x);
 

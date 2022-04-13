@@ -159,8 +159,7 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="313" />
-    <option name="y" value="130" />
+    <option name="y" value="25" />
     <option name="width" value="1403" />
     <option name="height" value="875" />
   </component>
@@ -248,15 +247,15 @@
       <workItem from="1648366289046" duration="3746000" />
       <workItem from="1648892029727" duration="1755000" />
       <workItem from="1649066343111" duration="103000" />
-      <workItem from="1649474155995" duration="10174000" />
+      <workItem from="1649474155995" duration="10419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43054000" />
+    <option name="totallyTimeSpent" value="43299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="313" y="130" width="1403" height="875" extended-state="0" />
+    <frame x="0" y="25" width="1403" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20793535" />

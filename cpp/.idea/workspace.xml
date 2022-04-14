@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/A826.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/A826.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="74" column="16" lean-forward="true" selection-end-line="78" />
+            <state relative-caret-position="243">
+              <caret line="74" column="16" selection-end-line="78" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -158,7 +156,7 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="25" />
     <option name="width" value="1403" />
     <option name="height" value="875" />
@@ -255,7 +253,7 @@
     <option name="totallyTimeSpent" value="43299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1403" height="875" extended-state="0" />
+    <frame x="0" y="25" width="1403" height="875" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20793535" />
@@ -440,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="74" column="16" lean-forward="true" selection-end-line="78" />
+        <state relative-caret-position="243">
+          <caret line="74" column="16" selection-end-line="78" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

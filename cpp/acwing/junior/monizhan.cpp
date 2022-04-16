@@ -21,9 +21,9 @@ int main() {
         }else if(ope == "pop") {
             q[top--] = 0;
         }else if(ope == "empty") {
-            cout <<((top == down) ? "YES" : "NO");
+            cout <<((top == down) ? "YES" : "NO") << endl;
         }else {
-            cout << q[top];
+            cout << q[top] << endl;
         }
     }
 }

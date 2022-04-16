@@ -19,7 +19,7 @@ int main() {
             cin >> x;
             q[++top] = x;
         }else if(ope == "pop") {
-            q[top--] = 0;
+            top--;//逻辑删除，通过调整指针让你看不到，也是一种删除的意思
         }else if(ope == "empty") {
             cout <<((top == down) ? "YES" : "NO") << endl;
         }else {

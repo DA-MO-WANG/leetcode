@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp acwing/junior/Sum_of_submatrix.cpp acwing/junior/third.cpp acwing/junior/charfen.cpp acwing/junior/chafenjuzhen.cpp acwing/junior/erjinzhizhong1degeshu.cpp acwing/junior/lisanhua.cpp acwing/junior/qujianhe.cpp acwing/junior/qujianhebing.cpp acwing/junior/twonum_sum.cpp acwing/junior/containChild.cpp acwing/junior/singlelist.cpp acwing/junior/singleLinklist.cpp acwing/junior/A826.cpp acwing/junior/shuanglianbiao.cpp)
+add_executable(cpp acwing/junior/Sum_of_submatrix.cpp acwing/junior/third.cpp acwing/junior/charfen.cpp acwing/junior/chafenjuzhen.cpp acwing/junior/erjinzhizhong1degeshu.cpp acwing/junior/lisanhua.cpp acwing/junior/qujianhe.cpp acwing/junior/qujianhebing.cpp acwing/junior/twonum_sum.cpp acwing/junior/containChild.cpp acwing/junior/singlelist.cpp acwing/junior/singleLinklist.cpp acwing/junior/A826.cpp acwing/junior/shuanglianbiao.cpp acwing/junior/monizhan.cpp)

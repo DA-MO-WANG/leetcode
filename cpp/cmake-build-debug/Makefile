@@ -312,6 +312,33 @@ acwing/junior/lisanhua.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/lisanhua.cpp.s
 .PHONY : acwing/junior/lisanhua.cpp.s
 
+acwing/junior/monizhan.o: acwing/junior/monizhan.cpp.o
+
+.PHONY : acwing/junior/monizhan.o
+
+# target to build an object file
+acwing/junior/monizhan.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/monizhan.cpp.o
+.PHONY : acwing/junior/monizhan.cpp.o
+
+acwing/junior/monizhan.i: acwing/junior/monizhan.cpp.i
+
+.PHONY : acwing/junior/monizhan.i
+
+# target to preprocess a source file
+acwing/junior/monizhan.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/monizhan.cpp.i
+.PHONY : acwing/junior/monizhan.cpp.i
+
+acwing/junior/monizhan.s: acwing/junior/monizhan.cpp.s
+
+.PHONY : acwing/junior/monizhan.s
+
+# target to generate assembly for a file
+acwing/junior/monizhan.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/monizhan.cpp.s
+.PHONY : acwing/junior/monizhan.cpp.s
+
 acwing/junior/qujianhe.o: acwing/junior/qujianhe.cpp.o
 
 .PHONY : acwing/junior/qujianhe.o
@@ -531,6 +558,9 @@ help:
 	@echo "... acwing/junior/lisanhua.o"
 	@echo "... acwing/junior/lisanhua.i"
 	@echo "... acwing/junior/lisanhua.s"
+	@echo "... acwing/junior/monizhan.o"
+	@echo "... acwing/junior/monizhan.i"
+	@echo "... acwing/junior/monizhan.s"
 	@echo "... acwing/junior/qujianhe.o"
 	@echo "... acwing/junior/qujianhe.i"
 	@echo "... acwing/junior/qujianhe.s"

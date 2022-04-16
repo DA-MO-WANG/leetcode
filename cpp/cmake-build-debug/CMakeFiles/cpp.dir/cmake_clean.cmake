@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/acwing/junior/singleLinklist.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/A826.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/shuanglianbiao.cpp.o"
+  "CMakeFiles/cpp.dir/acwing/junior/monizhan.cpp.o"
   "cpp.pdb"
   "cpp"
 )

@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -252,12 +250,12 @@
       <workItem from="1648366289046" duration="3746000" />
       <workItem from="1648892029727" duration="1755000" />
       <workItem from="1649066343111" duration="103000" />
-      <workItem from="1649474155995" duration="12807000" />
+      <workItem from="1649474155995" duration="12918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45687000" />
+    <option name="totallyTimeSpent" value="45798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="25" width="1403" height="875" extended-state="0" />

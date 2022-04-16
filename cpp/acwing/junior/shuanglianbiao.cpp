@@ -60,7 +60,7 @@ int main() {
         }else if(ope == "D") {
 
             cin >> k;
-            remove(k+1);//对第k个插入的数的理解，最终落实到
+            remove(k+1);//对第k个插入的数的理解，最终落实到xiang yi
         }else if(ope == "IL") {
 
             cin >> k >> x;

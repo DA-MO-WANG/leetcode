@@ -7,7 +7,7 @@
 
 using namespace std;
 const int N = 1e5 + 10;
-int q[N], top, down;
+int q[N], top = -1, down;
 int main() {
     int m;
     cin >> m;

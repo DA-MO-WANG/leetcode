@@ -11,7 +11,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp.cbp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +109,14 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+              <folding>
+                <element signature="e#43#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -146,6 +166,7 @@
         <option value="$PROJECT_DIR$/acwing/junior/singlelist.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/singleLinklist.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/A826.cpp" />
+        <option value="$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp" />
       </list>
     </option>
   </component>
@@ -242,17 +263,18 @@
       <workItem from="1648366289046" duration="3746000" />
       <workItem from="1648892029727" duration="1755000" />
       <workItem from="1649066343111" duration="103000" />
-      <workItem from="1649474155995" duration="10443000" />
+      <workItem from="1649474155995" duration="11481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43323000" />
+    <option name="totallyTimeSpent" value="44361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="678" y="25" width="1403" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20793535" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20793535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,7 +288,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.3298292" />
+      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.3298292" />
       <window_info active="true" anchor="bottom" id="Eval Reset" order="12" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3285151" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -438,6 +460,16 @@
           <caret line="74" column="16" selection-end-line="78" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
           </folding>
         </state>
       </provider>

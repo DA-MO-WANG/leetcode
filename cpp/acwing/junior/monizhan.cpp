@@ -4,7 +4,7 @@
 #include <cstring>
 #include <iostream>
 #include <algorithm>
-
+//栈就是自缚手脚的数组，只维护一个指针的栈，通过指针才操作数组。而不是原生的上帝视角的数组
 using namespace std;
 const int N = 1e5 + 10;
 int q[N], top = -1, down;

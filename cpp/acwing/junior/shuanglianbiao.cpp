@@ -20,7 +20,7 @@ void add_right(int k, int x) {
 
     e[idx] = x;
     //第一步
-    r[idx] = l[k];
+    r[idx] = r[k];
     l[idx] = k;
     l[r[k]] = idx;
     r[k] = idx;
@@ -42,35 +42,38 @@ void remove(int k) {
     l[r[k]] = l[k];
 }
 int main() {
+    init();
     int m = 0;
     cin >> m;
     while(m--) {
-        char ope = ' ';
+        string ope = "";//字符串类可以直接==比较
+        int k,x;//cin可以不断替换掉旧值
         cin >> ope;
-        if(ope == 'L') {
-            int x = 0;
+        if(ope == "L") {
+
             cin >> x;
             add_right(0,x);
-        }else if(ope == 'R') {
-            int x = 0;
+        }else if(ope == "R") {
+
             cin >> x;
-            add_left(1,x);
-        }else if(ope == 'D') {
-            int k = 0;
+            add_right(l[1],x);
+        }else if(ope == "D") {
+
             cin >> k;
-            remove(k-1);
-        }else if(ope == 'IL') {
-            int k , x = 0;
+            remove(k+1);//对第k个插入的数的理解，最终落实到
+        }else if(ope == "IL") {
+
             cin >> k >> x;
-            add_left(k - 1,x);
-        }else if(ope == 'IR') {
-            int k , x = 0;
+            add_right(l[k + 1],x);
+        }else if(ope == "IR") {
+
             cin >> k >> x;
-            add_right(k - 1,x);
+            add_right(k + 1,x);
         }
     }
 
-    for(int i = 2; i <= idx; i = r[i]) {
-        cout << e[i] << " ";
+    for(int i = r[0]; i != 1; i = r[i]) {
+        cout << e[i] << ' ';
     }
+    return 0;
 }

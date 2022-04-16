@@ -7,6 +7,7 @@
 
 using namespace std;
 //用数组模拟双链表
+//关键就是画图，照着图的操作逻辑映射成代码
 const int N = 1e5 + 10;
 int e[N],l[N],r[N], idx;
 void init() {

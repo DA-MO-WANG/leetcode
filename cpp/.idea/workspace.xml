@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/singlelist.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
+            <state relative-caret-position="725">
               <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
@@ -73,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/singleLinklist.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
+            <state relative-caret-position="783">
               <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="e#266#286#0" expanded="true" />
@@ -85,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="2146">
               <caret line="74" column="16" selection-end-line="78" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
@@ -97,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+            <state relative-caret-position="261">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="e#43#61#0" expanded="true" />
               </folding>
@@ -160,10 +162,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="37" />
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="25" />
-    <option name="width" value="1403" />
+    <option name="width" value="1393" />
     <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -251,14 +252,15 @@
       <workItem from="1648892029727" duration="1755000" />
       <workItem from="1649066343111" duration="103000" />
       <workItem from="1649474155995" duration="12918000" />
+      <workItem from="1650094484373" duration="332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45798000" />
+    <option name="totallyTimeSpent" value="46130000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="25" width="1403" height="875" extended-state="0" />
+    <frame x="0" y="25" width="1393" height="875" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20793535" />
@@ -407,6 +409,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/acwing/junior/singlelist.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acwing/junior/singleLinklist.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#266#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2146">
+          <caret line="74" column="16" selection-end-line="78" />
+          <folding>
+            <element signature="e#43#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Darwin-Initialize.cmake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3596">
@@ -421,40 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acwing/junior/singlelist.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acwing/junior/singleLinklist.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#266#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="74" column="16" selection-end-line="78" />
-          <folding>
-            <element signature="e#43#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+        <state relative-caret-position="261">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
           </folding>

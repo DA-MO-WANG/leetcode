@@ -29,7 +29,17 @@ void add_right(int k, int x) {
 
 //在位置为k的左部插入一个节点
 void add_left(int k, int x) {
+    e[idx] = x;
+    r[idx] = k;
+    l[idx] = l[k];
+    r[l[k]] = idx;
+    l[k] = idx;
+    idx++;
+}
 
+void remove(int k) {
+    r[l[k]] = r[k];
+    l[r[k]] = l[k];
 }
 int main() {
     int m = 0;
@@ -42,13 +52,25 @@ int main() {
             cin >> x;
             add_right(0,x);
         }else if(ope == 'R') {
-
+            int x = 0;
+            cin >> x;
+            add_left(1,x);
         }else if(ope == 'D') {
-
+            int k = 0;
+            cin >> k;
+            remove(k-1);
         }else if(ope == 'IL') {
-
+            int k , x = 0;
+            cin >> k >> x;
+            add_left(k - 1,x);
         }else if(ope == 'IR') {
-
+            int k , x = 0;
+            cin >> k >> x;
+            add_right(k - 1,x);
         }
+    }
+
+    for(int i = 2; i <= idx; i = r[i]) {
+        cout << e[i] << " ";
     }
 }

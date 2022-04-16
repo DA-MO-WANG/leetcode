@@ -366,6 +366,33 @@ acwing/junior/qujianhebing.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/qujianhebing.cpp.s
 .PHONY : acwing/junior/qujianhebing.cpp.s
 
+acwing/junior/shuanglianbiao.o: acwing/junior/shuanglianbiao.cpp.o
+
+.PHONY : acwing/junior/shuanglianbiao.o
+
+# target to build an object file
+acwing/junior/shuanglianbiao.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/shuanglianbiao.cpp.o
+.PHONY : acwing/junior/shuanglianbiao.cpp.o
+
+acwing/junior/shuanglianbiao.i: acwing/junior/shuanglianbiao.cpp.i
+
+.PHONY : acwing/junior/shuanglianbiao.i
+
+# target to preprocess a source file
+acwing/junior/shuanglianbiao.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/shuanglianbiao.cpp.i
+.PHONY : acwing/junior/shuanglianbiao.cpp.i
+
+acwing/junior/shuanglianbiao.s: acwing/junior/shuanglianbiao.cpp.s
+
+.PHONY : acwing/junior/shuanglianbiao.s
+
+# target to generate assembly for a file
+acwing/junior/shuanglianbiao.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/shuanglianbiao.cpp.s
+.PHONY : acwing/junior/shuanglianbiao.cpp.s
+
 acwing/junior/singleLinklist.o: acwing/junior/singleLinklist.cpp.o
 
 .PHONY : acwing/junior/singleLinklist.o
@@ -510,6 +537,9 @@ help:
 	@echo "... acwing/junior/qujianhebing.o"
 	@echo "... acwing/junior/qujianhebing.i"
 	@echo "... acwing/junior/qujianhebing.s"
+	@echo "... acwing/junior/shuanglianbiao.o"
+	@echo "... acwing/junior/shuanglianbiao.i"
+	@echo "... acwing/junior/shuanglianbiao.s"
 	@echo "... acwing/junior/singleLinklist.o"
 	@echo "... acwing/junior/singleLinklist.i"
 	@echo "... acwing/junior/singleLinklist.s"

@@ -23,15 +23,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acwing/junior/lisanhua.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="5" selection-end-line="103" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/qujianhebing.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
@@ -91,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
@@ -101,6 +92,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -156,7 +152,8 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="678" />
     <option name="y" value="25" />
     <option name="width" value="1403" />
     <option name="height" value="875" />
@@ -245,18 +242,17 @@
       <workItem from="1648366289046" duration="3746000" />
       <workItem from="1648892029727" duration="1755000" />
       <workItem from="1649066343111" duration="103000" />
-      <workItem from="1649474155995" duration="10419000" />
+      <workItem from="1649474155995" duration="10443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43299000" />
+    <option name="totallyTimeSpent" value="43323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1403" height="875" extended-state="1" />
-    <editor active="true" />
+    <frame x="678" y="25" width="1403" height="875" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20793535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20793535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,7 +266,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.3298292" />
+      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.3298292" />
       <window_info active="true" anchor="bottom" id="Eval Reset" order="12" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3285151" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />

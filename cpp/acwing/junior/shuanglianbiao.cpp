@@ -56,11 +56,11 @@ int main() {
         }else if(ope == "R") {
 
             cin >> x;
-            add_right(l[1],x);
+            add_left(1,x);
         }else if(ope == "D") {
 
             cin >> k;
-            remove(k+1);//对第k个插入的数的理解，最终落实到xiang ying
+            remove(k+1);//对第k个插入的数的理解，最终落实到相应的idx值，因为idx从2算起，k从1算起，所以换算成idx为k+1
         }else if(ope == "IL") {
 
             cin >> k >> x;
@@ -72,7 +72,9 @@ int main() {
         }
     }
 
-    for(int i = r[0]; i != 1; i = r[i]) {
+    for(int i = r[0]; i != 1; i = r[i]) {//遍历链表从头节点指向的第一个元素开始
+        //迭代是右指针公式
+        //判断条件是尾节点位置
         cout << e[i] << ' ';
     }
     return 0;

@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/monizhan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/monizhan.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,9 +164,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="329" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="103" />
+    <option name="y" value="91" />
     <option name="width" value="1595" />
     <option name="height" value="875" />
   </component>
@@ -257,15 +255,15 @@
       <workItem from="1648892029727" duration="1755000" />
       <workItem from="1649066343111" duration="103000" />
       <workItem from="1649474155995" duration="12918000" />
-      <workItem from="1650094484373" duration="1501000" />
+      <workItem from="1650094484373" duration="1748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47299000" />
+    <option name="totallyTimeSpent" value="47546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="329" y="25" width="1595" height="875" extended-state="0" />
+    <frame x="103" y="91" width="1595" height="875" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20725389" />

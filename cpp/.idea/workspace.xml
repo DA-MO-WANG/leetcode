@@ -11,10 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/junior/insertsort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/insertsort.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/insertsort.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="32" column="10" selection-end-line="43" />
+            <state relative-caret-position="163">
+              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -265,12 +262,12 @@
       <workItem from="1648892029727" duration="1755000" />
       <workItem from="1649066343111" duration="103000" />
       <workItem from="1649474155995" duration="12918000" />
-      <workItem from="1650094484373" duration="3442000" />
+      <workItem from="1650094484373" duration="3760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49240000" />
+    <option name="totallyTimeSpent" value="49558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="91" width="1595" height="875" extended-state="0" />
@@ -488,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/insertsort.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="32" column="10" selection-end-line="43" />
+        <state relative-caret-position="163">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

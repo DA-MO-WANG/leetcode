@@ -9,8 +9,8 @@ int q[10];
 
 void swap(int i, int j);
 
-void insertSort() {
-    for (int i = 1; i < 10; ++i) {
+void insertSort(int m) {
+    for (int i = 1; i < m; ++i) {
         int j = i - 1;
         while (j >= 0 && q[i] < q[j]) {
             swap(i,j);
@@ -30,11 +30,11 @@ using namespace std;
 int main() {
     int m = 0;
     cin >> m;
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < m; ++i) {
         cin >> q[i];
     }
-    insertSort();
-    for (int j = 0; j < 10; ++j) {
+    insertSort(m);
+    for (int j = 0; j < m; ++j) {
         cout << q[j] << " ";
 
     }

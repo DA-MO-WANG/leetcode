@@ -31,7 +31,12 @@ int main() {
     int m = 0;
     cin >> m;
     for (int i = 0; i < 10; ++i) {
-        scanf("%d",q + i);
+        cin >> q[i];
+    }
+    insertSort();
+    for (int j = 0; j < 10; ++j) {
+        cout << q[j] << " ";
+
     }
 
 

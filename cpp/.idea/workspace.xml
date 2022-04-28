@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/dandiaozhan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/dandiaozhan.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/dandiaozhan.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="278">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -270,12 +268,12 @@
       <workItem from="1649066343111" duration="103000" />
       <workItem from="1649474155995" duration="12918000" />
       <workItem from="1650094484373" duration="3986000" />
-      <workItem from="1651147384928" duration="2866000" />
+      <workItem from="1651147384928" duration="3082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52650000" />
+    <option name="totallyTimeSpent" value="52866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="763" y="28" width="1397" height="875" extended-state="0" />
@@ -513,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/dandiaozhan.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="278">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

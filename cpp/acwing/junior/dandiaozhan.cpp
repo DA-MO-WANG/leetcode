@@ -13,6 +13,7 @@ int main() {
     for (int i = 0; i < m; ++i) {
         int x;
         cin >> x;
+        //优势：排除了很多元素，而不用像暴力一样逐步遍历
         while(tt && q[tt] >= x) tt--;
         if(tt) cout << q[tt] << " ";
         else cout << -1 << " ";

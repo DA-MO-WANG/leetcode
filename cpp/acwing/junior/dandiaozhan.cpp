@@ -15,6 +15,7 @@ int main() {
         cin >> x;
         while(tt && q[tt] >= x) tt--;
         if(tt) cout << q[tt] << " ";
+        else cout << -1 << " ";
         q[++tt] = x;
     }
 

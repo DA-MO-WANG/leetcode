@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/acwing/junior/shuanglianbiao.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/monizhan.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/insertsort.cpp.o"
+  "CMakeFiles/cpp.dir/acwing/junior/moniduilie.cpp.o"
   "cpp.pdb"
   "cpp"
 )

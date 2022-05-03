@@ -312,6 +312,33 @@ acwing/junior/erjinzhizhong1degeshu.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/erjinzhizhong1degeshu.cpp.s
 .PHONY : acwing/junior/erjinzhizhong1degeshu.cpp.s
 
+acwing/junior/huadongchuangkou.o: acwing/junior/huadongchuangkou.cpp.o
+
+.PHONY : acwing/junior/huadongchuangkou.o
+
+# target to build an object file
+acwing/junior/huadongchuangkou.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/huadongchuangkou.cpp.o
+.PHONY : acwing/junior/huadongchuangkou.cpp.o
+
+acwing/junior/huadongchuangkou.i: acwing/junior/huadongchuangkou.cpp.i
+
+.PHONY : acwing/junior/huadongchuangkou.i
+
+# target to preprocess a source file
+acwing/junior/huadongchuangkou.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/huadongchuangkou.cpp.i
+.PHONY : acwing/junior/huadongchuangkou.cpp.i
+
+acwing/junior/huadongchuangkou.s: acwing/junior/huadongchuangkou.cpp.s
+
+.PHONY : acwing/junior/huadongchuangkou.s
+
+# target to generate assembly for a file
+acwing/junior/huadongchuangkou.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/huadongchuangkou.cpp.s
+.PHONY : acwing/junior/huadongchuangkou.cpp.s
+
 acwing/junior/insertsort.o: acwing/junior/insertsort.cpp.o
 
 .PHONY : acwing/junior/insertsort.o
@@ -639,6 +666,9 @@ help:
 	@echo "... acwing/junior/erjinzhizhong1degeshu.o"
 	@echo "... acwing/junior/erjinzhizhong1degeshu.i"
 	@echo "... acwing/junior/erjinzhizhong1degeshu.s"
+	@echo "... acwing/junior/huadongchuangkou.o"
+	@echo "... acwing/junior/huadongchuangkou.i"
+	@echo "... acwing/junior/huadongchuangkou.s"
 	@echo "... acwing/junior/insertsort.o"
 	@echo "... acwing/junior/insertsort.i"
 	@echo "... acwing/junior/insertsort.s"

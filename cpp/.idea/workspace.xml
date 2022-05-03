@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -75,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="197">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
               </folding>
@@ -170,8 +171,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="383" />
-    <option name="y" value="32" />
+    <option name="x" value="586" />
+    <option name="y" value="37" />
     <option name="width" value="1397" />
     <option name="height" value="875" />
   </component>
@@ -266,18 +267,18 @@
       <workItem from="1649066343111" duration="103000" />
       <workItem from="1649474155995" duration="12918000" />
       <workItem from="1650094484373" duration="3986000" />
-      <workItem from="1651147384928" duration="4370000" />
+      <workItem from="1651147384928" duration="5008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54154000" />
+    <option name="totallyTimeSpent" value="54792000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="383" y="32" width="1397" height="875" extended-state="0" />
+    <frame x="586" y="37" width="1397" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2095941" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2095941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -526,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="197">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
           </folding>

@@ -18,8 +18,9 @@ int main() {
     int q[k];
     for (int i = 0; i < n; ++i) {
         cin >> e[i];
+        while(hh <= tt && e[i] > q[tt])
     }
-    
+
 
 
 }

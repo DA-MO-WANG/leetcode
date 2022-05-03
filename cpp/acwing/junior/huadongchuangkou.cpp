@@ -27,6 +27,7 @@ int main() {
         if(i >= k - 1) cout << e[q[hh]] << " ";
     }
     cout << endl;
+    hh = 0, tt = -1;
     for (int i = 0; i < n; ++i) {
         //保持队列和窗口范围的一直
         if(hh <= tt && i - k + 1 > q[hh]) hh++;

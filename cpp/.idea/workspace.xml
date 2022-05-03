@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="149">
+              <caret line="29" column="22" selection-end-line="40" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
               </folding>
@@ -264,12 +266,12 @@
       <workItem from="1649066343111" duration="103000" />
       <workItem from="1649474155995" duration="12918000" />
       <workItem from="1650094484373" duration="3986000" />
-      <workItem from="1651147384928" duration="5849000" />
+      <workItem from="1651147384928" duration="6109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55633000" />
+    <option name="totallyTimeSpent" value="55893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="568" y="25" width="1397" height="875" extended-state="0" />
@@ -524,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="149">
+          <caret line="29" column="22" selection-end-line="40" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
           </folding>

@@ -6,7 +6,6 @@
 #include <algorithm>
 #include <cstring>
 #include <cstdio>
-#define _CRT_SECURE_NO_WARNINGS
 
 using namespace std;
 const int N = 1e5 + 10;

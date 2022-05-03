@@ -24,7 +24,15 @@ int main() {
         if(hh <= tt && i - k + 1 > q[hh]) hh++;
         while(hh <= tt && e[q[tt]] >= e[i]) tt--;
         q[++tt] = i;
-        if(i >= k - 1) cout << q[hh] << " ";
+        if(i >= k - 1) cout << e[q[hh]] << " ";
+    }
+    cout << endl;
+    for (int i = 0; i < n; ++i) {
+        //保持队列和窗口范围的一直
+        if(hh <= tt && i - k + 1 > q[hh]) hh++;
+        while(hh <= tt && e[q[tt]] <= e[i]) tt--;
+        q[++tt] = i;
+        if(i >= k - 1) cout << e[q[hh]] << " ";
     }
 
 

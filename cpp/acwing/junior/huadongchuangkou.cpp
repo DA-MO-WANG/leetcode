@@ -4,6 +4,7 @@
 #include <iostream>
 #include <algorithm>
 #include <cstring>
+#include <cstdio>
 
 using namespace std;
 const int N = 1e5 + 10;
@@ -12,7 +13,9 @@ int main() {
     int n,k;
     cin >> n >> k;
     int q[k];
-    while (n--) {
-        
+    for (int i = 0; i < ; ++i) {
+        scanf("%d",e + i);
     }
+
+
 }

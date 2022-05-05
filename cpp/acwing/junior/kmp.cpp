@@ -27,7 +27,8 @@ int main() {
         if (s[i] == p[j + 1]) j++;
         if(j == n) {
             cout << i - n + 1 << " ";
+            j = ne[j];
         }
-        j = ne[j];
+
     }
 }

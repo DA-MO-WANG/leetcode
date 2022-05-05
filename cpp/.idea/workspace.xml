@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/kmp.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="25" column="16" lean-forward="true" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="188">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="22" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -268,12 +268,12 @@
       <workItem from="1649474155995" duration="12918000" />
       <workItem from="1650094484373" duration="3986000" />
       <workItem from="1651147384928" duration="6668000" />
-      <workItem from="1651716819146" duration="658000" />
+      <workItem from="1651716819146" duration="968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57110000" />
+    <option name="totallyTimeSpent" value="57420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="587" y="31" width="1396" height="875" extended-state="0" />
@@ -538,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/kmp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="25" column="16" lean-forward="true" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="188">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="22" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

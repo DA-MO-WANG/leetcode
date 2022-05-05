@@ -366,6 +366,33 @@ acwing/junior/insertsort.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/insertsort.cpp.s
 .PHONY : acwing/junior/insertsort.cpp.s
 
+acwing/junior/kmp.o: acwing/junior/kmp.cpp.o
+
+.PHONY : acwing/junior/kmp.o
+
+# target to build an object file
+acwing/junior/kmp.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/kmp.cpp.o
+.PHONY : acwing/junior/kmp.cpp.o
+
+acwing/junior/kmp.i: acwing/junior/kmp.cpp.i
+
+.PHONY : acwing/junior/kmp.i
+
+# target to preprocess a source file
+acwing/junior/kmp.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/kmp.cpp.i
+.PHONY : acwing/junior/kmp.cpp.i
+
+acwing/junior/kmp.s: acwing/junior/kmp.cpp.s
+
+.PHONY : acwing/junior/kmp.s
+
+# target to generate assembly for a file
+acwing/junior/kmp.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/kmp.cpp.s
+.PHONY : acwing/junior/kmp.cpp.s
+
 acwing/junior/lisanhua.o: acwing/junior/lisanhua.cpp.o
 
 .PHONY : acwing/junior/lisanhua.o
@@ -672,6 +699,9 @@ help:
 	@echo "... acwing/junior/insertsort.o"
 	@echo "... acwing/junior/insertsort.i"
 	@echo "... acwing/junior/insertsort.s"
+	@echo "... acwing/junior/kmp.o"
+	@echo "... acwing/junior/kmp.i"
+	@echo "... acwing/junior/kmp.s"
 	@echo "... acwing/junior/lisanhua.o"
 	@echo "... acwing/junior/lisanhua.i"
 	@echo "... acwing/junior/lisanhua.s"

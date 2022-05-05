@@ -28,6 +28,6 @@ int main() {
         if(j == n) {
             cout << i - n + 1 << " ";
         }
-
+        j = ne[j];
     }
 }

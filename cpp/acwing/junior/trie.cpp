@@ -20,6 +20,16 @@ void insert(string s) {
     }
     cnt[p]++;//idx和p不完全一样，idx代表全局的最前列
 }
+int query(string s) {
+    int p = 0;//临时节点下标
+    for (int i = 0; i < s.size(); ++i) {
+        int u = s[i] - 'a';
+        if(!son[p][u]) return 0;
+        else p = son[p][u];
+    }
+    if(cnt[p]) return 1;
+    else return 0;
+}
 int main() {
     cin >> n;
     while (n --) {

@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acwing/junior/maxyihuopair.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/maxyihuopair.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/maxyihuopair.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="19" column="5" lean-forward="true" selection-end-line="28" />
+            <state relative-caret-position="281">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#42#62#0" expanded="true" />
               </folding>
@@ -174,8 +173,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="495" />
-    <option name="y" value="38" />
+    <option name="x" value="121" />
+    <option name="y" value="25" />
     <option name="width" value="1396" />
     <option name="height" value="875" />
   </component>
@@ -271,15 +270,15 @@
       <workItem from="1649474155995" duration="12918000" />
       <workItem from="1650094484373" duration="3986000" />
       <workItem from="1651147384928" duration="6668000" />
-      <workItem from="1651716819146" duration="4708000" />
+      <workItem from="1651716819146" duration="5571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61160000" />
+    <option name="totallyTimeSpent" value="62023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="36" width="1396" height="875" extended-state="0" />
+    <frame x="121" y="25" width="1396" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20901033" />
@@ -561,8 +560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/maxyihuopair.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="19" column="5" lean-forward="true" selection-end-line="28" />
+        <state relative-caret-position="281">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#42#62#0" expanded="true" />
           </folding>

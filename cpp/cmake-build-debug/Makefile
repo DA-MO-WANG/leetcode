@@ -420,6 +420,33 @@ acwing/junior/lisanhua.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/lisanhua.cpp.s
 .PHONY : acwing/junior/lisanhua.cpp.s
 
+acwing/junior/maxyihuopair.o: acwing/junior/maxyihuopair.cpp.o
+
+.PHONY : acwing/junior/maxyihuopair.o
+
+# target to build an object file
+acwing/junior/maxyihuopair.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/maxyihuopair.cpp.o
+.PHONY : acwing/junior/maxyihuopair.cpp.o
+
+acwing/junior/maxyihuopair.i: acwing/junior/maxyihuopair.cpp.i
+
+.PHONY : acwing/junior/maxyihuopair.i
+
+# target to preprocess a source file
+acwing/junior/maxyihuopair.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/maxyihuopair.cpp.i
+.PHONY : acwing/junior/maxyihuopair.cpp.i
+
+acwing/junior/maxyihuopair.s: acwing/junior/maxyihuopair.cpp.s
+
+.PHONY : acwing/junior/maxyihuopair.s
+
+# target to generate assembly for a file
+acwing/junior/maxyihuopair.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/maxyihuopair.cpp.s
+.PHONY : acwing/junior/maxyihuopair.cpp.s
+
 acwing/junior/moniduilie.o: acwing/junior/moniduilie.cpp.o
 
 .PHONY : acwing/junior/moniduilie.o
@@ -732,6 +759,9 @@ help:
 	@echo "... acwing/junior/lisanhua.o"
 	@echo "... acwing/junior/lisanhua.i"
 	@echo "... acwing/junior/lisanhua.s"
+	@echo "... acwing/junior/maxyihuopair.o"
+	@echo "... acwing/junior/maxyihuopair.i"
+	@echo "... acwing/junior/maxyihuopair.s"
 	@echo "... acwing/junior/moniduilie.o"
 	@echo "... acwing/junior/moniduilie.i"
 	@echo "... acwing/junior/moniduilie.s"

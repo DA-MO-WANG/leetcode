@@ -12,13 +12,13 @@ int n, cnt[N], idx;//cnt[]代表的是以当前节点为单词结尾的次数
 //idx代表所用用到的贯穿一切的下标-这个结构中的全局下标
 char son[N][26];
 void insert(string s) {
+    int p = 0;
     for (int i = 0; i < s.size(); ++i) {
-        int p = 0;//指根节点
         int u = s[i] - 'a';
         if(!son[p][u]) ++idx;
         else p = son[p][u];
     }
-    cnt[idx]++;
+    cnt[p]++;//idx和p不完全一样，idx代表全局的最前列
 }
 int main() {
     cin >> n;

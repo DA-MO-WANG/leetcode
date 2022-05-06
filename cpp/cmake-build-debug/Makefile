@@ -636,6 +636,33 @@ acwing/junior/third.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/third.cpp.s
 .PHONY : acwing/junior/third.cpp.s
 
+acwing/junior/trie.o: acwing/junior/trie.cpp.o
+
+.PHONY : acwing/junior/trie.o
+
+# target to build an object file
+acwing/junior/trie.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/trie.cpp.o
+.PHONY : acwing/junior/trie.cpp.o
+
+acwing/junior/trie.i: acwing/junior/trie.cpp.i
+
+.PHONY : acwing/junior/trie.i
+
+# target to preprocess a source file
+acwing/junior/trie.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/trie.cpp.i
+.PHONY : acwing/junior/trie.cpp.i
+
+acwing/junior/trie.s: acwing/junior/trie.cpp.s
+
+.PHONY : acwing/junior/trie.s
+
+# target to generate assembly for a file
+acwing/junior/trie.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/trie.cpp.s
+.PHONY : acwing/junior/trie.cpp.s
+
 acwing/junior/twonum_sum.o: acwing/junior/twonum_sum.cpp.o
 
 .PHONY : acwing/junior/twonum_sum.o
@@ -729,6 +756,9 @@ help:
 	@echo "... acwing/junior/third.o"
 	@echo "... acwing/junior/third.i"
 	@echo "... acwing/junior/third.s"
+	@echo "... acwing/junior/trie.o"
+	@echo "... acwing/junior/trie.i"
+	@echo "... acwing/junior/trie.s"
 	@echo "... acwing/junior/twonum_sum.o"
 	@echo "... acwing/junior/twonum_sum.i"
 	@echo "... acwing/junior/twonum_sum.s"

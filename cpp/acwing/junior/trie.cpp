@@ -38,7 +38,11 @@ int main() {
         if (op == 'I') {
             string x;
             cin >> x;
-
+            insert(x);
+        }else {
+            string x;
+            cin >> x;
+            
         }
     }
 }

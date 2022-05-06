@@ -25,4 +25,5 @@ int main() {
             res += Math.max(q[i] ^ q[j]);
         }
     }
+    cout << res;
 }

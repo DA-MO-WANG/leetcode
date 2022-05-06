@@ -8,35 +8,36 @@
 #include <cmath>
 
 using namespace std;
-//要
-const int N = 1e5 + 10;
+//用到了字典树的构造和遍历--特有的数组模拟的东西
+const int N = 1e5 + 10, M = 31 * N;
 
-int q[N], son[N][2], cnt[N], idx;
+int q[N], son[N][2], idx;
 void insert(int x) {
-    //我要获取i位上对应的二进制的值
+
     int p = 0;
-    for (int i = 31; i >= 0 ; i--) {
-        int u = x >> i & i;
+    for (int i = 30; i >= 0 ; i--) {
+        int u = x >> i & 1;//这个是获取第i位上二进制值的公式：先移i位，这样第i位上的数字就到了末位，然后与1 就获取了末位当位
         if(!son[p][u]) son[p][u] = ++idx;
         p = son[p][u];
     }
-    cnt[p]++;
+    //cnt[p]++; 因为能匹配最大异或值的肯定在叶子节点上，所以根本不需要记录非叶子节点上的数，也就是每个节点代表的是一个前缀位串集合
 }
 int query_maxyihuopipei(int x) {
     int p = 0, res = 0;
-    for (int i = 31; i >= 0; ++i) {
-        int u = x >> i & i;
+    for (int i = 30; i >= 0; i--) {
+
+        int u = x >> i & 1;
         if(!son[p][!u]) {
 
             p = son[p][u];
-            res = res * 2 + u;
+            res = res * 2 + u;//从尾部添加1位，给整体带来的变化：*2  代表左移1位，腾出位置+末位
         }
         else {
             p = son[p][!u];
             res = res * 2 + !u;
         }
     }
-    return res;
+    return res;//没有就是0
 
 }
 int main() {

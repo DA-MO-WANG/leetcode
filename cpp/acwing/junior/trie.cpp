@@ -27,8 +27,7 @@ int query(string s) {
         if(!son[p][u]) return 0;
         else p = son[p][u];
     }
-    if(cnt[p]) return 1;
-    else return 0;
+    return cnt[p];
 }
 int main() {
     cin >> n;
@@ -42,7 +41,8 @@ int main() {
         }else {
             string x;
             cin >> x;
-            
+            int res = query(x);
+            cout << res << endl;
         }
     }
 }

@@ -16,8 +16,28 @@ void insert(int x) {
     //我要获取i位上对应的二进制的值
     int p = 0;
     for (int i = 31; i >= 0 ; i--) {
-        int u = x >> 1 & 
+        int u = x >> i & i;
+        if(!son[p][u]) son[p][u] = ++idx;
+        p = son[p][u];
     }
+    cnt[p]++;
+}
+int query_maxyihuopipei(int x) {
+    int p = 0, res = 0;
+    for (int i = 31; i >= 0; ++i) {
+        int u = x >> i & i;
+        if(!son[p][!u]) {
+
+            p = son[p][u];
+            res = res * 2 + u;
+        }
+        else {
+            p = son[p][!u];
+            res = res * 2 + !u;
+        }
+    }
+    return res;
+
 }
 int main() {
 
@@ -33,6 +53,11 @@ int main() {
     //如果我能找到能够得到最大异或值的数，每给我一个数，我都能从集合里最高31次，就能找到
     //这个找到最大异或的规则是：从高位起，如果待匹配的数的这一位是0，那我就选择1这个分支，
     // 如果没有理想分支的话，我就选择将就的已有的选择
+    for (int i = 0; i < n; ++i) {
+        insert(q[i]);
+        int x = query_maxyihuopipei(q[i]);
+        res = max(res,x ^ q[i]);
+    }
 
 
 

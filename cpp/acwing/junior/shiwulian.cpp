@@ -4,7 +4,8 @@
 #include <algorithm>
 #include <cstdio>
 #include <iostream>
-
+//并查集维护额外信息
+ 
 using namespace std;
 const int N = 50000;
 int f[N], hg[N];

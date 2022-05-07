@@ -48,28 +48,31 @@ int main() {
     int d,x,y;
     while (k--) {
         cin >> d >> x >>y;
-        int zx = find(x), zy = find(y);
         if(x > n || y > n) ++res;
-        if (d == 1) {
-            if(zx == zy) {
-                if((hg[x] - hg[y])%3)  ++res;
-            }else {
-                //不在一个集合内，不能证明是假的，就可以当作是真得，也就认可xy同类，暂且让x指y-也就明确了x,y的集合变化
-                //为了构造他俩同类，就得hg[x] + ? = hg[y] ==> ? = hg[y] - hg[x]
-                f[zx] = zy;
-                hg[zx] = hg[y] - hg[x];
-            }
+        else {
+            int zx = find(x), zy = find(y);
+            if (d == 1) {
+                if(zx == zy) {
+                    if((hg[x] - hg[y])%3)  ++res;
+                }else {
+                    //不在一个集合内，不能证明是假的，就可以当作是真得，也就认可xy同类，暂且让x指y-也就明确了x,y的集合变化
+                    //为了构造他俩同类，就得hg[x] + ? = hg[y] ==> ? = hg[y] - hg[x]
+                    f[zx] = zy;
+                    hg[zx] = hg[y] - hg[x];
+                }
 
-        }else {
-            if(d == 2) {
-               if(zx == zy) {
-                   if(hg[x] % 3 - hg[y] %3 - 1) ++res;
-               }else {
-                   f[zx] = zy;
-                   hg[zx] = hg[y] + 1 - hg[x];
-               }
+            }else {
+                if(d == 2) {
+                    if(zx == zy) {
+                        if(hg[x] % 3 - hg[y] %3 - 1) ++res;
+                    }else {
+                        f[zx] = zy;
+                        hg[zx] = hg[y] + 1 - hg[x];
+                    }
+                }
             }
         }
+
     }
     cout << res;
 }

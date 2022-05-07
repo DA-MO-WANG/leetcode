@@ -52,7 +52,7 @@ int main() {
         if(x > n || y > n) ++res;
         if (d == 1) {
             if(zx == zy) {
-                if(hg[x] != hg[y])  ++res;
+                if((hg[x] - hg[y])%3)  ++res;
             }else {
                 //不在一个集合内，不能证明是假的，就可以当作是真得，也就认可xy同类，暂且让x指y-也就明确了x,y的集合变化
                 //为了构造他俩同类，就得hg[x] + ? = hg[y] ==> ? = hg[y] - hg[x]
@@ -63,7 +63,7 @@ int main() {
         }else {
             if(d == 2) {
                if(zx == zy) {
-                   if(hg[y] - hg[x] - 1) ++res;
+                   if((hg[y] - hg[x] - 1)%3) ++res;
                }else {
                    f[zx] = zy;
                    hg[zx] = hg[y] + 1 - hg[x];

@@ -63,7 +63,7 @@ int main() {
         }else {
             if(d == 2) {
                if(zx == zy) {
-                   if((hg[y] - hg[x] - 1)%3) ++res;
+                   if(hg[x] % 3 - hg[y] %3 - 1) ++res;
                }else {
                    f[zx] = zy;
                    hg[zx] = hg[y] + 1 - hg[x];

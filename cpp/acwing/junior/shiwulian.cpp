@@ -24,11 +24,11 @@ int main() {
     int d,x,y;
     while (k--) {
         cin >> d >> x >>y;
+        if(x > n || y > n) ++res;
         if (d == 1) {
-            if(x > n || y > n || hg[x] != hg[y]) ++res;
+            if( hg[x] != hg[y]) ++res;
 
         }else {
-            cin >> d >> x >> y;
             if(d == 2) {
                 if(x == y || f[x] == y || hg[x] - hg[y] < 0) ++res;
                 f[y] = x;
@@ -36,4 +36,5 @@ int main() {
             }
         }
     }
+    cout << res;
 }

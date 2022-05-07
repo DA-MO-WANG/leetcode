@@ -177,6 +177,33 @@ acwing/junior/Sum_of_submatrix.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/Sum_of_submatrix.cpp.s
 .PHONY : acwing/junior/Sum_of_submatrix.cpp.s
 
+acwing/junior/bingchaji.o: acwing/junior/bingchaji.cpp.o
+
+.PHONY : acwing/junior/bingchaji.o
+
+# target to build an object file
+acwing/junior/bingchaji.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/bingchaji.cpp.o
+.PHONY : acwing/junior/bingchaji.cpp.o
+
+acwing/junior/bingchaji.i: acwing/junior/bingchaji.cpp.i
+
+.PHONY : acwing/junior/bingchaji.i
+
+# target to preprocess a source file
+acwing/junior/bingchaji.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/bingchaji.cpp.i
+.PHONY : acwing/junior/bingchaji.cpp.i
+
+acwing/junior/bingchaji.s: acwing/junior/bingchaji.cpp.s
+
+.PHONY : acwing/junior/bingchaji.s
+
+# target to generate assembly for a file
+acwing/junior/bingchaji.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/bingchaji.cpp.s
+.PHONY : acwing/junior/bingchaji.cpp.s
+
 acwing/junior/chafenjuzhen.o: acwing/junior/chafenjuzhen.cpp.o
 
 .PHONY : acwing/junior/chafenjuzhen.o
@@ -732,6 +759,9 @@ help:
 	@echo "... acwing/junior/Sum_of_submatrix.o"
 	@echo "... acwing/junior/Sum_of_submatrix.i"
 	@echo "... acwing/junior/Sum_of_submatrix.s"
+	@echo "... acwing/junior/bingchaji.o"
+	@echo "... acwing/junior/bingchaji.i"
+	@echo "... acwing/junior/bingchaji.s"
 	@echo "... acwing/junior/chafenjuzhen.o"
 	@echo "... acwing/junior/chafenjuzhen.i"
 	@echo "... acwing/junior/chafenjuzhen.s"

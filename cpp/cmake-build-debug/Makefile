@@ -609,6 +609,33 @@ acwing/junior/qujianhebing.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/qujianhebing.cpp.s
 .PHONY : acwing/junior/qujianhebing.cpp.s
 
+acwing/junior/shiwulian.o: acwing/junior/shiwulian.cpp.o
+
+.PHONY : acwing/junior/shiwulian.o
+
+# target to build an object file
+acwing/junior/shiwulian.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/shiwulian.cpp.o
+.PHONY : acwing/junior/shiwulian.cpp.o
+
+acwing/junior/shiwulian.i: acwing/junior/shiwulian.cpp.i
+
+.PHONY : acwing/junior/shiwulian.i
+
+# target to preprocess a source file
+acwing/junior/shiwulian.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/shiwulian.cpp.i
+.PHONY : acwing/junior/shiwulian.cpp.i
+
+acwing/junior/shiwulian.s: acwing/junior/shiwulian.cpp.s
+
+.PHONY : acwing/junior/shiwulian.s
+
+# target to generate assembly for a file
+acwing/junior/shiwulian.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/shiwulian.cpp.s
+.PHONY : acwing/junior/shiwulian.cpp.s
+
 acwing/junior/shuanglianbiao.o: acwing/junior/shuanglianbiao.cpp.o
 
 .PHONY : acwing/junior/shuanglianbiao.o
@@ -834,6 +861,9 @@ help:
 	@echo "... acwing/junior/qujianhebing.o"
 	@echo "... acwing/junior/qujianhebing.i"
 	@echo "... acwing/junior/qujianhebing.s"
+	@echo "... acwing/junior/shiwulian.o"
+	@echo "... acwing/junior/shiwulian.i"
+	@echo "... acwing/junior/shiwulian.s"
 	@echo "... acwing/junior/shuanglianbiao.o"
 	@echo "... acwing/junior/shuanglianbiao.i"
 	@echo "... acwing/junior/shuanglianbiao.s"

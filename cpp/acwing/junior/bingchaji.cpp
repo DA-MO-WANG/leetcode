@@ -10,8 +10,8 @@ const int N = 1e5 + 10;
 int n, m, f[N];
 //查找某个数据的祖宗节点
 int find(int x) {
-    while(f[x] != x) {
-        f[x] = find(f[x]);
+    if(f[x] != x) {
+        f[x] = find(f[x]);//循环递归？
     }
     return f[x];
 }
@@ -22,7 +22,7 @@ int main() {
     }
     cin >> m;
     while (m--) {
-        char[2] op;
+        char op[2];
         cin >> op;
         if(op[0] == 'M') {
             int x,y;

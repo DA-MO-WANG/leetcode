@@ -18,12 +18,22 @@
     //计算当前节点到根节点的距离：d[x] = d[x]（x-x父） + d[p[x]]（x父-根）
     //更新当前节点的父节点 p[x] = 保存的根节点位置
 
+//题意：找假话
+//先找出是假话的条件，满足这个条件就记录假话数量：
+    //相关的已知语料构成了相关关系集合，只要同属一个关系集合内，就能明确真假
+    //不在同一个关系集合下的，也就不能是假，也就往真里去变，继续补充这个关系集合
+    //如何判断是否在关系集合内，就得需要看根节点是否是同一个
+//不满足假话的条件，不能证明是假，就可以当作既成事实来继续构建，朝着真的方向来构建
 
 using namespace std;
-const int N = 50000;
+const int N = 50010;
 int f[N], hg[N];
 int find(int x) {
-    if(f[x] != x) f[x] = find(f[x]);
+    if(f[x] != x) {
+        int t = find(f[x]);
+        hg[x] += hg[f[x]];
+        f[x] = t;
+    }
     return f[x];
 }
 int main() {
@@ -38,15 +48,26 @@ int main() {
     int d,x,y;
     while (k--) {
         cin >> d >> x >>y;
+        int zx = find(x), zy = find(y);
         if(x > n || y > n) ++res;
         if (d == 1) {
-            if( (f[x] != x && f[y] != y ) && hg[x] != hg[y]) ++res;
+            if(zx == zy) {
+                if(hg[x] != hg[y])  ++res;
+            }else {
+                //不在一个集合内，不能证明是假的，就可以当作是真得，也就认可xy同类，暂且让x指y-也就明确了x,y的集合变化
+                //为了构造他俩同类，就得hg[x] + ? = hg[y] ==> ? = hg[y] - hg[x]
+                f[zx] = zy;
+                hg[zx] = hg[y] - hg[x];
+            }
 
         }else {
             if(d == 2) {
-                if(x == y || f[x] == y || hg[x] - hg[y] < 0) ++res;
-                f[y] = x;
-                hg[y] += hg[x] + 1;
+               if(zx == zy) {
+                   if(hg[y] - hg[x] - 1) ++res;
+               }else {
+                   f[zx] = zy;
+                   hg[zx] = hg[y] + 1 - hg[x];
+               }
             }
         }
     }

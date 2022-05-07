@@ -26,7 +26,7 @@ int main() {
         cin >> d >> x >>y;
         if(x > n || y > n) ++res;
         if (d == 1) {
-            if( hg[x] != hg[y]) ++res;
+            if( (f[x] != x && f[y] != y ) && hg[x] != hg[y]) ++res;
 
         }else {
             if(d == 2) {

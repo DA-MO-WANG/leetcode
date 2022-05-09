@@ -13,7 +13,7 @@ void down(int i) {
     int min = i;
     //求三个点中的最小值的三种情况
     if(min * 2 <= se  && q[min] > q[i * 2]) min = min * 2;//要判断左子节点是否存在，判断的是左子节点是否越界
-    else if(min * 2 + 1 <= se && q[min] > q[i * 2 + 1]) min = min * 2 + 1;
+    if(min * 2 + 1 <= se && q[min] > q[i * 2 + 1]) min = min * 2 + 1;
     //校验实际最小值和理论最小值的是否相同
     if(min != i) {
         swap(q[i],q[min]);

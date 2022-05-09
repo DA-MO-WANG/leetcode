@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/duipaixu .cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/duipaixu .cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/duipaixu .cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="18" column="23" selection-end-line="46" />
+            <state relative-caret-position="121">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="e#42#62#0" expanded="true" />
               </folding>
@@ -275,15 +273,15 @@
       <workItem from="1650094484373" duration="3986000" />
       <workItem from="1651147384928" duration="6668000" />
       <workItem from="1651716819146" duration="9025000" />
-      <workItem from="1651911144558" duration="12621000" />
+      <workItem from="1651911144558" duration="12870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78098000" />
+    <option name="totallyTimeSpent" value="78347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="445" y="25" width="1391" height="875" extended-state="0" />
+    <frame x="442" y="42" width="1391" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20830245" />
@@ -605,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/duipaixu .cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="18" column="23" selection-end-line="46" />
+        <state relative-caret-position="121">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="e#42#62#0" expanded="true" />
           </folding>

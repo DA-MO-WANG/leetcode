@@ -7,9 +7,9 @@
 
 using namespace std;
 const int N = 1e5 + 10;
-int q[N],hp[N];
+int n 。q[N],hp[N];
 void heapfy() {
-    
+
 }
 int main() {
     int n, m;

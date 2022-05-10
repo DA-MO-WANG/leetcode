@@ -77,7 +77,7 @@ int main() {
             cin >> k;
             D(k);
 
-        }else {
+        }else if(s == "C") {
             int k, x;
             cin >> k >> x;
             C(k,x);

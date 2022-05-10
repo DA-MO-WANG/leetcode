@@ -88,4 +88,5 @@ int main() {
             C(k,x);
         }
     }
+    return 0;
 }

@@ -3,7 +3,8 @@
 //
 #include <algorithm>
 #include <iostream>
-
+//难点在于：怎么维护插入的顺序和堆顺序的映射
+//什么时候要维护这两个关系的映射
 using namespace std;
 const int N = 1e5 + 10;
 int h[N],se,hp[N],ph[N],idx;

@@ -7,7 +7,7 @@
 //什么时候要维护这两个关系的映射
 using namespace std;
 const int N = 1e5 + 10;
-int h[N],se,hp[N],ph[N],idx;
+int h[N],se,hp[N],ph[N];
 void heap_swap(int index1, int index2) {
     swap(ph[hp[index1]],ph[hp[index2]]);
     swap(hp[index1],hp[index2]);
@@ -35,13 +35,13 @@ void down(int index) {
     }
 }
 void insert(int x) {
-    se++;
-    h[se] = x;
-    idx++;
-    //维护插入顺序和堆顺序的映射关系
-    ph[idx] = se;
-    hp[se] = idx;
-    up(se);
+//    se++;
+//    h[se] = x;
+//    idx++;
+//    //维护插入顺序和堆顺序的映射关系
+//    ph[idx] = se;
+//    hp[se] = idx;
+//    up(se);
 }
 void remove() {
     heap_swap(1,se);
@@ -65,7 +65,7 @@ void C(int k, int x) {
 }
 
 int main() {
-    int n;
+    int n,idx = 0;
     cin >> n;
     while (n--) {
         string s = "";

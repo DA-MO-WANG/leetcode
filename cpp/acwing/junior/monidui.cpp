@@ -35,7 +35,8 @@ void down(int index) {
     }
 }
 void insert(int x) {
-    h[++se] = x;
+    se++;
+    h[se] = x;
     idx++;
     //维护插入顺序和堆顺序的映射关系
     ph[idx] = se;

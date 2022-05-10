@@ -56,6 +56,7 @@ void C(int k, int x) {
     int index = ph[k];
     h[index] = x;
     down(index);
+    up(index);
 }
 
 int main() {

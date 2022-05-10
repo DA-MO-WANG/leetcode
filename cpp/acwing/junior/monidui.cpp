@@ -8,7 +8,6 @@
 using namespace std;
 const int N = 1e5 + 10;
 int h[N],se,hp[N],ph[N],idx;
-int n, x;
 void heap_swap(int index1, int index2) {
     swap(ph[hp[index1]],ph[hp[index2]]);
     swap(hp[index1],hp[index2]);
@@ -65,6 +64,7 @@ void C(int k, int x) {
 }
 
 int main() {
+    int n;
     cin >> n;
     while (n--) {
         string s;

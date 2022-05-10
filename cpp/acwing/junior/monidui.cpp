@@ -14,15 +14,15 @@ void heap_swap(int index1, int index2) {
     swap(h[index1],h[index2]);
 }
 void up(int index) {
-    int min = index;
+    //int min = index;
 //    if(index / 2 && h[index] < h[index / 2]) min = index / 2;
 //    if(min != index) {
 //        heap_swap(min,index);
 //        up(min);
 //    }
-    while(min / 2 && h[min / 2] > h[min]) {
-        heap_swap(min/2,min);
-        min = min / 2;
+    while(index / 2 && h[index / 2] > h[index]) {
+        heap_swap(index /2,index);
+        index = index / 2;
     }
 }
 void down(int index) {

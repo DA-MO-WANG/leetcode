@@ -68,7 +68,7 @@ int main() {
     int n;
     cin >> n;
     while (n--) {
-        string s;
+        string s = "";
         cin >> s;
         if(s == "I") {
             int x;

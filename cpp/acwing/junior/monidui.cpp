@@ -21,9 +21,9 @@ void up(int index) {
 //        heap_swap(min,index);
 //        up(min);
 //    }
-    while(index / 2 && h[index / 2] > h[index]) {
-        heap_swap(index/2,index);
-        index = index / 2;
+    while(min / 2 && h[min / 2] > h[min]) {
+        heap_swap(min/2,min);
+        min = min / 2;
     }
 }
 void down(int index) {

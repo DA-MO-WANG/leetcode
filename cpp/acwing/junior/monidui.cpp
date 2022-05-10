@@ -6,7 +6,7 @@
 
 using namespace std;
 const int N = 1e5 + 10;
-int h[N],se,hp[N],ph[N];
+int h[N],se,hp[N],ph[N],idx;
 int n, x;
 void heap_swap(int index1, int index2) {
     swap(ph[hp[index1]],ph[hp[index2]]);
@@ -32,19 +32,25 @@ void down(int index) {
 }
 void insert(int x) {
     h[++se] = x;
-    up(se);
+    idx++;
+    //维护插入顺序和堆顺序的映射关系
+    ph[idx] = se;
+    hp[ph[idx]] = idx;
+    up(ph[idx]);
 }
 void remove() {
-    h[1] = h[se];
+    heap_swap(1,se);
     se--;
     down(1);
 
 }
 void D(int k) {
     int index = ph[k];
-    h[index] = h[se];
+    //h[index] = h[se];
+    heap_swap(index,se);
     se--;
     down(index);
+    up(index);
 }
 void C(int k, int x) {
     int index = ph[k];

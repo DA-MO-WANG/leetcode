@@ -40,8 +40,8 @@ void insert(int x) {
     idx++;
     //维护插入顺序和堆顺序的映射关系
     ph[idx] = se;
-    hp[ph[idx]] = idx;
-    up(ph[idx]);
+    hp[se] = idx;
+    up(se);
 }
 void remove() {
     heap_swap(1,se);

@@ -8,10 +8,10 @@
 using namespace std;
 const int N = 1e5 + 10;
 int h[N],se,hp[N],ph[N];
-void heap_swap(int index1, int index2) {
-    swap(ph[hp[index1]],ph[hp[index2]]);
-    swap(hp[index1],hp[index2]);
-    swap(h[index1],h[index2]);
+void heap_swap(int a, int b) {
+    swap(ph[hp[a]],ph[hp[b]]);
+    swap(hp[a],hp[b]);
+    swap(h[a],h[b]);
 }
 void up(int index) {
     //int min = index;
@@ -25,13 +25,13 @@ void up(int index) {
         index = index / 2;
     }
 }
-void down(int index) {
-    int min = index;
-    if(index * 2 <= se && h[index * 2] < h[index]) min = index * 2;
-    if(index * 2 + 1 <= se && h[index * 2 + 1] < h[index]) min = index * 2 + 1;
-    if(min != index) {
-        heap_swap(index,min);
-        down(min);
+void down(int u) {
+    int t = u;
+    if(u * 2 <= se && h[u * 2] < h[t]) t = u * 2;
+    if(u * 2 + 1 <= se && h[u * 2 + 1] < h[t]) t = u * 2 + 1;
+    if(t != u) {
+        heap_swap(u,t);
+        down(t);
     }
 }
 void insert(int x) {

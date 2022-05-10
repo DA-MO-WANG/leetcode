@@ -73,20 +73,36 @@ int main() {
         if(s == "I") {
             int x;
             cin >> x;
-            insert(x);
+            se++;
+            h[se] = x;
+            idx++;
+            //维护插入顺序和堆顺序的映射关系
+            ph[idx] = se;
+            hp[se] = idx;
+            up(se);
         }else if(s == "PM") {
             cout << h[1] << endl;
         }else if(s == "DM") {
-            remove();
+            heap_swap(1,se);
+            se--;
+            down(1);
         }else if(s == "D") {
             int k;
             cin >> k;
-            D(k);
+            int index = ph[k];
+            //h[index] = h[se];
+            heap_swap(index,se);
+            se--;
+            down(index);
+            up(index);
 
         }else if(s == "C") {
             int k, x;
             cin >> k >> x;
-            C(k,x);
+            int index = ph[k];
+            h[index] = x;
+            down(index);
+            up(index);
         }
     }
     return 0;

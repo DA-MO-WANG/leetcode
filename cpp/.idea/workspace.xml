@@ -37,11 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/monisanliebiao.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding>
-                <element signature="e#43#63#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="116">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -277,12 +274,12 @@
       <workItem from="1651716819146" duration="9025000" />
       <workItem from="1651911144558" duration="13395000" />
       <workItem from="1652145753126" duration="8085000" />
-      <workItem from="1652323329302" duration="1350000" />
+      <workItem from="1652323329302" duration="1352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88307000" />
+    <option name="totallyTimeSpent" value="88309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="745" y="27" width="1425" height="875" extended-state="0" />
@@ -632,11 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/monisanliebiao.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#43#63#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="116">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>

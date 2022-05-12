@@ -12,6 +12,7 @@ const int N = 1e5 + 3;
 int h[N], e[N],ne[N], idx;
 int n;
 int hashx(int x) {
+    //取模来做映射，考虑正负，添上加法，再一层取模
     return ((x % N) + N) % N;
 }
 void insert(int x) {
@@ -43,6 +44,7 @@ int query(int x) {
 int main() {
     cin >> n;
     //对槽初始化，赋予初值-1，代表空槽状态
+    //memset(数组初始位，初始化值，每个值占用内存的大小）
     memset(h, -1, sizeof h);
     while(n--) {
         string s;

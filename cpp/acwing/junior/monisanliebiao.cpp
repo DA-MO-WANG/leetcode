@@ -17,7 +17,7 @@ void insert(int x) {
 }
 int main() {
     cin >> n;
-    memset
+    memset(h, -1, sizeof h);
     while(n--) {
         string s;
         cin >> s;

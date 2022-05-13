@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/acwing/junior/monisanliebiao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/monisanliebiao.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/monisanliebiao.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="171">
+              <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -277,12 +279,12 @@
       <workItem from="1651716819146" duration="9025000" />
       <workItem from="1651911144558" duration="13395000" />
       <workItem from="1652145753126" duration="8085000" />
-      <workItem from="1652323329302" duration="3320000" />
+      <workItem from="1652323329302" duration="3541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90277000" />
+    <option name="totallyTimeSpent" value="90498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="25" width="1425" height="875" extended-state="0" />
@@ -632,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/monisanliebiao.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="171">
+          <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

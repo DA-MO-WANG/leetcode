@@ -11,7 +11,7 @@ int n,m;
 char s[N];
 void prefix_hash() {
     for (int i = 1; s[i]; ++i) {
-        
+        h
     }
 }
 int main() {

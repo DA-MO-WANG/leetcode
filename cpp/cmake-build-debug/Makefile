@@ -420,6 +420,33 @@ acwing/junior/insertsort.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/insertsort.cpp.s
 .PHONY : acwing/junior/insertsort.cpp.s
 
+acwing/junior/kaifangxunzhifa.o: acwing/junior/kaifangxunzhifa.cpp.o
+
+.PHONY : acwing/junior/kaifangxunzhifa.o
+
+# target to build an object file
+acwing/junior/kaifangxunzhifa.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/kaifangxunzhifa.cpp.o
+.PHONY : acwing/junior/kaifangxunzhifa.cpp.o
+
+acwing/junior/kaifangxunzhifa.i: acwing/junior/kaifangxunzhifa.cpp.i
+
+.PHONY : acwing/junior/kaifangxunzhifa.i
+
+# target to preprocess a source file
+acwing/junior/kaifangxunzhifa.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/kaifangxunzhifa.cpp.i
+.PHONY : acwing/junior/kaifangxunzhifa.cpp.i
+
+acwing/junior/kaifangxunzhifa.s: acwing/junior/kaifangxunzhifa.cpp.s
+
+.PHONY : acwing/junior/kaifangxunzhifa.s
+
+# target to generate assembly for a file
+acwing/junior/kaifangxunzhifa.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/kaifangxunzhifa.cpp.s
+.PHONY : acwing/junior/kaifangxunzhifa.cpp.s
+
 acwing/junior/kmp.o: acwing/junior/kmp.cpp.o
 
 .PHONY : acwing/junior/kmp.o
@@ -921,6 +948,9 @@ help:
 	@echo "... acwing/junior/insertsort.o"
 	@echo "... acwing/junior/insertsort.i"
 	@echo "... acwing/junior/insertsort.s"
+	@echo "... acwing/junior/kaifangxunzhifa.o"
+	@echo "... acwing/junior/kaifangxunzhifa.i"
+	@echo "... acwing/junior/kaifangxunzhifa.s"
 	@echo "... acwing/junior/kmp.o"
 	@echo "... acwing/junior/kmp.i"
 	@echo "... acwing/junior/kmp.s"

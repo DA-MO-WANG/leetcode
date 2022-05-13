@@ -906,6 +906,33 @@ acwing/junior/twonum_sum.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/twonum_sum.cpp.s
 .PHONY : acwing/junior/twonum_sum.cpp.s
 
+acwing/junior/zifuchuanhaxi.o: acwing/junior/zifuchuanhaxi.cpp.o
+
+.PHONY : acwing/junior/zifuchuanhaxi.o
+
+# target to build an object file
+acwing/junior/zifuchuanhaxi.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/zifuchuanhaxi.cpp.o
+.PHONY : acwing/junior/zifuchuanhaxi.cpp.o
+
+acwing/junior/zifuchuanhaxi.i: acwing/junior/zifuchuanhaxi.cpp.i
+
+.PHONY : acwing/junior/zifuchuanhaxi.i
+
+# target to preprocess a source file
+acwing/junior/zifuchuanhaxi.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/zifuchuanhaxi.cpp.i
+.PHONY : acwing/junior/zifuchuanhaxi.cpp.i
+
+acwing/junior/zifuchuanhaxi.s: acwing/junior/zifuchuanhaxi.cpp.s
+
+.PHONY : acwing/junior/zifuchuanhaxi.s
+
+# target to generate assembly for a file
+acwing/junior/zifuchuanhaxi.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/zifuchuanhaxi.cpp.s
+.PHONY : acwing/junior/zifuchuanhaxi.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1002,6 +1029,9 @@ help:
 	@echo "... acwing/junior/twonum_sum.o"
 	@echo "... acwing/junior/twonum_sum.i"
 	@echo "... acwing/junior/twonum_sum.s"
+	@echo "... acwing/junior/zifuchuanhaxi.o"
+	@echo "... acwing/junior/zifuchuanhaxi.i"
+	@echo "... acwing/junior/zifuchuanhaxi.s"
 .PHONY : help
 
 

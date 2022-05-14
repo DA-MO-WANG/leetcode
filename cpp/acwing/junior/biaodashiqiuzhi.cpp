@@ -36,7 +36,10 @@ int main() {
         }
         //普通运算符的情况
         else {
-            while(nums.size  )
+            //如果运算符栈是空的，且运算符栈顶的优先级> 当前运算符的优先级
+            while(op.size() && pr[op.top()] >= pr[c]) {
+                
+            }
         }
 
     }

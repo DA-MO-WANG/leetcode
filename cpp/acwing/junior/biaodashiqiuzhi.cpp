@@ -42,6 +42,8 @@ int main() {
         }
 
     }
-
-    while()
+    //把没有操作过的运算符从右往左操作一遍
+    while(op.size()) eval();
+    cout << num.top() <<endl;
+    return 0; 
 }

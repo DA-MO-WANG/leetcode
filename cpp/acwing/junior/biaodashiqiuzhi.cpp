@@ -26,6 +26,8 @@ int main() {
             while(j < str.size() && isdigit(str[j])) x = x * 10 + str[j++] - '0';
             num.push(x);
         }
+        else if (c == '(') op.push(c);
+        else if (c == ")") 
 
     }
 }

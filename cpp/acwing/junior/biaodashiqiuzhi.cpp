@@ -27,7 +27,11 @@ int main() {
             num.push(x);
         }
         else if (c == '(') op.push(c);
-        else if (c == ")") 
+        else if (c == ')') {
+            //把栈里的数都拿出来操作一下
+            //eval 用末尾的操作符，操作末尾的两个数
+            while(op.top() != '(') eval();
+        }
 
     }
 }

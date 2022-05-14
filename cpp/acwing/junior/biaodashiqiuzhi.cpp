@@ -8,7 +8,8 @@
 #include <unordered_map>
 
 using namespace std;
-
+stack<int> num;
+stack<char> op;
 int main() {
     
     //先声明下运算符的优先级
@@ -18,6 +19,13 @@ int main() {
 
     for (int i = 0; str[i]; ++i) {
         auto c = str[i];
-        
+        //当前字符是数字
+        if (isdigit(c)) {
+            int x = 0, j = i;
+            //考虑连续数字，多位数，多位数字符串转化成int类型数
+            while(j < str.size() && isdigit(str[j])) x = x * 10 + str[j++] - '0';
+            num.push(x);
+        }
+
     }
 }

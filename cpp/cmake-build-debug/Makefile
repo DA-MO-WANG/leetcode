@@ -177,6 +177,33 @@ acwing/junior/Sum_of_submatrix.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/Sum_of_submatrix.cpp.s
 .PHONY : acwing/junior/Sum_of_submatrix.cpp.s
 
+acwing/junior/biaodashiqiuzhi.o: acwing/junior/biaodashiqiuzhi.cpp.o
+
+.PHONY : acwing/junior/biaodashiqiuzhi.o
+
+# target to build an object file
+acwing/junior/biaodashiqiuzhi.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/biaodashiqiuzhi.cpp.o
+.PHONY : acwing/junior/biaodashiqiuzhi.cpp.o
+
+acwing/junior/biaodashiqiuzhi.i: acwing/junior/biaodashiqiuzhi.cpp.i
+
+.PHONY : acwing/junior/biaodashiqiuzhi.i
+
+# target to preprocess a source file
+acwing/junior/biaodashiqiuzhi.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/biaodashiqiuzhi.cpp.i
+.PHONY : acwing/junior/biaodashiqiuzhi.cpp.i
+
+acwing/junior/biaodashiqiuzhi.s: acwing/junior/biaodashiqiuzhi.cpp.s
+
+.PHONY : acwing/junior/biaodashiqiuzhi.s
+
+# target to generate assembly for a file
+acwing/junior/biaodashiqiuzhi.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/biaodashiqiuzhi.cpp.s
+.PHONY : acwing/junior/biaodashiqiuzhi.cpp.s
+
 acwing/junior/bingchaji.o: acwing/junior/bingchaji.cpp.o
 
 .PHONY : acwing/junior/bingchaji.o
@@ -948,6 +975,9 @@ help:
 	@echo "... acwing/junior/Sum_of_submatrix.o"
 	@echo "... acwing/junior/Sum_of_submatrix.i"
 	@echo "... acwing/junior/Sum_of_submatrix.s"
+	@echo "... acwing/junior/biaodashiqiuzhi.o"
+	@echo "... acwing/junior/biaodashiqiuzhi.i"
+	@echo "... acwing/junior/biaodashiqiuzhi.s"
 	@echo "... acwing/junior/bingchaji.o"
 	@echo "... acwing/junior/bingchaji.i"
 	@echo "... acwing/junior/bingchaji.s"

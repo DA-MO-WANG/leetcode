@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/biaodashiqiuzhi.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="279">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -182,7 +182,7 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1" />
     <option name="y" value="25" />
     <option name="width" value="1391" />
@@ -284,15 +284,15 @@
       <workItem from="1651911144558" duration="13395000" />
       <workItem from="1652145753126" duration="8085000" />
       <workItem from="1652323329302" duration="9117000" />
-      <workItem from="1652518275065" duration="2416000" />
+      <workItem from="1652518275065" duration="2664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98490000" />
+    <option name="totallyTimeSpent" value="98738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="25" width="1391" height="875" extended-state="1" />
+    <frame x="1" y="25" width="1391" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2112676" />
@@ -669,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/biaodashiqiuzhi.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="279">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

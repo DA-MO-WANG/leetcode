@@ -34,6 +34,10 @@ int main() {
             //弹出'（'
             op.pop();
         }
+        //普通运算符的情况
+        else {
+            while(nums.size  )
+        }
 
     }
 }

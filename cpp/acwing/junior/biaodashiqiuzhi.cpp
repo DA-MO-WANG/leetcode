@@ -26,21 +26,21 @@ void eval() {
 }
 int main() {
     
-    //先声明下运算符的优先级
+    //先声明下运算符的优先级：用map 绑定符号和优先级
     unordered_map<char,int> pr{{'+',1},{'-',1},{'*',2},{'/',2}};
     string str;
     cin >> str;
 
     for (int i = 0; str[i]; ++i) {
         auto c = str[i];
-        //当前字符是数字
+        //如果当前字符是数字，就把完整的操作数放到栈里
         if (isdigit(c)) {
             int x = 0, j = i;
             //考虑连续数字，多位数，多位数字符串转化成int类型数
             while(j < str.size() && isdigit(str[j]))
-                x = x * 10 + str[j++] - '0';
+                x = x * 10 + str[j++] - '0';//另开了一个指针来识别是否是连续数字，每次计算算一个字符，j就++
             i = j - 1;
-            num.push(x);
+            num.push(x);//把那个完整的操作数放进栈里
 
         }
         else if (c == '(') op.push(c);

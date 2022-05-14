@@ -13,7 +13,9 @@ stack<char> op;
 //操作最后一个运算符
 //最后一个数是倒数第二个数，翻过来写
 void eval() {
-    
+    auto b = num.top(); num.pop();
+    auto a = num.top(); num.pop();
+    auto c =
 }
 int main() {
     

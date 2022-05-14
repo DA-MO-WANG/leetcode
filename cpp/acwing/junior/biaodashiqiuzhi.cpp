@@ -21,7 +21,8 @@ void eval() {
     else if (c == '-') x = a - b;
     else if (c == '*') x = a * b;
     else x = a / b;
-    
+    num.push(x);
+
 }
 int main() {
     
@@ -36,8 +37,11 @@ int main() {
         if (isdigit(c)) {
             int x = 0, j = i;
             //考虑连续数字，多位数，多位数字符串转化成int类型数
-            while(j < str.size() && isdigit(str[j])) x = x * 10 + str[j++] - '0';
+            while(j < str.size() && isdigit(str[j]))
+                x = x * 10 + str[j++] - '0';
+            i = j - 1;
             num.push(x);
+
         }
         else if (c == '(') op.push(c);
         else if (c == ')') {

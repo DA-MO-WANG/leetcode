@@ -10,6 +10,10 @@
 using namespace std;
 stack<int> num;
 stack<char> op;
+//操作最后一个运算符
+void eval() {
+    
+}
 int main() {
     
     //先声明下运算符的优先级
@@ -45,5 +49,5 @@ int main() {
     //把没有操作过的运算符从右往左操作一遍
     while(op.size()) eval();
     cout << num.top() <<endl;
-    return 0; 
+    return 0;
 }

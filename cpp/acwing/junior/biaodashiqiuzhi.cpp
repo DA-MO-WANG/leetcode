@@ -15,7 +15,13 @@ stack<char> op;
 void eval() {
     auto b = num.top(); num.pop();
     auto a = num.top(); num.pop();
-    auto c =
+    auto c = op.top(); op.pop();
+    int x;
+    if( c == '+') x = a + b;
+    else if (c == '-') x = a - b;
+    else if (c == '*') x = a * b;
+    else x = a / b;
+    
 }
 int main() {
     

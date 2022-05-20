@@ -36,6 +36,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/trie.cpp" "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/acwing/junior/trie.cpp.o"
   "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/twonum_sum.cpp" "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/acwing/junior/twonum_sum.cpp.o"
   "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/zifuchuanhaxi.cpp" "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/acwing/junior/zifuchuanhaxi.cpp.o"
+  "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/zoumigong.cpp" "/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/cmake-build-debug/CMakeFiles/cpp.dir/acwing/junior/zoumigong.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

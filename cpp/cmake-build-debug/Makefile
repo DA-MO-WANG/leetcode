@@ -987,6 +987,33 @@ acwing/junior/zifuchuanhaxi.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/zifuchuanhaxi.cpp.s
 .PHONY : acwing/junior/zifuchuanhaxi.cpp.s
 
+acwing/junior/zoumigong.o: acwing/junior/zoumigong.cpp.o
+
+.PHONY : acwing/junior/zoumigong.o
+
+# target to build an object file
+acwing/junior/zoumigong.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/zoumigong.cpp.o
+.PHONY : acwing/junior/zoumigong.cpp.o
+
+acwing/junior/zoumigong.i: acwing/junior/zoumigong.cpp.i
+
+.PHONY : acwing/junior/zoumigong.i
+
+# target to preprocess a source file
+acwing/junior/zoumigong.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/zoumigong.cpp.i
+.PHONY : acwing/junior/zoumigong.cpp.i
+
+acwing/junior/zoumigong.s: acwing/junior/zoumigong.cpp.s
+
+.PHONY : acwing/junior/zoumigong.s
+
+# target to generate assembly for a file
+acwing/junior/zoumigong.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/zoumigong.cpp.s
+.PHONY : acwing/junior/zoumigong.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1092,6 +1119,9 @@ help:
 	@echo "... acwing/junior/zifuchuanhaxi.o"
 	@echo "... acwing/junior/zifuchuanhaxi.i"
 	@echo "... acwing/junior/zifuchuanhaxi.s"
+	@echo "... acwing/junior/zoumigong.o"
+	@echo "... acwing/junior/zoumigong.i"
+	@echo "... acwing/junior/zoumigong.s"
 .PHONY : help
 
 

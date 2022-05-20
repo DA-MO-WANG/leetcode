@@ -31,6 +31,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/acwing/junior/zifuchuanhaxi.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/biaodashiqiuzhi.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/quanpailie.cpp.o"
+  "CMakeFiles/cpp.dir/acwing/junior/zoumigong.cpp.o"
   "cpp.pdb"
   "cpp"
 )

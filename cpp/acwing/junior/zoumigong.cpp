@@ -14,6 +14,7 @@ int d[N][N];
 Node q[N * N];
 int n, m ,hh = 0, tt = 0;
 int bfs(int x, int y) {
+    d[0][0] = 0;
     int dx[4] = {0,0,-1,1}, dy[4] = {1,-1,0,0};
     while(hh <= tt) {
         auto t = q[hh++];

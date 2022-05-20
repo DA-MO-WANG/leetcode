@@ -12,9 +12,7 @@
     <cargoProject FILE="$PROJECT_DIR$/hello.rs" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f90f8a78-6f86-4ca8-ae60-5d08267c3b33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../cpp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f90f8a78-6f86-4ca8-ae60-5d08267c3b33" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +71,10 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="AQLtPDjQ" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="431" />
-    <option name="y" value="53" />
-    <option name="width" value="1394" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="247" />
+    <option name="y" value="31" />
+    <option name="width" value="1391" />
     <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -165,17 +163,17 @@
       <workItem from="1647870449074" duration="1285000" />
       <workItem from="1648366250378" duration="36000" />
       <workItem from="1652972124500" duration="7000" />
+      <workItem from="1653059191712" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2414000" />
+    <option name="totallyTimeSpent" value="2481000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1391" height="875" extended-state="6" />
-    <editor active="true" />
+    <frame x="247" y="31" width="1391" height="875" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2713121" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27501854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/zoumigong.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/zoumigong.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/zoumigong.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="17" column="17" selection-end-line="53" />
+            <state relative-caret-position="493">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -282,12 +280,12 @@
       <workItem from="1652323329302" duration="9117000" />
       <workItem from="1652518275065" duration="4094000" />
       <workItem from="1652846648191" duration="2509000" />
-      <workItem from="1653059461132" duration="2581000" />
+      <workItem from="1653059461132" duration="2787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105258000" />
+    <option name="totallyTimeSpent" value="105464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1391" height="875" extended-state="6" />
@@ -684,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/zoumigong.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" column="17" selection-end-line="53" />
+        <state relative-caret-position="493">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

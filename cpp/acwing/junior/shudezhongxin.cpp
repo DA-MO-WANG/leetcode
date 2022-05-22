@@ -38,7 +38,7 @@ int dfs(int u) {
 
     str[u] = true;
     for (int i = h[u]; e[i]; i= ne[i]) {
-        
+        if
     }
 }
 int main() {

@@ -22,9 +22,24 @@ int ans = n;
 int h[N],e[M],ne[M],idx;
 void add(int a, int b) {
     //a,b都指的是节点编号
+    //组装好单链表一个节点
+    e[idx] = b;
+
+    ne[idx] = h[a];
+    h[a] = idx;
+    idx++;
+}
+
+int dfs(int u) {
+    //沿着每个节点上维护的连通编号单链表来往下走
+    for (int i = h[u]; i < ; ++i) {
+
+    }
 }
 int main() {
     cin >> n;
+    //默认无向图中每个节点都是孤立的
+    memset(h,-1,sizeof h);
     int m = n - 1;
     while(m--) {
         int a, b;

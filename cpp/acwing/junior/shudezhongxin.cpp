@@ -20,6 +20,7 @@ int ans = n;
 //临接表类似hash的结构
 //要维护一个单链表结构
 int h[N],e[M],ne[M],idx;
+bool str[N];
 void add(int a, int b) {
     //a,b都指的是节点编号
     //组装好单链表一个节点
@@ -32,8 +33,12 @@ void add(int a, int b) {
 
 int dfs(int u) {
     //沿着每个节点上维护的连通编号单链表来往下走
-    for (int i = h[u]; i < ; ++i) {
+    //h[]存储的是当前节点对应链表的头节点的唯一标识;ne[]存储的是链表上当前节点的下一个节点
 
+
+    str[u] = true;
+    for (int i = h[u]; e[i]; i= ne[i]) {
+        
     }
 }
 int main() {

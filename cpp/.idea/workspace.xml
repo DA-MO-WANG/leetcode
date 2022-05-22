@@ -81,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/shudezhongxin.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="284">
+              <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="e#43#61#0" expanded="true" />
               </folding>
@@ -192,6 +192,7 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="81" />
     <option name="y" value="25" />
     <option name="width" value="1391" />
     <option name="height" value="875" />
@@ -294,18 +295,18 @@
       <workItem from="1652323329302" duration="9117000" />
       <workItem from="1652518275065" duration="4094000" />
       <workItem from="1652846648191" duration="2509000" />
-      <workItem from="1653059461132" duration="5266000" />
+      <workItem from="1653059461132" duration="5805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107943000" />
+    <option name="totallyTimeSpent" value="108482000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1391" height="875" extended-state="0" />
+    <frame x="81" y="25" width="1391" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21423276" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21423276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -706,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/shudezhongxin.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="284">
+          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
           </folding>

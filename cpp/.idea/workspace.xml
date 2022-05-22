@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/shudezhongxin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/shudezhongxin.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/shudezhongxin.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="61" column="16" lean-forward="true" selection-end-line="69" />
+            <state relative-caret-position="358">
+              <caret line="60" column="26" lean-forward="true" selection-end-line="70" />
               <folding>
                 <element signature="e#43#61#0" expanded="true" />
               </folding>
@@ -295,12 +293,12 @@
       <workItem from="1652323329302" duration="9117000" />
       <workItem from="1652518275065" duration="4094000" />
       <workItem from="1652846648191" duration="2509000" />
-      <workItem from="1653059461132" duration="6459000" />
+      <workItem from="1653059461132" duration="6728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109136000" />
+    <option name="totallyTimeSpent" value="109405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="25" width="1391" height="875" extended-state="0" />
@@ -707,8 +705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/shudezhongxin.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="61" column="16" lean-forward="true" selection-end-line="69" />
+        <state relative-caret-position="358">
+          <caret line="60" column="26" lean-forward="true" selection-end-line="70" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
           </folding>

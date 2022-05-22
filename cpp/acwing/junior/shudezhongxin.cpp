@@ -20,6 +20,9 @@ int ans = n;
 //临接表类似hash的结构
 //要维护一个单链表结构
 int h[N],e[M],ne[M],idx;
+void add(int a, int b) {
+    //a,b都指的是节点编号
+}
 int main() {
     cin >> n;
     int m = n - 1;

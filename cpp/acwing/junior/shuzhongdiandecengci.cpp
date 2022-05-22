@@ -13,14 +13,12 @@ int h[N],e[N],ne[N],idx;
 int n,m;
 int d[N];
 int q[N],hh = 0, tt = 0;
-bool str[N];
 void add(int a, int b) {
     e[idx] = b;
     ne[idx] = h[a];
     h[a] = idx++;
 }
-void bfs(int u) {
-    str[u] = true;
+void bfs() {
     //队列中至少有一个点
     q[0] = 1;
     while(hh <= tt) {
@@ -29,7 +27,7 @@ void bfs(int u) {
 
         //顺着当前节点的关系往下走
         for (int i = h[t]; i != -1; i = ne[i]) {
-           if(!str[e[i]]) {
+           if(d[e[i]] == -1) {
                d[e[i]] = d[t] + 1;
                q[++tt] = e[i];
                //更新d[n]
@@ -48,7 +46,7 @@ int main() {
         cin >> a >> b;
         add(a,b);
     }
-    bfs(1);
+    bfs();
     cout << d[n];
 
 

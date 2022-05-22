@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acwing/junior/shuzhongdiandecengci.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/shuzhongdiandecengci.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -93,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/shuzhongdiandecengci.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="30" column="18" selection-end-line="53" />
+            <state relative-caret-position="16">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -299,12 +300,12 @@
       <workItem from="1652323329302" duration="9117000" />
       <workItem from="1652518275065" duration="4094000" />
       <workItem from="1652846648191" duration="2509000" />
-      <workItem from="1653059461132" duration="9462000" />
+      <workItem from="1653059461132" duration="10348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112139000" />
+    <option name="totallyTimeSpent" value="113025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="25" width="1391" height="875" extended-state="0" />
@@ -721,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/shuzhongdiandecengci.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="18" selection-end-line="53" />
+        <state relative-caret-position="16">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

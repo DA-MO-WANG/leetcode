@@ -37,9 +37,22 @@ int dfs(int u) {
 
 
     str[u] = true;
+    //res 维护当前节点的连通块节点的数量
+    int sum = 1, res = 0;
     for (int i = h[u]; e[i]; i= ne[i]) {
-        if
+        //链表中的节点是否访问过
+        if(!str[e[i]]) {
+            int s = dfs(e[i]);
+            res = max(res,s);
+            sum += s;
+        }
+
     }
+    res = max(res, n - sum);
+    ans = min(ans,res);
+    return sum;
+
+
 }
 int main() {
     cin >> n;

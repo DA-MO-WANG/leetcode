@@ -21,6 +21,7 @@ void add(int a, int b) {
 }
 void bfs(int u) {
     str[u] = true;
+    //队列中至少有一个点
     q[0] = 1;
     while(hh <= tt) {
         //拿到队头的点--一层层扩展，队列中元素是按层排布的
@@ -40,7 +41,8 @@ int main() {
 
     cin >>n >>m;
     memset(h,-1,sizeof h);
-    memset()
+    memset(d,-1,sizeof d);//默认没有涉及到，就不会被覆盖，值就是-1
+    d[1] = 0;//第一个点对应的到节点的距离是0，不破坏流程计算逻辑
     while (m--) {
         int a, b;
         cin >> a >> b;

@@ -30,10 +30,12 @@ int topsort() {
     int hh = 0, tt = -1;
     q[++tt] = 1;
     while(hh <= tt) {
+
         int t = q[hh++];
         //枚举出边
         for (int i = h[t]; i != -1 ; i = ne[i]) {
             int j = e[i];
+            //删除t->j 这个边
             d[j]--;
             //在它前面的边都跑过一遍——》此时才是放入队列的时机（维护队列的顺序）
             if(d[j] == 0) {
@@ -42,7 +44,7 @@ int topsort() {
         }
 
     }
-    return 
+    return
 }
 
 int n,m;

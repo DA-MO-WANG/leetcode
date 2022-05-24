@@ -15,7 +15,7 @@ int h[N],e[N],ne[N],idx;
 int q[N];
 //记录节点的入度
 int d[N];
-
+int n,m;
 //在x节点处插入与y的边关系
 void add(int x, int y) {
     e[idx] = y;
@@ -28,7 +28,12 @@ int topsort() {
     memset(h,-1,sizeof h);
 
     int hh = 0, tt = -1;
-    q[++tt] = 1;
+    //突破口是所有入度为0的点 --队列的开始
+    for(int i = 1; i <= n; i++) {
+        if(d[i] == 0) {
+            q[++tt] = i;
+        }
+    }
     while(hh <= tt) {
 
         int t = q[hh++];
@@ -47,7 +52,7 @@ int topsort() {
     return
 }
 
-int n,m;
+
 int main() {
     cin >> n >> m;
     while(m--) {

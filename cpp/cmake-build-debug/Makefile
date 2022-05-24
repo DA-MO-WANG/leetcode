@@ -987,6 +987,33 @@ acwing/junior/trie.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/trie.cpp.s
 .PHONY : acwing/junior/trie.cpp.s
 
+acwing/junior/tuopuxulie.o: acwing/junior/tuopuxulie.cpp.o
+
+.PHONY : acwing/junior/tuopuxulie.o
+
+# target to build an object file
+acwing/junior/tuopuxulie.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/tuopuxulie.cpp.o
+.PHONY : acwing/junior/tuopuxulie.cpp.o
+
+acwing/junior/tuopuxulie.i: acwing/junior/tuopuxulie.cpp.i
+
+.PHONY : acwing/junior/tuopuxulie.i
+
+# target to preprocess a source file
+acwing/junior/tuopuxulie.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/tuopuxulie.cpp.i
+.PHONY : acwing/junior/tuopuxulie.cpp.i
+
+acwing/junior/tuopuxulie.s: acwing/junior/tuopuxulie.cpp.s
+
+.PHONY : acwing/junior/tuopuxulie.s
+
+# target to generate assembly for a file
+acwing/junior/tuopuxulie.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/tuopuxulie.cpp.s
+.PHONY : acwing/junior/tuopuxulie.cpp.s
+
 acwing/junior/twonum_sum.o: acwing/junior/twonum_sum.cpp.o
 
 .PHONY : acwing/junior/twonum_sum.o
@@ -1173,6 +1200,9 @@ help:
 	@echo "... acwing/junior/trie.o"
 	@echo "... acwing/junior/trie.i"
 	@echo "... acwing/junior/trie.s"
+	@echo "... acwing/junior/tuopuxulie.o"
+	@echo "... acwing/junior/tuopuxulie.i"
+	@echo "... acwing/junior/tuopuxulie.s"
 	@echo "... acwing/junior/twonum_sum.o"
 	@echo "... acwing/junior/twonum_sum.i"
 	@echo "... acwing/junior/twonum_sum.s"

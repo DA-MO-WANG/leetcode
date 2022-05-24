@@ -176,6 +176,9 @@
 		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/trie.cpp">
 			<Option target="cpp"/>
 		</Unit>
+		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/tuopuxulie.cpp">
+			<Option target="cpp"/>
+		</Unit>
 		<Unit filename="/Users/richheart/IdeaProjects/leetcode/leetcode/cpp/acwing/junior/twonum_sum.cpp">
 			<Option target="cpp"/>
 		</Unit>

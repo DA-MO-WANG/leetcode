@@ -38,6 +38,11 @@ int dijkstra() {
         //把找到最小距离的点加入到确定的集合中
         str[t] = true;
         if(t == n) break;
+
+        //拿t来更新其他点的距离
+        for(int i = 1; i <= n; i++) {
+            if(!str[i]) dis[i] = dis[t] + g[t][i];
+        }
     }
     //上面完成了每个点的最短距离
     if(dis[n] == 0x3f3f3f3f) return  -1;

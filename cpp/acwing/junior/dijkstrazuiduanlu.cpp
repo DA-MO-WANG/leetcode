@@ -45,7 +45,7 @@ int dijkstra() {
         }
     }
     //上面完成了每个点的最短距离
-    if(dis[n] == 0x3f3f3f3f) return  -1;
+    if(dis[n] == 0x3f3f3f) return  -1;
     else return dis[n];
 }
 int main() {

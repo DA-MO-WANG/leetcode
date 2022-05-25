@@ -19,11 +19,8 @@ bool str[N];//维护的是每个点是否已经确定了最短路情况
 //重边——》为了不影响最短路，只保存最短的边权
 //自环不影响最短路的计算
 void add(int x, int y, int z) {
-    for (int i = 1; i <= n; ++i) {
-        for (int j = 1; j <= n; ++j) {
-            g[x][y] = min(g[x][y],z);
-        }
-    }
+    if(x == y) g[x][y] = 0;
+    else g[x][y] = min(g[x][y],z);
 }
 int dijkstra() {
     str[1] = true;
@@ -44,6 +41,8 @@ int dijkstra() {
 }
 int main() {
     cin >> n >> m;
+    //每条边的权重默认为一个很大的值，方便重边保留最小值的实现。只有一开始最大(比所有权重都大)，min才能不断取设定的值
+    memset(g, 0x3f, sizeof g);
     while(m--) {
         int x, y , z;
         cin >> x >> y >> z;

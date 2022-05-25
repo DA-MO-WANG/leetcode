@@ -36,7 +36,7 @@ int dijkstra() {
             }
         }
         //把找到最小距离的点加入到确定的集合中
-        str[t] = true;
+        str[t] =   true;
         if(t == n) break;
 
         //拿t来更新其他点的距离

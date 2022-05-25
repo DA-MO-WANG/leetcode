@@ -23,15 +23,19 @@ void add(int x, int y, int z) {
     else g[x][y] = min(g[x][y],z);
 }
 int dijkstra() {
-    str[1] = true;
+    //最外层循环：迭代n次，每一次都会确定一个点的最短距离，最终确定下来
     for (int i = 1; i <= n ; ++i) {
-        int t = -1;//代表最有可能确定最短距离的点，用t来保存--这里是选择排序
-        //从还没确定中的集合中去找
+        //从还没有确定最短距离的集合中找到一个最小的距离的点
+        int t = -1;//代表还没有找到
+
+        //取遍历所有节点，找到最小的距离
         for (int j = 1; j <= n ; ++j) {
-            if(!str[j] && t == -1 | dis[t] > dis[j]) {
+            //str维护的是否在前面被确定了
+            if(!str[j] && (t == -1 || dis[t] > dis[j])) {
                 t = j;
             }
         }
+        //把找到最小距离的点加入到确定的集合中
         str[t] = true;
         if(t == n) break;
     }

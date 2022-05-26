@@ -96,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/duiyouhuadijkstra.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="52">
+              <caret line="18" column="11" lean-forward="true" selection-end-line="58" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -306,12 +306,12 @@
       <workItem from="1652518275065" duration="4094000" />
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
-      <workItem from="1653354344571" duration="9543000" />
+      <workItem from="1653354344571" duration="9943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122568000" />
+    <option name="totallyTimeSpent" value="122968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="25" width="1394" height="875" extended-state="0" />
@@ -756,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/duiyouhuadijkstra.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="52">
+          <caret line="18" column="11" lean-forward="true" selection-end-line="58" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

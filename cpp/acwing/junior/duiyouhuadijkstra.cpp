@@ -27,7 +27,21 @@ int dijkstra() {
     dis[1] = 0;
 
     priority_queue<PII,vector<PII>,greater<PII>> heap;
-    heap.push
+    heap.push({0,1});
+    while (heap.size()) {
+        auto t = heap.top();
+        heap.pop();
+
+        int distance = t.first, point = t.second;
+        for (int i = h[point]; i != -1 ; i = ne[i]) {
+            if(dis[i] > distance + w[i]) {
+                dis[i] = distance + w[i];
+                heap.push({dis[i],e[i]});
+            }
+        }
+    }
+    if(dis[n] == 0x3f3f3f) return -1;
+    else return dis[n];
 }
 int main() {
     cin >> n >> m;

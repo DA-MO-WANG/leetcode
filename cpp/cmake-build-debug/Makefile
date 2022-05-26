@@ -393,6 +393,33 @@ acwing/junior/duipaixu_.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/duipaixu_.cpp.s
 .PHONY : acwing/junior/duipaixu_.cpp.s
 
+acwing/junior/duiyouhuadijkstra.o: acwing/junior/duiyouhuadijkstra.cpp.o
+
+.PHONY : acwing/junior/duiyouhuadijkstra.o
+
+# target to build an object file
+acwing/junior/duiyouhuadijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/duiyouhuadijkstra.cpp.o
+.PHONY : acwing/junior/duiyouhuadijkstra.cpp.o
+
+acwing/junior/duiyouhuadijkstra.i: acwing/junior/duiyouhuadijkstra.cpp.i
+
+.PHONY : acwing/junior/duiyouhuadijkstra.i
+
+# target to preprocess a source file
+acwing/junior/duiyouhuadijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/duiyouhuadijkstra.cpp.i
+.PHONY : acwing/junior/duiyouhuadijkstra.cpp.i
+
+acwing/junior/duiyouhuadijkstra.s: acwing/junior/duiyouhuadijkstra.cpp.s
+
+.PHONY : acwing/junior/duiyouhuadijkstra.s
+
+# target to generate assembly for a file
+acwing/junior/duiyouhuadijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/duiyouhuadijkstra.cpp.s
+.PHONY : acwing/junior/duiyouhuadijkstra.cpp.s
+
 acwing/junior/erjinzhizhong1degeshu.o: acwing/junior/erjinzhizhong1degeshu.cpp.o
 
 .PHONY : acwing/junior/erjinzhizhong1degeshu.o
@@ -1161,6 +1188,9 @@ help:
 	@echo "... acwing/junior/duipaixu_.o"
 	@echo "... acwing/junior/duipaixu_.i"
 	@echo "... acwing/junior/duipaixu_.s"
+	@echo "... acwing/junior/duiyouhuadijkstra.o"
+	@echo "... acwing/junior/duiyouhuadijkstra.i"
+	@echo "... acwing/junior/duiyouhuadijkstra.s"
 	@echo "... acwing/junior/erjinzhizhong1degeshu.o"
 	@echo "... acwing/junior/erjinzhizhong1degeshu.i"
 	@echo "... acwing/junior/erjinzhizhong1degeshu.s"

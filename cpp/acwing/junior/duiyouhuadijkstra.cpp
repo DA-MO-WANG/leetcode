@@ -35,9 +35,12 @@ int dijkstra() {
 
         int distance = t.first, point = t.second;
         for (int i = h[point]; i != -1 ; i = ne[i]) {
-            if(dis[i] > distance + w[i]) {
-                dis[i] = distance + w[i];
-                heap.push({dis[i],e[i]});
+            //i 值得是链表中节点的唯一标识
+            //点的编号是e[] 存的值
+            int j = e[i];
+            if(dis[j] > distance + w[i]) {
+                dis[j] = distance + w[i];
+                heap.push({dis[j],e[i]});
             }
         }
     }

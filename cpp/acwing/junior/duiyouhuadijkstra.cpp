@@ -40,11 +40,11 @@ int dijkstra() {
             int j = e[i];
             if(dis[j] > distance + w[i]) {
                 dis[j] = distance + w[i];
-                heap.push({dis[j],e[i]});
+                heap.push({dis[j],j});
             }
         }
     }
-    if(dis[n] == 0x3f3f3f) return -1;
+    if(dis[n] == 0x3f3f3f3f) return -1;
     else return dis[n];
 }
 int main() {

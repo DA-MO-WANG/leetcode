@@ -19,6 +19,7 @@ void add(int x, int y, int z) {
     e[idx] = y;
     w[idx] = z;
     ne[idx] = h[x];
+    h[x] = idx;
     idx++;
 }
 

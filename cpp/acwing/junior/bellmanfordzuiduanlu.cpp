@@ -24,11 +24,12 @@ int bellman_ford() {
     for (int i = 0; i < k; ++i) {
         memcpy(backup,dis,sizeof dis);
         for (int j = 0; j < m; ++j) {
+
             int x = edge[j].x;
             int y = edge[j].y;
             int z = edge[j].z;
-            if(dis[y] > backup[y] + z) {
-                dis[y] = backup[y] + z;
+            if(dis[y] > backup[x] + z) {
+                dis[y] = backup[x] + z;
             }
         }
     }

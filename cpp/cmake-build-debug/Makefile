@@ -177,6 +177,33 @@ acwing/junior/Sum_of_submatrix.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/Sum_of_submatrix.cpp.s
 .PHONY : acwing/junior/Sum_of_submatrix.cpp.s
 
+acwing/junior/bellmanfordzuiduanlu.o: acwing/junior/bellmanfordzuiduanlu.cpp.o
+
+.PHONY : acwing/junior/bellmanfordzuiduanlu.o
+
+# target to build an object file
+acwing/junior/bellmanfordzuiduanlu.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/bellmanfordzuiduanlu.cpp.o
+.PHONY : acwing/junior/bellmanfordzuiduanlu.cpp.o
+
+acwing/junior/bellmanfordzuiduanlu.i: acwing/junior/bellmanfordzuiduanlu.cpp.i
+
+.PHONY : acwing/junior/bellmanfordzuiduanlu.i
+
+# target to preprocess a source file
+acwing/junior/bellmanfordzuiduanlu.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/bellmanfordzuiduanlu.cpp.i
+.PHONY : acwing/junior/bellmanfordzuiduanlu.cpp.i
+
+acwing/junior/bellmanfordzuiduanlu.s: acwing/junior/bellmanfordzuiduanlu.cpp.s
+
+.PHONY : acwing/junior/bellmanfordzuiduanlu.s
+
+# target to generate assembly for a file
+acwing/junior/bellmanfordzuiduanlu.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/bellmanfordzuiduanlu.cpp.s
+.PHONY : acwing/junior/bellmanfordzuiduanlu.cpp.s
+
 acwing/junior/biaodashiqiuzhi.o: acwing/junior/biaodashiqiuzhi.cpp.o
 
 .PHONY : acwing/junior/biaodashiqiuzhi.o
@@ -1164,6 +1191,9 @@ help:
 	@echo "... acwing/junior/Sum_of_submatrix.o"
 	@echo "... acwing/junior/Sum_of_submatrix.i"
 	@echo "... acwing/junior/Sum_of_submatrix.s"
+	@echo "... acwing/junior/bellmanfordzuiduanlu.o"
+	@echo "... acwing/junior/bellmanfordzuiduanlu.i"
+	@echo "... acwing/junior/bellmanfordzuiduanlu.s"
 	@echo "... acwing/junior/biaodashiqiuzhi.o"
 	@echo "... acwing/junior/biaodashiqiuzhi.i"
 	@echo "... acwing/junior/biaodashiqiuzhi.s"

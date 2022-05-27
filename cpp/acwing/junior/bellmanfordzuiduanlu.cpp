@@ -16,12 +16,25 @@ struct edge {
 }edge[M];
 int n, m, k;
 int dis[N];
+int backup[N];
 int bellman_ford() {
-    for (int i = 0; i < k; ++i) {
-        for (int j = 0; j < m; ++j) {
+    memset(dis,0x3f,sizeof dis);
+    dis[1] = 0;
 
+    for (int i = 0; i < k; ++i) {
+        memcpy(backup,dis,sizeof dis);
+        for (int j = 0; j < m; ++j) {
+            int x = edge[j].x;
+            int y = edge[j].y;
+            int z = edge[j].z;
+            if(dis[y] > backup[y] + z) {
+                dis[y] = backup[y] + z;
+            }
         }
     }
+
+    if(dis[n] > 0x3f3f3f3f / 2) return -1;
+    else return dis[n];
 }
 
 int main() {

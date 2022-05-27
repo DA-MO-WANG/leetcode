@@ -34,7 +34,7 @@ int bellman_ford() {
         }
     }
 
-    if(dis[n] > 0x3f3f3f3f / 2) return -1;
+    if(dis[n] > 0x3f3f3f3f / 2) return 0x3f3f3f3f;
     else return dis[n];
 }
 

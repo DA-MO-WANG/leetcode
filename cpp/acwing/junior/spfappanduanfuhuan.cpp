@@ -21,7 +21,7 @@ void add(int x, int y, int z) {
 }
 
 int spfa() {
-    
+    mem
 }
 int main() {
     cin >> n >> m;

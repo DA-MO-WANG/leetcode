@@ -25,8 +25,10 @@ int spfa() {
     dis[1] = 0;
     queue<int> queue;
     for (int i = 1; i <= n; ++i) {
-        queue.push()
+        queue.push(i);
+        str[i] = true;
     }
+    queue.top
 }
 int main() {
     cin >> n >> m;

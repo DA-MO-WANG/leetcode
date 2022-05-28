@@ -41,6 +41,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/acwing/junior/spfaqiuzuiduanlu.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/spfappanduanfuhuan.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/floydqiuzuiduanlu.cpp.o"
+  "CMakeFiles/cpp.dir/acwing/junior/dui.cpp.o"
   "cpp.pdb"
   "cpp"
 )

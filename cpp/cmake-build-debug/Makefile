@@ -393,6 +393,33 @@ acwing/junior/dijkstrazuiduanlu.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/dijkstrazuiduanlu.cpp.s
 .PHONY : acwing/junior/dijkstrazuiduanlu.cpp.s
 
+acwing/junior/dui.o: acwing/junior/dui.cpp.o
+
+.PHONY : acwing/junior/dui.o
+
+# target to build an object file
+acwing/junior/dui.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/dui.cpp.o
+.PHONY : acwing/junior/dui.cpp.o
+
+acwing/junior/dui.i: acwing/junior/dui.cpp.i
+
+.PHONY : acwing/junior/dui.i
+
+# target to preprocess a source file
+acwing/junior/dui.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/dui.cpp.i
+.PHONY : acwing/junior/dui.cpp.i
+
+acwing/junior/dui.s: acwing/junior/dui.cpp.s
+
+.PHONY : acwing/junior/dui.s
+
+# target to generate assembly for a file
+acwing/junior/dui.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/dui.cpp.s
+.PHONY : acwing/junior/dui.cpp.s
+
 acwing/junior/duipaixu_.o: acwing/junior/duipaixu_.cpp.o
 
 .PHONY : acwing/junior/duipaixu_.o
@@ -1296,6 +1323,9 @@ help:
 	@echo "... acwing/junior/dijkstrazuiduanlu.o"
 	@echo "... acwing/junior/dijkstrazuiduanlu.i"
 	@echo "... acwing/junior/dijkstrazuiduanlu.s"
+	@echo "... acwing/junior/dui.o"
+	@echo "... acwing/junior/dui.i"
+	@echo "... acwing/junior/dui.s"
 	@echo "... acwing/junior/duipaixu_.o"
 	@echo "... acwing/junior/duipaixu_.i"
 	@echo "... acwing/junior/duipaixu_.s"

@@ -49,8 +49,8 @@ int spfa() {
             }
         }
     }
-    if(dis[n] == 0x3f3f3f3f) cout << 0x3f3f3f3f;
-    else dis[n];
+    if(dis[n] == 0x3f3f3f3f) return 0x3f3f3f3f;
+    else return  dis[n];
     //spfa的独特性在用队列维护的是d[基准点]变小的点
 }
 int main() {

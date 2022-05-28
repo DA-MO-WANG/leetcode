@@ -41,8 +41,11 @@ int spfa() {
             int j = e[i];
             if(dis[j] > dis[t] + w[i]) {
                 dis[j] = dis[t] + w[i];
-                q[++tt] = j;
-                str[j] = true;
+                if(!str[j]) {
+                    q[++tt] = j;
+                    str[j] = true;
+                }
+
             }
         }
     }

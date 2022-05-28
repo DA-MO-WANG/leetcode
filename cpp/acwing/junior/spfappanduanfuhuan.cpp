@@ -21,7 +21,12 @@ void add(int x, int y, int z) {
 }
 
 int spfa() {
-    mem
+    memset(dis,0x3f,sizeof dis);
+    dis[1] = 0;
+    queue<int> queue;
+    for (int i = 1; i <= n; ++i) {
+        queue.push()
+    }
 }
 int main() {
     cin >> n >> m;

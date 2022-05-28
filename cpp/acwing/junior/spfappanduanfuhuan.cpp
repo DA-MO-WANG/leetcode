@@ -28,7 +28,16 @@ int spfa() {
         queue.push(i);
         str[i] = true;
     }
-    queue.top
+    int t = queue.front();
+    queue.pop();
+
+    for (int j = h[t]; j != -1; j = ne[j]) {
+        int k = e[j];
+        if(dis[k] > dis[t] + w[j]) {
+            dis[k] = dis[t] + w[j];
+            
+        }
+    }
 }
 int main() {
     cin >> n >> m;

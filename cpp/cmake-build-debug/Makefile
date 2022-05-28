@@ -1014,6 +1014,33 @@ acwing/junior/singlelist.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/singlelist.cpp.s
 .PHONY : acwing/junior/singlelist.cpp.s
 
+acwing/junior/spfappanduanfuhuan.o: acwing/junior/spfappanduanfuhuan.cpp.o
+
+.PHONY : acwing/junior/spfappanduanfuhuan.o
+
+# target to build an object file
+acwing/junior/spfappanduanfuhuan.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/spfappanduanfuhuan.cpp.o
+.PHONY : acwing/junior/spfappanduanfuhuan.cpp.o
+
+acwing/junior/spfappanduanfuhuan.i: acwing/junior/spfappanduanfuhuan.cpp.i
+
+.PHONY : acwing/junior/spfappanduanfuhuan.i
+
+# target to preprocess a source file
+acwing/junior/spfappanduanfuhuan.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/spfappanduanfuhuan.cpp.i
+.PHONY : acwing/junior/spfappanduanfuhuan.cpp.i
+
+acwing/junior/spfappanduanfuhuan.s: acwing/junior/spfappanduanfuhuan.cpp.s
+
+.PHONY : acwing/junior/spfappanduanfuhuan.s
+
+# target to generate assembly for a file
+acwing/junior/spfappanduanfuhuan.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/spfappanduanfuhuan.cpp.s
+.PHONY : acwing/junior/spfappanduanfuhuan.cpp.s
+
 acwing/junior/spfaqiuzuiduanlu.o: acwing/junior/spfaqiuzuiduanlu.cpp.o
 
 .PHONY : acwing/junior/spfaqiuzuiduanlu.o
@@ -1311,6 +1338,9 @@ help:
 	@echo "... acwing/junior/singlelist.o"
 	@echo "... acwing/junior/singlelist.i"
 	@echo "... acwing/junior/singlelist.s"
+	@echo "... acwing/junior/spfappanduanfuhuan.o"
+	@echo "... acwing/junior/spfappanduanfuhuan.i"
+	@echo "... acwing/junior/spfappanduanfuhuan.s"
 	@echo "... acwing/junior/spfaqiuzuiduanlu.o"
 	@echo "... acwing/junior/spfaqiuzuiduanlu.i"
 	@echo "... acwing/junior/spfaqiuzuiduanlu.s"

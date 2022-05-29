@@ -6,9 +6,12 @@
 #include <algorithm>
 
 using  namespace std;
-in
+int n;
+char op[];
 int main() {
+    while (n--) {
 
+    }
 
 
 

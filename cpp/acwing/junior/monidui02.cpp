@@ -51,6 +51,7 @@ int main() {
             deleteMin();
         }else if(op[0] == 'D' && op[1] != 'M') {
             delete
+            //难题：如何维护第k个插入
         }
     }
 

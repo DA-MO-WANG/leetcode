@@ -33,9 +33,10 @@ void add(int x) {
     up(size);
 }
 void deleteMin() {
-    swap(size,1);
+    swap(hp[size],hp[1]);
     size--;
-    
+    down(1);
+
 }
 int main() {
     while (n--) {
@@ -48,6 +49,8 @@ int main() {
             printf("%d",hp[1]);
         }else if(op[0] == 'D' && op[1] == 'M') {
             deleteMin();
+        }else if(op[0] == 'D' && op[1] != 'M') {
+            delete
         }
     }
 

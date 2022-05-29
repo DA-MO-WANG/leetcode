@@ -23,21 +23,27 @@ void heap_swap(int heap_idx1,int heap_idx2) {
 
 }
 void down(int index) {
-    if(index > se) return;
+    //if(index > se) return;
     int min = index;
     int lc = 2 * index, rc = 2 * index + 1;
     if(lc <= se && h[min] > h[lc]) min = lc;
     if(rc <= se && h[min] > h[rc]) min = rc;
-    if(min != index) heap_swap(h[min],h[index]);
+    if(min != index) {
+        heap_swap(min,index);
+        down(min);
+    }
     //?
-    down(lc),down(rc);
+   // down(lc),down(rc);
 }
 
 void up(int index) {
-    if(index <= 0) return;
+    //if(index <= 0) return;
     int f = index / 2;
-    if(h[f] > h[index]) heap_swap(h[f],h[index]);
-    up(f);
+    //这里用循环
+    while(f && h[f] > h[index]) {
+        heap_swap(f,index);
+        
+    }
 }
 void add(int x) {
     ++se;

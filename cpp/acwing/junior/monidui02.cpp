@@ -9,7 +9,7 @@ using  namespace std;
 const int N = 1e5 + 10;
 int n;
 //用数组模拟堆
-int h[N],size;
+int h[N],se;
 char op[3];
 //堆编序（显式序号）---堆中编号指的值是变化的，编号的指的是位置，而不是值==>s
 //唯一标识（根本序号）——最开始的数据绑定的信号，值-标识的绑定是不变的==》idx
@@ -23,11 +23,11 @@ void heap_swap(int heap_idx1,int heap_idx2) {
 
 }
 void down(int index) {
-    if(index > size) return;
+    if(index > se) return;
     int min = index;
     int lc = 2 * index, rc = 2 * index + 1;
-    if(lc <= size && h[min] > h[lc]) min = lc;
-    if(rc <= size && h[min] > h[rc]) min = rc;
+    if(lc <= se && h[min] > h[lc]) min = lc;
+    if(rc <= se && h[min] > h[rc]) min = rc;
     if(min != index) heap_swap(h[min],h[index]);
     //?
     down(lc),down(rc);
@@ -40,22 +40,22 @@ void up(int index) {
     up(f);
 }
 void add(int x) {
-    ++size;
+    ++se;
     idx++;
-    ph[idx] = size;
-    hp[size] = idx;
-    h[size] = x;
-    up(size);
+    ph[idx] = se;
+    hp[se] = idx;
+    h[se] = x;
+    up(se);
 }
 void deleteMin() {
-    heap_swap(h[size],h[1]);
-    size--;
+    heap_swap(h[se],h[1]);
+    se--;
     down(1);
 
 }
 void deletes(int heap_idx) {
-    heap_swap(heap_idx,size);
-    size--;
+    heap_swap(heap_idx,se);
+    se--;
     down(heap_idx);
     up(heap_idx);
 }

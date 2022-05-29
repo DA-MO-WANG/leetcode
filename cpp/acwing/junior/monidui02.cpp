@@ -40,7 +40,11 @@ void up(int index) {
     up(f);
 }
 void add(int x) {
-    h[++size] = x;
+    ++size;
+    idx++;
+    ph[idx] = size;
+    hp[size] = idx;
+    h[size] = x;
     up(size);
 }
 void deleteMin() {

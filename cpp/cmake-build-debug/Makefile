@@ -744,6 +744,33 @@ acwing/junior/monidui.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/monidui.cpp.s
 .PHONY : acwing/junior/monidui.cpp.s
 
+acwing/junior/monidui02.o: acwing/junior/monidui02.cpp.o
+
+.PHONY : acwing/junior/monidui02.o
+
+# target to build an object file
+acwing/junior/monidui02.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/monidui02.cpp.o
+.PHONY : acwing/junior/monidui02.cpp.o
+
+acwing/junior/monidui02.i: acwing/junior/monidui02.cpp.i
+
+.PHONY : acwing/junior/monidui02.i
+
+# target to preprocess a source file
+acwing/junior/monidui02.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/monidui02.cpp.i
+.PHONY : acwing/junior/monidui02.cpp.i
+
+acwing/junior/monidui02.s: acwing/junior/monidui02.cpp.s
+
+.PHONY : acwing/junior/monidui02.s
+
+# target to generate assembly for a file
+acwing/junior/monidui02.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/monidui02.cpp.s
+.PHONY : acwing/junior/monidui02.cpp.s
+
 acwing/junior/moniduilie.o: acwing/junior/moniduilie.cpp.o
 
 .PHONY : acwing/junior/moniduilie.o
@@ -1362,6 +1389,9 @@ help:
 	@echo "... acwing/junior/monidui.o"
 	@echo "... acwing/junior/monidui.i"
 	@echo "... acwing/junior/monidui.s"
+	@echo "... acwing/junior/monidui02.o"
+	@echo "... acwing/junior/monidui02.i"
+	@echo "... acwing/junior/monidui02.s"
 	@echo "... acwing/junior/moniduilie.o"
 	@echo "... acwing/junior/moniduilie.i"
 	@echo "... acwing/junior/moniduilie.s"

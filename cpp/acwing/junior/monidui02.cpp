@@ -19,7 +19,7 @@ void heap_swap(int heap_idx1,int heap_idx2) {
 
     swap(ph[hp[heap_idx1]],ph[hp[heap_idx2]]);
     swap(hp[heap_idx1],hp[heap_idx2]);
-    swap(h[])
+    swap(h[heap_idx1],h[heap_idx2]);
 
 }
 void down(int index) {

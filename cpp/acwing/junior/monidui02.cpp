@@ -73,21 +73,21 @@ void update(int heap_idx, int x) {
 int main() {
     while (n--) {
         scanf("%s",op);
-        if(op[0] == 'I') {
+        if(!strcmp(op,"I")) {
             int x;
             scanf("%d",&x);
             add(x);
-        }else if(op[0] == 'p') {
+        }else if(!strcmp(op,"PM")) {
             printf("%d",h[1]);
-        }else if(op[0] == 'D' && op[1] == 'M') {
+        }else if(!strcmp(op,"DM")) {
             deleteMin();
-        }else if(op[0] == 'D' && op[1] != 'M') {
+        }else if(!strcmp(op,"D")) {
             //难题：如何维护第k个插入
             int k;
             scanf("%d",&k);
             int heap_idx = ph[k];
             deletes(heap_idx);
-        }else if(op[0] == 'C') {
+        }else if(!strcmp(op,"C")) {
             int k, x;
             scanf("%d%d",&k,&x);
             int heap_idx = ph[k];

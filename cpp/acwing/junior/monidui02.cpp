@@ -42,7 +42,7 @@ void up(int index) {
     //这里用循环
     while(f && h[f] > h[index]) {
         heap_swap(f,index);
-        
+        f = index / 2;
     }
 }
 void add(int x) {
@@ -54,7 +54,7 @@ void add(int x) {
     up(se);
 }
 void deleteMin() {
-    heap_swap(h[se],h[1]);
+    heap_swap(se,1);
     se--;
     down(1);
 

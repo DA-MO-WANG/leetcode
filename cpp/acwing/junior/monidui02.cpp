@@ -39,7 +39,7 @@ void down(int index) {
 void up(int index) {
     //if(index <= 0) return;
     int f = index / 2;
-    //这里用循环
+    //循环和递归有时候可以互用
     if(f && h[f] > h[index]) {
         heap_swap(f,index);
         up(f);

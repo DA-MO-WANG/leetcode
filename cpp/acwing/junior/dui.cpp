@@ -40,7 +40,8 @@ bool checkMinHeap(int x) {
 
 
 }
-
+//所谓后序遍历、中序遍历，和是什么堆没关系，只根他的二叉树结构有关
+//前、后、中，都是基于dfs，类似栈过程
 void printPost(int x) {
     if(x > n) return;
     int lc =  2 * x, rc = 2 * x + 1;

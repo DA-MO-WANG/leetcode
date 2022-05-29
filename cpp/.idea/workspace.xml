@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/monidui02.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/monidui02.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/monidui02.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="44" column="14" selection-end-line="103" />
+            <state relative-caret-position="377">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding>
                 <element signature="e#43#62#0" expanded="true" />
               </folding>
@@ -324,12 +322,12 @@
       <workItem from="1652518275065" duration="4094000" />
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
-      <workItem from="1653354344571" duration="31266000" />
+      <workItem from="1653354344571" duration="31671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144291000" />
+    <option name="totallyTimeSpent" value="144696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="86" width="1394" height="875" extended-state="0" />
@@ -827,8 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/monidui02.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="44" column="14" selection-end-line="103" />
+        <state relative-caret-position="377">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding>
             <element signature="e#43#62#0" expanded="true" />
           </folding>

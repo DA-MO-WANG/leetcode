@@ -10,7 +10,7 @@ const int N = 1e5 + 10;
 int n;
 //用数组模拟堆
 int h[N],se;
-char op[3];
+char op[10];
 //堆编序（显式序号）---堆中编号指的值是变化的，编号的指的是位置，而不是值==>s
 //唯一标识（根本序号）——最开始的数据绑定的信号，值-标识的绑定是不变的==》idx
 //ph==> idx->hp_idx; hp==>hp_idx->idx
@@ -78,7 +78,7 @@ int main() {
             scanf("%d",&x);
             add(x);
         }else if(!strcmp(op,"PM")) {
-            printf("%d",h[1]);
+            printf("%d\n",h[1]);
         }else if(!strcmp(op,"DM")) {
             deleteMin();
         }else if(!strcmp(op,"D")) {

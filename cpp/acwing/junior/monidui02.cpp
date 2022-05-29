@@ -40,9 +40,9 @@ void up(int index) {
     //if(index <= 0) return;
     int f = index / 2;
     //这里用循环
-    while(f && h[f] > h[index]) {
+    if(f && h[f] > h[index]) {
         heap_swap(f,index);
-        f = index / 2;
+        up(f);
     }
 }
 void add(int x) {
@@ -71,6 +71,7 @@ void update(int heap_idx, int x) {
     up(heap_idx);
 }
 int main() {
+    scanf("%d",&n);
     while (n--) {
         scanf("%s",op);
         if(!strcmp(op,"I")) {

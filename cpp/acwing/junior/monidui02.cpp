@@ -28,7 +28,7 @@ void down(int index) {
     int lc = 2 * index, rc = 2 * index + 1;
     if(lc <= size && h[min] > h[lc]) min = lc;
     if(rc <= size && h[min] > h[rc]) min = rc;
-    if(min != index) swap(h[min],h[index]);
+    if(min != index) heap_swap(h[min],h[index]);
     //?
     down(lc),down(rc);
 }
@@ -36,7 +36,7 @@ void down(int index) {
 void up(int index) {
     if(index <= 0) return;
     int f = index / 2;
-    if(h[f] > h[index]) swap(h[f],h[index]);
+    if(h[f] > h[index]) heap_swap(h[f],h[index]);
     up(f);
 }
 void add(int x) {
@@ -48,10 +48,16 @@ void add(int x) {
     up(size);
 }
 void deleteMin() {
-    swap(h[size],h[1]);
+    heap_swap(h[size],h[1]);
     size--;
     down(1);
 
+}
+void deletes(int heap_idx) {
+    heap_swap(heap_idx,size);
+    size--;
+    down(heap_idx);
+    up(heap_idx);
 }
 int main() {
     while (n--) {
@@ -65,8 +71,13 @@ int main() {
         }else if(op[0] == 'D' && op[1] == 'M') {
             deleteMin();
         }else if(op[0] == 'D' && op[1] != 'M') {
-            delete
             //难题：如何维护第k个插入
+            int k;
+            scanf("%d",&k);
+            int heap_idx = ph[k];
+            deletes(heap_idx);
+        }else if(op[0] == 'C') {
+            
         }
     }
 

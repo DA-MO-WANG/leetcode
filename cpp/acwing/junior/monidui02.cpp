@@ -59,6 +59,11 @@ void deletes(int heap_idx) {
     down(heap_idx);
     up(heap_idx);
 }
+void update(int heap_idx, int x) {
+    h[heap_idx] = x;
+    down(heap_idx);
+    up(heap_idx);
+}
 int main() {
     while (n--) {
         scanf("%s",op);
@@ -77,7 +82,10 @@ int main() {
             int heap_idx = ph[k];
             deletes(heap_idx);
         }else if(op[0] == 'C') {
-            
+            int k, x;
+            scanf("%d%d",&k,&x);
+            int heap_idx = ph[k];
+            update(heap_idx,x);
         }
     }
 

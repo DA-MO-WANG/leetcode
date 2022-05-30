@@ -27,7 +27,15 @@ int dijkstra() {
         //用假设的最短距离点和其他没确定最短距离的点都比较一遍，
         while(t && (t == -1 || dis[t] > dis[++j])) t = j;
 
+        str[t] = true;
 
+        //用新确定的点去更新其他未确定的点
+        int k = 1;
+        while(k <= n && !str[k] && g[t][k] != INF) {
+            dis[k] = min(dis[k],dis[t] + g[t][k]);
+            str[k] = true;
+            k++;
+        }
     }
 
     if(dis[n] == INF) return -1;
@@ -35,6 +43,7 @@ int dijkstra() {
 }
 int main() {
     scanf("%d%d",&n,&m);
+    memset(g,0x3f,sizeof g);
     while (m--) {
         int x, y , z;
         scanf("%d%d%d",&x,&y,&z);

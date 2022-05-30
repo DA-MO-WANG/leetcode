@@ -8,7 +8,7 @@
 using namespace std;
 //prim
 const int N = 510, M = 1e5 + 10;
-int dis[N];//这个东
+int dis[N];//这个东西
 int main() {
 
 

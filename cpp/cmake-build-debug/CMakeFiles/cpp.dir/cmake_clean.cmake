@@ -43,6 +43,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/acwing/junior/floydqiuzuiduanlu.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/dui.cpp.o"
   "CMakeFiles/cpp.dir/acwing/junior/monidui02.cpp.o"
+  "CMakeFiles/cpp.dir/acwing/junior/dijkstra02.cpp.o"
   "cpp.pdb"
   "cpp"
 )

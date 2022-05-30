@@ -366,6 +366,33 @@ acwing/junior/dandiaozhan.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/dandiaozhan.cpp.s
 .PHONY : acwing/junior/dandiaozhan.cpp.s
 
+acwing/junior/dijkstra02.o: acwing/junior/dijkstra02.cpp.o
+
+.PHONY : acwing/junior/dijkstra02.o
+
+# target to build an object file
+acwing/junior/dijkstra02.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/dijkstra02.cpp.o
+.PHONY : acwing/junior/dijkstra02.cpp.o
+
+acwing/junior/dijkstra02.i: acwing/junior/dijkstra02.cpp.i
+
+.PHONY : acwing/junior/dijkstra02.i
+
+# target to preprocess a source file
+acwing/junior/dijkstra02.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/dijkstra02.cpp.i
+.PHONY : acwing/junior/dijkstra02.cpp.i
+
+acwing/junior/dijkstra02.s: acwing/junior/dijkstra02.cpp.s
+
+.PHONY : acwing/junior/dijkstra02.s
+
+# target to generate assembly for a file
+acwing/junior/dijkstra02.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/acwing/junior/dijkstra02.cpp.s
+.PHONY : acwing/junior/dijkstra02.cpp.s
+
 acwing/junior/dijkstrazuiduanlu.o: acwing/junior/dijkstrazuiduanlu.cpp.o
 
 .PHONY : acwing/junior/dijkstrazuiduanlu.o
@@ -1347,6 +1374,9 @@ help:
 	@echo "... acwing/junior/dandiaozhan.o"
 	@echo "... acwing/junior/dandiaozhan.i"
 	@echo "... acwing/junior/dandiaozhan.s"
+	@echo "... acwing/junior/dijkstra02.o"
+	@echo "... acwing/junior/dijkstra02.i"
+	@echo "... acwing/junior/dijkstra02.s"
 	@echo "... acwing/junior/dijkstrazuiduanlu.o"
 	@echo "... acwing/junior/dijkstrazuiduanlu.i"
 	@echo "... acwing/junior/dijkstrazuiduanlu.s"

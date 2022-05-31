@@ -99,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/primzuixiaoshengchengshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="306">
+              <caret line="31" column="1" selection-end-line="61" />
               <folding>
                 <element signature="e#43#63#0" expanded="true" />
               </folding>
@@ -327,12 +327,12 @@
       <workItem from="1652518275065" duration="4094000" />
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
-      <workItem from="1653354344571" duration="39674000" />
+      <workItem from="1653354344571" duration="40504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152699000" />
+    <option name="totallyTimeSpent" value="153529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1394" height="875" extended-state="0" />
@@ -848,8 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/primzuixiaoshengchengshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="306">
+          <caret line="31" column="1" selection-end-line="61" />
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>

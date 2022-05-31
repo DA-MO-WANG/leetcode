@@ -26,7 +26,16 @@ int prim() {
         }
         //第一次，走完j，t是1
         str[t] = true;
-        if(t == 1) dis[t] = 0;
+        //if(t == 1) dis[t] = 0;===》1种写法
+
+        //利用第一次，每个点上的INF会有机会被替换掉
+        if(i && dis[t] == INF) return INF;//运用上面的for循环的作用，选出的最短距离
+        //如果最短距离
+
+
+
+
+
         //res统计的是集合内边的长度和
         res += dis[t];
 

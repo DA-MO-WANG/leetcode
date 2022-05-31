@@ -9,9 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/junior/primzuixiaoshengchengshu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/junior/primzuixiaoshengchengshu.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/primzuixiaoshengchengshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="802">
-              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+            <state relative-caret-position="538">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -116,12 +114,12 @@
       <option name="presentableId" value="Default" />
       <updated>1653059260181</updated>
       <workItem from="1653059261359" duration="198000" />
-      <workItem from="1653958551251" duration="245000" />
+      <workItem from="1653958551251" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="443000" />
+    <option name="totallyTimeSpent" value="774000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -170,8 +168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/primzuixiaoshengchengshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+        <state relative-caret-position="538">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>

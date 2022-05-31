@@ -50,6 +50,7 @@ int prim() {
 }
 int main() {
     scanf("%d%d",&n,&m);
+    memset(g,0x3f,sizeof g);//容易漏掉，不能少，他是替换dis的基础
     while(m--) {
         int u, v, w;
         scanf("%d%d%d",&u,&v,&w);

@@ -29,7 +29,7 @@ int prim() {
         if(t == 1) dis[t] = 0;
         //res统计的是集合内边的长度和
         res += dis[t];
-        
+
         //用这个点更新一下其他点到集合的距离
         for(int k = 1; k <= n; k++) {
             if(!str[k]) dis[k] = min(dis[k],g[t][k]);

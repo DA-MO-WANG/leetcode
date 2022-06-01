@@ -18,7 +18,7 @@ struct Edge{
     bool operator< (const Edge &W)const {
         return w < W.w;
     }
-}Edge[M];
+}edges [ M];
 int main() {
     scanf("%d%d",&n,&m);
     //准备用结构体数组来存边

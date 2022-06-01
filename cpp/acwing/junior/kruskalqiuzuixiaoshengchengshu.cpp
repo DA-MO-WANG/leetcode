@@ -14,7 +14,7 @@ int n,m;
 int q[N];
 struct Edge{
     int u,v,w;
-    //重写运载符<
+    //重载运算符<
     bool operator< (const Edge &W)const {
         return w < W.w;
     }

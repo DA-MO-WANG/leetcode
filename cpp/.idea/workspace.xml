@@ -11,10 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/ransefapandingerfentu].cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/ransefapandingerfentu].cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/junior/强权委屈.cpp" beforeDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/ransefapandingerfentu].cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="387">
+              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
               <folding>
                 <element signature="e#42#62#0" expanded="true" />
               </folding>
@@ -215,8 +212,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="826" />
-    <option name="y" value="25" />
+    <option name="x" value="360" />
+    <option name="y" value="40" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
   </component>
@@ -320,15 +317,15 @@
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
-      <workItem from="1654077069157" duration="6049000" />
+      <workItem from="1654077069157" duration="6336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160524000" />
+    <option name="totallyTimeSpent" value="160811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="486" y="25" width="1393" height="875" extended-state="0" />
+    <frame x="360" y="40" width="1393" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22057734" />
@@ -844,8 +841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/ransefapandingerfentu].cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="387">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding>
             <element signature="e#42#62#0" expanded="true" />
           </folding>

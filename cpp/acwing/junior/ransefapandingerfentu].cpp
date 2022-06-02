@@ -34,6 +34,7 @@ int dfs(int x,int c) {
 int main() {
     //保存图结构
     //因为染色法采用dfs, 借助出边——》用邻接矩阵来描述边
+    scanf("%d%d",&n,&m);
     memset(h,-1,sizeof h);
     while (m--) {
         int u,v;

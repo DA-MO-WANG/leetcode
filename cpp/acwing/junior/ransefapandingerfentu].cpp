@@ -6,12 +6,12 @@
 #include <cstring>
 
 using namespace std;
-
+in
 int main() {
 
 
 
 
 
-    
+
 }

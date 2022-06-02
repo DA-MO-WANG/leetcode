@@ -23,8 +23,9 @@ int dfs(int x,int c) {
     color[x] = c;
     for (int i = h[x]; i != -1 ; i = ne[i]) {
         int j = e[i];
-        if(!color[j]) {
+        if(!color[j]) {//没有染色
             //相邻层的染色关系
+            //如果染色出问题了
             if(!dfs(j,3 - c)) return false;
         }else if(color[j] == c) return false;//相邻层，染色一致，出现奇数环
     }
@@ -40,15 +41,19 @@ int main() {
         //无向图——》双向边都要准备
         add(u,v),add(v,u);
     }
-
+    bool flag = true;
     for(int i = 1; i<= n; i++) {
         //dfs也是一层一层走，只不过是单条路径一层层
-        if(!dfs(i,1)) {
-            printf("No");
-            break;
+        if(!color[i]) {
+            if(!dfs(i,1)) {
+                flag = false;
+                break;
+            }
         }
+
     }
-    printf("Yes");
+    if(flag) printf("Yes");
+    else printf("No");
 
 
 

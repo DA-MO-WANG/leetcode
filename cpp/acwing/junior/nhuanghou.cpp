@@ -14,10 +14,10 @@ using namespace std;
 //皇后放/不放--》映射成0/1
 //用深搜，把所有可能都打印一遍
 
-
+const int N = 10;
 int n;
-int path[n + 1];
-bool str[n + 1];
+int path[N];
+bool str[N];
 void dfs(int row) {
     if(row > n) {
         for (int i = 1; i <= n; ++i) {
@@ -27,6 +27,7 @@ void dfs(int row) {
             }
             printf("\n");
         }
+        printf("\n");
         return;
     }
 

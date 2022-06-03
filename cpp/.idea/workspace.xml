@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acwing/junior/nhuanghou.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/nhuanghou.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -100,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/nhuanghou.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="35" column="18" selection-end-line="50" selection-end-column="1" />
+            <state relative-caret-position="318">
+              <caret line="14" column="16" lean-forward="true" selection-end-line="51" selection-end-column="1" />
               <folding>
                 <element signature="e#44#64#0" expanded="true" />
               </folding>
@@ -334,12 +333,12 @@
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
-      <workItem from="1654077069157" duration="10104000" />
+      <workItem from="1654077069157" duration="10296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164579000" />
+    <option name="totallyTimeSpent" value="164771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -873,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/nhuanghou.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="35" column="18" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="318">
+          <caret line="14" column="16" lean-forward="true" selection-end-line="51" selection-end-column="1" />
           <folding>
             <element signature="e#44#64#0" expanded="true" />
           </folding>

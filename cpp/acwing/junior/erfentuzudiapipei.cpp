@@ -18,10 +18,13 @@ int find(int x) {
     memset(str,false ,sizeof str);
     for(int i = h[x]; i != -1; i = ne[i]) {
         int j = e[i];
-        str[j] = true;
-        if(metch[j] == 0 || find(metch[j])) {
-            return true;
+        if(!str[j]) {//如果女生没有被重复考虑
+            str[j] = tr ue;
+            if(metch[j] == 0 || find(metch[j])) {
+                return true;
+            }
         }
+
     }
     return false;
 }

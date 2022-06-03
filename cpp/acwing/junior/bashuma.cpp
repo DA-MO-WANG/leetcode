@@ -21,13 +21,14 @@ int bfs(string start) {
        q.pop();
        if(t == end) return dis[t];
        int k = t.find("x");
+       int distance = dis[t];
        int x = k / 3, y = k % 3;
         for (int i = 0; i < 4; ++i) {
             int kx = x + dx[i], ky = y + dy[i];
-            if(kx >= 0 && kx < 3 && ky >= 0 && ky < 3) {
+            if(kx >= 0 && kx < 3 && ky >= 0 && ky < 3) {//越界判断不能忘，有些变换并不是合法的
                 swap(t[k],t[kx * 3 + ky]);
                 if(!dis.count(t)) {
-                    dis[t] = dis[t] + 1;
+                    dis[t] = distance + 1;//在上一个状态的距离下再更新
                     q.push(t);
                 }
                 swap(t[k],t[kx * 3 + ky]);

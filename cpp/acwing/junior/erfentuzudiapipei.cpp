@@ -12,14 +12,20 @@ int h[N],e[M],ne[M],idx;
 int match[N];
 bool str[N];
 int n1, n2, m;
+void add(int a, int b) {
+    e[idx] = b;
+    ne[idx] = h[a];
+    h[a] = idx;
+    idx++;
+}
 //询问男生x能否找到女生
 int find(int x) {
     for(int i   = h[x]; i != -1; i = ne[i]) {
         int j = e[i];
         if(!str[j]) {//一个男生，不用对同一个女生考虑多次，对一个女生只考虑一次
-            str[j] = tr ue;
-            if(metch[j] == 0 || find(metch[j])) {
-                metch[j] = x;//更新匹配
+            str[j] = true;
+            if(mathc[j] == 0 || find(mathc[j])) {
+                mathc[j] = x;//更新匹配
                 return true;
             }
         }

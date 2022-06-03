@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/acwing/junior/erfentuzudiapipei.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,11 +84,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/ransefapandingerfentu].cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#42#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acwing/junior/erfentuzudiapipei.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="22" />
               <folding>
                 <element signature="e#42#62#0" expanded="true" />
               </folding>
@@ -154,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acwing/junior/Sum_of_submatrix.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/third.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/chafenjuzhen.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/erjinzhizhong1degeshu.cpp" />
@@ -205,13 +218,14 @@
         <option value="$PROJECT_DIR$/acwing/junior/kruskalqiuzuixiaoshengchengshu.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/强权委屈.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/ransefapandingerfentu].cpp" />
+        <option value="$PROJECT_DIR$/acwing/junior/erfentuzudiapipei.cpp" />
       </list>
     </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="47" />
     <option name="y" value="25" />
     <option name="width" value="1393" />
@@ -317,12 +331,12 @@
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
-      <workItem from="1654077069157" duration="6915000" />
+      <workItem from="1654077069157" duration="7745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161390000" />
+    <option name="totallyTimeSpent" value="162220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,7 +348,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="25" width="1393" height="875" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22057734" />
@@ -346,7 +360,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3298292" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.16093366" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -391,13 +405,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acwing/junior/qujianhebing.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/twonum_sum.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -852,6 +859,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#42#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acwing/junior/erfentuzudiapipei.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="e#42#62#0" expanded="true" />
           </folding>

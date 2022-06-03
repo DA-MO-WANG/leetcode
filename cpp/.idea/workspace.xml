@@ -99,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/bashuma.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="49" column="6" lean-forward="true" selection-end-line="55" selection-end-column="1" />
+            <state relative-caret-position="266">
+              <caret line="19" column="24" selection-end-line="58" selection-end-column="1" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -333,12 +333,12 @@
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
-      <workItem from="1654077069157" duration="13118000" />
+      <workItem from="1654077069157" duration="13407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167593000" />
+    <option name="totallyTimeSpent" value="167882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -875,8 +875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/bashuma.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="49" column="6" lean-forward="true" selection-end-line="55" selection-end-column="1" />
+        <state relative-caret-position="266">
+          <caret line="19" column="24" selection-end-line="58" selection-end-column="1" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

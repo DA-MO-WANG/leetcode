@@ -24,12 +24,15 @@ int bfs(string start) {
        int x = k / 3, y = k % 3;
         for (int i = 0; i < 4; ++i) {
             int kx = x + dx[i], ky = y + dy[i];
-            swap(t[k],t[kx * 3 + ky]);
-            if(!dis[t]) {
-                dis[t] = dis[t] + 1;
-                q.push(t);
+            if(kx >= 0 && kx < 3 && ky >= 0 && ky < 3) {
+                swap(t[k],t[kx * 3 + ky]);
+                if(!dis.count(t)) {
+                    dis[t] = dis[t] + 1;
+                    q.push(t);
+                }
+                swap(t[k],t[kx * 3 + ky]);
             }
-            swap(t[k],t[kx * 3 + ky]);
+
         }
     }
     return -1;

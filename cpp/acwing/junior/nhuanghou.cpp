@@ -17,13 +17,26 @@ using namespace std;
 
 int n;
 int path[n + 1];
+bool str[n + 1];
 void dfs(int row) {
-    if(row == n) {
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < n; ++j) {
-                if(path[i]) printf(".");
-                else printf("")
+    if(row > n) {
+        for (int i = 1; i <= n; ++i) {
+            for (int j = 1; j <= n; ++j) {
+                if(path[i] != j) printf(".");
+                else printf("Q");
             }
+            printf("\n");
+        }
+        return;
+    }
+
+    //遍历的是这个位置上填的数
+    for (int j = 1; j <= n; j++) {
+        if(!str[j]) {
+            path[row] = j;
+            str[j] = true;
+            dfs(row + 1);
+            str[j] = false;
         }
     }
 }

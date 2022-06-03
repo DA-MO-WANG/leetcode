@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/acwing/junior/nhuanghou.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +99,14 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/nhuanghou.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding>
+                <element signature="e#44#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -144,10 +154,12 @@
       <find>k个插入</find>
       <find>hp</find>
       <find>size</find>
+      <find>metch</find>
     </findStrings>
     <replaceStrings>
       <replace>h</replace>
       <replace>se</replace>
+      <replace>mathc</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/acwing/junior</dir>
@@ -159,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acwing/junior/third.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/chafenjuzhen.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/erjinzhizhong1degeshu.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/lisanhua.cpp" />
@@ -210,6 +221,7 @@
         <option value="$PROJECT_DIR$/acwing/junior/强权委屈.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/ransefapandingerfentu].cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/erfentuzudiapipei.cpp" />
+        <option value="$PROJECT_DIR$/acwing/junior/nhuanghou.cpp" />
       </list>
     </option>
   </component>
@@ -322,12 +334,12 @@
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
-      <workItem from="1654077069157" duration="8447000" />
+      <workItem from="1654077069157" duration="9083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162922000" />
+    <option name="totallyTimeSpent" value="163558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,6 +352,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="25" width="1393" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22057734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -395,13 +408,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acwing/junior/twonum_sum.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/opensource/antfu.me/src/components/Post.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -861,6 +867,16 @@
           <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="e#42#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acwing/junior/nhuanghou.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#44#64#0" expanded="true" />
           </folding>
         </state>
       </provider>

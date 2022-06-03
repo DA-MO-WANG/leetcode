@@ -17,7 +17,9 @@ using namespace std;
 const int N = 10;
 int n;
 int path[N];
-bool str[N];
+bool str[N];//记录列占位标志
+//记录下斜线编号
+bool zxx[2*N + 1],fxx[2*N + 1];
 void dfs(int row) {
     if(row > n) {
         for (int i = 1; i <= n; ++i) {
@@ -33,18 +35,22 @@ void dfs(int row) {
 
     //遍历的是这个位置上填的数
     for (int j = 1; j <= n; j++) {
-        if(!str[j]) {
+        if(!str[j] && zxx[row + j] && fxx[row - j + n]) {
             path[row] = j;
             str[j] = true;
+            zxx[row + j] = true;
+            fxx[row - j + n] = true;
             dfs(row + 1);
             str[j] = false;
+            zxx[row + j] = false;
+            fxx[row - j + n] = false;
         }
     }
 }
 int main() {
     scanf("%d",&n);
 
-    dfs(1);
+    dfs(1);//行肯定不冲突-固定不同行了
 
     return 0;
 

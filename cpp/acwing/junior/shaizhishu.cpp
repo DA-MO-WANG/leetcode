@@ -15,7 +15,8 @@ int n;
 bool str[N];
 int prime[N],cnt;
 void sz(int n) {
-    //[2,n-1]
+    //[2,n] 所有可能的质数范围，不要与判断是不是质数混淆
+    //n也要加入范围
     for (int i = 2; i <= n; ++i) {
         //质因子总是先于质因子的倍数而遇到
         if(!str[i]) {

@@ -13,13 +13,13 @@ using namespace std;
 const int N = 1e6 + 10;
 int n;
 bool str[N];
-int prime[N],count;
+int prime[N],cnt;
 void sz(int n) {
     //[2,n-1]
     for (int i = 2; i < n; ++i) {
         //质因子总是先于质因子的倍数而遇到
         if(!str[i]) {
-           prime[count++] = i;
+           prime[cnt++] = i;
 
             for (int j = i + i; j < n; j += i) {
                 str[j] = true;
@@ -32,6 +32,6 @@ void sz(int n) {
 int main() {
     cin >> n;
     sz(n);
-    cout << count;
+    cout << cnt;
     return 0;
 }

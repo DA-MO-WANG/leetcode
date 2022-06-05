@@ -16,7 +16,7 @@ bool str[N];
 int prime[N],cnt;
 void sz(int n) {
     //[2,n-1]
-    for (int i = 2; i < n; ++i) {
+    for (int i = 2; i <= n; ++i) {
         //质因子总是先于质因子的倍数而遇到
         if(!str[i]) {
            prime[++cnt] = i;

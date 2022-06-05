@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acwing/junior/fenjiezhiyinshu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/junior/fenjiezhiyinshu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/fenjiezhiyinshu.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/fenjiezhiyinshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="14" column="23" lean-forward="true" selection-end-line="34" />
+            <state relative-caret-position="397">
+              <caret line="18" column="9" lean-forward="true" selection-end-line="36" />
               <folding>
                 <element signature="e#42#60#0" expanded="true" />
               </folding>
@@ -334,12 +333,12 @@
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
-      <workItem from="1654077069157" duration="15296000" />
+      <workItem from="1654077069157" duration="15571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169771000" />
+    <option name="totallyTimeSpent" value="170046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -876,8 +875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/fenjiezhiyinshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="23" lean-forward="true" selection-end-line="34" />
+        <state relative-caret-position="397">
+          <caret line="18" column="9" lean-forward="true" selection-end-line="36" />
           <folding>
             <element signature="e#42#60#0" expanded="true" />
           </folding>

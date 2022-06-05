@@ -99,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/shaizhishu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="20" column="21" lean-forward="true" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="280">
+              <caret line="23" column="43" selection-end-line="36" selection-end-column="1" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -317,12 +317,12 @@
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
-      <workItem from="1654077069157" duration="18166000" />
+      <workItem from="1654077069157" duration="18376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172641000" />
+    <option name="totallyTimeSpent" value="172851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -845,8 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/shaizhishu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="20" column="21" lean-forward="true" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="280">
+          <caret line="23" column="43" selection-end-line="36" selection-end-column="1" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

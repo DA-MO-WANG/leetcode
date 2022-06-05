@@ -19,9 +19,9 @@ void sz(int n) {
     for (int i = 2; i <= n; ++i) {
         //质因子总是先于质因子的倍数而遇到
         if(!str[i]) {
-           prime[++cnt] = i;
+           prime[cnt++] = i;
 
-            for (int j = i + i; j < n; j += i) {
+            for (int j = i + i; j <= n; j += i) {
                 str[j] = true;
             }
         }

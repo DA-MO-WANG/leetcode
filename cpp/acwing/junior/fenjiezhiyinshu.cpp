@@ -18,6 +18,7 @@ void fj(int n) {
             cout << i << " " << count << endl;
         }
     }
+    cout << n << " " << endl;
     cout << endl;
 }
 int main() {

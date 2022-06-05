@@ -1,4 +1,14 @@
 //
-// Created by rich heart on 6/5/22.
+// Created by rich heart on 05/06/2022.
 //
 
+#include <cstring>
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+
+    return 0;
+}

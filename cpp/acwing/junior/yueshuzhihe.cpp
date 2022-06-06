@@ -32,7 +32,7 @@ int main() {
         if(x > 1) primes[x]++;//最后剩下的东西
     }
 
-    int res = 1;
+    ll res = 1;
     for(auto prime : primes) {
         LL t = 1;
         int p = prime.first;

@@ -16,7 +16,7 @@ bool str[N];
 int main() {
     cin >> n;
     int res = 1;
-    unordered_map<int,int> primes;
+    unordered_map<int,int> primes;//是所有的数的质因子的混合
     while (n--) {
         int a;
         cin >> a;
@@ -28,13 +28,13 @@ int main() {
             if(n > 1) primes[x]++;//最后剩下的东西
         }
     }
-    for (auto prime : primes) {
-        int p = prime.first, k = prime.second;
-        int t = 1;
-        t = p * t + 1;
+    int t = 1;
+    for(auto prime : primes) {
+        int p = prime.first;
+        int k = prime.second;
+        t *= k + 1
     }
-    res = res * t;
-   cout << res;
+   cout << (t % mod);
 
     return 0;
 }

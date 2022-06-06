@@ -12,32 +12,28 @@ const int N = 110,mod = 1e9 + 7;
 
 int n;
 bool str[N];
-unordered_map<int,int> primes;
-void yueshugeshu(int n) {
-    for (int i = 1; i <=n ; ++i) {
-        if(n % i == 0) {
-            if(!str[i]) primes[i]++;
-        }
-        for (int j = i + i; j <=n; j += i) {
-            str[j] = true;
-        }
-    }
-}
+
 int main() {
     cin >> n;
     int res = 1;
+    unordered_map<int,int> primes;
     while (n--) {
         int a;
         cin >> a;
-        yueshugeshu(a);
-        for (auto prime : primes) {
-            int p = prime.first, k = prime.second;
-            int t = 1;
-            t = p * t + 1;
+        for (int i = 2; i <=n / i ; ++i) {
+            while(n % i == 0) {
+                n /= i;//每个质因子对应的幂指数
+                primes[i]++;
+            }
+            if(n > 1) primes[x]++;//最后剩下的东西
         }
-        res = res * t;
     }
-
+    for (auto prime : primes) {
+        int p = prime.first, k = prime.second;
+        int t = 1;
+        t = p * t + 1;
+    }
+    res = res * t;
    cout << res;
 
     return 0;

@@ -38,11 +38,11 @@ int main() {
         int p = prime.first;
         int k = prime.second;
         for (int i = 0; i < k; ++i) {
-            t = t * p + 1
+            t = t * p + 1;
         }
-        res = res * t;
+        res = res * t % mod;
     }
-    cout << res;
+    cout << res % mod;
 
     return 0;
 }

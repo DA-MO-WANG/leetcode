@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/yueshugeshu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/yueshugeshu.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/yueshugeshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+            <state relative-caret-position="162">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -341,12 +339,12 @@
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
-      <workItem from="1654077069157" duration="22180000" />
+      <workItem from="1654077069157" duration="22466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176655000" />
+    <option name="totallyTimeSpent" value="176941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -869,8 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/yueshugeshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="162">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

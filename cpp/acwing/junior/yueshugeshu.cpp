@@ -8,14 +8,12 @@
 #include <unordered_map>
 
 using namespace std;
-const int N = 110,mod = 1e9 + 7;
+const int mod = 1e9 + 7;
 typedef long long LL;
 int n;
-bool str[N];
 
 int main() {
     cin >> n;
-    int res = 1;
     //primes为什么放在最外面？
     //因为题目要求的是所有数的乘机的约数个数，所有数乘积依赖的质因子和所有数依赖的质因子汇总起来是一样的
     unordered_map<int,int> primes;

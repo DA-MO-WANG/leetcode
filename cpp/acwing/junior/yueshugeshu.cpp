@@ -16,23 +16,24 @@ bool str[N];
 int main() {
     cin >> n;
     int res = 1;
-    unordered_map<int,int> primes;//是所有的数的质因子的混合
+    //primes为什么放在最外面？
+    //因为题目要求的是所有数的乘机的约数个数，所有数乘积依赖的质因子和所有数依赖的质因子汇总起来是一样的
+    unordered_map<int,int> primes;
     while (n--) {
-        int a;
-        cin >> a;
-        for (int i = 2; i <=n / i ; ++i) {
-            while(n % i == 0) {
-                n /= i;//每个质因子对应的幂指数
+        int x;
+        cin >> x;
+        for (int i = 2; i <= x / i ; ++i) {
+            while(x % i == 0) {
+                x /= i;//每个质因子对应的幂指数
                 primes[i]++;
             }
-            if(n > 1) primes[x]++;//最后剩下的东西
+            if(x > 1) primes[x]++;//最后剩下的东西
         }
     }
     int t = 1;
     for(auto prime : primes) {
-        int p = prime.first;
         int k = prime.second;
-        t *= k + 1
+        t = t * (k + 1)
     }
    cout << (t % mod);
 

@@ -25,17 +25,20 @@ void yueshugeshu(int n) {
 }
 int main() {
     cin >> n;
-
-    while (n--) {
-
-    }
-
     int res = 1;
-    for (auto prime : primes) {
-        int p = prime.first, k = prime.second;
-        int t = 1;
-        t = p * t + 1;
+    while (n--) {
+        int a;
+        cin >> a;
+        yueshugeshu(a);
+        for (auto prime : primes) {
+            int p = prime.first, k = prime.second;
+            int t = 1;
+            t = p * t + 1;
+        }
+        res = res * t;
     }
-    res = res * t;
+
+   cout << res;
+
     return 0;
 }

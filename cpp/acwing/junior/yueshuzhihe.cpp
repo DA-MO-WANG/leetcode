@@ -31,18 +31,20 @@ int main() {
         }
         if(x > 1) primes[x]++;//最后剩下的东西
     }
-
+    //要考虑，凡事需要取模的地方，要注意溢出问题：涉及大数
     ll res = 1;
     for(auto prime : primes) {
         LL t = 1;
+        //公式得记牢
         int p = prime.first;
         int k = prime.second;
         for (int i = 0; i < k; ++i) {
-            t = t * p + 1;
+            //如何取模，才不破坏正确性
+            t = (t * p + 1) % mod;
         }
         res = res * t % mod;
     }
-    cout << res % mod;
+    cout << res;
 
     return 0;
 }

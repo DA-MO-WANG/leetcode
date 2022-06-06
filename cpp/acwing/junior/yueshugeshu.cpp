@@ -30,10 +30,10 @@ int main() {
             if(x > 1) primes[x]++;//最后剩下的东西
         }
     }
-    int t = 1;
+    LL t = 1;
     for(auto prime : primes) {
         int k = prime.second;
-        t = t * (k + 1)
+        t = t * (k + 1) % mod;
     }
    cout << (t % mod);
 

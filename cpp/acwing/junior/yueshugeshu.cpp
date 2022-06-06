@@ -25,8 +25,8 @@ int main() {
                 x /= i;//每个质因子对应的幂指数
                 primes[i]++;
             }
-            if(x > 1) primes[x]++;//最后剩下的东西
         }
+        if(x > 1) primes[x]++;//最后剩下的东西
     }
     LL t = 1;
     for(auto prime : primes) {

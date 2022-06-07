@@ -133,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/yueshuzhihe.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="28" selection-start-line="28" selection-end-line="29" />
+            <state relative-caret-position="377">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -234,10 +234,9 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="641" />
-    <option name="y" value="87" />
-    <option name="width" value="1393" />
-    <option name="height" value="875" />
+    <option name="y" value="25" />
+    <option name="width" value="1116" />
+    <option name="height" value="731" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -339,12 +338,12 @@
       <workItem from="1652846648191" duration="2509000" />
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
-      <workItem from="1654077069157" duration="25552000" />
+      <workItem from="1654077069157" duration="25740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180027000" />
+    <option name="totallyTimeSpent" value="180215000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,7 +355,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="25" width="1393" height="875" extended-state="6" />
+    <frame x="0" y="25" width="1116" height="731" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22057734" />
@@ -368,7 +367,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.03942181" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.048622366" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -884,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/yueshuzhihe.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="28" selection-start-line="28" selection-end-line="29" />
+        <state relative-caret-position="377">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

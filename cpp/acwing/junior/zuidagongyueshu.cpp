@@ -16,6 +16,7 @@ int main() {
     while (n--) {
         int a, b;
         cin >> a >> b;
+        if(a < b) swap(a,b);
         int res = gcd(a,b);
         cout << res << endl;
     }

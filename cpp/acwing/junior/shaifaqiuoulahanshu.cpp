@@ -24,7 +24,7 @@ int sfoula(int n) {
         }
         for (int j = 0; primes[j] <= n / i ; ++j) {
             str[primes[j] * i] = true;
-            if(i % primes[j] == 0) {
+            if(i % primes[j] == 0) {//到当前i的第一个质因子那跳出
                 phi[primes[j] * i] = phi[i] * primes[j];
                 break;
             }
@@ -32,7 +32,7 @@ int sfoula(int n) {
         }
     }
     LL res = 0;
-    for (int k = 0; k < n; ++k) {
+    for (int k = 1; k <= n; ++k) {
         res += phi[i];
     }
     return res;

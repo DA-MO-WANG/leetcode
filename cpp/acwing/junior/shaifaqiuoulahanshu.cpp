@@ -16,9 +16,10 @@ bool str[N];
 int primes[N],cnt;
 
 LL sfoula(int n) {
-    phi[1] = 1;
+    phi[1] = 1;//从1开始的
     for (int i = 2; i <= n; ++i) {
-        if(!str[i]) {
+        //每一个合数都是由前边的质因子组合成，也就是前边的质因子和当前的数都够代表所有的合数
+        if(!str[i]) {//合数的肯定都被标记的，没被标记的一定是质因子
             primes[cnt++] = i;
             phi[i] = i - 1;
         }
@@ -32,6 +33,7 @@ LL sfoula(int n) {
         }
     }
     LL res = 0;
+    //计算欧拉从1开始
     for (int k = 1; k <= n; ++k) {
         res += phi[i];
     }

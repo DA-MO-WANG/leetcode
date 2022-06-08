@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/acwing/junior/shaifaqiuoulahanshu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/shaifaqiuoulahanshu.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/shaifaqiuoulahanshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="135">
+              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -340,12 +342,12 @@
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
       <workItem from="1654077069157" duration="25979000" />
-      <workItem from="1654594677623" duration="5255000" />
+      <workItem from="1654594677623" duration="5392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185709000" />
+    <option name="totallyTimeSpent" value="185846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -851,8 +853,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/shaifaqiuoulahanshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="135">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

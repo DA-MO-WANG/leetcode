@@ -25,7 +25,7 @@ int sfoula(int n) {
         for (int j = 0; primes[j] <= n / i ; ++j) {
             str[primes[j] * i] = true;
             if(i % primes[j] == 0) {
-                phi[primes[j] * i] = phi[i] * phi[j];
+                phi[primes[j] * i] = phi[i] * primes[j];
                 break;
             }
             phi[primes[j] * i] = phi[i] * (primes[j] - 1);

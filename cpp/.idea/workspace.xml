@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/acwing/junior/oulahanshu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/oulahanshu.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +134,14 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/oulahanshu.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="31" column="14" selection-end-line="36" selection-end-column="1" />
+              <folding>
+                <element signature="e#47#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -169,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acwing/junior/singlelist.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/singleLinklist.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/A826.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/shuanglianbiao.cpp" />
@@ -220,6 +228,7 @@
         <option value="$PROJECT_DIR$/acwing/junior/yueshugeshu.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/yueshuzhihe.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/zuidagongyueshu.cpp" />
+        <option value="$PROJECT_DIR$/acwing/junior/oulahanshu.cpp" />
       </list>
     </option>
   </component>
@@ -227,8 +236,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="846" />
-    <option name="y" value="63" />
+    <option name="x" value="668" />
+    <option name="y" value="55" />
     <option name="width" value="1391" />
     <option name="height" value="875" />
   </component>
@@ -333,12 +342,12 @@
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
       <workItem from="1654077069157" duration="25979000" />
-      <workItem from="1654594677623" duration="626000" />
+      <workItem from="1654594677623" duration="1343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181080000" />
+    <option name="totallyTimeSpent" value="181797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,9 +359,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="846" y="63" width="1391" height="875" extended-state="0" />
+    <frame x="668" y="55" width="1391" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22016308" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22016308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,13 +426,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Darwin-Initialize.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3596">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/biaodashiqiuzhi.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -842,6 +845,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#47#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acwing/junior/oulahanshu.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="31" column="14" selection-end-line="36" selection-end-column="1" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

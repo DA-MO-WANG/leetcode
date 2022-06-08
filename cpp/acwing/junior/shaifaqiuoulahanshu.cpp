@@ -11,11 +11,23 @@ const int N = 1e6 + 10;
 int n;
 //不要nsqrtn的复杂度==》线性筛法
 int phi[N];
-b
+bool str[N];
+int primes[N],cnt;
+
+int sfoula(int n) {
+    for (int i = 2; i < n; ++i) {
+        if(!str[i]) {
+            primes[cnt++] = i;
+        }
+        for (int j = 0; primes[j] <= n / i ; ++j) {
+            str[primes[j] * i] = true;
+            if(i % primes[j] == 0) break;
+        }
+    }
+}
+
 int main() {
     cin >> n;
-    while(n--) {
 
-    }
     return 0;
 }

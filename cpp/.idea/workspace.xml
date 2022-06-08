@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/shaifaqiuoulahanshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+            <state relative-caret-position="168">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -340,12 +340,12 @@
       <workItem from="1653059461132" duration="10348000" />
       <workItem from="1653354344571" duration="41450000" />
       <workItem from="1654077069157" duration="25979000" />
-      <workItem from="1654594677623" duration="4695000" />
+      <workItem from="1654594677623" duration="4977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185149000" />
+    <option name="totallyTimeSpent" value="185431000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -851,8 +851,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/shaifaqiuoulahanshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+        <state relative-caret-position="168">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

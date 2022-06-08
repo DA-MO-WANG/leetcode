@@ -17,7 +17,7 @@ int primes[N],cnt;
 
 int sfoula(int n) {
     phi[1] = 1;
-    for (int i = 2; i < n; ++i) {
+    for (int i = 2; i <= n; ++i) {
         if(!str[i]) {
             primes[cnt++] = i;
             phi[i] = i - 1;

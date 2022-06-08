@@ -11,7 +11,7 @@ const int N = 1e6 + 10;
 int n;
 //不要nsqrtn的复杂度==》线性筛法
 int phi[N];
-
+b
 int main() {
     cin >> n;
     while(n--) {

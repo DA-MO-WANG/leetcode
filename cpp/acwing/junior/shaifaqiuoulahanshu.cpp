@@ -15,7 +15,7 @@ int phi[N];
 bool str[N];
 int primes[N],cnt;
 
-int sfoula(int n) {
+LL sfoula(int n) {
     phi[1] = 1;
     for (int i = 2; i <= n; ++i) {
         if(!str[i]) {
@@ -40,6 +40,7 @@ int sfoula(int n) {
 
 int main() {
     cin >> n;
-
+    LL res  = sfoula(n);
+    cout << res;
     return 0;
 }

@@ -234,7 +234,7 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
+    <option name="x" value="49" />
     <option name="y" value="25" />
     <option name="width" value="1391" />
     <option name="height" value="875" />
@@ -357,7 +357,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="394" y="25" width="1391" height="875" extended-state="0" />
+    <frame x="49" y="25" width="1391" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22016308" />

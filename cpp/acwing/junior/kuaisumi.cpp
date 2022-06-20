@@ -12,9 +12,13 @@ typedef long long ll;
 int qmi(int a, int k, int p) {
     int res = 1;
     while(k) {
-        if(k & 1) res = res * a % k;
+        //考虑到res，乘机会超过int，所以转为ll
+        if(k & 1) res = (ll)res * a % k;
         k >>= 1;
-        a = a * a;
+        //a也有可能超过int
+        //这位什么要对p取模呢？
+        //(a*b) % p = ((a % p) * (b % p)) % p
+        a = (ll)a * a % p;
     }
     return res;
 }

@@ -18,6 +18,7 @@ int qmi(int a, int k, int p) {
         //a也有可能超过int
         //这位什么要对p取模呢？
         //(a*b) % p = ((a % p) * (b % p)) % p
+        //
         a = (ll)a * a % p;
     }
     return res;

@@ -11,10 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acwing/junior/kuozhanoujilidesuanfa.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/kuozhanoujilidesuanfa.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="20" column="9" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="205">
+              <caret line="23" column="13" lean-forward="true" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -341,12 +338,12 @@
       <workItem from="1653354344571" duration="41450000" />
       <workItem from="1654077069157" duration="25979000" />
       <workItem from="1654594677623" duration="7190000" />
-      <workItem from="1655717209275" duration="1858000" />
+      <workItem from="1655717209275" duration="2374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189502000" />
+    <option name="totallyTimeSpent" value="190018000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/kuozhanoujilidesuanfa.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="20" column="9" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="205">
+          <caret line="23" column="13" lean-forward="true" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>

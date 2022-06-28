@@ -23,18 +23,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acwing/junior/fenjiezhiyinshu.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-              <folding>
-                <element signature="e#42#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/shaizhishu.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="609">
@@ -70,16 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/kuaisumi.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="247">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acwing/junior/kuozhanoujilidesuanfa.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -341,12 +334,12 @@
       <workItem from="1653354344571" duration="41450000" />
       <workItem from="1654077069157" duration="25979000" />
       <workItem from="1654594677623" duration="7190000" />
-      <workItem from="1655717209275" duration="1297000" />
+      <workItem from="1655717209275" duration="1489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188941000" />
+    <option name="totallyTimeSpent" value="189133000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,9 +352,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="711" y="25" width="1393" height="875" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21983716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13101406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -852,8 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/kuaisumi.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="247">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

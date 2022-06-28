@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/kuozhanoujilidesuanfa.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="23" column="13" lean-forward="true" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="776">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -338,12 +338,12 @@
       <workItem from="1653354344571" duration="41450000" />
       <workItem from="1654077069157" duration="25979000" />
       <workItem from="1654594677623" duration="7190000" />
-      <workItem from="1655717209275" duration="2374000" />
+      <workItem from="1655717209275" duration="2650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190018000" />
+    <option name="totallyTimeSpent" value="190294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -849,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/kuozhanoujilidesuanfa.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="23" column="13" lean-forward="true" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="776">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>

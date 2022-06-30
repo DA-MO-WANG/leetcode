@@ -14,10 +14,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int count = 0;
         for (int i = 0; i < 6; i ++) {
+            System.out.println(sc.nextDouble());
             if(sc.nextDouble() > 0) {
                 count++;
             }
         }
+
         System.out.printf("%d positive numbers",count);
     }
 }

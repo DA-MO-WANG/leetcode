@@ -18,6 +18,6 @@ public class Main {
                 count++;
             }
         }
-        System.out.println();
+        System.out.printf("%d positive numbers",count);
     }
 }

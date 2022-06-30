@@ -14,7 +14,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int count = 0;
         for (int i = 0; i < 6; i ++) {
-            System.out.println(sc.nextDouble());
+            //nextDouble() 把读取的值当作double 来处理，如果无法转换，就抛出异常
+            //转化double， 并不改变正负性
             if(sc.nextDouble() > 0) {
                 count++;
             }

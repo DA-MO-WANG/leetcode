@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @Created by richheart
  * Copyright (c) All Rights Reserved, 2022.
  */
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int count = 0;

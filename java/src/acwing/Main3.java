@@ -18,6 +18,8 @@ public class Main3 {
 
         String input = sc.nextLine();
         char[] letters = input.toCharArray();
+        //离散化技巧，记录字母出现次数
+        //把字母映射到数组索引上
         int[] cnt = new int[100];
         for (int i = 0; i < letters.length; i++) {
             cnt[letters[i] - 'a']++;
@@ -25,6 +27,7 @@ public class Main3 {
         boolean flag = false;
         for (int i = 0; i < letters.length; i++) {
             if(cnt[letters[i]-'a'] == 1) {
+                //第一次用标志来处理
                 flag = true;
                 System.out.println(letters[i]);
                 break;

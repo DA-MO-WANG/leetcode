@@ -16,8 +16,8 @@ public class Main3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String input = sc.nextLine();
-        char[] letters = input.toCharArray();
+        String input = sc.next();
+        //char[] letters = input.toCharArray();
 //        int[] cnt = new int[100];
 //        for (int i = 0; i < letters.length; i++) {
 //            cnt[letters[i] - 'a']++;

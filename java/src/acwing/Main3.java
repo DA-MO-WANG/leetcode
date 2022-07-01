@@ -22,11 +22,15 @@ public class Main3 {
         for (int i = 0; i < letters.length; i++) {
             cnt[letters[i] - 'a']++;
         }
-        for (int i = 0; i < 100; i++) {
-            if(cnt[i] == 1) {
-                System.out.println('a' + i);
+        boolean flag = false;
+        for (int i = 0; i < letters.length; i++) {
+            if(cnt[letters[i]-'a'] == 1) {
+                flag = true;
+                System.out.println(letters[i]);
+                break;
             }
         }
+        if(!flag) System.out.println("no");
 
 
 

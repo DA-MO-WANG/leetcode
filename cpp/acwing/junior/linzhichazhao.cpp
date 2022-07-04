@@ -1,7 +1,9 @@
 //
 // Created by rich heart on 04/07/2022.
 //
-
+//y总思路
+//审题意
+//
 #include <cstring>
 #include <iostream>
 #include <algorithm>

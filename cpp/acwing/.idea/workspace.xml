@@ -45,13 +45,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junior/kruskalqiuzuixiaoshengchengshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/junior/zuichanggonggongzichuan.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -140,12 +145,12 @@
       <updated>1653059260181</updated>
       <workItem from="1653059261359" duration="198000" />
       <workItem from="1653958551251" duration="1052000" />
-      <workItem from="1656674362186" duration="474000" />
+      <workItem from="1656674362186" duration="734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1724000" />
+    <option name="totallyTimeSpent" value="1984000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -158,7 +163,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1391" height="875" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2564863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

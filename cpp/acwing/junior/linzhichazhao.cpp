@@ -28,5 +28,9 @@ int main() {
         cin >> a[i].first;
         a[i].second = i;
     }
+
+    //排序处理——》方便找到距离最接近他的
+    sort(a + 1,a + n);
+    
     return 0;
 }

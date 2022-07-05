@@ -23,7 +23,7 @@ typedef pair<ll,int> pii;//保存每个位置上的数据和位置信息
 pii a[N];//保存输入的数据和位置信息
 int p[N];//维护的是原序列的位置关系到模拟链表的数组索引的映射关系
 int l[N], r[N];//记录的是模拟链表的数组的唯一标识的前驱、后继标识
-int ans[N];//记录结果
+pii ans[N];//记录结果
 int main() {
     int n;
     cin >> n;
@@ -48,7 +48,11 @@ int main() {
         int j = p[i], left = l[j], right = r[j];
         int lv = abs(a[j].first - a[left].first);
         int rv = abs(a[right].first - a[j]);
-        if(lv <= rv) ans[i] = lv
+        if(lv <= rv) ans[i] = {lv,a[left].second};
+        else ans[i] = {rv,a[right].second};
+    }
+    for (int i = 2; i <= n; i++) {
+        cout << ans[i].first << " "<< ans[i].second<<endl;
     }
     return 0;
 }

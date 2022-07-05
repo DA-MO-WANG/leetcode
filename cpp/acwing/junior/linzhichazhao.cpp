@@ -48,6 +48,7 @@ int main() {
         int j = p[i], left = l[j], right = r[j];
         int lv = abs(a[j].first - a[left].first);
         int rv = abs(a[right].first - a[j]);
+        if(lv <= rv) ans[i] = lv
     }
     return 0;
 }

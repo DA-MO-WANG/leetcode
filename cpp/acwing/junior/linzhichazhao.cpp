@@ -17,11 +17,16 @@
 #include <algorithm>
 
 using namespace std;
-const int N = 
+const int N = 10010;
 typedef long long ll;
 typedef pair<ll,int> pii;//保存每个位置上的数据和位置信息
-pii a[]
+pii a[N];//保存输入的数据和位置信息
 int main() {
-
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n; ++i) {
+        cin >> a[i].first;
+        a[i].second = i;
+    }
     return 0;
 }

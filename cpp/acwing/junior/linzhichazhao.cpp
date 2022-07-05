@@ -17,8 +17,10 @@
 #include <algorithm>
 
 using namespace std;
+const int N = 
 typedef long long ll;
-pair<ll,int>
+typedef pair<ll,int> pii;//保存每个位置上的数据和位置信息
+pii a[]
 int main() {
 
     return 0;

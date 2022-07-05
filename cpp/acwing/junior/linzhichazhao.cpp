@@ -21,6 +21,9 @@ const int N = 10010;
 typedef long long ll;
 typedef pair<ll,int> pii;//保存每个位置上的数据和位置信息
 pii a[N];//保存输入的数据和位置信息
+int p[N];//维护的是原序列的位置关系到模拟链表的数组索引的映射关系
+int l[N], r[N];//记录的是模拟链表的数组的唯一标识的前驱、后继标识
+int ans[N];//记录结果
 int main() {
     int n;
     cin >> n;
@@ -31,6 +34,20 @@ int main() {
 
     //排序处理——》方便找到距离最接近他的
     sort(a + 1,a + 1 + n);//[)
+    //构造双向链表
+    //for的条件是模拟链表的数组和原序列共用的
 
+    //构造哨兵:保证哨兵和相邻距离不会成为答案，也就是永远不会成为最小的情况
+    a[0].first = 3e9, a[n + 1].first = -3e9;
+    for(int i = 1; i <= n; i++) {
+        l[i] = i - 1, r[i] = i + 1;
+        p[a[i].second] = i;
+    }
+    //这里是倒着遍历原序列的位置，从n开始处理，方便保证左向范围
+    for(int i = n; i > 1; i--) {
+        int j = p[i], left = l[j], right = r[j];
+        int lv = abs(a[j].first - a[left].first);
+        int rv = abs(a[right].first - a[j]);
+    }
     return 0;
 }

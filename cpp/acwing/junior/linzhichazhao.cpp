@@ -11,7 +11,12 @@
 //n算完后，接着算原n-1，但为了只计算原左边的，所以删除n这个节点，以此类推，直到做到2
 
 
-//如何构建一个链表了：双向链表-可以拿到前驱后继
+//排序是为了更好找到最近距离
+//但排序破坏了原来的位置关系——》用pair来保存位置关系
+//为了保证左向范围，就得从原位置中的高位往地位开始算，没看完一个，就删除一个，这样能保证左向
+
+//难点：for循环的在原位置和数组模拟链表位置的切换
+//各个数组的意义，用来干什么
 #include <cstring>
 #include <iostream>
 #include <algorithm>
@@ -50,6 +55,9 @@ int main() {
         int rv = abs(a[right].first - a[j]);
         if(lv <= rv) ans[i] = {lv,a[left].second};
         else ans[i] = {rv,a[right].second};
+
+        //删除本次处理的高位数据
+        l[right] = left, r[left] = right;
     }
     for (int i = 2; i <= n; i++) {
         cout << ans[i].first << " "<< ans[i].second<<endl;

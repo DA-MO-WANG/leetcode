@@ -11,7 +11,7 @@ const int N = 2010;
 int c[N][N];
 int n;
 void init() {
-    for (int i = 1; i < N; i++) {
+    for (int i = 0; i < N; i++) {
         //j < i===>来实现 c a b ，组合数的一个约束
         for(int j = 0; j <= i; j++) {
             if(!j) c[i][j] = 1;

@@ -30,7 +30,7 @@ int main() {
     while(n--) {
         int a, b;
         scanf("%d%d",&a,&b);
-        printf("%d\n",(ll)fact[a] * infact[b-a] % mod * infact[b] % mod);
+        printf("%d\n",(ll)fact[a] * infact[a - b] % mod * infact[b] % mod);
     }
     return 0;
 }

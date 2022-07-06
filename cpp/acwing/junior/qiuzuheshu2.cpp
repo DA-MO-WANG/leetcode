@@ -11,7 +11,7 @@ typedef long long ll;
 const int N = 1e5 + 10, mod = 1e9 + 10;
 int fact[N], infact[N];
 int n;
-int qmi(int b, int k, int p) {
+int qmi(int a, int k, int p) {
     int res = 1;
     while(k) {
         if(k & 1) res = (ll)res * a % p;
@@ -30,7 +30,7 @@ int main() {
     while(n--) {
         int a, b;
         scanf("%d%d",&a,&b);
-        printf("%d\n",(ll)fact[a] * infact(b-a) * infact(b) % mod);
+        printf("%d\n",(ll)fact[a] * infact[b-a] * infact[b] % mod);
     }
     return 0;
 }

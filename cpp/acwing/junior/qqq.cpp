@@ -7,7 +7,7 @@
 
 using namespace std;
 const int N = 1e5 + 10;
-int f[N],size[N];
+int f[N],sz[N];
 int find(int x) {
     if(f[x] != x) f[x] = find(f[x]);
     return f[x];
@@ -18,7 +18,7 @@ int main() {
     cin >> n;
     for (int i = 1; i <= n; ++i) {
         f[i] = i;
-        size[i] = 1;
+        sz[i] = 1;
     }
     //总操作数
     int m;
@@ -30,18 +30,18 @@ int main() {
         if(b && a != b) {
             if(find(a) == find(b)) continue;
             else {
-                size[find(b)] += size[find(a)];
+                sz[find(b)] += sz[find(a)];
                 f[find(a)] = find(b);
             }
         }else if(!b) {
            //a取消跟随b==》a跟随自己
-            size[find(b)] -= size[find(a)];
+            sz[find(b)] -= sz[find(a)];
             f[find(a)] = a;
         }
     }
     int max = 0;
     for(int i = 1; i <= n; i++) {
-        max = max(max,size[find(i)])
+        max = max(max,sz[find(i)])
     }
     cout << max;
 }

@@ -12,7 +12,8 @@ int c[N][N];
 int n;
 void init() {
     for (int i = 1; i < N; i++) {
-        for(int j = 0; j < N; j++) {
+        //j < i===>来实现 c a b ，组合数的一个约束
+        for(int j = 0; j <= i; j++) {
             if(!j) c[i][j] = 1;
             else c[i][j] = c[i - 1][j] + c[i - 1][j - 1];
         }

@@ -92,7 +92,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/qqq.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1595">
+              <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -123,6 +127,7 @@
         <option value="$PROJECT_DIR$/junior/linzhichazhao.cpp" />
         <option value="$PROJECT_DIR$/junior/qiuzuheshu.cpp" />
         <option value="$PROJECT_DIR$/junior/qiuzuheshu2.cpp" />
+        <option value="$PROJECT_DIR$/junior/qqq.cpp" />
       </list>
     </option>
   </component>
@@ -193,12 +198,12 @@
       <updated>1653059260181</updated>
       <workItem from="1653059261359" duration="198000" />
       <workItem from="1653958551251" duration="1052000" />
-      <workItem from="1656674362186" duration="11245000" />
+      <workItem from="1656674362186" duration="11467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12495000" />
+    <option name="totallyTimeSpent" value="12717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -211,8 +216,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="175" y="25" width="1391" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2564863" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2564863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,6 +296,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="30" column="17" lean-forward="true" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junior/qqq.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1595">
+          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
         </state>
       </provider>
     </entry>

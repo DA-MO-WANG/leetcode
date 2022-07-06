@@ -13,20 +13,20 @@ int find(int x) {
     return f[x];
 }
 int main() {
+    //玩家数量
     int n;
     cin >> n;
     for (int i = 1; i <= n; ++i) {
         f[i] = i;
         size[i] = 1;
     }
+    //总操作数
     int m;
     cin >> m;
     while(m--) {
-        string s;
-        cin >> s;
-        if(s == "C") {
-            int a, b;
-            cin >> a >> b;
+        int a, b;
+        cin >> a >> b;
+        if(b) {
             if(find(a) == find(b)) continue;
             else {
                 size[find(b)] += size[find(a)];

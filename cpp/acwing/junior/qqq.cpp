@@ -1,68 +1,46 @@
-/
-// Created by rich heart on 5/26/22.
+//
+// Created by rich heart on 5/7/22.
 //
 #include <algorithm>
 #include <cstring>
 #include <iostream>
-#include <queue>
 
 using namespace std;
-//n点是10万级，On方要爆了，考虑用堆优化方法
-//而且属于稀疏图，就考虑用邻接矩阵来表达边关系
-const int N = 1e6 + 10;
-typedef pair<int,int> PII;
-int h[N],e[N],w[N],ne[N],idx;
-int dis[N];
-int n , m;
-bool str[N];
-void add(int x, int y, int z) {
-    if(x == y) return;
-    e[idx] = y;
-    w[idx] = z;
-    ne[idx] = h[x];
-    h[x] = idx;
-    idx++;
-}
-
-int dijkstra() {
-    memset(dis,0x3f,sizeof dis);
-    dis[1] = 0;
-
-    priority_queue<PII,vector<PII>,greater<PII>> heap;
-    heap.push({0,1});
-    while (heap.size()) {
-        auto t = heap.top();
-
-
-        int distance = t.first, point = t.second;
-        heap.pop();
-        if(str[point]) continue;
-        str[point] = true;
-
-        for (int i = h[point]; i != -1 ; i = ne[i]) {
-            //i 值得是链表中节点的唯一标识
-            //点的编号是e[] 存的值
-            int j = e[i];
-            if(dis[j] > distance + w[i]) {
-                dis[j] = distance + w[i];
-                heap.push({dis[j],j});
-            }
-        }
-
-    }
-    if(dis[n] == 0x3f3f3f3f) return -1;
-    else return dis[n];
+const int N = 1e5 + 10;
+int f[N],size[N];
+int find(int x) {
+    if(f[x] != x) f[x] = find(f[x]);
+    return f[x];
 }
 int main() {
-    cin >> n >> m;
-    memset(h,-1,sizeof h);
-    while(m--) {
-        int x, y, z;
-        cin >> x >> y >> z;
-        add(x,y,z);
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n; ++i) {
+        f[i] = i;
+        size[i] = 1;
     }
-    int res = dijkstra();
-    cout << res;
-
-
+    int m;
+    cin >> m;
+    while(m--) {
+        string s;
+        cin >> s;
+        if(s == "C") {
+            int a, b;
+            cin >> a >> b;
+            if(find(a) == find(b)) continue;
+            else {
+                size[find(b)] += size[find(a)];
+                f[find(a)] = find(b);
+            }
+        }else if(s == "Q1") {
+            int a, b;
+            cin >> a >> b;
+            cout << (find(a) == find(b) ? "Yes" : "No") << endl;
+        }else {
+            int a;
+            cin >> a;
+            cout << size[find(a)] << endl;
+        }
+    }
 }
+

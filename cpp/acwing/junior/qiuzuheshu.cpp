@@ -7,8 +7,18 @@
 #include <algorithm>
 
 using namespace std;
-
+const int N = 2010;
+int c[N][N];
+int n;
+void init() {
+    for (int i = 1; i < N; i++) {
+        for(int j = 0; j < N; j++) {
+            if(!j) c[i][j] = 1;
+            else c[i][j] = c[i - 1][j] + c[i - 1][j - 1];
+        }
+    }
+}
 int main() {
-
+    init();
     return 0;
 }

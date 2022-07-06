@@ -1,14 +1,68 @@
+/
+// Created by rich heart on 5/26/22.
 //
-// Created by rich heart on 06/07/2022.
-//
-
+#include <algorithm>
 #include <cstring>
 #include <iostream>
-#include <algorithm>
+#include <queue>
 
 using namespace std;
+//n点是10万级，On方要爆了，考虑用堆优化方法
+//而且属于稀疏图，就考虑用邻接矩阵来表达边关系
+const int N = 1e6 + 10;
+typedef pair<int,int> PII;
+int h[N],e[N],w[N],ne[N],idx;
+int dis[N];
+int n , m;
+bool str[N];
+void add(int x, int y, int z) {
+    if(x == y) return;
+    e[idx] = y;
+    w[idx] = z;
+    ne[idx] = h[x];
+    h[x] = idx;
+    idx++;
+}
 
+int dijkstra() {
+    memset(dis,0x3f,sizeof dis);
+    dis[1] = 0;
+
+    priority_queue<PII,vector<PII>,greater<PII>> heap;
+    heap.push({0,1});
+    while (heap.size()) {
+        auto t = heap.top();
+
+
+        int distance = t.first, point = t.second;
+        heap.pop();
+        if(str[point]) continue;
+        str[point] = true;
+
+        for (int i = h[point]; i != -1 ; i = ne[i]) {
+            //i 值得是链表中节点的唯一标识
+            //点的编号是e[] 存的值
+            int j = e[i];
+            if(dis[j] > distance + w[i]) {
+                dis[j] = distance + w[i];
+                heap.push({dis[j],j});
+            }
+        }
+
+    }
+    if(dis[n] == 0x3f3f3f3f) return -1;
+    else return dis[n];
+}
 int main() {
+    cin >> n >> m;
+    memset(h,-1,sizeof h);
+    while(m--) {
+        int x, y, z;
+        cin >> x >> y >> z;
+        add(x,y,z);
+    }
+    int res = dijkstra();
+    cout << res;
 
-    return 0;
+
 }

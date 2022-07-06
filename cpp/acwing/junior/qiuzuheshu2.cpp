@@ -15,8 +15,10 @@ int qmi(int b, int k, int p) {
     int res = 1;
     while(k) {
         if(k & 1) res = (ll)res * a % p;
-        a = a * 
+        a = (ll)a * a % p;
+        k >>= 1;
     }
+    return res;
 }
 int main() {
     fact[0] = infact[0] = 1;

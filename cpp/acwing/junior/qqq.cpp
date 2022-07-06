@@ -26,21 +26,23 @@ int main() {
     while(m--) {
         int a, b;
         cin >> a >> b;
-        if(b) {
+
+        if(b && a != b) {
             if(find(a) == find(b)) continue;
             else {
                 size[find(b)] += size[find(a)];
                 f[find(a)] = find(b);
             }
-        }else if(s == "Q1") {
-            int a, b;
-            cin >> a >> b;
-            cout << (find(a) == find(b) ? "Yes" : "No") << endl;
-        }else {
-            int a;
-            cin >> a;
-            cout << size[find(a)] << endl;
+        }else if(!b) {
+           //a取消跟随b==》a跟随自己
+            size[find(b)] -= size[find(a)];
+            f[find(a)] = a;
         }
     }
+    int max = 0;
+    for(int i = 1; i <= n; i++) {
+        max = max(max,size[find(i)])
+    }
+    cout << max;
 }
 

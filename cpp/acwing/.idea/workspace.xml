@@ -95,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/qqq.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="978">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="299">
+              <caret line="39" column="9" lean-forward="true" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -209,12 +209,12 @@
       <updated>1653059260181</updated>
       <workItem from="1653059261359" duration="198000" />
       <workItem from="1653958551251" duration="1052000" />
-      <workItem from="1656674362186" duration="11742000" />
+      <workItem from="1656674362186" duration="12287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12992000" />
+    <option name="totallyTimeSpent" value="13537000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/qqq.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="978">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="299">
+          <caret line="39" column="9" lean-forward="true" selection-end-line="48" />
         </state>
       </provider>
     </entry>

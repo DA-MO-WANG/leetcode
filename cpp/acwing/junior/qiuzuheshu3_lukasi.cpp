@@ -30,12 +30,12 @@ int c(int a, int b) {
     }
     return res;
 }
-int locus(int a, int b) {
+int locus(ll a, ll b) {
     //p范围内的数，这种数量级就可以选择另一条路
     if(a < p && b < p) return c(a,b);
     //对于超出p的范围的那些大数，进行减而治之
     //一部分当堂算出结果，一部分降级处理
-    return (ll)c(a % p, b % p) * locus(a / p, b / p);
+    return (ll)c(a % p, b % p) * locus(a / p, b / p) % p;//我对什么时候取模，这个取模的时机还是搞得不清
 }
 int main() {
     int n;

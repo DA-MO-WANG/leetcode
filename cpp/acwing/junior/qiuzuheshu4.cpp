@@ -12,7 +12,7 @@ const int N = 5010;
 //准备5000个质数
 int primes[N],cnt;
 bool str[N];
-//筛出质数
+//筛出质数：1-范围内的
 void get_primes(int n) {
     for(int i = 2; i <= n; i++) {
         if(!str[i]) primes[cnt ++ ] = i;

@@ -10,8 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/junior/xianxingshaifa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/junior/xianxingshaifa.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junior/qiuzuheshu4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/junior/qiuzuheshu4.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/qiuzuheshu4.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="151">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -73,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junior/xianxingshaifa.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-468">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="565">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -92,17 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junior/shaizhishu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="207">
               <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junior/liantongkuaizhongdiandeshuliang.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="20" column="5" lean-forward="true" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -140,8 +130,8 @@
         <option value="$PROJECT_DIR$/junior/qiuzuheshu2.cpp" />
         <option value="$PROJECT_DIR$/junior/qqq.cpp" />
         <option value="$PROJECT_DIR$/junior/qiuzuheshu3_lukasi.cpp" />
-        <option value="$PROJECT_DIR$/junior/qiuzuheshu4.cpp" />
         <option value="$PROJECT_DIR$/junior/xianxingshaifa.cpp" />
+        <option value="$PROJECT_DIR$/junior/qiuzuheshu4.cpp" />
       </list>
     </option>
   </component>
@@ -212,12 +202,12 @@
       <updated>1653059260181</updated>
       <workItem from="1653059261359" duration="198000" />
       <workItem from="1653958551251" duration="1052000" />
-      <workItem from="1656674362186" duration="18297000" />
+      <workItem from="1656674362186" duration="18430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19547000" />
+    <option name="totallyTimeSpent" value="19680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,13 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junior/liantongkuaizhongdiandeshuliang.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="5" lean-forward="true" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/junior/qqq.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -334,17 +317,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junior/shaizhishu.cpp">
+    <entry file="file://$PROJECT_DIR$/junior/xianxingshaifa.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junior/qiuzuheshu4.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="565">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -353,15 +329,29 @@
         <state relative-caret-position="-119" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/junior/liantongkuaizhongdiandeshuliang.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="20" column="5" lean-forward="true" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junior/shaizhishu.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/junior/shaifaqiuoulahanshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-201" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junior/xianxingshaifa.cpp">
+    <entry file="file://$PROJECT_DIR$/junior/qiuzuheshu4.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="151">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>

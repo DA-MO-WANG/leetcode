@@ -35,15 +35,12 @@ int get(int n, int p) {
     return res;
 }
 //高精度运算
+//a存储的是每次质数乘积的结果
 vector<int> mul(vector<int> a, int b) {
     vector<int> c;
     int t = 0;
-    for (int i = 0; i < a.size(); i++) {
+    for (int i = 0; i < a.size() || t ; i++) {
         t += a[i] * b;
-        c.push_back(t % 10);
-        t /= 10;
-    }
-    while (t) {
         c.push_back(t % 10);
         t /= 10;
     }

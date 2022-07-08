@@ -40,7 +40,7 @@ vector<int> mul(vector<int> a, int b) {
     vector<int> c;
     int t = 0;
     for (int i = 0; i < a.size() || t ; i++) {
-        t += a[i] * b;
+        if(i < a.size())t += a[i] * b;
         c.push_back(t % 10);
         t /= 10;
     }
@@ -64,7 +64,6 @@ int main() {
         }
     }
     for(int i = res.size() - 1; i >= 0; i--) printf("%d",res[i]);
-    put("");
-    }
+    puts("");
     return 0;
 }

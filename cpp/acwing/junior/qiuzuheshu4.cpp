@@ -12,6 +12,8 @@ const int N = 5010;
 //准备a范围内个质数
 int primes[N],cnt;
 bool str[N];
+//记录每个质因子对应的次数统计
+int sum[N];
 //筛出质数：1-a范围内的质数
 void get_primes(int n) {
     for(int i = 2; i <= n; i++) {
@@ -22,7 +24,7 @@ void get_primes(int n) {
         }
     }
 }
-//n阶乘里包含p的次数
+//n阶乘里包含p的次数：那个
 int get(int n, int p) {
     int res = 0;
     while (n) {
@@ -54,7 +56,7 @@ int main() {
     //计算质数的次数
     for(int i = 0; i < cnt; i++) {
         int p = primes[i];
-        sum[i] = get(a) - get(b,p) - get(a - b,p);
+        sum[i] = get(a,p) - get(b,p) - get(a - b,p);
     }
     vector<int> res;
     res.push_back(1);

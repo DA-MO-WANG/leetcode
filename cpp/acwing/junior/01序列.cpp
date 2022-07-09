@@ -21,16 +21,17 @@ int qmi(int a, int k, int p) {
     return res;
 }
 int main() {
-
+    cin >> n;
     //factn 代表n的阶乘
     //infact n 代表n阶乘的逆元
+    int a = 2 * n, b = n;
     fact[0] = infact[0] = 1;
-    for(int i = 1; i < 2*N; i++) {
+    for(int i = 1; i <= a; i++) {
         fact[i] = (ll)fact[i - 1] * i % mod;
+        //阶乘的逆元，通过一个个因子的逆元相乘得到
         infact[i] = (ll)infact[i - 1] * qmi(i , mod - 2, mod) % mod;
     }
-    cin >> n;
-    int mid_res = infact[n];
+    int pop[] = infact[n];
     int res = (ll)fact[2 * n] * mid_res % mod * mid_res % mod;
     printf("%d\n",res / (n + 1));
 

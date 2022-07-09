@@ -68,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/01序列.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="31" column="4" lean-forward="true" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="268">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -212,12 +212,12 @@
       <updated>1653059260181</updated>
       <workItem from="1653059261359" duration="198000" />
       <workItem from="1653958551251" duration="1052000" />
-      <workItem from="1656674362186" duration="23313000" />
+      <workItem from="1656674362186" duration="24063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24563000" />
+    <option name="totallyTimeSpent" value="25313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/01序列.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="31" column="4" lean-forward="true" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="268">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
         </state>
       </provider>
     </entry>

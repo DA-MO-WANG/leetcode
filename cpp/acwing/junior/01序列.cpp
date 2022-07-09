@@ -29,7 +29,7 @@ int main() {
         fact[i] = (ll)fact[i - 1] * i % mod;
         infact[i] = (ll)infact[i - 1] * qmi(i , mod - 2, mod) % mod;
     }
-    
+
     while(n--) {
         int a, b;
         scanf("%d%d",&a,&b);

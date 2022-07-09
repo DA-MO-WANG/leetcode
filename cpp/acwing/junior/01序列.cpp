@@ -21,7 +21,7 @@ int qmi(int a, int k, int p) {
     return res;
 }
 int main() {
-    cin >> n;
+
     //factn 代表n的阶乘
     //infact n 代表n阶乘的逆元
     fact[0] = infact[0] = 1;
@@ -29,12 +29,10 @@ int main() {
         fact[i] = (ll)fact[i - 1] * i % mod;
         infact[i] = (ll)infact[i - 1] * qmi(i , mod - 2, mod) % mod;
     }
+    cin >> n;
+    int mid_res = infact[n];
+    int res = (ll)fact[2 * n] * mid_res % mod * mid_res % mod;
+    printf("%d\n",res / (n + 1));
 
-    while(n--) {
-        int a, b;
-        scanf("%d%d",&a,&b);
-        int res = (ll)fact[a] * infact[a - b] % mod * infact[b] % mod;
-        printf("%d\n",res / (n + 1);
-    }
     return 0;
 }

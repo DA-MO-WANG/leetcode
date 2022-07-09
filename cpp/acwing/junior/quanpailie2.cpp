@@ -9,11 +9,15 @@ public:
     //准备一个存放一种方案情况
     vector<int> path;
     vector<vector<int>> permutation(vector<int>& nums) {
+        path.resize(nums.size());
+        //为了让重复的数挨在一起，先排序处理
+        sort(nums.begin(),nums.end());
         //设计几个关键变量，为了达成一定目的
         //u==>记录使用了几个数
         //start==>记录上一个相同的数存放的位置
         //state==>用来记录当前位置上的空缺信息
         dfs(nums,0,0,0);
+        return ans;
     }
     void dfs(vector<int>& nums, int u, int start, int state) {
         if(u == nums.size()) {

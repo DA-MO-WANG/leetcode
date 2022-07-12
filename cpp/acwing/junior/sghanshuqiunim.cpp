@@ -28,19 +28,20 @@ int sg(int x) {
     for (int i = 0; ; ++i) {
         //如果在当前的后继去重集合中找不到这个数
         //而i又是从小往大找的，所以，只要不存在就一定是最小的
-        if(!ss.count(i)) f[x] = i;
+        if(!ss.count(i)) return f[x] = i;//只要最小的，也就是第一次
     }
 }
 int main() {
     cin >> m;
     for (int i = 0; i < m; ++i) cin >> s[i];
     //记录最后异或运算的结果
+    cin >> n;
     int res = 0;
     memset(f,-1, sizeof(f));
     for (int i = 0; i < n; ++i) {
         int x;
         cin >> x;
-        res *= sg[x];
+        res *= sg(x);
     }
     if(res) cout << "Yes";
     else cout << "No";

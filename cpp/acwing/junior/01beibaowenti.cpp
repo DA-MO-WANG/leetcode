@@ -18,11 +18,12 @@ int main() {
     for (int i = 0; i < n; ++i) {
         scanf("%d%d",v[i],w[i]);
     }
-    for (int i = 0; i < n; ++i) {
+    for (int i = 1; i <= n; ++i) {
         for (int j = 0; j <= m; ++j) {
-            if(j > v[i]) f[i][j] = f[i - 1][j]
+            if(j > v[i]) f[i][j] = f[i - 1][j] + f[i - 1][j - v[i]] + w[i];
         }
     }
+    cout << f[n][m];
 
     return 0;
 }

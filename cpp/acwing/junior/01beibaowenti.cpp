@@ -5,13 +5,15 @@
 #include <cstring>
 #include <iostream>
 #include <algorithm>
+#include <cmath>
 
 using namespace std;
 const int N = 1010;
 //记录体积情况、权重情况
 int v[N],w[N];
 //记录状态
-int f[N][N];
+//int f[N][N];
+int f[N];
 int main() {
     int n, m;
     cin >> n >> m;
@@ -19,8 +21,9 @@ int main() {
         scanf("%d%d",v[i],w[i]);
     }
     for (int i = 1; i <= n; ++i) {
-        for (int j = 0; j <= m; ++j) {
-            if(j > v[i]) f[i][j] = f[i - 1][j] + f[i - 1][j - v[i]] + w[i];
+        for (int j = v[i]; j <= m; ++j) {
+            //f[i][j] = f[i - 1][j];
+            f[j] = max(f[j],f[j - v[i]] + w[i]);
         }
     }
     cout << f[n][m];

@@ -9,9 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/junior/01beibaowenti.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/junior/01beibaowenti.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/01beibaowenti.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="297">
+              <caret line="24" column="26" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -218,12 +216,12 @@
       <updated>1653059260181</updated>
       <workItem from="1653059261359" duration="198000" />
       <workItem from="1653958551251" duration="1052000" />
-      <workItem from="1656674362186" duration="31220000" />
+      <workItem from="1656674362186" duration="31617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32470000" />
+    <option name="totallyTimeSpent" value="32867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/01beibaowenti.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="297">
+          <caret line="24" column="26" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>

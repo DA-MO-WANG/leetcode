@@ -21,7 +21,7 @@ int main() {
         scanf("%d%d",v[i],w[i]);
     }
     for (int i = 1; i <= n; ++i) {
-        for (int j = v[i]; j <= m; ++j) {
+        for (int j = m; j >= v[i]; j--) {
             //f[i][j] = f[i - 1][j];
             f[j] = max(f[j],f[j - v[i]] + w[i]);
         }

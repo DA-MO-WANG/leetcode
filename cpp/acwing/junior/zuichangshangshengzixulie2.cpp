@@ -5,12 +5,13 @@
 #include <cstring>
 #include <iostream>
 #include <algorithm>
-
+//没怎么懂
 using namespace std;
 const int N = 1e5 + 10;
 int n;
 int v[N];
 //记录遍历存储不通长度的上升子序列最小结尾元素数组的元素
+//由定义出发，这个数组一定是单调的
 int q[N];
 int main() {
     cin >> n;
@@ -26,6 +27,7 @@ int main() {
         int l = 0, r = len;
         //二分查找，找的是q数组中，比v[i]小的最大的元素
         while(l < r) {
+            //因为l = mid ==>这里向下取整
             int mid = l + r + 1 >> 1;
             if(q[mid] < v[i]) l = mid;
             else r = mid - 1;

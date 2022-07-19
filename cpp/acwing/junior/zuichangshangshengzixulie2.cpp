@@ -28,7 +28,11 @@ int main() {
             if(q[mid] < v[i]) l = mid;
             else r = mid - 1;
         }
-        len = max(l,len)
+        //v[i]对应的序列的长度为找到的那个值的长度+1
+        len = max(len,r + 1);
+        q[r + 1] = v[i];
+
     }
+    cout << len << endl;
     return 0;
 }

@@ -23,25 +23,15 @@ int main() {
         cin >> v[i];
         //cout << v[i] << " ";
     }
-    q[++tt] = 1;
+    s.push(1);
     //第一层循环遍历的是结尾的情况
     for (int j = 1; j <= n; ++j) {
         //第二层循环遍历的是倒数第二个位置的情况
         //每换一种集合，集合中的第一个初始情况都是这个序列第二位置没有，只有本身一个数的情况，这是下面情况的出发点
         f[j] = 1;
 
-        int cur = tt;
-        while(cur >= 0) {
-            int index = q[cur];
-            if(v[index] < v[j]) {
-                f[j] = max(f[j],f[index] + 1);
-                q[++tt] = j;
-                cur--;
-            }else {
-                break;
-            }
+       
 
-        }
         for (int i = 1; i < j ; ++i) {
             //根据必要条件，只去算符合严格上升的限制的情况
             if(v[i] < v[j]) f[j] = max(f[j],f[i] + 1);

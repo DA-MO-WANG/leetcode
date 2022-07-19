@@ -8,7 +8,7 @@
 #include <cmath>
 
 using namespace std;
-const int N = 1010;
+const int N = 1010, INF = 1e9;
 int n;
 int v[N];
 //dp结构的容量取决于状态的数目
@@ -32,7 +32,7 @@ int main() {
             if(v[i] < v[j]) f[j] = max(f[j],f[i] + 1);
         }
     }
-    int res = 0;
+    int res = -INF;
     for (int k = 1; k <= n; ++k) {
         res = max(res,f[k]);
     }

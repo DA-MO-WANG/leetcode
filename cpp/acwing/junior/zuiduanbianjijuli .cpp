@@ -17,7 +17,8 @@ int f[N][N];
 int main() {
     scanf("%d%s",n,a + 1);
     scanf("%d%s",m,b + 1);
-    for (int i = 0; i < ; ++i) f[i][]
+    for (int i = 0; i < ; ++i) f[i][0] = i;
+    for (int i = 0; i < ; ++i) f[0][i] = i;
     //遍历所有的状态：状态由[1,i]-[1,j]组成
     for (int i = 1; i <= n; ++i) {
         for (int j = 1; j <= m; ++j) {
@@ -27,7 +28,9 @@ int main() {
             //所以i不受影响--牢牢抓住匹配是什么意思
             f[i][j] = min(f[i - 1][j] + 1, f[i][j - 1] + 1);
             if(a[i] != b[j]) f[i][j] = min(f[i][j], f[i - 1][j - 1] + 1);
+            else f[i][j] = min(f[i][j], f[i - 1][j - 1]);
         }
     }
+    cout << f[n][m] << endl;
     return 0;
 }

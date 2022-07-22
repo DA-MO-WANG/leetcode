@@ -9,15 +9,17 @@
 using namespace std;
 const int N = 1010;
 int n;
-int f[N];
+int f[N][N];
 int main() {
     cin >> n;
-    f[0] = 1;
-    for (int i = 1; i <= n; ++i) {
-        for (int k = 1; k <= i; ++k) {
-            f[i] += f[i - k];
+    f[1][1] = 1;
+    for (int i = 2; i <= n; ++i) {
+        for (int j = 1; j <= n; ++j) {
+            for (int k = 0; k * i <= j; ++k) {
+                f[i][j] += f[i - 1][j - k * i];
+            }
         }
     }
-    cout << f[n];
+    cout << f[n][n];
     return 0;
 }

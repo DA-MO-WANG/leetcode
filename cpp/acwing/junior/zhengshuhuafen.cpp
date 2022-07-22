@@ -7,7 +7,7 @@
 #include <algorithm>
 
 using namespace std;
-const int N = 1010 mod = 1e9 + 7;
+const int N = 1010 ,mod = 1e9 + 7;
 int n;
 int f[N][N];
 int main() {

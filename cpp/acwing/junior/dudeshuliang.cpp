@@ -40,10 +40,11 @@ int dp(int n) {
             if(x > 1) {
                 //x大于1才可以，使这一位可以填1（才可以选这种可能）
                 if(k - last - 1 >= 0) res += f[i][k - last - 1];
-                
+                break;
             }else {
                 //x本身=1
                 last++;
+                if(last > k) break;
 
             }
         }

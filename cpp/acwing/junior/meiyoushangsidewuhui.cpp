@@ -25,8 +25,13 @@ void add(int k, int l) {
     idx++;
 }
 
-void dp(int n) {
-
+void dp(int u) {
+    f[u][1] = happy[u];
+    for (int i = h[u]; i != -1; i = ne[i]) {
+        int s = e[i];
+        f[u][0] += max(f[s][1],f[s][0]);
+        f[u][1] += f[s][0]
+    }
 }
 int main() {
     cin >> n;
@@ -44,6 +49,6 @@ int main() {
         if(!is_father(i)) root = i,break;
     }
     dp(root);
-    cout << max(f[n][0],f[n][1]);
+    cout << max(f[root][0],f[root][1]);
     return 0;
 }

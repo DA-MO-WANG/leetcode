@@ -7,7 +7,8 @@
 #include <algorithm>
 
 using namespace std;
-
+const int N = 6010;
+//临接表来表示表结构
 int main() {
 
     return 0;

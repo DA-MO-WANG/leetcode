@@ -38,10 +38,11 @@ int main() {
         cin >> l >> k;
         add(k,l);
     }
-    for (int i = 0; i < ; ++i) {
-        
+    int root = -1;
+    for (int i = 0; i < n; ++i) {
+        if(!is_father(i)) root = i,break;
     }
-    dp(n);
+    dp(root);
     cout << max(f[n][0],f[n][1]);
     return 0;
 }

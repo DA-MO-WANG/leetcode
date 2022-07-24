@@ -26,13 +26,14 @@ void add(int k, int l) {
 }
 
 void dp(int n) {
-    
+
 }
 int main() {
     cin >> n;
     for (int i = 0; i < n; ++i) {
         cin >> happy[i];
     }
+    memset(h,-1, sizeof(h));
     while (--n) {
         int l, k;
         cin >> l >> k;

@@ -29,6 +29,8 @@ void dp(int u) {
     f[u][1] = happy[u];
     for (int i = h[u]; i != -1; i = ne[i]) {
         int s = e[i];
+        //先把要依赖的上一个状态记录下来
+        dp(s);
         f[u][0] += max(f[s][1],f[s][0]);
         f[u][1] += f[s][0]
     }

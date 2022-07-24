@@ -21,7 +21,6 @@ void add(int k, int l) {
     e[idx] = l;
     ne[idx] = h[k];
     h[k] = idx;
-    is_father[k] = true;
     idx++;
 }
 
@@ -32,24 +31,37 @@ void dp(int u) {
         //先把要依赖的上一个状态记录下来
         dp(s);
         f[u][0] += max(f[s][1],f[s][0]);
-        f[u][1] += f[s][0]
+        f[u][1] += f[s][0];
     }
 }
 int main() {
     cin >> n;
-    for (int i = 0; i < n; ++i) {
+    //节点编号从1开始
+    for (int i = 1; i <= n; ++i) {
         cin >> happy[i];
     }
     memset(h,-1, sizeof(h));
-    while (--n) {
+    for(int i = 0; i < n -1; i++) {
         int l, k;
         cin >> l >> k;
+        //标记的是有父节点的
+        is_father[l] = true;
         add(k,l);
     }
-    int root = -1;
-    for (int i = 0; i < n; ++i) {
-        if(!is_father(i)) root = i,break;
-    }
+    //打印邻接矩阵的元件
+    //cout << is_father[2] << endl;
+    // for(int i=1;i<=n;i++)
+    // {
+    //     cout<<i<<":";
+    //     for(int j=h[i];j!=-1;j=ne[j])
+    //     {
+    //         cout<<"->"<<e[j];
+    //     }
+    //     cout<<endl;
+    // }
+    int root = 1;
+    while(is_father[root]) root++;
+    //cout << root ;
     dp(root);
     cout << max(f[root][0],f[root][1]);
     return 0;

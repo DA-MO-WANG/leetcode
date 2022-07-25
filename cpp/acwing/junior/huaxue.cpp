@@ -8,30 +8,34 @@
 
 using namespace std;
 const int N = 310;
-int f[N][N], a[N][N];
+int f[N][N], v[N][N];
 int r, c;
+int dx = {-1,0,1,0}, dy = {0,-1,0,1};
+int dp(int i, int j) {
+    int &v = f[i][j];
+    if(v != -1) return v;
 
+    for (int i = 0; i < 4; ++i) {
+        int a = i + dx[i], b = j + dy[i];
+        if(a && a <= r && b && b <= c && v[i][j] > v[a][b]) {
+            f[i][j] = max(f[i][j],dp(a,b) + 1);
+        }
+    }
+}
 int main() {
     cin >> r >> c;
-    for (int i = 0; i < r; ++i) {
-        for (int j = 0; j < c; ++j) {
-            cin >> a[i][j];
+    for (int i = 1; i <= r; ++i) {
+        for (int j = 1; j <= c; ++j) {
+            cin >> v[i][j];
         }
     }
-
-
-    for (int i = 0; i < r; ++i) {
-        for (int j = 0; j < c; ++j) {
-            if(!i && !j) {
-                f[0][0] = 1;
-                continue;
-            }
-            if(i >= 1 && a[i][j] > a[i -1][j]) f[i][j] = max(f[i][j],f[i - 1][j]);
-            else if(i + 1 < r && a[i + 1][j] < a[i][j]) f[i][j] = max(f[i][j],f[i + 1][j]);
-            else if(j - 1 >= 0 && a[i][j - 1] < a[i][j]) f[i][j] = max(f[i][j],f[i][j - 1]);
-            else if(j + 1 < c && a[i][j + 1] < a[i][j]) f[i][j] = max(f[i][j],f[i][j + 1]);
+    memset(f,-1, sizeof(f));
+    int res = 0;
+    for (int i = 1; i <= r; ++i) {
+        for (int j = 1; j <= c; ++j) {
+            res = max(res,dp(i,j));
         }
     }
-    cout << f[r - 1][c - 1] << endl;
+    cout << res << endl;
     return 0;
 }

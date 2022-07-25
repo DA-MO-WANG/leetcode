@@ -170,8 +170,8 @@
     <option name="directoryName" value="TBNUiXCV" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="25" />
+    <option name="x" value="263" />
+    <option name="y" value="69" />
     <option name="width" value="1391" />
     <option name="height" value="875" />
   </component>
@@ -234,12 +234,12 @@
       <workItem from="1653059261359" duration="198000" />
       <workItem from="1653958551251" duration="1052000" />
       <workItem from="1656674362186" duration="51953000" />
-      <workItem from="1658452590132" duration="8824000" />
+      <workItem from="1658452590132" duration="9048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62027000" />
+    <option name="totallyTimeSpent" value="62251000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,10 +251,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="25" width="1391" height="875" extended-state="0" />
-    <editor active="true" />
+    <frame x="263" y="69" width="1391" height="875" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2564863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2564863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

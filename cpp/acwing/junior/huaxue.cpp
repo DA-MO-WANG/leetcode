@@ -8,7 +8,7 @@
 
 using namespace std;
 const int N = 310;
-int f[N][N], v[N][N];
+int f[N][N], h[N][N];
 int r, c;
 int dx[4] = {-1,0,1,0}, dy[4] = {0,-1,0,1};
 int dp(int i, int j) {
@@ -17,7 +17,7 @@ int dp(int i, int j) {
 
     for (int i = 0; i < 4; ++i) {
         int a = i + dx[i], b = j + dy[i];
-        if(a && a <= r && b && b <= c && v[i][j] > v[a][b]) {
+        if(a && a <= r && b && b <= c && h[i][j] > h[a][b]) {
             f[i][j] = max(f[i][j],dp(a,b) + 1);
         }
     }
@@ -27,7 +27,7 @@ int main() {
     cin >> r >> c;
     for (int i = 1; i <= r; ++i) {
         for (int j = 1; j <= c; ++j) {
-            cin >> v[i][j];
+            cin >> h[i][j];
         }
     }
     memset(f,-1, sizeof(f));

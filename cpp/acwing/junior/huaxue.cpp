@@ -14,6 +14,7 @@ int dx[4] = {-1,0,1,0}, dy[4] = {0,-1,0,1};
 int dp(int row, int col) {
     int &v = f[row][col];
     if(v != -1) return v;
+    //每次换新起点，都要重新计算长度
     v = 1;
     for (int i = 0; i < 4; ++i) {
         int a = row + dx[i], b = col + dy[i];

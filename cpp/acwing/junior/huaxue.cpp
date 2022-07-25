@@ -10,7 +10,7 @@ using namespace std;
 const int N = 310;
 int f[N][N], v[N][N];
 int r, c;
-int dx = {-1,0,1,0}, dy = {0,-1,0,1};
+int dx[4] = {-1,0,1,0}, dy[4] = {0,-1,0,1};
 int dp(int i, int j) {
     int &v = f[i][j];
     if(v != -1) return v;
@@ -21,6 +21,7 @@ int dp(int i, int j) {
             f[i][j] = max(f[i][j],dp(a,b) + 1);
         }
     }
+    return f[i][j];
 }
 int main() {
     cin >> r >> c;

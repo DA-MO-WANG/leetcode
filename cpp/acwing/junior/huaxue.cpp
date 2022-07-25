@@ -11,17 +11,17 @@ const int N = 310;
 int f[N][N], h[N][N];
 int r, c;
 int dx[4] = {-1,0,1,0}, dy[4] = {0,-1,0,1};
-int dp(int i, int j) {
-    int &v = f[i][j];
+int dp(int row, int col) {
+    int &v = f[row][col];
     if(v != -1) return v;
-
+    v = 1;
     for (int i = 0; i < 4; ++i) {
-        int a = i + dx[i], b = j + dy[i];
-        if(a && a <= r && b && b <= c && h[i][j] > h[a][b]) {
-            f[i][j] = max(f[i][j],dp(a,b) + 1);
+        int a = row + dx[i], b = col + dy[i];
+        if(a && a <= r && b && b <= c && h[row][col] > h[a][b]) {
+            f[row][col] = max(f[row][col],dp(a,b) + 1);
         }
     }
-    return f[i][j];
+    return f[row][col];
 }
 int main() {
     cin >> r >> c;

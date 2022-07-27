@@ -23,6 +23,7 @@ int main() {
         cin >> l >> r;
         range[i] = {l,r};
     }
+    sort(range,range + n);
     int res = 0;
     int min_ed = -2e9;
     for (int i = 0; i < n; ++i) {

@@ -5,6 +5,7 @@
 #include <cstring>
 #include <iostream>
 #include <algorithm>
+#include <queue>
 
 using namespace std;
 const int N = 1e5 + 10;
@@ -24,14 +25,18 @@ int main() {
         range[i] = {l,r};
     }
     sort(range,range + n);
-    int res = 0;
-    int min_ed = -2e9;
+    //小根堆维护了所有组的最右右端点情况
+    //还记录了组的数量，每个组在结构里只有一个元素
+    priority_queue<int, vector<int>, greater<int>> heap;
     for (int i = 0; i < n; ++i) {
-        if(range[i].l > min_ed) {
-            res++;
+        auto t = range[i];
+        //有交集情况-新开组
+        if(heap.empty() && heap.top() >= range[i].l) heap.push(t.r)
+        else {
+            heap.pop();
+            heap.push(t.r);
         }
-        min_ed = max(min_ed, range[i].r);
     }
-    cout << res << endl;
+    cout << heap.size() << endl;
     return 0;
 }

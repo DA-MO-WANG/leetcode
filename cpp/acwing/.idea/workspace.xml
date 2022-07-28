@@ -19,15 +19,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junior/shizihebing.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junior/zhengshuhuafen.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
@@ -99,13 +90,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junior/qujianfenzu.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
               <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/junior/qujianfugai.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -173,8 +169,8 @@
     <option name="directoryName" value="TBNUiXCV" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-31" />
-    <option name="y" value="25" />
+    <option name="x" value="726" />
+    <option name="y" value="69" />
     <option name="width" value="1391" />
     <option name="height" value="875" />
   </component>
@@ -237,12 +233,12 @@
       <workItem from="1653059261359" duration="198000" />
       <workItem from="1653958551251" duration="1052000" />
       <workItem from="1656674362186" duration="51953000" />
-      <workItem from="1658452590132" duration="14040000" />
+      <workItem from="1658452590132" duration="14071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67243000" />
+    <option name="totallyTimeSpent" value="67274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,10 +250,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-31" y="25" width="1391" height="875" extended-state="0" />
-    <editor active="true" />
+    <frame x="726" y="69" width="1391" height="875" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2564863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2564863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

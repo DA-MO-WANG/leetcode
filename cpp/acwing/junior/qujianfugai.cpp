@@ -65,7 +65,7 @@ int main() {
     return 0;
 }
 
-
+//双指针解决双重递进条件问题（一个条件在另一个条件基础上的问题）
 for(int i = 0; i< n; i++) {
     int j = i;
     while(j < n && 条件1) {

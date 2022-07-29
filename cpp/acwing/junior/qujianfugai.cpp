@@ -5,6 +5,8 @@
 #include <cstring>
 #include <iostream>
 #include <algorithm>
+#include <cmath>
+
 
 using namespace std;
 const int N = 1e5 + 10;
@@ -17,7 +19,7 @@ struct Range{
 }range[N];
 int start, t;
 int n;
-bool succcess;
+bool success;
 int main() {
     cin >> start >> t;
     cin >> n;
@@ -45,9 +47,11 @@ int main() {
         }
         //区间够不着start
         if(r < start) break;
-        if(r > t) {
-            res++;
-            succcess = true;
+        //选上了覆盖，res结果记为+1
+        res++;
+        //这个区间已经覆盖完了
+        if(r >= t) {
+            success = true;
             break;
         }
         //更新start-这个选中覆盖的区间的右端点
@@ -56,6 +60,18 @@ int main() {
         //j ++ -1 + 1
         i = j - 1;
     }
+    if(!success) res = -1;
     cout << res << endl;
     return 0;
+}
+
+
+for(int i = 0; i< n; i++) {
+    int j = i;
+    while(j < n && 条件1) {
+        条件2;
+        j++;
+    }
+    //外层循环从满足条件的j之后开始
+    i = j - 1;
 }

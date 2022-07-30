@@ -14,12 +14,12 @@ int n;
 int a[N];
 int main() {
     cin >> n;
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 0; i < n; ++i) {
         cin >> a[i];
     }
-    sort(a + 1, a + n + 1);
+    sort(a, a + n);
     ll res = 0;
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 0; i < n; ++i) {
         res += abs(a[i] - a[n / 2]);
     }
     cout << res << endl;

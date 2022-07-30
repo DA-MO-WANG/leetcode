@@ -19,7 +19,7 @@ int main() {
     sort(t + 1,t + n + 1);
     ll res = 0;
     for (int i = 1; i <= n; ++i) {
-        (ll)res += t[i] * (n - i);
+        res += t[i] * (n - i);
     }
     cout << res << endl;
     return 0;

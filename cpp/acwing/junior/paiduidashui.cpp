@@ -7,6 +7,7 @@
 #include <algorithm>
 
 using namespace std;
+typedef long long ll;
 const int N = 1e5 + 10;
 int n;
 int t[N];
@@ -16,9 +17,9 @@ int main() {
         cin >> t[i];
     }
     sort(t + 1,t + n + 1);
-    int res = 0;
+    ll res = 0;
     for (int i = 1; i <= n; ++i) {
-        res += t[i] * (n - i);
+        (ll)res += t[i] * (n - i);
     }
     cout << res << endl;
     return 0;

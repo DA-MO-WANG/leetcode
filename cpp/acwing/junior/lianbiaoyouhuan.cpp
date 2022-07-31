@@ -17,27 +17,30 @@ ListNode *entryNodeOfLoop(ListNode *head) {
     //证明环的思路1：只有存在环的情况下，前面的指针才有可能走后面的后面
     //思路2：一个指针走的位置以前是否走过，记忆化手段-map存储
     //思路3：快慢指针，两个速度不同的指针，如果没环的话，距离只会越拉越远；有环，存在相遇的可能
-    ListNode fast = head, slow = head;
-    int count = 0;
-    while(fast != NULL && slow != NULL) {
-        if(count == 0) {
-            fast = fast.next->next;
-            slow = slow.next;
-        }
-        if(count = 0 && fast == slow) {
-            slow = head;
-            count++;
+    
+    if (!head || !head->next) return 0;
+    ListNode *first = head, *second = head;
 
-        }
-        if(count > 0) {
-            fast = fast.next;
-            slow = slow.next;
-        }
-        if(count >= 0 && fast == slow) {
-            return fast;
+    while (first && second)
+    {
+        first = first->next;
+        second = second->next;
+        if (second) second = second->next;
+        else return 0;
+
+        if (first == second)
+        {
+            first = head;
+            while (first != second)
+            {
+                first = first->next;
+                second = second->next;
+            }
+            return first;
         }
     }
-    return NULL;
+
+    return 0;
 
     //思路2需要给链表写一个哈希函数
 //    unorderd_map<ListNode,int> map;

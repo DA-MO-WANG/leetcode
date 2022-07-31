@@ -21,6 +21,7 @@ ListNode *entryNodeOfLoop(ListNode *head) {
 
     //C++中NULL被当作0处理了
     //空链表和只有一个元素的链表必然不会出环
+    //指针引用属性用->
     if (!head || !head->next) return 0;
     //定义两个指针--这里和java不太一样
     ListNode *first = head, *second = head;

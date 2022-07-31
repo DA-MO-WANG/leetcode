@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="" />
+    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/junior/lianbiaoyouhuan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/junior/lianbiaoyouhuan.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +103,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/lianbiaoyouhuan.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -168,6 +174,7 @@
         <option value="$PROJECT_DIR$/junior/huocangxuandian.cpp" />
         <option value="$PROJECT_DIR$/junior/shuazajideniu.cpp" />
         <option value="$PROJECT_DIR$/junior/shuangzhizhentihuankongge.cpp" />
+        <option value="$PROJECT_DIR$/junior/lianbiaoyouhuan.cpp" />
       </list>
     </option>
   </component>
@@ -175,7 +182,7 @@
     <option name="directoryName" value="TBNUiXCV" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="416" />
+    <option name="x" value="269" />
     <option name="y" value="25" />
     <option name="width" value="1391" />
     <option name="height" value="875" />
@@ -195,6 +202,11 @@
             <path>
               <item name="acwing" type="b2602c69:ProjectViewProjectNode" />
               <item name="acwing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acwing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acwing" type="462c0819:PsiDirectoryNode" />
+              <item name="junior" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,12 +247,12 @@
       <workItem from="1653958551251" duration="1052000" />
       <workItem from="1656674362186" duration="51953000" />
       <workItem from="1658452590132" duration="18779000" />
-      <workItem from="1659165507328" duration="2733000" />
+      <workItem from="1659165507328" duration="3432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74715000" />
+    <option name="totallyTimeSpent" value="75414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,9 +264,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="413" y="25" width="1391" height="875" extended-state="0" />
+    <frame x="269" y="25" width="1391" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18828762" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18828762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -608,6 +621,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junior/lianbiaoyouhuan.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
         </state>
       </provider>
     </entry>

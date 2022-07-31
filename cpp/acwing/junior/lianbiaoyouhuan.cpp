@@ -29,7 +29,9 @@ ListNode *entryNodeOfLoop(ListNode *head) {
     unorderd_map<ListNode,int> map;
     ListNode cur = head;
     while(cur != NULL) {
-        if(map[cur])
+        if(!map[cur]) {
+            map.
+        }
     }
 
 }

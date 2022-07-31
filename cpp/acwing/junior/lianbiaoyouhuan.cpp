@@ -28,11 +28,15 @@ ListNode *entryNodeOfLoop(ListNode *head) {
 //    }
     unorderd_map<ListNode,int> map;
     ListNode cur = head;
+    int index = 1;
     while(cur != NULL) {
         if(!map[cur]) {
-            map.
+            map.insert({cur,index++})
+        }else {
+            return cur;
         }
     }
+    return null;
 
 }
 int main() {

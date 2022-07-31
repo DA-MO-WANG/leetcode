@@ -18,6 +18,7 @@ string replaceSpaces(string &str) {
         }
     }
     //重新分配新长度大小的空间
+    //resize()方法是字符的长度，尾部会自动补\0
     str.resize(len);
 
 

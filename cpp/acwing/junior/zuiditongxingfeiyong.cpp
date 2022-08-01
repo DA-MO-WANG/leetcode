@@ -13,15 +13,14 @@ int n;
 int f[N][N], e[N][N];
 int dx[4] = {-1,1,0,0}, dy[4] = {0,0,-1,1};
 int dfs(int x, int y, int count) {
-    if(!x || !y) {
-        return 0;
-    }
+    if(count > 2 * n - 1) return 0x3f3f3f3f;
 
+    f[x][y] = 0x3f3f3f3f;
     for (int i = 0; i < 4; ++i) {
         int row = x + dx[i], col = y + dy[i];
-        if(row && row <= n && col && col <= n && count <= 2 * n - 1) {
-
-            f[x][y] = min(dfs(row,col,++count),f[x][y]) + e[x][y];
+        if(row && row <= n && col && col <= n) {
+            int last = dfs(row,col,++count);
+            f[x][y] = min(last,f[x][y]) + e[x][y];
         }
     }
     return f[x][y];
@@ -33,8 +32,8 @@ int main() {
             cin >> e[i][j];
         }
     }
-    memset(f,0x3f, sizeof(f));
     int count = 0;
+    dfs(n,n, 0);
     cout << f[n][n] << endl;
 
     return 0;

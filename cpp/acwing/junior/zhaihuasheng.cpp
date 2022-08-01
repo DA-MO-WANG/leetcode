@@ -6,7 +6,8 @@
 #include <iostream>
 #include <algorithm>
 #include <cmath>
-
+//思路：典型dp
+//
 using namespace std;
 const int N = 110;
 int t;

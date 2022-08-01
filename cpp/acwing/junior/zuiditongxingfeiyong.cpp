@@ -20,12 +20,12 @@ int main() {
     }
     memset(f,0x3f, sizeof(f));
     int count = 0;
-    for (int i = 1; i <= n; ++i) {
-        for (int j = 1; j <= n; ++j) {
+    for (int x = 1; x <= n; ++x) {
+        for (int y = 1; y <= n; ++y) {
             for (int i = 0; i < 4; ++i) {
                 int row = x + dx[i], col = y + dy[i];
                 if(row && row <= n && col && col <= n && count <= 2 * n - 1) {
-                    f[x][y] = min(f[row][col],f[x][y]) + e[i][j];
+                    f[x][y] = min(f[row][col],f[x][y]) + e[x][y];
                 }
             }
             count ++;

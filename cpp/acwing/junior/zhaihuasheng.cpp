@@ -24,6 +24,7 @@ int main() {
                 cin >> w[i][j];
             }
         }
+        int 
         for (int i = 1; i <= r; ++i) {
             for (int j = 1; j <= c; ++j) {
                 f[j] = max(f[j - 1],f[j]) + w[i][j];

@@ -18,7 +18,7 @@ int main() {
             cin >> e[i][j];
         }
     }
-    memset(f,0x3f, sizeof(f));
+    memset(f,0, sizeof(f));
     int count = 0;
     for (int x = 1; x <= n; ++x) {
         for (int y = 1; y <= n; ++y) {

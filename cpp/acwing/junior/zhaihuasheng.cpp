@@ -13,7 +13,7 @@
 using namespace std;
 const int N = 110;
 int t;
-int f[N], c[N][N];
+int f[N], w[N][N];
 int main() {
     cin >> t;
     while (t--) {
@@ -21,12 +21,12 @@ int main() {
         cin >> r >> c;
         for (int i = 1; i <= r; ++i) {
             for (int j = 1; j <= c; ++j) {
-                cin >> c[i][j];
+                cin >> w[i][j];
             }
         }
         for (int i = 1; i <= r; ++i) {
             for (int j = 1; j <= c; ++j) {
-                f[j] = max(f[j - 1],f[j]) + c[i][j];
+                f[j] = max(f[j - 1],f[j]) + w[i][j];
             }
         }
         cout << f[c] << endl;

@@ -104,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/fanggequshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="36" column="13" lean-forward="true" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="151">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -250,12 +250,12 @@
       <workItem from="1653958551251" duration="1052000" />
       <workItem from="1656674362186" duration="51953000" />
       <workItem from="1658452590132" duration="18779000" />
-      <workItem from="1659165507328" duration="12653000" />
+      <workItem from="1659165507328" duration="13017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84635000" />
+    <option name="totallyTimeSpent" value="84999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,8 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/fanggequshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="36" column="13" lean-forward="true" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="151">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

@@ -9,8 +9,8 @@
 using namespace std;
 const int N = 15;
 int n;
-//f(k,i1,i2)
-//
+//思路打通了，代码实现细节上还有很多值得推敲的地方
+
 int f[N * 2][N][N], w[N][N];
 int main() {
     cin >> n;
@@ -21,17 +21,18 @@ int main() {
         w[row][col] = v;
     }
 
-    for (int k = 1; k < 2 * n; k++) {
+    for (int k = 2; k <= 2 * n; k++) {
         for (int i1 = 1; i1 <= n; ++i1) {
-            for (int i2 = 0; i2 <= n; ++i2) {
+            for (int i2 = 1; i2 <= n; ++i2) {
                 int j1 = k - i1, j2 = k - i2;
                 if(j1 >=1 && j1 <= n && j2 >= 1 && j2 <= n) {
-                    int t = &w[i1][j1];
+                    int t = w[i1][j1];
                     if(i1 != i2) t += w[i2][j2];
-                    t = max(t,f[k - 1][i1 - 1][i2 - 1] + t);
-                    t = max(t,f[k - 1][i1 - 1][i2] + t);
-                    t = max(t,f[k - 1][i1][i2 - 1] + t);
-                    t = max(t,f[k - 1][i1][i2] + t);
+                    int &res = f[k][i1][i2];
+                    res = max(res,f[k - 1][i1 - 1][i2 - 1] + t);
+                    res = max(res,f[k - 1][i1 - 1][i2] + t);
+                    res = max(res,f[k - 1][i1][i2 - 1] + t);
+                    res = max(res,f[k - 1][i1][i2] + t);
                 }
 
             }

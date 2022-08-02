@@ -7,34 +7,24 @@
 #include <algorithm>
 
 using namespace std;
+const int N = 15;
 int n;
-int f[20][20], w[20][20];
-void dp() {
-    memeset(f, 0 , sizeof(f));
-    for (int i = 1; i <= n; ++i) {
-        for (int j = 1; j <= n; ++j) {
-            if(f[i - 1][j] > f[i][j - 1]) {
-                f[i][j] = f[i - 1][j] + w[i][j];
-                w[i - 1][j] = 0;
-            }else {
-                f[i][j] = f[i][j - 1] + w[i][j];
-                w[i][j - 1] = 0;
-            }
-        }
-    }
-}
+//f(k,i1,i2)
+//
+int f[N * 2][N][N], w[N][N];
 int main() {
     cin >> n;
-    while (true) {
-
-        int row , col, v;
-        cin >> row >> col >> v;
-        if(!row || !col) {
-            break;
-        }
+    int row , col, v;
+    
+    //这是一种写法技巧
+    while (cin >> row >> col >> v, row || col || v) {
         w[row][col] = v;
     }
-    dp();
+    for (int k = 1; k <= 2 * N; k++) {
+        for (int i = 0; i < ; ++i) {
+            
+        }
+    }
     int res = f[n][n];
     dp();
     res += f[n][n];

@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junior/fanggequshu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/junior/fanggequshu.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/fanggequshu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            <state relative-caret-position="367">
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -185,8 +186,8 @@
     <option name="directoryName" value="TBNUiXCV" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="108" />
-    <option name="y" value="32" />
+    <option name="x" value="131" />
+    <option name="y" value="25" />
     <option name="width" value="1391" />
     <option name="height" value="875" />
   </component>
@@ -250,12 +251,12 @@
       <workItem from="1653958551251" duration="1052000" />
       <workItem from="1656674362186" duration="51953000" />
       <workItem from="1658452590132" duration="18779000" />
-      <workItem from="1659165507328" duration="13253000" />
+      <workItem from="1659165507328" duration="13848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85235000" />
+    <option name="totallyTimeSpent" value="85830000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,7 +268,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="32" width="1391" height="875" extended-state="0" />
+    <frame x="131" y="25" width="1391" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18828762" />
@@ -643,8 +644,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/fanggequshu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        <state relative-caret-position="367">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
         </state>
       </provider>
     </entry>

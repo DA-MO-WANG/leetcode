@@ -9,7 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="" />
+    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/junior/fanggequshu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +104,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/fanggequshu.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="32" column="18" lean-forward="true" selection-end-line="42" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -171,6 +178,7 @@
         <option value="$PROJECT_DIR$/junior/lianbiaoyouhuan.cpp" />
         <option value="$PROJECT_DIR$/junior/zhaihuasheng.cpp" />
         <option value="$PROJECT_DIR$/junior/zuiditongxingfeiyong.cpp" />
+        <option value="$PROJECT_DIR$/junior/fanggequshu.cpp" />
       </list>
     </option>
   </component>
@@ -178,8 +186,8 @@
     <option name="directoryName" value="TBNUiXCV" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="900" />
-    <option name="y" value="73" />
+    <option name="x" value="18" />
+    <option name="y" value="25" />
     <option name="width" value="1391" />
     <option name="height" value="875" />
   </component>
@@ -243,12 +251,12 @@
       <workItem from="1653958551251" duration="1052000" />
       <workItem from="1656674362186" duration="51953000" />
       <workItem from="1658452590132" duration="18779000" />
-      <workItem from="1659165507328" duration="10847000" />
+      <workItem from="1659165507328" duration="11466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82829000" />
+    <option name="totallyTimeSpent" value="83448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,9 +268,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="154" y="25" width="1391" height="875" extended-state="0" />
+    <frame x="18" y="25" width="1391" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18828762" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18828762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,13 +296,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/junior/primzuixiaoshengchengshu.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/junior/zoumigong.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -637,6 +639,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="37" lean-forward="true" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junior/fanggequshu.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="32" column="18" lean-forward="true" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>

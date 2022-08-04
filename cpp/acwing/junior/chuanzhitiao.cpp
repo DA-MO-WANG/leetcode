@@ -23,12 +23,12 @@ int main() {
     }
 
     //坐标和最开始是(1,1) ,也就是2，最大是(n,n) 也就是 2n
-    for (int k = 2; k <= m + n - 1; k++) {
+    for (int k = 2; k < m + n; k++) {
 
         for (int i1 = 1; i1 <= m; ++i1) {
             //i2 做为第二个指针
             for (int i2 = 1; i2 <= m; i2++) {
-                int j1 = k + 2 - i1, j2 = k + 2 - i2;
+                int j1 = k - i1, j2 = k - i2;
                 if(j1 >=1 && j1 <= n && j2 >= 1 && j2 <= n) {
                     int t = w[i1][j1];
                     if(i1 != i2 && j1 != j2) t += w[i2][j2];

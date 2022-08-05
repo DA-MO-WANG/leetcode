@@ -101,7 +101,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/zuichangshangshengzixulie02.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="22" column="5" lean-forward="true" selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -174,13 +178,14 @@
         <option value="$PROJECT_DIR$/junior/fanggequshu.cpp" />
         <option value="$PROJECT_DIR$/junior/chuanzhitiao.cpp" />
         <option value="$PROJECT_DIR$/junior/guaidaojidehuaxiangyi.cpp" />
+        <option value="$PROJECT_DIR$/junior/zuichangshangshengzixulie02.cpp" />
       </list>
     </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="TBNUiXCV" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="422" />
     <option name="y" value="25" />
     <option name="width" value="1391" />
@@ -246,12 +251,12 @@
       <workItem from="1653958551251" duration="1052000" />
       <workItem from="1656674362186" duration="51953000" />
       <workItem from="1658452590132" duration="18779000" />
-      <workItem from="1659165507328" duration="16520000" />
+      <workItem from="1659165507328" duration="16842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88502000" />
+    <option name="totallyTimeSpent" value="88824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,9 +268,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="25" width="1391" height="875" extended-state="0" />
+    <frame x="422" y="25" width="1391" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18828762" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18828762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,13 +296,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/junior/kruskalqiuzuixiaoshengchengshu.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/junior/zuichanggonggongzichuan.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -640,6 +639,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="38" column="9" lean-forward="true" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junior/zuichangshangshengzixulie02.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="22" column="5" lean-forward="true" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -18,7 +18,7 @@ void dfs(int price, int num) {
     for (int i = 0; i < 3; ++i) {
         if(price && num) path.push_back(weight[i]);
         dfs(price - weight[i],--num);
-        path
+        path.pop_back();
 
     }
 }
@@ -26,5 +26,6 @@ int m,n;
 int main() {
     cin >> m >> n;
     dfs(m,n);
+    //处理res结果
     return 0;
 }

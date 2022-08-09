@@ -8,10 +8,11 @@
 
 using namespace std;
 const int N = 1010;
-int f[N], v[N];
+int f[N], v[N],g[N];
 int main() {
     int count = 0;
-    while(int x, cin >> x) {
+    int x;
+    while(cin >> x) {
         v[++count] = x;
     }
     for (int i = 1; i <= count; ++i) {
@@ -25,7 +26,14 @@ int main() {
         res = max(res, f[i]);
     }
     cout << res << endl;
-    if(count % res)cout << count / res << endl;
-    else cout << count / res + 1 << endl;
+
+    int cnt = 0;
+    for (int i = 1; i <= count; ++i) {
+        int k = 0;
+        while(g[k] <= v[i]) k++;
+        g[k] = v[i];
+        if(k >= count) cnt++;
+    }
+    cout << cnt << endl;
     return 0;
 }

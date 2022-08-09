@@ -26,13 +26,21 @@ int main() {
         res = max(res, f[i]);
     }
     cout << res << endl;
-
+    //g[] 用来维护子序列的尾部元素
+    memset(g,0x3f,sizeof g);
+    //cnt用来记录g[]中实际有效的子序列的数量
     int cnt = 0;
     for (int i = 1; i <= count; ++i) {
+        //k用来枚举g，发现g中比他大的最接近的元素
+        //因为g是单调的刻意这么做
         int k = 0;
-        while(g[k] <= v[i]) k++;
+        //比他>=的最小值所在位置
+        while(g[k] < v[i]) k++;
+        //选出>=的最小位置，那就替换
+        //如果当前g中都比他小，那就赋值，也是这个样子，只不过在合理不是覆盖过去的旧值
         g[k] = v[i];
-        if(k >= count) cnt++;
+        //比较枚举最后的位置和g中元素的数量，来判断当是第二种情况时，要增加子序列的数量
+        if(k >= cnt) cnt++;
     }
     cout << cnt << endl;
     return 0;

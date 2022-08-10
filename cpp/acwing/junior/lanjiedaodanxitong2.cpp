@@ -57,7 +57,7 @@ int main() {
         }
         //初始情况下，每个元素为一个序列
         ans = n;
-        dfs(0,0,0);
+        dfs(0,1,1);
         cout << ans << endl;
     }
     return 0;

@@ -31,7 +31,7 @@ void dfs(int u, int uu, int du) {
     int t = up[k];
     up[k] = q[u];
     //开一个新的上升序列
-    if(k > uu) dfs(u + 1, uu + 1, du);
+    if(k >= uu) dfs(u + 1, uu + 1, du);
     //加入先有上升序列
     else dfs(u + 1, uu, du);
     //恢复现场
@@ -42,7 +42,7 @@ void dfs(int u, int uu, int du) {
     int r = down[m];
     down[m] = q[u];
     //开一个新的上升序列
-    if(m > du) dfs(u + 1, uu, du + 1);
+    if(m >= du) dfs(u + 1, uu, du + 1);
         //加入先有上升序列
     else dfs(u + 1, uu, du);
     //恢复现场
@@ -57,7 +57,7 @@ int main() {
         }
         //初始情况下，每个元素为一个序列
         ans = n;
-        dfs(0,1,1);
+        dfs(0,0,0);
         cout << ans << endl;
     }
     return 0;

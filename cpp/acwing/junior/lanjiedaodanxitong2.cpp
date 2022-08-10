@@ -55,6 +55,8 @@ int main() {
         for (int i = 0; i < n; ++i) {
             cin >> q[i];
         }
+        //初始情况下，每个元素为一个序列
+        ans = n;
         dfs(0,0,0);
         cout << ans << endl;
     }

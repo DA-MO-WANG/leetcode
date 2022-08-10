@@ -59,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/lanjiedaodanxitong2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="41" column="16" selection-end-line="63" selection-end-column="1" />
+            <state relative-caret-position="348">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -164,11 +164,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="TBNUiXCV" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="476" />
-    <option name="y" value="25" />
-    <option name="width" value="1391" />
-    <option name="height" value="875" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -231,12 +229,12 @@
       <workItem from="1656674362186" duration="51953000" />
       <workItem from="1658452590132" duration="18779000" />
       <workItem from="1659165507328" duration="17056000" />
-      <workItem from="1659747949824" duration="6241000" />
+      <workItem from="1659747949824" duration="6939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95279000" />
+    <option name="totallyTimeSpent" value="95977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,7 +246,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="476" y="25" width="1391" height="875" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18828762" />
@@ -624,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/lanjiedaodanxitong2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="41" column="16" selection-end-line="63" selection-end-column="1" />
+        <state relative-caret-position="348">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>

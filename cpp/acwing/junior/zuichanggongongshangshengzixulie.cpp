@@ -34,20 +34,20 @@ int main() {
 //            }
 //        }
 //    }
-
     //优化版本一：剪掉一维
     for (int i = 1; i <= n; ++i) {
-        //循环求前缀最大值
+        //循环求前缀最大值（前j - 1个过程中的最大值）
         int maxv = 0;
         for (int j = 1; j <= n; ++j) {
-            //复用第二层循环，当i不变时，其实把j从1循环到后面
-            //在这个判断中，maxv = f[i][j - 1]
+            //a[i]一定不在LCIS中
             f[i][j] = f[i - 1][j];
             //a[i]一定在lcis中
-            if(a[i] == b[j]) f[i][j] = max(maxv,f[i][j]);
+            //maxv代表前j - 1个最大值
+            if(a[i] == b[j]) f[i][j] = max(maxv + 1,f[i][j]);
 
             //前缀计算
-            if(b[j] < a[i]) maxv = max(f[i][j] + 1,maxv);
+            //如果当前满足倒数第二个的要求，就计算准备下这个位置下作为倒数第二个的maxv
+            if(b[j] < a[i]) maxv = max(f[i][j],maxv);
         }
     }
     int res = 0;

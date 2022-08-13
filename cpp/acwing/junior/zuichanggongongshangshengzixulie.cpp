@@ -17,7 +17,7 @@ int main() {
         cin >> a[i];
     }
     for (int j = 1; j <= n; ++j) {
-        cin >> b[i];
+        cin >> b[j];
     }
     for (int i = 1; i <= n; ++i) {
         for (int j = 1; j <= n; ++j) {

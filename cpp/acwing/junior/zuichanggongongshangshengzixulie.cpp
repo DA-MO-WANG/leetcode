@@ -42,10 +42,12 @@ int main() {
         for (int j = 1; j <= n; ++j) {
             //复用第二层循环，当i不变时，其实把j从1循环到后面
             //在这个判断中，maxv = f[i][j - 1]
-            if(a[i] == b[j]) f[i][j] = max(maxv + 1,f[i][j]);
+            f[i][j] = f[i - 1][j];
+            //a[i]一定在lcis中
+            if(a[i] == b[j]) f[i][j] = max(maxv,f[i][j]);
 
-            //a[i]一定不会在公共上升子序列中
-            if(b[j] < a[i]) maxv = max(f[i - 1][j],maxv);
+            //前缀计算
+            if(b[j] < a[i]) maxv = max(f[i][j] + 1,maxv);
         }
     }
     int res = 0;

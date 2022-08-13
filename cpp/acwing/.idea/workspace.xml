@@ -9,9 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/junior/zuichanggongongshangshengzixulie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/junior/zuichanggongongshangshengzixulie.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/lanjiedaodan.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="268">
+              <caret line="34" column="20" selection-end-line="46" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -65,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junior/zuichanggongongshangshengzixulie.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="478">
@@ -240,12 +238,12 @@
       <workItem from="1656674362186" duration="51953000" />
       <workItem from="1658452590132" duration="18779000" />
       <workItem from="1659165507328" duration="17056000" />
-      <workItem from="1659747949824" duration="9446000" />
+      <workItem from="1659747949824" duration="9582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98484000" />
+    <option name="totallyTimeSpent" value="98620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junior/lanjiedaodan.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/junior/lanjiedaodanxitong2.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -637,6 +628,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junior/lanjiedaodan.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="34" column="20" selection-end-line="46" selection-end-column="1" />
         </state>
       </provider>
     </entry>

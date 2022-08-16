@@ -9,6 +9,7 @@
 using namespace std;
 const int T = 1010, M = 110;
 int t[M],w[M];
+int f[T][M];
 int main() {
     int times,nums;
     cin >> times >> nums;

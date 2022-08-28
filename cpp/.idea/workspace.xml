@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acwing/junior/zhuangxiangwenti.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/zhuangxiangwenti.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,18 +24,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acwing/junior/kuaisumi.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="e#47#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/kuozhanoujilidesuanfa.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,11 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acwing/junior/zhuangxiangwenti.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
               <caret line="20" column="27" lean-forward="true" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -166,7 +162,6 @@
       <list>
         <option value="$PROJECT_DIR$/acwing/junior/moniduilie.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/dandiaozhan.cpp" />
-        <option value="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/kmp.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/trie.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/maxyihuopair.cpp" />
@@ -215,6 +210,7 @@
         <option value="$PROJECT_DIR$/acwing/junior/kuozhanoujilidesuanfa.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/caiyao.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/zhuangxiangwenti.cpp" />
+        <option value="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" />
       </list>
     </option>
   </component>
@@ -222,8 +218,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="380" />
-    <option name="y" value="25" />
+    <option name="x" value="43" />
+    <option name="y" value="35" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
   </component>
@@ -330,12 +326,12 @@
       <workItem from="1654077069157" duration="25979000" />
       <workItem from="1654594677623" duration="7190000" />
       <workItem from="1655717209275" duration="2889000" />
-      <workItem from="1660609489639" duration="1797000" />
+      <workItem from="1660609489639" duration="2473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192330000" />
+    <option name="totallyTimeSpent" value="193006000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,7 +343,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="380" y="25" width="1393" height="875" extended-state="0" />
+    <frame x="43" y="35" width="1393" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21391562" />
@@ -414,13 +410,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="29" column="5" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/zoumigong.h" />
     <entry file="file://$PROJECT_DIR$/acwing/junior/quanpailie.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -834,6 +823,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="20" column="27" lean-forward="true" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>

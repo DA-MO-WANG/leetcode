@@ -17,7 +17,7 @@ int main() {
     cin >> n >> k;
     int hh = 0, tt = -1;
     for (int i = 0; i < n; ++i) {
-        cin >> e[i];
+        cin >> e[i];  从
 
         //保持队列和窗口范围的一致
         if(hh <= tt && i - k + 1 > q[hh]) hh++;

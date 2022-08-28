@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -326,12 +327,12 @@
       <workItem from="1654077069157" duration="25979000" />
       <workItem from="1654594677623" duration="7190000" />
       <workItem from="1655717209275" duration="2889000" />
-      <workItem from="1660609489639" duration="2473000" />
+      <workItem from="1660609489639" duration="2777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193006000" />
+    <option name="totallyTimeSpent" value="193310000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

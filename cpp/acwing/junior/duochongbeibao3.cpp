@@ -17,7 +17,8 @@ int main() {
         for (int j = 0; j < v; ++j) {
             int hh = 0, tt = -1;
             for (int k = j; k <= m; ++k) {
-                if()
+                if(hh <= tt && q[hh] < k - s * v) hh++;
+                if(hh <= tt) f[k] = max(f[k],g[])
             }
         }
     }

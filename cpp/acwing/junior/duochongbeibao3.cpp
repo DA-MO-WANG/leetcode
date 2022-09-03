@@ -5,7 +5,7 @@
 #include <cstring>
 #include <iostream>
 #include <algorithm>
-
+//复制粘贴-暂时没搞懂，跃过
 using namespace std;
 const int N = 20010;
 int f[N],g[N],q[N];

@@ -7,6 +7,7 @@
 #include <algorithm>
 
 using namespace std;
+const int N = 20010;
 int f[N],g[N],q[N];
 int main() {
     cin >> n >> m;

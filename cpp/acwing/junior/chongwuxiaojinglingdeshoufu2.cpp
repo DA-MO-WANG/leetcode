@@ -16,7 +16,7 @@ int main() {
         int v1, v2;
         cin >> v1 >> v2;
         for (int j = n; j >= v1 ; j--) {
-            for (int l = m; l >= v2 ; l--) {
+            for (int l = m; l > v2 ; l--) {
                 f[j][l] = max(f[j][l], f[j - v1][l - v2] + 1);
             }
         }

@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/acwing/junior/erweifeiyongdebeibaowenti.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +84,14 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/erweifeiyongdebeibaowenti.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="21" column="24" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="e#47#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -145,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acwing/junior/kmp.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/trie.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/maxyihuopair.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/bingchaji.cpp" />
@@ -196,6 +205,7 @@
         <option value="$PROJECT_DIR$/acwing/junior/huadongchuangkou.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/duochongbeibao3.cpp" />
         <option value="$PROJECT_DIR$/acwing/junior/chongwuxiaojinglingdeshoufu2.cpp" />
+        <option value="$PROJECT_DIR$/acwing/junior/erweifeiyongdebeibaowenti.cpp" />
       </list>
     </option>
   </component>
@@ -203,8 +213,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="914" />
-    <option name="y" value="26" />
+    <option name="x" value="505" />
+    <option name="y" value="59" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
   </component>
@@ -228,12 +238,6 @@
               <item name="cpp" type="b2602c69:ProjectViewProjectNode" />
               <item name="cpp" type="462c0819:PsiDirectoryNode" />
               <item name="acwing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cpp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="acwing" type="462c0819:PsiDirectoryNode" />
-              <item name="junior" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cpp" type="b2602c69:ProjectViewProjectNode" />
@@ -311,12 +315,12 @@
       <workItem from="1654077069157" duration="25979000" />
       <workItem from="1654594677623" duration="7190000" />
       <workItem from="1655717209275" duration="2889000" />
-      <workItem from="1660609489639" duration="7522000" />
+      <workItem from="1660609489639" duration="8119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198055000" />
+    <option name="totallyTimeSpent" value="198652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,9 +332,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="914" y="26" width="1393" height="875" extended-state="0" />
+    <frame x="505" y="59" width="1393" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21391562" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21391562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -399,13 +404,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/bin/cmake/mac/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/A826.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2146">
@@ -822,6 +820,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acwing/junior/erweifeiyongdebeibaowenti.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="21" column="24" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#47#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

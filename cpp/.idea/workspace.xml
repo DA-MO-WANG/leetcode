@@ -83,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/acwing/junior/erweifeiyongdebeibaowenti.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -210,8 +210,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="505" />
-    <option name="y" value="59" />
+    <option name="x" value="140" />
+    <option name="y" value="123" />
     <option name="width" value="1393" />
     <option name="height" value="875" />
   </component>
@@ -312,12 +312,12 @@
       <workItem from="1654077069157" duration="25979000" />
       <workItem from="1654594677623" duration="7190000" />
       <workItem from="1655717209275" duration="2889000" />
-      <workItem from="1660609489639" duration="8366000" />
+      <workItem from="1660609489639" duration="9005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198899000" />
+    <option name="totallyTimeSpent" value="199538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,7 +329,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="505" y="59" width="1393" height="875" extended-state="0" />
+    <frame x="140" y="123" width="1393" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21391562" />
@@ -823,7 +823,7 @@
     <entry file="file://$PROJECT_DIR$/acwing/junior/erweifeiyongdebeibaowenti.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

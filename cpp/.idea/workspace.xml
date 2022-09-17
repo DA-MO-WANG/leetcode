@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acwing/junior/qianshuiyuan.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/junior/qianshuiyuan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/qianshuiyuan.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/qianshuiyuan.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="274">
+              <caret line="20" column="25" lean-forward="true" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -327,12 +326,12 @@
       <workItem from="1660609489639" duration="9005000" />
       <workItem from="1662965090621" duration="20000" />
       <workItem from="1662986918085" duration="27000" />
-      <workItem from="1663250630754" duration="1136000" />
+      <workItem from="1663250630754" duration="1744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200721000" />
+    <option name="totallyTimeSpent" value="201329000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/qianshuiyuan.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="274">
+          <caret line="20" column="25" lean-forward="true" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

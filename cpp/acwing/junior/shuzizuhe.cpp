@@ -8,21 +8,18 @@
 
 using namespace std;
 const int N = 110, M = 10010;
-int f[N][M];
+int f[M];
 int main() {
     int n,m;
     cin >> n >> m;
-    for (int i = 0; i <= n; ++i) {
-        f[i][0] = 1;
-    }
+    f[0] = 1;
     for (int i = 1; i <= n; ++i) {
         int v;
         cin >> v;
         for (int j = m; j >= v ; j--) {
-            f[i][j] = f[i - 1][j];
-            f[i][j] += f[i - 1][j - v];
+            f[j] += f[j - v];
         }
     }
-    cout << f[n][m];
+    cout << f[m];
     return 0;
 }

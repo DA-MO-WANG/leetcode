@@ -7,8 +7,19 @@
 #include <algorithm>
 
 using namespace std;
-
+const int N = 110, M = 10010;
+int f[N][M];
 int main() {
-
+    int n,m;
+    cin >> n >> m;
+    for (int i = 1; i <= n; ++i) {
+        int v;
+        cin >> v;
+        for (int j = m; j >= v ; j--) {
+            f[i][j] = f[i - 1][j];
+            f[i][j] = max(f[i][j],f[i - 1][j - v] + 1);
+        }
+    }
+    cout << f[n][m];
     return 0;
 }

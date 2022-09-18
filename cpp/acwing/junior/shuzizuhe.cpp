@@ -16,6 +16,8 @@ int main() {
     for (int i = 1; i <= n; ++i) {
         int v;
         cin >> v;
+        //学的太死板了
+        //不是出现i- 1 就从大到小，而是优化成1维的时候才从大到小
         for (int j = m; j >= v ; j--) {
             f[j] += f[j - v];
         }

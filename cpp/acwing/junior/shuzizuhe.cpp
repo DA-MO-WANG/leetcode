@@ -12,6 +12,9 @@ int f[N][M];
 int main() {
     int n,m;
     cin >> n >> m;
+    for (int i = 0; i <= n; ++i) {
+        f[i][0] = 1;
+    }
     for (int i = 1; i <= n; ++i) {
         int v;
         cin >> v;

@@ -17,7 +17,7 @@ int main() {
         cin >> v;
         for (int j = m; j >= v ; j--) {
             f[i][j] = f[i - 1][j];
-            f[i][j] = max(f[i][j],f[i - 1][j - v] + 1);
+            f[i][j] += f[i - 1][j - v];
         }
     }
     cout << f[n][m];

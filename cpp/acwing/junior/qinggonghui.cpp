@@ -11,6 +11,7 @@ const int N = 6010;
 int f[N];
 int main() {
     int n, m;
+    cin >> n >> m;
     
     return 0;
 }

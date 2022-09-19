@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/junior/qinggonghui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/qinggonghui.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/qinggonghui.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="297">
+              <caret line="17" column="12" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -216,7 +219,7 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="643" />
+    <option name="x" value="307" />
     <option name="y" value="25" />
     <option name="width" value="1396" />
     <option name="height" value="875" />
@@ -328,12 +331,12 @@
       <workItem from="1662965090621" duration="20000" />
       <workItem from="1662986918085" duration="27000" />
       <workItem from="1663250630754" duration="4521000" />
-      <workItem from="1663595997217" duration="1173000" />
+      <workItem from="1663595997217" duration="1556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205279000" />
+    <option name="totallyTimeSpent" value="205662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,7 +348,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="643" y="25" width="1396" height="875" extended-state="0" />
+    <frame x="307" y="25" width="1396" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21344166" />
@@ -841,8 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/qinggonghui.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="297">
+          <caret line="17" column="12" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

@@ -12,6 +12,6 @@ int f[N];
 int main() {
     int n, m;
     cin >> n >> m;
-    
+    for
     return 0;
 }

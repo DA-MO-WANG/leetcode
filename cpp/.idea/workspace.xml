@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acwing/junior/maishu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/junior/maishu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/maishu.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -331,12 +331,12 @@
       <workItem from="1662986918085" duration="27000" />
       <workItem from="1663250630754" duration="4521000" />
       <workItem from="1663595997217" duration="2318000" />
-      <workItem from="1664031606211" duration="447000" />
+      <workItem from="1664031606211" duration="931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206871000" />
+    <option name="totallyTimeSpent" value="207355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,7 +349,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="767" y="37" width="1396" height="875" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21344166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

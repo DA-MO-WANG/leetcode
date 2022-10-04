@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/maishu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/maishu.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/maishu.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="17" column="9" lean-forward="true" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="118">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -218,8 +216,8 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="767" />
-    <option name="y" value="37" />
+    <option name="x" value="100" />
+    <option name="y" value="32" />
     <option name="width" value="1396" />
     <option name="height" value="875" />
   </component>
@@ -331,12 +329,12 @@
       <workItem from="1662986918085" duration="27000" />
       <workItem from="1663250630754" duration="4521000" />
       <workItem from="1663595997217" duration="2318000" />
-      <workItem from="1664031606211" duration="931000" />
+      <workItem from="1664031606211" duration="1128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207355000" />
+    <option name="totallyTimeSpent" value="207552000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,7 +346,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="767" y="37" width="1396" height="875" extended-state="0" />
+    <frame x="100" y="32" width="1396" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21344166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -843,8 +842,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/maishu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="9" lean-forward="true" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="118">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>

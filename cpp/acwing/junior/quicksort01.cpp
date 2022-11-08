@@ -29,7 +29,7 @@ int partition(int left, int right) {
     int pivot = left + right >> 1;
     //设计两个辅助指针
     int i = 0 j = 0;
-
+    
 
 }
 int main() {

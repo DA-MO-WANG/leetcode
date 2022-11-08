@@ -93,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/quicksort01.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="228">
+              <caret line="39" column="5" lean-forward="true" selection-end-line="52" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -333,12 +333,12 @@
       <workItem from="1663595997217" duration="2318000" />
       <workItem from="1664031606211" duration="1128000" />
       <workItem from="1667886518929" duration="9000" />
-      <workItem from="1667886544712" duration="1312000" />
+      <workItem from="1667886544712" duration="1862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208873000" />
+    <option name="totallyTimeSpent" value="209423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -843,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/quicksort01.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="39" column="5" lean-forward="true" selection-end-line="52" selection-end-column="1" />
         </state>
       </provider>
     </entry>

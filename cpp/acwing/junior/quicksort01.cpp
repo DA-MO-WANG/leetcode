@@ -26,10 +26,20 @@ void quick_sort(int left, int right) {
 
 }
 int partition(int left, int right) {
-    int pivot = left + right >> 1;
+    int pivot = q[left + right >> 1];
     //设计两个辅助指针
-    int i = 0 j = 0;
-    
+    int i = left j = right;
+    while(i < j) {
+        if(q[i] > pivot) {
+            i++;
+        }
+        if(q[j] < pivot) {
+            j--;
+        }
+        swap(q[i],q[j]);
+    }
+    return j;
+
 
 }
 int main() {

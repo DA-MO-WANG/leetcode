@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acwing/junior/quicksort01.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/junior/quicksort01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/quicksort01.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/quicksort01.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="32" column="15" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -219,7 +218,7 @@
     <option name="directoryName" value="byLckGtJ" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="525" />
+    <option name="x" value="42" />
     <option name="y" value="25" />
     <option name="width" value="1398" />
     <option name="height" value="875" />
@@ -334,12 +333,12 @@
       <workItem from="1663595997217" duration="2318000" />
       <workItem from="1664031606211" duration="1128000" />
       <workItem from="1667886518929" duration="9000" />
-      <workItem from="1667886544712" duration="868000" />
+      <workItem from="1667886544712" duration="1312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208429000" />
+    <option name="totallyTimeSpent" value="208873000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,7 +350,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="525" y="25" width="1398" height="875" extended-state="0" />
+    <frame x="42" y="25" width="1398" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21312684" />
@@ -844,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/quicksort01.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="32" column="15" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="288">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>

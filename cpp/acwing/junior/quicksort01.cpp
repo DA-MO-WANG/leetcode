@@ -12,18 +12,24 @@ using namespace std;
 const int N = 1e9 + 10;
 int q[N];
 int n;
-//这个黑盒就是处理快排的过程
+//骨架
 void quick_sort(int left, int right) {
-    //因为quicksort 核心是分治
-    //分治的前提——》要明确分界点x，一部分变成两部分
-    //分界点归位——》左面部分处理成 <=x , 右面部分处理成 >=x
-    //把两部分分别排序
-    if(left <= 0 || left >= n) {
+    //递归基
+    if(left >= right) {
         return;
     }
-    int partition = left + right >> 2;
+    //拿到分界点位置
+    int partition = partition(left, right);
+    //递归处理三部分中的两侧
     quick_sort(left,partition - 1);
     quick_sort(partition + 1, right);
+
+}
+int partition(int left, int right) {
+    int pivot = left + right >> 1;
+    //设计两个辅助指针
+    int i = 0 j = 0;
+
 
 }
 int main() {

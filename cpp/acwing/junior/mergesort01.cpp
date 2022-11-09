@@ -38,6 +38,9 @@ int main() {
     for (int i = 0; i < n; ++i) {
         cin >> q[i];
     }
-
+    merge_sort(0,n - 1);
+    for (int j = 0; j < n; ++j) {
+        
+    }
     return 0;
 }

@@ -34,9 +34,12 @@ void quick_sort(int l, int r) {
 int main() {
     //quick_sort的物理骨架
     cin >> n;
+    for (int j = 0; j < n; ++j) {
+        scanf("%d",q + j);
+    }
     quick_sort(0,n - 1);
     for (int i = 0; i < n; ++i) {
-        printf("%d",q[i]);
+        printf("%d ",q[i]);
     }
 
     return 0;

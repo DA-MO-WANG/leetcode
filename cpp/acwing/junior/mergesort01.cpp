@@ -11,12 +11,17 @@ const int N = 1e5 + 10;
 int q[N], n;
 
 void merge(int l, int mid, int r) {
+    //[l,mid] [mid + 1, r]
+    //设计两个数组来分别记录这两部分
     
 }
 void merge_sort(int l, int r) {
+    //确定分界点
     int mid = l + r >> 1;
+    //递归拆分2部分
     merge_sort(l, mid);
     merge_sort(mid + 1, r);
+    //递归底部，返回时开始合并逻辑
     merge(l,mid,r);
 }
 

@@ -8,11 +8,13 @@
 
 using namespace std;
 const int N = 1e5 + 10;
-int q[N], n;
+int q[N], left[N],right[N],n;
 
 void merge(int l, int mid, int r) {
     //[l,mid] [mid + 1, r]
     //设计两个数组来分别记录这两部分
+    for (int i = l; i <= mid; ++i) left[i] = q[i];
+    for (int j = mid + 1; j <= r; ++j) right[j] = q[j];
     
 }
 void merge_sort(int l, int r) {

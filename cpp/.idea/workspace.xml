@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/acwing/junior/mergesort01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/mergesort01.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/mergesort01.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="28" column="18" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="158">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -220,7 +218,7 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="42" />
     <option name="y" value="25" />
     <option name="width" value="1398" />
@@ -336,12 +334,12 @@
       <workItem from="1663595997217" duration="2318000" />
       <workItem from="1664031606211" duration="1128000" />
       <workItem from="1667886518929" duration="9000" />
-      <workItem from="1667886544712" duration="6725000" />
+      <workItem from="1667886544712" duration="6975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214286000" />
+    <option name="totallyTimeSpent" value="214536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,7 +351,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="25" width="1398" height="875" extended-state="0" />
+    <frame x="42" y="25" width="1398" height="875" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21312684" />
@@ -425,6 +423,11 @@
           <url>file://$PROJECT_DIR$/acwing/junior/mergesort01.cpp</url>
           <line>37</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/acwing/junior/mergesort01.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -848,8 +851,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/mergesort01.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="28" column="18" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="158">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

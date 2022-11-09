@@ -12,12 +12,13 @@ int q[N], n;
 
 int partition(int l, int r) {
     //确定枢纽点
-    int pivot = (l + r) >> 1;
+    //本次掉坑的地方！！！
+    int pivot = q[(l + r) >> 1];
     //枢纽点归位，两侧一大一小分布处理
     int i = l - 1, j = r + 1;
     while(i < j) {
-        do i++; while(q[i] < q[pivot]);
-        do j--; while(q[j] > q[pivot]);
+        do i++; while(q[i] < pivot);
+        do j--; while(q[j] > pivot);
         if(i < j) swap(q[i],q[j]);
     }
     return j;

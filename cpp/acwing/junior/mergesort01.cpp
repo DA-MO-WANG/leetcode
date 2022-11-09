@@ -15,10 +15,13 @@ void merge(int l, int mid, int r) {
     //设计两个数组来分别记录这两部分
     for (int i = l; i <= mid; ++i) left[i] = q[i];
     for (int j = mid + 1; j <= r; ++j) right[j] = q[j];
-    int lt = l, rt = mid + 1;
+    int lt = l, rt = mid + 1, int cur = l;
     while(lt <= mid && rt <= r) {
-        if(left[lt] < )
+        if(left[lt] <= right[rt]) q[cur++] = left[lt++];
+        else q[cur++] = right[rt++];
     }
+    while(lt <= mid) q[cur++] = left[lt++];
+    while (rt <= r) q[cur++] = right[rt++];
 }
 void merge_sort(int l, int r) {
     //确定分界点

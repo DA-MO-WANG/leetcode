@@ -15,7 +15,7 @@ void merge(int l, int mid, int r) {
 //
 //    for (int i = l; i <= mid; ++i) left[i] = q[i];
 //    for (int j = mid + 1; j <= r; ++j) right[j] = q[j];
-    int k = 0, i = l, j = mid + 1;
+    int k = l, i = l, j = mid + 1;
     while(i <= mid && j <= r) {
         if(q[i] <= q[j]) temp[k++] = q[i++];
         else temp[k++] = q[j++];

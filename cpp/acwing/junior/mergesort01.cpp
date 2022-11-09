@@ -18,10 +18,14 @@ void merge(int l, int mid, int r) {
     int k = 0, i = l, j = mid + 1;
     while(i <= mid && j <= r) {
         if(q[i] <= q[j]) temp[k++] = q[i++];
-        else temp[k++] = right[rt++];
+        else temp[k++] = q[j++];
     }
-    while(lt <= mid) q[cur++] = left[lt++];
-    while (rt <= r) q[cur++] = right[rt++];
+    while(i <= mid) temp[k++] = q[i++];
+    while (j <= r) temp[k++] = q[j++];
+
+    for (int m = l; m <= r; ++m) {
+        q[m] = temp[m];
+    }
 }
 void merge_sort(int l, int r) {
     //确定分界点

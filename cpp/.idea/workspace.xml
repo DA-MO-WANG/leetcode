@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acwing/junior/quicksort02.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/junior/quicksort02.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/quicksort02.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/quicksort02.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="36" column="12" lean-forward="true" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="139">
+              <caret line="14" column="26" lean-forward="true" selection-end-line="45" selection-end-column="1" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -337,12 +336,12 @@
       <workItem from="1663595997217" duration="2318000" />
       <workItem from="1664031606211" duration="1128000" />
       <workItem from="1667886518929" duration="9000" />
-      <workItem from="1667886544712" duration="2656000" />
+      <workItem from="1667886544712" duration="2918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210217000" />
+    <option name="totallyTimeSpent" value="210479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -844,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/quicksort02.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="36" column="12" lean-forward="true" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="139">
+          <caret line="14" column="26" lean-forward="true" selection-end-line="45" selection-end-column="1" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

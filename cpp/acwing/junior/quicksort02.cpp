@@ -12,7 +12,7 @@ int q[N], n;
 
 int partition(int l, int r) {
     //确定枢纽点
-    int pivot = l + r >> 1;
+    int pivot = (l + r) >> 1;
     //枢纽点归位，两侧一大一小分布处理
     int i = l - 1, j = r + 1;
     while(i < j) {

@@ -40,7 +40,7 @@ int main() {
     }
     merge_sort(0,n - 1);
     for (int j = 0; j < n; ++j) {
-        
+        cout << q[j] << " ";
     }
     return 0;
 }

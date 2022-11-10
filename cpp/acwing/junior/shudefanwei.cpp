@@ -9,16 +9,12 @@
 using namespace std;
 const int N = 1e5 + 10;
 int q[N], query, n;
-
-
-
 int main() {
     //处理输入
     scanf("%d%d",&n,&query);
     for (int i = 0; i < n; ++i) {
         scanf("%d",q + i);
     }
-
 
     for (int j = 0; j < query; ++j) {
         int x;
@@ -33,17 +29,18 @@ int main() {
                 l = mid;
             }else r = mid - 1;
         }
-        if(q[l] != x) cout << "-1 -1";
+        if(q[l] != x) cout << "-1 -1" << endl;
         else {
             int l1 = 0, r1 = n - 1;
             while(l1 < r1) {
-                int mid = (l1 + r1) >> 1;
+                int mid1 = (l1 + r1) >> 1;
                 //min
-                if(q[mid] >= x) {
-                    r1 = mid;
-                }else l1 = mid - 1;
+                if(q[mid1] >= x) {
+                    r1 = mid1;
+                    //主要是脑子里有那张图，这里有个转弯的地方
+                }else l1 = mid1 + 1;
             }
-            cout << l1 << " " << r1;
+            cout << l1 << " " << r << endl;
         }
     }
     return 0;

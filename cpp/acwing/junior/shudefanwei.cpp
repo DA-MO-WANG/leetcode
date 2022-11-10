@@ -35,7 +35,7 @@ int main() {
     for (int i = 0; i < n; ++i) {
         scanf("%d",q + i);
     }
-
+    cout << q;
 
     for (int j = 0; j < query; ++j) {
         int x;

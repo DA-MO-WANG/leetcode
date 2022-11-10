@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95e8e0af-c1c7-42dc-9892-966e7f4274ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acwing/junior/shudefanwei.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acwing/junior/shudefanwei.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/acwing/junior/shudefanwei.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acwing/junior/shudefanwei.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="40" column="14" lean-forward="true" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="230">
+              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
               <folding>
                 <element signature="e#47#65#0" expanded="true" />
               </folding>
@@ -337,12 +336,12 @@
       <workItem from="1663595997217" duration="2318000" />
       <workItem from="1664031606211" duration="1128000" />
       <workItem from="1667886518929" duration="9000" />
-      <workItem from="1667886544712" duration="9785000" />
+      <workItem from="1667886544712" duration="10129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217346000" />
+    <option name="totallyTimeSpent" value="217690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,8 +853,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acwing/junior/shudefanwei.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="40" column="14" lean-forward="true" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="230">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding>
             <element signature="e#47#65#0" expanded="true" />
           </folding>

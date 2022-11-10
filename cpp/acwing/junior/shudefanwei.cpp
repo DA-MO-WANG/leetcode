@@ -28,22 +28,23 @@ int main() {
 
         //寻找<=x -last
         while(l < r) {
-            int mid = (l + r) >> 1;
+            int mid = (l + r + 1) >> 1;
             if(q[mid] <= x) {
                 l = mid;
             }else r = mid - 1;
         }
         if(q[l] != x) cout << "-1 -1";
         else {
-            cout << l << " ";
             int l1 = 0, r1 = n - 1;
             while(l1 < r1) {
-                int mid
+                int mid = (l1 + r1) >> 1;
+                //min
+                if(q[mid] >= x) {
+                    r1 = mid;
+                }else l1 = mid - 1;
             }
+            cout << l1 << " " << r1;
         }
-
-
-
     }
     return 0;
 }

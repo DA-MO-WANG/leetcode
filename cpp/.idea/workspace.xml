@@ -218,7 +218,7 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="byLckGtJ" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="42" />
     <option name="y" value="25" />
     <option name="width" value="1398" />
@@ -334,12 +334,12 @@
       <workItem from="1663595997217" duration="2318000" />
       <workItem from="1664031606211" duration="1128000" />
       <workItem from="1667886518929" duration="9000" />
-      <workItem from="1667886544712" duration="6975000" />
+      <workItem from="1667886544712" duration="7167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214536000" />
+    <option name="totallyTimeSpent" value="214728000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,7 +351,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="25" width="1398" height="875" extended-state="1" />
+    <frame x="42" y="25" width="1398" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.21312684" />

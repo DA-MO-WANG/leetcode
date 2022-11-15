@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/junior/fudianshuerfen.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -109,7 +109,7 @@
     <option name="directoryName" value="TBNUiXCV" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="128" />
+    <option name="x" value="-32" />
     <option name="y" value="25" />
     <option name="width" value="1391" />
     <option name="height" value="875" />
@@ -177,12 +177,12 @@
       <workItem from="1659165507328" duration="17056000" />
       <workItem from="1659747949824" duration="9715000" />
       <workItem from="1660609407370" duration="79000" />
-      <workItem from="1668519930911" duration="1539000" />
+      <workItem from="1668519930911" duration="1833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100371000" />
+    <option name="totallyTimeSpent" value="100665000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,7 +194,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="25" width="1391" height="875" extended-state="0" />
+    <frame x="-32" y="25" width="1391" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1905115" />
@@ -573,7 +573,7 @@
     <entry file="file://$PROJECT_DIR$/junior/fudianshuerfen.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>

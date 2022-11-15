@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/fudianshuerfen.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="110">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -108,9 +108,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="TBNUiXCV" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-32" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="164" />
+    <option name="y" value="26" />
     <option name="width" value="1391" />
     <option name="height" value="875" />
   </component>
@@ -177,12 +177,12 @@
       <workItem from="1659165507328" duration="17056000" />
       <workItem from="1659747949824" duration="9715000" />
       <workItem from="1660609407370" duration="79000" />
-      <workItem from="1668519930911" duration="1833000" />
+      <workItem from="1668519930911" duration="2049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100665000" />
+    <option name="totallyTimeSpent" value="100881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,7 +194,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-32" y="25" width="1391" height="875" extended-state="0" />
+    <frame x="164" y="26" width="1391" height="875" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1905115" />
@@ -572,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/fudianshuerfen.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="110">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>

@@ -9,9 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/junior/fudianshuerfen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/junior/fudianshuerfen.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="e7408e66-6ba4-4a99-91ff-4fb3242e2b49" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/fudianshuerfen.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="19" column="10" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="168">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -179,12 +177,12 @@
       <workItem from="1659165507328" duration="17056000" />
       <workItem from="1659747949824" duration="9715000" />
       <workItem from="1660609407370" duration="79000" />
-      <workItem from="1668519930911" duration="1193000" />
+      <workItem from="1668519930911" duration="1539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100025000" />
+    <option name="totallyTimeSpent" value="100371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/fudianshuerfen.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="19" column="10" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="168">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>

@@ -17,8 +17,9 @@ int main() {
     while(r - l <= 1e-8) {
         int mid = (l + r) >> 1;
         if(mid * mid <= x) l = mid;
-        else r = mid + 1
+        else r = mid;
 
     }
+    cout << r;
     return 0;
 }

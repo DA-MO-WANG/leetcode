@@ -18,12 +18,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junior/fudianshuerfen.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="157">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junior/erfentuzudiapipei.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junior/erjinzhizhong1degeshu.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-216" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/junior/erweifeiyongdebeibaowenti.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210" />
           </provider>
         </entry>
       </file>
@@ -108,7 +127,7 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="TBNUiXCV" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="164" />
     <option name="y" value="26" />
     <option name="width" value="1391" />
@@ -177,12 +196,12 @@
       <workItem from="1659165507328" duration="17056000" />
       <workItem from="1659747949824" duration="9715000" />
       <workItem from="1660609407370" duration="79000" />
-      <workItem from="1668519930911" duration="2344000" />
+      <workItem from="1668519930911" duration="2739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101176000" />
+    <option name="totallyTimeSpent" value="101571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -222,25 +241,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/junior/shaizhishu.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junior/shaifaqiuoulahanshu.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junior/qiuzuheshu4.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/junior/qiuzuheshu2.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -572,9 +572,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/fudianshuerfen.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="157">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junior/erfentuzudiapipei.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junior/erjinzhizhong1degeshu.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junior/erweifeiyongdebeibaowenti.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210" />
       </provider>
     </entry>
   </component>

@@ -42,7 +42,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junior/erweifeiyongdebeibaowenti.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210" />
+            <state relative-caret-position="167">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -70,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/junior/linzhichazhao.cpp" />
         <option value="$PROJECT_DIR$/junior/qiuzuheshu.cpp" />
         <option value="$PROJECT_DIR$/junior/qiuzuheshu2.cpp" />
         <option value="$PROJECT_DIR$/junior/qqq.cpp" />
@@ -121,6 +122,7 @@
         <option value="$PROJECT_DIR$/junior/lanjiedaodanxitong2.cpp" />
         <option value="$PROJECT_DIR$/junior/zuichanggongongshangshengzixulie.cpp" />
         <option value="$PROJECT_DIR$/junior/fudianshuerfen.cpp" />
+        <option value="$PROJECT_DIR$/junior/erweifeiyongdebeibaowenti.cpp" />
       </list>
     </option>
   </component>
@@ -196,12 +198,12 @@
       <workItem from="1659165507328" duration="17056000" />
       <workItem from="1659747949824" duration="9715000" />
       <workItem from="1660609407370" duration="79000" />
-      <workItem from="1668519930911" duration="2739000" />
+      <workItem from="1668519930911" duration="2960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101571000" />
+    <option name="totallyTimeSpent" value="101792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -587,7 +589,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junior/erweifeiyongdebeibaowenti.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210" />
+        <state relative-caret-position="167">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
       </provider>
     </entry>
   </component>
